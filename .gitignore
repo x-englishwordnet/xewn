@@ -1,0 +1,8 @@
+src/
+src_merged/
+merged/
+upstream/
+doc/
+test/
+_mymake.sh
+
