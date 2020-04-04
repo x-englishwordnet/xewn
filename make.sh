@@ -1,28 +1,25 @@
 #!/bin/bash
 
-# DIRS
-THISDIR="`dirname $(readlink -m $0)`"
-THISDIR="$(readlink -m ${THISDIR})"
-HOMEDIR="$(readlink -m $THISDIR)"
-TOOLSDIR="$HOMEDIR/tools"
-echo "HOMEDIR:  $HOMEDIR"
-echo "TOOLSDIR: $TOOLSDIR"
+# D I R S
+
+THISDIR=`dirname $(readlink -m "$0")`
+source "${THISDIR}/tools/home.sh"
 
 # out
-XSRCDIR=$HOMEDIR/xsrc
-MERGEDDIR=$HOMEDIR/merged
-WNDBDIR=$HOMEDIR/wndb
-WNDBCOMPATDIR=$HOMEDIR/wndb_compat
-mkdir -p "$XSRCDIR"
-mkdir -p "$MERGEDDIR"
-mkdir -p "$WNDBDIR"
-mkdir -p "$WNDBCOMPATDIR"
+XSRCDIR=${HOMEDIR}/xsrc
+MERGEDDIR=${HOMEDIR}/merged
+WNDBDIR=${HOMEDIR}/wndb
+WNDBCOMPATDIR=${HOMEDIR}/wndb_compat
 
 # M A I N
 
 pushd "$TOOLSDIR" > /dev/null
 
-./home.sh
+mkdir -p "${XSRCDIR}"
+mkdir -p "${MERGEDDIR}"
+mkdir -p "${WNDBDIR}"
+mkdir -p "${WNDBCOMPATDIR}"
+
 ./sync.sh
 ./make-data-xml.sh
 ./make-data-wndb.sh

@@ -1,6 +1,7 @@
 #/bin/bash
 
 # C O L O R S
+
 R='\u001b[31m'
 G='\u001b[32m'
 B='\u001b[34m'
@@ -9,22 +10,27 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
-#DIRS
-XEWNHOME=`readlink -m ../../..`
-DISTDIR=${XEWNHOME}/dist
-DATADIR=`readlink -m ..`
+# D I R S
+
+THISDIR=`dirname $(readlink -m "$0")`
+source "${THISDIR}/home.sh"
+
+DISTDIR=${HOMEDIR}/dist
 mkdir -p ${DISTDIR}
+DATADIR=${HOMEDIR}
 echo "pack to ${DISTDIR} from ${DATADIR}"
 
-#ARCHIVES
+# A R C H I V E S
+
 TAR_ARCHIVE=${DISTDIR}/xewn.dict.tar.gz
 ZIP_ARCHIVE=${DISTDIR}/xewn.zip
 TAR_ARCHIVE_COMPAT=${DISTDIR}/xewn_compat.dict.tar.gz
 ZIP_ARCHIVE_COMPAT=${DISTDIR}/xewn_compat.zip
 
-#MAIN
+# M A I N
+
 if [ ! -e "${DATADIR}/wndb" -a ! -d "${DATADIR}/wndb" ]; then
-	echo -e "${R}Non existent dict dir${Z}"
+	echo -e "${R}Non existent wndb dir${Z}"
 	exit 1
 fi
 pushd ${DATADIR} > /dev/null
@@ -33,7 +39,7 @@ popd > /dev/null
 
 echo -e "${M}pack to `basename ${TAR_ARCHIVE}`${Z}"
 rm -f ${TAR_ARCHIVE}
-tar czfh ${TAR_ARCHIVE} -C ${DATADIR} dict -C ${DATADIR} LICENSE
+tar czfh ${TAR_ARCHIVE} -C ${DATADIR} dict -C ${DATADIR} LICENSE.md
 echo -e "${C}"
 tar tvf ${TAR_ARCHIVE}
 echo -e "${Z}"
@@ -48,7 +54,7 @@ echo -e "${Z}"
 echo -e "${G}${ZIP_ARCHIVE}${Z}"
 
 if [ ! -e "${DATADIR}/wndb_compat" -a ! -d "${DATADIR}/wndb_compat" ]; then
-	echo -e "${R}Non existent dict dir${Z}"
+	echo -e "${R}Non existent wndb_compat dir${Z}"
 	exit 1
 fi
 pushd ${DATADIR} > /dev/null
@@ -57,7 +63,7 @@ popd > /dev/null
 
 echo -e "${M}pack to `basename ${TAR_ARCHIVE_COMPAT}`${Z}"
 rm -f ${TAR_ARCHIVE_COMPAT}
-tar czfh ${TAR_ARCHIVE_COMPAT} -C ${DATADIR} dict -C ${DATADIR} LICENSE
+tar czfh ${TAR_ARCHIVE_COMPAT} -C ${DATADIR} dict -C ${DATADIR} LICENSE.md
 echo -e "${C}"
 tar tvf ${TAR_ARCHIVE_COMPAT}
 echo -e "${Z}"

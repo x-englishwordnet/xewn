@@ -2,6 +2,7 @@ src/
 src_merged/
 merged/
 upstream/
+dist/
 doc/
 test/
 _mymake.sh

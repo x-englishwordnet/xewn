@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# C O L O R S
+
 R='\u001b[31m'
 G='\u001b[32m'
 B='\u001b[34m'
@@ -8,10 +10,9 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
-# DIRS
+# D I R S
 
-THISDIR="`dirname $(readlink -m $0)`"
-THISDIR="$(readlink -m ${THISDIR})"
+THISDIR=`dirname $(readlink -m "$0")`
 source ${THISDIR}/home.sh
 
 # tools
@@ -33,8 +34,8 @@ execs=([wndb]="grind.sh" [wndb_compat]="grind_compat.sh")
 
 # M A I N
 
-if true; then 																	# S T A R T _ C O N D I T I O N A L
-echo
+if false; then 																	# S T A R T _ C O N D I T I O N A L
+echo "not executed"
 fi																				# E N D _ C O N D I T I O N A L
 
 for k in ${!dests[@]}; do 

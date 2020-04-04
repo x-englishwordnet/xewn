@@ -8,10 +8,9 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
-# DIRS
+# D I R S
 
-THISDIR="`dirname $(readlink -m $0)`"
-THISDIR="$(readlink -m ${THISDIR})"
+THISDIR=`dirname $(readlink -m "$0")`
 source ${THISDIR}/home.sh
 
 # in
@@ -35,8 +34,8 @@ VALIDATORDIR="${TOOLSDIR}/validate"
 
 # M A I N
 
-if true; then 																	# S T A R T _ C O N D I T I O N A L
-echo
+if false; then 																	# S T A R T _ C O N D I T I O N A L
+echo "not executed"
 fi																				# E N D _ C O N D I T I O N A L
 
 echo -e "${CYAN}X M L${Z}"

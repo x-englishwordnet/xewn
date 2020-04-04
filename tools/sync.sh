@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# C O L O R S
+
 R='\u001b[31m'
 G='\u001b[32m'
 B='\u001b[34m'
@@ -15,9 +17,8 @@ branch=2020-release-candidate
 
 # D I R S
 
-THISDIR="`dirname $(readlink -m $0)`"
-THISDIR="$(readlink -m ${THISDIR})"
-source ${THISDIR}/home.sh
+THISDIR=`dirname $(readlink -m "$0")`
+source "${THISDIR}/home.sh"
 
 # in
 GITDIR=${HOMEDIR}/upstream
@@ -33,8 +34,8 @@ function tag()
 
 # M A I N
 
-if true; then 																	# S T A R T _ C O N D I T I O N A L
-echo
+if false; then 																	# S T A R T _ C O N D I T I O N A L
+echo "not executed"
 fi																				# E N D _ C O N D I T I O N A L
 
 # clone if needed
