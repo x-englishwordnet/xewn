@@ -4,18 +4,17 @@
 
 <!DOCTYPE xsd:schema
 [
-<!ENTITY word    "[a-zA-Z0-9 \-\.,!/':()\[\]]+">
+<!ENTITY word    "[a-zA-Z0-9 \-\.,!/':]+">
+<!ENTITY lemma   "[a-zA-Z0-9 \-\.,!/':_]+">
 ]>
 
 <!-- ' ': of age -->
 <!-- '-': tete-a-tete -->
 <!-- '.': O.K. -->
-<!-- ' ': Prince William, Duke of Cumberland --><!-- HAPAX --> 
+<!-- ' ': Prince William, Duke of Cumberland --><!-- HAPAX -->
 <!-- '!': Yahoo! -->
 <!-- ':': Capital: Critique of Political Economy --><!-- HAPAX -->
 <!-- '/': A/C -->
-<!-- '/': A/C -->
-<!-- '()[]': 3-[2-(Dimethylamino)ethyl]-4-indolol -->
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	>
@@ -31,6 +30,12 @@
 	<xsd:simpleType name='ScriptType'>
 		<xsd:restriction base='xsd:string'>
 			<xsd:pattern value='&word;' />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name='LemmaType'>
+		<xsd:restriction base='xsd:string'>
+			<xsd:pattern value='&lemma;' />
 		</xsd:restriction>
 	</xsd:simpleType>
 

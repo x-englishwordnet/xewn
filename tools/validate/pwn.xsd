@@ -4,7 +4,7 @@
 
 <!DOCTYPE xsd:schema
 [
-<!ENTITY lemma "[a-z0-9_'/\-.,!:()\[\]]+">
+<!ENTITY lemma "[a-z0-9_'/\-.,!:]+">
 <!ENTITY lexsense "\d+:\d+:\d+:[a-z0-9_'/\-\.]*:\d*">
 ]>
 <xsd:schema xmlns:xsd='http://www.w3.org/2001/XMLSchema' 

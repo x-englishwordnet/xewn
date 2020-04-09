@@ -70,7 +70,7 @@ echo "${tag}" > src/build
 popd > /dev/null
 
 # copy to source
-read -p "Are you sure you want to copy src? " -n 1 -r
+read -p "Are you sure you want to copy build tag to src? " -n 1 -r
 echo    # (optional) move to a new line
 echo -e "${Z}"
 if [[ $REPLY =~ ^[Yy]$ ]]; then

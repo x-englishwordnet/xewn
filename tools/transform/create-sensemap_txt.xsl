@@ -3,8 +3,8 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-	<xsl:strip-space elements="*" />
 	<xsl:output method="text" indent="yes" />
+	<xsl:strip-space elements="*" />
 
 	<xsl:variable name='debug' select='false()' />
 

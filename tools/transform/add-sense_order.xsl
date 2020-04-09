@@ -15,20 +15,18 @@
 	<xsl:template match="LexicalResource">
 		<LexicalResource
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd" 
+			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd"
 			xmlns:dc="http://purl.org/dc/elements/1.1/">
 			<xsl:apply-templates select="./*" />
 		</LexicalResource>
 	</xsl:template>
 
 	<xsl:template match="Sense">
-		<xsl:variable name="idx">
-			<xsl:number />
-		</xsl:variable>
+		<xsl:variable name="order" select="substring(@id,string-length(@id)-1)"/>
 
 		<xsl:copy>
-			<xsl:attribute name="senseidx">
-				<xsl:value-of select="format-number($idx - 1,'#0')" />
+			<xsl:attribute name="order">
+				<xsl:value-of select="$order" />
 			</xsl:attribute>
 
 			<xsl:apply-templates select="@*|node()" />

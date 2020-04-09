@@ -5,6 +5,7 @@
 <!DOCTYPE xsd:schema
 [
 <!ENTITY word    ".+">
+<!ENTITY lemma   "[^ ]+">
 ]>
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -21,6 +22,12 @@
 	<xsd:simpleType name='ScriptType'>
 		<xsd:restriction base='xsd:string'>
 			<xsd:pattern value='&word;' />
+		</xsd:restriction>
+	</xsd:simpleType>
+
+	<xsd:simpleType name='LemmaType'>
+		<xsd:restriction base='xsd:string'>
+			<xsd:pattern value='&lemma;' />
 		</xsd:restriction>
 	</xsd:simpleType>
 

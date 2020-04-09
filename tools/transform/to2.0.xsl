@@ -6,8 +6,8 @@
 	xmlns:ili="http://ili.org/ili/"
 	xmlns:meta="https://github.com/globalwordnet/schemas/meta/" >
 
-	<!-- <xsl:output doctype-system="http://globalwordnet.github.io/schemas/WN-LMF-relaxed-2.0.dtd" method="xml" indent="no" /> -->
 	<xsl:output method="xml" indent="no" />
+	<!-- <xsl:output doctype-system="http://x-englishwordnet.github.io/schemas/xEWN-LMF-2.0.relax_ixrefs.dtd" method="xml" indent="no" /> -->
 
 	<xsl:variable name="debug" select="false()" />
 	<xsl:variable name="debug0" select="false()" />

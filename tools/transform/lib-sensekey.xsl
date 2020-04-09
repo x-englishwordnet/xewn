@@ -9,6 +9,9 @@
 
 	<xsl:variable name='debug' select='false()' />
 
+	<!-- This is to avoid dependency on reading schema -->
+	<xsl:key name='find-synset-by-id' match='//Synset' use='@id'></xsl:key>
+
 	<!-- S E N S E K E Y - F A C T O R Y -->
 
 	<xsl:template name="make-sensekey">
@@ -26,7 +29,8 @@
 		</xsl:if>
 
 		<xsl:variable name="pos" select="$sensenode[1]/../Lemma/@partOfSpeech" />
-		<xsl:variable name="lexfile" select="id($sensenode[1]/@synset)/@dc:subject" />
+		<!-- <xsl:variable name="lexfile" select="id($sensenode[1]/@synset)/@dc:subject" /> -->
+		<xsl:variable name="lexfile" select="key('find-synset-by-id',$sensenode[1]/@synset)/@dc:subject" />
 
 		<xsl:if test='$debug = true()'>
 			<xsl:message>
@@ -205,12 +209,12 @@
 				<xsl:when test="$lexfile = 'adj.ppl' ">
 					<xsl:value-of select="44" />
 				</xsl:when>
-				<xsl:when test="$lexfile = 'contrib.colloq' ">
-					<xsl:value-of select="50" />
-				</xsl:when>
-				<xsl:when test="$lexfile = 'contrib.plwn' ">
-					<xsl:value-of select="51" />
-				</xsl:when>
+				<!-- <xsl:when test="$lexfile = 'contrib.colloq' "> -->
+				<!-- <xsl:value-of select="50" /> -->
+				<!-- </xsl:when> -->
+				<!-- <xsl:when test="$lexfile = 'contrib.plwn' "> -->
+				<!-- <xsl:value-of select="51" /> -->
+				<!-- </xsl:when> -->
 				<xsl:otherwise>
 					<xsl:value-of select="concat('???',$lexfile)" />
 				</xsl:otherwise>

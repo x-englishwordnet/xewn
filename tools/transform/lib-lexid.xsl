@@ -4,6 +4,7 @@
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
 	<xsl:variable name='debug' select='false()' />
+	<xsl:variable name='debug2' select='false()' />
 
 	<!-- L E X I D F A C T O R Y -->
 
@@ -13,7 +14,7 @@
 		<xsl:param name="method" />
 		<xsl:choose>
 			<xsl:when test="$method = 'legacy'">
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug2 = true()'>
 					<!-- 1x values -->
 					<xsl:value-of select="1" />
 				</xsl:if>
@@ -22,7 +23,7 @@
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:when test="$method = 'nbased'">
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug2 = true()'>
 					<!-- 2x values -->
 					<xsl:value-of select="2" />
 				</xsl:if>
@@ -31,7 +32,7 @@
 				</xsl:call-template>
 			</xsl:when>
 			<xsl:when test="$method = 'idx'">
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug2 = true()'>
 					<!-- 3x values -->
 					<xsl:value-of select="3" />
 				</xsl:if>
