@@ -2,7 +2,7 @@
 
 for f in $*; do
 	./transform3.sh add-sense_order.xsl - $f |
-	./transform3.sh add-sensekey.xsl - - |
+	./transform3.sh add-sensekey3.xsl - - |
 	./transform3.sh add-tag_count.xsl - - |
 	./transform3.sh add-verb_frame-decl.xsl - - |
 	./transform3.sh add-verb_frame.xsl - - |

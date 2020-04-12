@@ -3,23 +3,26 @@
 
 <xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-	<xsl:template name="sense-node-diff">
-		<xsl:param name="var1" />
-		<xsl:param name="var2" />
+	<xsl:template name="diff">
+		<xsl:param name="arg1" />
+		<xsl:param name="arg2" />
+		<xsl:param name="diff1" />
+		<xsl:param name="diff2" />
 		<xsl:text>@@@ </xsl:text>
 		<xsl:value-of select="position()" />
 		<xsl:text> </xsl:text>
 		<xsl:value-of select="@id" />
 		<xsl:text> [</xsl:text>
-		<xsl:value-of select="$var1" />
+		<xsl:value-of select="$diff1" />
 		<xsl:text>] -&gt; [</xsl:text>
-		<xsl:value-of select="$var2" />
+		<xsl:value-of select="$diff2" />
 		<xsl:text>]&#xa;</xsl:text>
+
 		<xsl:text>---</xsl:text>
-		<xsl:value-of select="@dc:identifier" />
+		<xsl:value-of select="$arg1" />
 		<xsl:text>&#xa;</xsl:text>
 		<xsl:text>+++</xsl:text>
-		<xsl:value-of select="@sensekey" />
+		<xsl:value-of select="$arg2" />
 		<xsl:text>&#xa;&#xa;</xsl:text>
 	</xsl:template>
 

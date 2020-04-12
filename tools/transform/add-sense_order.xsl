@@ -22,7 +22,7 @@
 	</xsl:template>
 
 	<xsl:template match="Sense">
-		<xsl:variable name="order" select="substring(@id,string-length(@id)-1)"/>
+		<xsl:variable name="order" select="number(substring(@id,string-length(@id)-1))"/>
 
 		<xsl:copy>
 			<xsl:attribute name="order">

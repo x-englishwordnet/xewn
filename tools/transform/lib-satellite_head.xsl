@@ -7,7 +7,7 @@
 	<!-- <xsl:import href='lib-lexid.xsl' /> -->
 
 	<xsl:variable name='debug' select='false()' />
-	<xsl:variable name='warn' select='true()' />
+	<xsl:variable name='warn' select='false()' />
 	<xsl:variable name='error' select='true()' />
 
 	<!-- This is to avoid dependency on reading schema -->
@@ -20,7 +20,7 @@
 		<xsl:param name="sensenode" />
 		<xsl:param name="pos" />
 
-		<xsl:if test='$debug = true()'>
+		<xsl:if test='$debug'>
 			<xsl:message>
 				<xsl:text>[D] CALLED make-satellite-head-sense(sensenode_id=</xsl:text>
 				<xsl:value-of select="$sensenode/@id" />
@@ -45,7 +45,7 @@
 				<xsl:variable name="head_synset_id" select="$synset[1]/SynsetRelation[@relType='similar']/@target" />
 				<xsl:variable name="head_senses" select="//Sense[@synset=$head_synset_id]" />
 
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug'>
 					<xsl:message>
 						<xsl:text>[D]   synset_id </xsl:text>
 						<xsl:value-of select="$synset_id" />
@@ -78,46 +78,84 @@
 				</xsl:if>
 
 				<!-- HEAD SENSE : "the sense which has an antonymy relation" /> -->
-				<xsl:variable name="head_sense_with_antonym" select="$head_senses[SenseRelation/@relType = 'antonym']" />
+				<xsl:variable name="head_senses_with_antonym" select="$head_senses[SenseRelation/@relType = 'antonym']" />
 				<xsl:if test="$debug">
 					<xsl:message>
 						<xsl:text>[D]   has antonym </xsl:text>
-						<xsl:value-of select="count($head_sense_with_antonym)" />
+						<xsl:value-of select="count($head_senses_with_antonym)" />
 						<xsl:text>: </xsl:text>
-						<xsl:value-of select="$head_sense_with_antonym[1]/@id" />
+						<xsl:value-of select="$head_senses_with_antonym[1]/@id" />
 					</xsl:message>
 				</xsl:if>
 
 				<xsl:choose>
-					<xsl:when test="count($head_sense_with_antonym) = 1">
+					<xsl:when test="count($head_senses_with_antonym) = 1">
 						<!-- return -->
-						<xsl:value-of select="$head_sense_with_antonym/@id" />
+						<xsl:value-of select="$head_senses_with_antonym/@id" />
 					</xsl:when>
-					<xsl:when test="count($head_sense_with_antonym) > 1">
+					<xsl:when test="count($head_senses_with_antonym) > 1">
 						<xsl:if test="$warn">
 							<xsl:message>
 								<xsl:text>[W]   multiple antonyms found in head synset </xsl:text>
 								<xsl:value-of select="$head_synset_id" />
 								<xsl:text>, taking first of </xsl:text>
-								<xsl:value-of select="count($head_sense_with_antonym)" />
-								<xsl:text> head synset member(s) with antonyms </xsl:text>
+								<xsl:value-of select="count($head_senses_with_antonym)" />
+								<xsl:text> members of head synset with antonyms </xsl:text>
 							</xsl:message>
 						</xsl:if>
-						<!-- return -->
-						<xsl:value-of select="$head_sense_with_antonym[1]/@id" />
+						<!-- return first as sorted by @order-->
+						<xsl:for-each select="$head_senses_with_antonym">
+							<xsl:sort select="@order"/>
+							<xsl:if test="$warn">
+								<xsl:message>
+									<xsl:text>      word </xsl:text>
+									<xsl:value-of select="position()" />
+									<xsl:text> </xsl:text>
+									<xsl:value-of select="../Lemma/@writtenForm" />
+									<xsl:text> </xsl:text>
+									<xsl:value-of select="@id" />
+									<xsl:if test='position() = 1'>
+										<xsl:text> *</xsl:text>
+									</xsl:if>
+								</xsl:message>
+							</xsl:if>
+							<xsl:if test='position() = 1'>
+								<xsl:value-of select="./@id" />
+							</xsl:if>
+					    </xsl:for-each>
+
 					</xsl:when>
 					<xsl:otherwise>
 						<!-- HEAD WORD : "the lemma of the first word of the satellite's head synset" /> -->
 						<xsl:if test="$warn">
 							<xsl:message>
-								<xsl:text>[W]   no indirect antonym found </xsl:text>
-								<xsl:text> taking first of </xsl:text>
+								<xsl:text>[W]   no antonym found in head synset </xsl:text>
+								<xsl:value-of select="$head_synset_id" />
+								<xsl:text>, taking first of </xsl:text>
 								<xsl:value-of select="count($head_senses)" />
 								<xsl:text> head synset member(s) </xsl:text>
 							</xsl:message>
 						</xsl:if>
 						<!-- return -->
-						<xsl:value-of select="$head_senses[1]/@id" />
+						<xsl:for-each select="$head_senses">
+							<xsl:sort select="@order"/>
+							<xsl:if test="$warn">
+								<xsl:message>
+									<xsl:text>      word </xsl:text>
+									<xsl:value-of select="position()" />
+									<xsl:text> </xsl:text>
+									<xsl:value-of select="../Lemma/@writtenForm" />
+									<xsl:text> </xsl:text>
+									<xsl:value-of select="@id" />
+									<xsl:if test='position() = 1'>
+										<xsl:text> *</xsl:text>
+									</xsl:if>
+								</xsl:message>
+							</xsl:if>
+							<xsl:if test='position() = 1'>
+								<xsl:value-of select="./@id" />
+							</xsl:if>
+					    </xsl:for-each>
 					</xsl:otherwise>
 				</xsl:choose>
 
@@ -131,7 +169,7 @@
 		<xsl:param name="pos" />
 		<xsl:param name="method" />
 
-		<xsl:if test='$debug = true()'>
+		<xsl:if test='$debug'>
 			<xsl:message>
 				<xsl:text>[D] CALLED make-satellite-head(sensenode_id=</xsl:text>
 				<xsl:value-of select="$sensenode/@id" />
@@ -162,7 +200,7 @@
 				<!-- <xsl:variable name="headsense" select='id($headsenseid)' /> -->
 				<xsl:variable name="headsense" select="key('find-sense-by-id',$headsenseid)" />
 
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug'>
 					<xsl:message>
 						<xsl:text>[D]   headsenseid=</xsl:text>
 						<xsl:value-of select="$headsenseid" />
@@ -173,7 +211,7 @@
 				<xsl:variable name="lemma" select="$headsense/../Lemma/@writtenForm" />
 				<xsl:variable name="headword" select="translate($lemma,' ','_')" />
 
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug'>
 					<xsl:message>
 						<xsl:text>[D]   headword=</xsl:text>
 						<xsl:value-of select="$headword" />
@@ -190,7 +228,7 @@
 				</xsl:variable>
 
 				<!-- Value -->
-				<xsl:if test='$debug = true()'>
+				<xsl:if test='$debug'>
 					<xsl:message>
 						<xsl:text>[D]   headid=</xsl:text>
 						<xsl:value-of select="$headid" />

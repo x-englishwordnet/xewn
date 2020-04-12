@@ -89,6 +89,7 @@
 			<xsd:attribute name='synset' type='LocalSynsetIDREFType' use='required' />
 			<xsd:attribute name='n' type='NType' use='required' />
 			<xsd:attribute name='senseidx' type='SenseIdxType' use='required' />
+			<xsd:attribute name='order' type='xsd:integer' use='required' />
 			<xsd:attribute name='lexfile' type='LexFileType' use='optional' />
 			<xsd:attribute name='lexid' type='LexIdType' use='required' />
 			<xsd:attribute name='sensekey' type='SensekeyType' use='required' />
@@ -108,7 +109,7 @@
 	<xsd:element name='Synset'>
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref='Definition' minOccurs='0' maxOccurs='1' />
+				<xsd:element ref='Definition' minOccurs='0' maxOccurs='unbounded' />
 				<xsd:element ref='ILIDefinition' minOccurs='0' maxOccurs='1' />
 				<xsd:element ref='SynsetRelation' minOccurs='0' maxOccurs='unbounded' />
 				<xsd:element ref='Example' minOccurs='0' maxOccurs='unbounded' />
