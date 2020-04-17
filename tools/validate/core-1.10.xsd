@@ -88,18 +88,18 @@
 			<xsd:attribute name='id' type='SenseIDType' use='required' />
 			<xsd:attribute name='synset' type='LocalSynsetIDREFType' use='required' />
 			<xsd:attribute name='n' type='NType' use='required' />
-			<xsd:attribute name='senseidx' type='SenseIdxType' use='required' />
 			<xsd:attribute name='order' type='xsd:integer' use='required' />
+			<xsd:attribute name='senseidx' type='SenseIdxType' use='required' />
 			<xsd:attribute name='lexfile' type='LexFileType' use='optional' />
 			<xsd:attribute name='lexid' type='LexIdType' use='required' />
 			<xsd:attribute name='sensekey' type='SensekeyType' use='required' />
-			<xsd:attribute name='tagCnt' type='TagCntType' default='0' use='optional' />
 			<xsd:attribute name='verbFrames' type='LocalSyntacticBehaviourIDREFSType' use='optional' />
 			<xsd:attribute name='verbTemplates' type='LocalSyntacticBehaviourIDREFSType' use='optional' />
 			<xsd:attribute name='adjposition' type='AdjPositionType' use='optional' />
 			<xsd:attribute name='adjPosition' type='AdjPositionType' use='optional' />
 			<xsd:attribute name='adjIsHead' type='xsd:boolean' use='optional' default='false' />
 			<xsd:attribute name='adjHead' type='LemmaType' use='optional' />
+			<xsd:attribute name='tagCnt' type='TagCntType' default='0' use='optional' />
 			<xsd:attribute name='lexicalized' type='xsd:boolean' default='true' use='optional' />
 			<xsd:attribute ref='dc:identifier' use='optional' />
 			<xsd:attributeGroup ref='Meta' />

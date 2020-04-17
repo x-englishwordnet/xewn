@@ -8,7 +8,7 @@
 	<xsl:import href='lib-satellite_head.xsl' />
 
 	<xsl:variable name='debug' select='false()' />
-	<xsl:variable name='percentesc' select='/' /> <!-- can be multiple chars like '%%' with use of replace() instead of translate() -->
+	<xsl:variable name='percentesc' select="'~'" /> <!-- can be multiple chars like '%%' with use of replace() instead of translate() -->
 
 	<!-- This is to avoid dependency on reading schema -->
 	<xsl:key name='find-synset-by-id' match='//Synset' use='@id'></xsl:key>
@@ -45,7 +45,7 @@
 		<!-- LEMMA -->
 		<!-- <xsl:variable name="lemma" select="translate($sensenode/../Lemma/@writtenForm,' ABCDEFGHIJKLMNOPQRSTUVWXYZ','_abcdefghijklmnopqrstuvwxyz')" /> -->
 		<xsl:variable name="lemma" select="translate($sensenode/../Lemma/@writtenForm,' ','_')" />
-		<xsl:variable name="escapedlemma" select="replace($lemma,'%',percentesc)" />
+		<xsl:variable name="escapedlemma" select="replace($lemma,'%',$percentesc)" />
 
 		<!-- LEX_SENSE -->
 

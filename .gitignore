@@ -5,5 +5,5 @@ upstream/
 dist/
 doc/
 test/
-_mymake.sh
+_*.*
 

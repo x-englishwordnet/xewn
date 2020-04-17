@@ -4,7 +4,7 @@
 
 <!DOCTYPE xsd:schema
 [
-<!ENTITY sklemma "[a-zA-Z0-9_\-\.,!/'#]+">
+<!ENTITY sklemma "[a-zA-Z0-9_\-\.,!/':]+">
 <!ENTITY lexsense_sstype "\d">
 <!ENTITY lexsense_lexfile "\d\d">
 <!ENTITY lexsense_lexid "\d\d">

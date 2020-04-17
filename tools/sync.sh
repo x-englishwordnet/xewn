@@ -13,7 +13,7 @@ Z='\u001b[0m'
 # G I T
 
 gitsource="https://github.com/globalwordnet/english-wordnet.git"
-branch=2020-release-candidate
+branch=master
 
 # D I R S
 
@@ -57,6 +57,7 @@ pushd "${GITDIR}" > /dev/null
 # update
 git pull
 git checkout "${branch}"
+git pull
 git status
 
 # tag
