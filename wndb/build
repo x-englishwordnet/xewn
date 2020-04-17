@@ -1,0 +1,9 @@
+UPSTREAM:
+commit 66a6736d2e8a8b7f6aa923f987d3bdc77120ab32
+Merge: e98f380 e07e810
+Author: John McCrae <john@mccr.ae>
+Date:   Thu Apr 16 19:48:28 2020 +0100
+
+    Merge pull request #410 from globalwordnet/2020-release-candidate
+    
+    2020 release candidate

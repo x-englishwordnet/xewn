@@ -1,0 +1,3523 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<LexicalResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd">
+   <Lexicon id="ewn"
+            label="English WordNet"
+            language="en"
+            email="john@mccr.ae"
+            license="https://wordnet.princeton.edu/license-and-commercial-use"
+            version="2019"
+            url="https://github.com/globalwordnet/english-wordnet"
+            confidenceScore="1.0">
+      <SyntacticBehaviour id="ewn-sb-1" subcategorizationFrame="Something ----s"/>
+      <SyntacticBehaviour id="ewn-sb-2" subcategorizationFrame="Somebody ----s"/>
+      <SyntacticBehaviour id="ewn-sb-3" subcategorizationFrame="It is ----ing"/>
+      <SyntacticBehaviour id="ewn-sb-4" subcategorizationFrame="Something is ----ing PP"/>
+      <SyntacticBehaviour id="ewn-sb-5"
+                          subcategorizationFrame="Something ----s something Adjective/Noun"/>
+      <SyntacticBehaviour id="ewn-sb-6" subcategorizationFrame="Something ----s Adjective/Noun"/>
+      <SyntacticBehaviour id="ewn-sb-7" subcategorizationFrame="Somebody ----s Adjective"/>
+      <SyntacticBehaviour id="ewn-sb-8" subcategorizationFrame="Somebody ----s something"/>
+      <SyntacticBehaviour id="ewn-sb-9" subcategorizationFrame="Somebody ----s somebody"/>
+      <SyntacticBehaviour id="ewn-sb-10" subcategorizationFrame="Something ----s somebody"/>
+      <SyntacticBehaviour id="ewn-sb-11" subcategorizationFrame="Something ----s something"/>
+      <SyntacticBehaviour id="ewn-sb-12" subcategorizationFrame="Something ----s to somebody"/>
+      <SyntacticBehaviour id="ewn-sb-13" subcategorizationFrame="Somebody ----s on something"/>
+      <SyntacticBehaviour id="ewn-sb-14"
+                          subcategorizationFrame="Somebody ----s somebody something"/>
+      <SyntacticBehaviour id="ewn-sb-15"
+                          subcategorizationFrame="Somebody ----s something to somebody"/>
+      <SyntacticBehaviour id="ewn-sb-16"
+                          subcategorizationFrame="Somebody ----s something from somebody"/>
+      <SyntacticBehaviour id="ewn-sb-17"
+                          subcategorizationFrame="Somebody ----s somebody with something"/>
+      <SyntacticBehaviour id="ewn-sb-18"
+                          subcategorizationFrame="Somebody ----s somebody of something"/>
+      <SyntacticBehaviour id="ewn-sb-19"
+                          subcategorizationFrame="Somebody ----s something on somebody"/>
+      <SyntacticBehaviour id="ewn-sb-20" subcategorizationFrame="Somebody ----s somebody PP"/>
+      <SyntacticBehaviour id="ewn-sb-21" subcategorizationFrame="Somebody ----s something PP"/>
+      <SyntacticBehaviour id="ewn-sb-22" subcategorizationFrame="Somebody ----s PP"/>
+      <SyntacticBehaviour id="ewn-sb-23" subcategorizationFrame="Somebody's (body part) ----s"/>
+      <SyntacticBehaviour id="ewn-sb-24"
+                          subcategorizationFrame="Somebody ----s somebody to INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-sb-25"
+                          subcategorizationFrame="Somebody ----s somebody INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-sb-26" subcategorizationFrame="Somebody ----s that CLAUSE"/>
+      <SyntacticBehaviour id="ewn-sb-27" subcategorizationFrame="Somebody ----s to somebody"/>
+      <SyntacticBehaviour id="ewn-sb-28" subcategorizationFrame="Somebody ----s to INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-sb-29"
+                          subcategorizationFrame="Somebody ----s whether INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-sb-30"
+                          subcategorizationFrame="Somebody ----s somebody into V-ing something"/>
+      <SyntacticBehaviour id="ewn-sb-31"
+                          subcategorizationFrame="Somebody ----s something with something"/>
+      <SyntacticBehaviour id="ewn-sb-32" subcategorizationFrame="Somebody ----s INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-sb-33" subcategorizationFrame="Somebody ----s VERB-ing"/>
+      <SyntacticBehaviour id="ewn-sb-34" subcategorizationFrame="It ----s that CLAUSE"/>
+      <SyntacticBehaviour id="ewn-sb-35" subcategorizationFrame="Something ----s INFINITIVE"/>
+      <SyntacticBehaviour id="ewn-st-1" sentenceTemplate="The children %s to the playground"/>
+      <SyntacticBehaviour id="ewn-st-2" sentenceTemplate="The banks %s the check"/>
+      <SyntacticBehaviour id="ewn-st-3" sentenceTemplate="The checks %s"/>
+      <SyntacticBehaviour id="ewn-st-4" sentenceTemplate="The children %s the ball"/>
+      <SyntacticBehaviour id="ewn-st-5" sentenceTemplate="The balls %s"/>
+      <SyntacticBehaviour id="ewn-st-6" sentenceTemplate="The girls %s the wooden sticks"/>
+      <SyntacticBehaviour id="ewn-st-7" sentenceTemplate="The wooden sticks %s"/>
+      <SyntacticBehaviour id="ewn-st-8" sentenceTemplate="The coins %s"/>
+      <SyntacticBehaviour id="ewn-st-9" sentenceTemplate="They %s the coin"/>
+      <SyntacticBehaviour id="ewn-st-10" sentenceTemplate="The cars %s down the avenue"/>
+      <SyntacticBehaviour id="ewn-st-11" sentenceTemplate="They %s the car down the avenue"/>
+      <SyntacticBehaviour id="ewn-st-12" sentenceTemplate="They %s the glass tubes"/>
+      <SyntacticBehaviour id="ewn-st-13" sentenceTemplate="The glass tubes %s"/>
+      <SyntacticBehaviour id="ewn-st-14" sentenceTemplate="Sam and Sue %s"/>
+      <SyntacticBehaviour id="ewn-st-15" sentenceTemplate="Sam cannot %s Sue"/>
+      <SyntacticBehaviour id="ewn-st-16" sentenceTemplate="The ropes %s"/>
+      <SyntacticBehaviour id="ewn-st-17" sentenceTemplate="The strong winds %s the rope"/>
+      <SyntacticBehaviour id="ewn-st-18" sentenceTemplate="They %s the sheets"/>
+      <SyntacticBehaviour id="ewn-st-19" sentenceTemplate="The sheets didn't %s"/>
+      <SyntacticBehaviour id="ewn-st-20" sentenceTemplate="The horses %s across the field"/>
+      <SyntacticBehaviour id="ewn-st-21" sentenceTemplate="They %s the bags on the table"/>
+      <SyntacticBehaviour id="ewn-st-22"
+                          sentenceTemplate="The men %s the horses across the field"/>
+      <SyntacticBehaviour id="ewn-st-23" sentenceTemplate="Our properties %s at this point"/>
+      <SyntacticBehaviour id="ewn-st-24" sentenceTemplate="His fields %s mine at this point"/>
+      <SyntacticBehaviour id="ewn-st-25" sentenceTemplate="They %s the hill"/>
+      <SyntacticBehaviour id="ewn-st-26" sentenceTemplate="They %s up the hill"/>
+      <SyntacticBehaviour id="ewn-st-27" sentenceTemplate="They %s the river"/>
+      <SyntacticBehaviour id="ewn-st-28" sentenceTemplate="They %s down the river"/>
+      <SyntacticBehaviour id="ewn-st-29" sentenceTemplate="They %s the countryside"/>
+      <SyntacticBehaviour id="ewn-st-30" sentenceTemplate="They %s in the countryside"/>
+      <SyntacticBehaviour id="ewn-st-31" sentenceTemplate="These men %s across the river"/>
+      <SyntacticBehaviour id="ewn-st-32" sentenceTemplate="These men %s the river"/>
+      <SyntacticBehaviour id="ewn-st-33" sentenceTemplate="They %s the food to the people"/>
+      <SyntacticBehaviour id="ewn-st-34" sentenceTemplate="They %s the people the food"/>
+      <SyntacticBehaviour id="ewn-st-35" sentenceTemplate="They %s more bread"/>
+      <SyntacticBehaviour id="ewn-st-36" sentenceTemplate="They %s the object in the water"/>
+      <SyntacticBehaviour id="ewn-st-37" sentenceTemplate="The men %s the bookshelves"/>
+      <SyntacticBehaviour id="ewn-st-38" sentenceTemplate="They %s the money in the closet"/>
+      <SyntacticBehaviour id="ewn-st-39" sentenceTemplate="The lights %s from the ceiling"/>
+      <SyntacticBehaviour id="ewn-st-40" sentenceTemplate="They %s the lights from the ceiling"/>
+      <SyntacticBehaviour id="ewn-st-41" sentenceTemplate="They %s their rifles on the cabinet"/>
+      <SyntacticBehaviour id="ewn-st-42" sentenceTemplate="The chairs %s in the corner"/>
+      <SyntacticBehaviour id="ewn-st-43" sentenceTemplate="The men %s the chairs"/>
+      <SyntacticBehaviour id="ewn-st-44" sentenceTemplate="The women %s water into the bowl"/>
+      <SyntacticBehaviour id="ewn-st-45" sentenceTemplate="Water and oil %s into the bowl"/>
+      <SyntacticBehaviour id="ewn-st-46" sentenceTemplate="They %s the wire around the stick"/>
+      <SyntacticBehaviour id="ewn-st-47" sentenceTemplate="The wires %s around the stick"/>
+      <SyntacticBehaviour id="ewn-st-48" sentenceTemplate="They %s the bread with melted butter"/>
+      <SyntacticBehaviour id="ewn-st-49" sentenceTemplate="They %s the cart with boxes"/>
+      <SyntacticBehaviour id="ewn-st-50" sentenceTemplate="They %s the books into the box"/>
+      <SyntacticBehaviour id="ewn-st-51" sentenceTemplate="They %s sugar over the cake"/>
+      <SyntacticBehaviour id="ewn-st-52" sentenceTemplate="They %s the cake with sugar"/>
+      <SyntacticBehaviour id="ewn-st-53" sentenceTemplate="They %s the fruit with a chemical"/>
+      <SyntacticBehaviour id="ewn-st-54" sentenceTemplate="They %s a chemical into the fruit"/>
+      <SyntacticBehaviour id="ewn-st-55" sentenceTemplate="They %s the field with rye"/>
+      <SyntacticBehaviour id="ewn-st-56" sentenceTemplate="They %s rye in the field"/>
+      <SyntacticBehaviour id="ewn-st-57" sentenceTemplate="They %s notices on the doors"/>
+      <SyntacticBehaviour id="ewn-st-58" sentenceTemplate="They %s the doors with notices"/>
+      <SyntacticBehaviour id="ewn-st-59" sentenceTemplate="They %s money on their grandchild"/>
+      <SyntacticBehaviour id="ewn-st-60" sentenceTemplate="They %s their grandchild with money"/>
+      <SyntacticBehaviour id="ewn-st-61" sentenceTemplate="They %s coins on the image"/>
+      <SyntacticBehaviour id="ewn-st-62" sentenceTemplate="They %s the image with coins"/>
+      <SyntacticBehaviour id="ewn-st-63" sentenceTemplate="They %s butter on the bread"/>
+      <SyntacticBehaviour id="ewn-st-64" sentenceTemplate="They %s the lake with fish"/>
+      <SyntacticBehaviour id="ewn-st-65" sentenceTemplate="The children %s the paper with grease"/>
+      <SyntacticBehaviour id="ewn-st-66" sentenceTemplate="The children %s grease onto the paper"/>
+      <SyntacticBehaviour id="ewn-st-67" sentenceTemplate="They %s papers over the floor"/>
+      <SyntacticBehaviour id="ewn-st-68" sentenceTemplate="They %s the floor with papers"/>
+      <SyntacticBehaviour id="ewn-st-69" sentenceTemplate="They %s the money"/>
+      <SyntacticBehaviour id="ewn-st-70" sentenceTemplate="They %s the newspapers"/>
+      <SyntacticBehaviour id="ewn-st-71" sentenceTemplate="They %s the goods"/>
+      <SyntacticBehaviour id="ewn-st-72" sentenceTemplate="The men %s the boat"/>
+      <SyntacticBehaviour id="ewn-st-73" sentenceTemplate="They %s the animals"/>
+      <SyntacticBehaviour id="ewn-st-74" sentenceTemplate="The books %s the box"/>
+      <SyntacticBehaviour id="ewn-st-75" sentenceTemplate="They %s the halls with holly"/>
+      <SyntacticBehaviour id="ewn-st-76" sentenceTemplate="Holly flowers %s the halls"/>
+      <SyntacticBehaviour id="ewn-st-77"
+                          sentenceTemplate="The wind storms %s the area with dust and dirt"/>
+      <SyntacticBehaviour id="ewn-st-78" sentenceTemplate="Dust and dirt %s the area"/>
+      <SyntacticBehaviour id="ewn-st-79"
+                          sentenceTemplate="The swollen rivers %s the area with water"/>
+      <SyntacticBehaviour id="ewn-st-80" sentenceTemplate="The waters %s the area"/>
+      <SyntacticBehaviour id="ewn-st-81"
+                          sentenceTemplate="They %s the cloth with water and alcohol"/>
+      <SyntacticBehaviour id="ewn-st-82" sentenceTemplate="Water and alcohol %s the cloth"/>
+      <SyntacticBehaviour id="ewn-st-83" sentenceTemplate="They %s the snow from the path"/>
+      <SyntacticBehaviour id="ewn-st-84" sentenceTemplate="They %s the path of the snow"/>
+      <SyntacticBehaviour id="ewn-st-85" sentenceTemplate="They %s the water from the sink"/>
+      <SyntacticBehaviour id="ewn-st-86" sentenceTemplate="They %s the sink of water"/>
+      <SyntacticBehaviour id="ewn-st-87" sentenceTemplate="They %s the parcel to their parents"/>
+      <SyntacticBehaviour id="ewn-st-88" sentenceTemplate="They %s them the parcel"/>
+      <SyntacticBehaviour id="ewn-st-89" sentenceTemplate="They %s cars to the tourists"/>
+      <SyntacticBehaviour id="ewn-st-90" sentenceTemplate="They %s the tourists their cars"/>
+      <SyntacticBehaviour id="ewn-st-91" sentenceTemplate="They %s the money to them"/>
+      <SyntacticBehaviour id="ewn-st-92" sentenceTemplate="They %s them the money"/>
+      <SyntacticBehaviour id="ewn-st-93" sentenceTemplate="They %s them the information"/>
+      <SyntacticBehaviour id="ewn-st-94" sentenceTemplate="They %s the information to them"/>
+      <SyntacticBehaviour id="ewn-st-95"
+                          sentenceTemplate="The parents %s a French poem to the children"/>
+      <SyntacticBehaviour id="ewn-st-96"
+                          sentenceTemplate="The parents %s the children a French poem"/>
+      <SyntacticBehaviour id="ewn-st-97" sentenceTemplate="They %s"/>
+      <SyntacticBehaviour id="ewn-st-98" sentenceTemplate="They %s themselves"/>
+      <SyntacticBehaviour id="ewn-st-99" sentenceTemplate="These balls %s easily"/>
+      <SyntacticBehaviour id="ewn-st-100" sentenceTemplate="These glasses %s easily"/>
+      <SyntacticBehaviour id="ewn-st-101" sentenceTemplate="These fabrics %s easily"/>
+      <SyntacticBehaviour id="ewn-st-102" sentenceTemplate="They %s their earnings this year"/>
+      <SyntacticBehaviour id="ewn-st-103" sentenceTemplate="Their earnings %s this year"/>
+      <SyntacticBehaviour id="ewn-st-104" sentenceTemplate="The water %ss"/>
+      <SyntacticBehaviour id="ewn-st-105" sentenceTemplate="They %s the water"/>
+      <SyntacticBehaviour id="ewn-st-106" sentenceTemplate="The animals %s"/>
+      <SyntacticBehaviour id="ewn-st-107" sentenceTemplate="They %s a long time"/>
+      <SyntacticBehaviour id="ewn-st-108" sentenceTemplate="The car %ss the tree"/>
+      <SyntacticBehaviour id="ewn-st-109" sentenceTemplate="John will %s angry"/>
+      <SyntacticBehaviour id="ewn-st-110" sentenceTemplate="They %s in the city"/>
+      <SyntacticBehaviour id="ewn-st-111" sentenceTemplate="They won't %s the story"/>
+      <SyntacticBehaviour id="ewn-st-112"
+                          sentenceTemplate="They %s that there was a traffic accident"/>
+      <SyntacticBehaviour id="ewn-st-113"
+                          sentenceTemplate="They %s whether there was a traffic accident"/>
+      <SyntacticBehaviour id="ewn-st-114" sentenceTemplate="They %s her vice president"/>
+      <SyntacticBehaviour id="ewn-st-115"
+                          sentenceTemplate="Did he %s his major works over a short period of time?"/>
+      <SyntacticBehaviour id="ewn-st-116" sentenceTemplate="The chefs %s the vegetables"/>
+      <SyntacticBehaviour id="ewn-st-117" sentenceTemplate="They %s the cape"/>
+      <SyntacticBehaviour id="ewn-st-118" sentenceTemplate="The food does %s good"/>
+      <SyntacticBehaviour id="ewn-st-119" sentenceTemplate="The music does %s good"/>
+      <SyntacticBehaviour id="ewn-st-120" sentenceTemplate="The cool air does %s good"/>
+      <SyntacticBehaviour id="ewn-st-121" sentenceTemplate="This food does %s well"/>
+      <SyntacticBehaviour id="ewn-st-122" sentenceTemplate="It was %sing all day long"/>
+      <SyntacticBehaviour id="ewn-st-123" sentenceTemplate="They %s him to write the letter"/>
+      <SyntacticBehaviour id="ewn-st-124" sentenceTemplate="They %s him into writing the letter"/>
+      <SyntacticBehaviour id="ewn-st-125" sentenceTemplate="They %s him from writing the letter"/>
+      <SyntacticBehaviour id="ewn-st-126" sentenceTemplate="The bad news will %s him"/>
+      <SyntacticBehaviour id="ewn-st-127" sentenceTemplate="The good news will %s her"/>
+      <SyntacticBehaviour id="ewn-st-128" sentenceTemplate="The chef wants to %s the eggs"/>
+      <SyntacticBehaviour id="ewn-st-129" sentenceTemplate="Sam wants to %s with Sue"/>
+      <SyntacticBehaviour id="ewn-st-130"
+                          sentenceTemplate="The fighter managed to %s his opponent"/>
+      <SyntacticBehaviour id="ewn-st-131" sentenceTemplate="These cars won't %s"/>
+      <SyntacticBehaviour id="ewn-st-132" sentenceTemplate="The branches %s from the trees"/>
+      <SyntacticBehaviour id="ewn-st-133" sentenceTemplate="The stock market is going to %s"/>
+      <SyntacticBehaviour id="ewn-st-134" sentenceTemplate="The moon will soon %s"/>
+      <SyntacticBehaviour id="ewn-st-135" sentenceTemplate="The business is going to %s"/>
+      <SyntacticBehaviour id="ewn-st-136" sentenceTemplate="The airplane is sure to %s"/>
+      <SyntacticBehaviour id="ewn-st-137" sentenceTemplate="They %s to move"/>
+      <SyntacticBehaviour id="ewn-st-138" sentenceTemplate="They %s moving"/>
+      <SyntacticBehaviour id="ewn-st-139" sentenceTemplate="Sam and Sue %s the movie"/>
+      <SyntacticBehaviour id="ewn-st-140" sentenceTemplate="They want to %s the prisoners"/>
+      <SyntacticBehaviour id="ewn-st-141" sentenceTemplate="They want to %s the doors"/>
+      <SyntacticBehaviour id="ewn-st-142" sentenceTemplate="The doors %s"/>
+      <SyntacticBehaviour id="ewn-st-143" sentenceTemplate="Did he %s his foot?"/>
+      <SyntacticBehaviour id="ewn-st-144" sentenceTemplate="Did his feet %s?"/>
+      <SyntacticBehaviour id="ewn-st-145" sentenceTemplate="They will %s the duet"/>
+      <SyntacticBehaviour id="ewn-st-146" sentenceTemplate="They %s their hair"/>
+      <SyntacticBehaviour id="ewn-st-147" sentenceTemplate="They %s the trees"/>
+      <SyntacticBehaviour id="ewn-st-148" sentenceTemplate="They %s him of all his money"/>
+      <SyntacticBehaviour id="ewn-st-149" sentenceTemplate="Lights %s on the horizon"/>
+      <SyntacticBehaviour id="ewn-st-150" sentenceTemplate="The horizon is %sing with lights"/>
+      <SyntacticBehaviour id="ewn-st-151" sentenceTemplate="The crowds %s in the streets"/>
+      <SyntacticBehaviour id="ewn-st-152" sentenceTemplate="The streets %s with crowds"/>
+      <SyntacticBehaviour id="ewn-st-153" sentenceTemplate="Cars %s in the streets"/>
+      <SyntacticBehaviour id="ewn-st-154" sentenceTemplate="The streets %s with cars"/>
+      <SyntacticBehaviour id="ewn-st-155"
+                          sentenceTemplate="You can hear animals %s in the meadows"/>
+      <SyntacticBehaviour id="ewn-st-156" sentenceTemplate="The meadows %s with animals"/>
+      <SyntacticBehaviour id="ewn-st-157" sentenceTemplate="The birds %s in the woods"/>
+      <SyntacticBehaviour id="ewn-st-158"
+                          sentenceTemplate="The woods %s with many kinds of birds"/>
+      <SyntacticBehaviour id="ewn-st-159" sentenceTemplate="The performance is likely to %s Sue"/>
+      <SyntacticBehaviour id="ewn-st-160"
+                          sentenceTemplate="Sam and Sue %s over the results of the experiment"/>
+      <SyntacticBehaviour id="ewn-st-161"
+                          sentenceTemplate="In the summer they like to go out and %s"/>
+      <SyntacticBehaviour id="ewn-st-162" sentenceTemplate="The children %s in the rocking chair"/>
+      <SyntacticBehaviour id="ewn-st-163"
+                          sentenceTemplate="There %s some children in the rocking chair"/>
+      <SyntacticBehaviour id="ewn-st-164" sentenceTemplate="Some big birds %s in the tree"/>
+      <SyntacticBehaviour id="ewn-st-165" sentenceTemplate="There %s some big birds in the tree"/>
+      <SyntacticBehaviour id="ewn-st-166" sentenceTemplate="The men %s the area for animals"/>
+      <SyntacticBehaviour id="ewn-st-167" sentenceTemplate="The men %s for animals in the area"/>
+      <SyntacticBehaviour id="ewn-st-168"
+                          sentenceTemplate="The customs agents %s the bags for drugs"/>
+      <SyntacticBehaviour id="ewn-st-169" sentenceTemplate="They %s him as chairman"/>
+      <SyntacticBehaviour id="ewn-st-170" sentenceTemplate="They %s him 'Bobby'"/>
+      <LexicalEntry id="ewn-blaze_up-v">
+         <Lemma writtenForm="blaze up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="blaze_up%2:43:00::"
+                order="3"
+                id="ewn-blaze_up-v-02768764-03"
+                n="0"
+                synset="ewn-02768764-v"
+                dc:identifier="blaze_up%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-blaze-v-02770396-01"/>
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-blaze-v">
+         <Lemma writtenForm="blaze" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="blaze%2:43:01::"
+                order="1"
+                id="ewn-blaze-v-02770396-01"
+                n="2"
+                synset="ewn-02770396-v"
+                dc:identifier="blaze%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-blaze-n-13460261-01"/>
+            <!-- blazing, blaze -->
+            <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/>
+            <!-- blaze up, burn up, flame up, flare -->
+            <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/>
+            <!-- blaze up, burn up, flame up, flare -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="5"
+                senseidx="1"
+                lexid="2"
+                sensekey="blaze%2:43:02::"
+                order="1"
+                id="ewn-blaze-v-02770572-01"
+                n="0"
+                synset="ewn-02770572-v"
+                dc:identifier="blaze%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-blaze-n-04959747-02"/>
+            <!-- brilliance, glare, blaze -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-set_aflame-v">
+         <Lemma writtenForm="set aflame" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="set_aflame%2:43:00::"
+                order="2"
+                id="ewn-set_aflame-v-02766097-02"
+                n="0"
+                synset="ewn-02766097-v"
+                dc:identifier="set_aflame%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-give_off-v">
+         <Lemma writtenForm="give off" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="give_off%2:43:00::"
+                order="3"
+                id="ewn-give_off-v-02773266-03"
+                n="1"
+                synset="ewn-02773266-v"
+                dc:identifier="give_off%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-take_fire-v">
+         <Lemma writtenForm="take fire" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="take_fire%2:43:00::"
+                order="4"
+                id="ewn-take_fire-v-02766580-04"
+                n="0"
+                synset="ewn-02766580-v"
+                dc:identifier="take_fire%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-breeze-v">
+         <Lemma writtenForm="breeze" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-4 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="breeze%2:43:00::"
+                order="1"
+                id="ewn-breeze-v-02775438-01"
+                n="0"
+                synset="ewn-02775438-v"
+                dc:identifier="breeze%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-breeze-n-11451868-01"/>
+            <!-- air, gentle wind, breeze, zephyr -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shower-v">
+         <Lemma writtenForm="shower" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="shower%2:43:00::"
+                order="1"
+                id="ewn-shower-v-02763609-01"
+                n="3"
+                synset="ewn-02763609-v"
+                dc:identifier="shower%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shower-n-11522915-01"/>
+            <!-- rain shower, shower -->
+            <SenseRelation relType="derivation" target="ewn-shower-n-07378268-01"/>
+            <!-- shower, cascade -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-radiate-v">
+         <Lemma writtenForm="radiate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-1"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="radiate%2:43:00::"
+                order="1"
+                id="ewn-radiate-v-02773074-01"
+                n="0"
+                synset="ewn-02773074-v"
+                dc:identifier="radiate%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-radiant-s-00281329-04"/>
+            <!-- effulgent, beamy, refulgent, beaming, radiant -->
+            <SenseRelation relType="derivation" target="ewn-radiation-n-11519684-01"/>
+            <!-- radiation -->
+            <SenseRelation relType="derivation" target="ewn-radiancy-n-04961131-02"/>
+            <!-- refulgence, shine, radiance, refulgency, effulgence, radiancy -->
+            <SenseRelation relType="derivation" target="ewn-radiance-n-04961131-01"/>
+            <!-- refulgence, shine, radiance, refulgency, effulgence, radiancy -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shimmer-v">
+         <Lemma writtenForm="shimmer" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="shimmer%2:43:00::"
+                order="1"
+                id="ewn-shimmer-v-02769408-01"
+                n="0"
+                synset="ewn-02769408-v"
+                dc:identifier="shimmer%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shimmer-n-07426451-01"/>
+            <!-- shimmer, play -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-extinguish-v">
+         <Lemma writtenForm="extinguish" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="extinguish%2:43:00::"
+                order="3"
+                id="ewn-extinguish-v-02767855-03"
+                n="1"
+                synset="ewn-02767855-v"
+                dc:identifier="extinguish%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-extinction-n-00230801-01"/>
+            <!-- extinguishing, extinction, quenching -->
+            <SenseRelation relType="derivation" target="ewn-extinguisher-n-03350683-02"/>
+            <!-- fire extinguisher, asphyxiator, extinguisher -->
+            <SenseRelation relType="derivation" target="ewn-extinguishing-n-00230801-02"/>
+            <!-- extinguishing, extinction, quenching -->
+            <SenseRelation relType="antonym" target="ewn-ignite-v-02765572-01"/>
+            <!-- light, ignite -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-fall-v">
+         <Lemma writtenForm="fall" partOfSpeech="v"/>
+         <Form writtenForm="fallen"/>
+         <Form writtenForm="fell"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-1"
+                tagCnt="4"
+                senseidx="0"
+                lexid="0"
+                sensekey="fall%2:43:00::"
+                order="3"
+                id="ewn-fall-v-02762779-03"
+                n="4"
+                synset="ewn-02762779-v"
+                dc:identifier="fall%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-precipitate-v">
+         <Lemma writtenForm="precipitate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="precipitate%2:43:00::"
+                order="1"
+                id="ewn-precipitate-v-02762779-01"
+                n="2"
+                synset="ewn-02762779-v"
+                dc:identifier="precipitate%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-precipitation-n-13794793-01"/>
+            <!-- precipitation -->
+            <SenseRelation relType="derivation" target="ewn-precipitation-n-11515038-01"/>
+            <!-- precipitation, downfall -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-overcast-v">
+         <Lemma writtenForm="overcast" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="0"
+                lexid="0"
+                sensekey="overcast%2:43:00::"
+                order="1"
+                id="ewn-overcast-v-02776675-01"
+                n="0"
+                synset="ewn-02776675-v"
+                dc:identifier="overcast%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-overcast-n-14007953-02"/>
+            <!-- overcast, cloudiness -->
+            <SenseRelation relType="derivation" target="ewn-overcast-n-14547800-03"/>
+            <!-- overcast, cloud cover, cloudiness -->
+            <SenseRelation relType="antonym" target="ewn-clear_up-v-02777127-01"/>
+            <!-- clear, brighten, light up, clear up -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-pitter-patter-v">
+         <Lemma writtenForm="pitter-patter" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="pitter-patter%2:43:00::"
+                order="5"
+                id="ewn-pitter-patter-v-02763786-05"
+                n="0"
+                synset="ewn-02763786-v"
+                dc:identifier="pitter-patter%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-spat-v">
+         <Lemma writtenForm="spat" partOfSpeech="v"/>
+         <Form writtenForm="spatted"/>
+         <Form writtenForm="spatting"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="spat%2:43:00::"
+                order="1"
+                id="ewn-spat-v-02763140-01"
+                n="0"
+                synset="ewn-02763140-v"
+                dc:identifier="spat%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flame_up-v">
+         <Lemma writtenForm="flame up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="flame_up%2:43:00::"
+                order="2"
+                id="ewn-flame_up-v-02768764-02"
+                n="0"
+                synset="ewn-02768764-v"
+                dc:identifier="flame_up%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-flame-v-02768939-02"/>
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-drench-v">
+         <Lemma writtenForm="drench" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="drench%2:43:00::"
+                order="2"
+                id="ewn-drench-v-02777522-02"
+                n="0"
+                synset="ewn-02777522-v"
+                dc:identifier="drench%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sluice_down-v">
+         <Lemma writtenForm="sluice down" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-1 ewn-sb-4"
+                senseidx="0"
+                lexid="0"
+                sensekey="sluice_down%2:43:00::"
+                order="2"
+                id="ewn-sluice_down-v-02764357-02"
+                n="0"
+                synset="ewn-02764357-v"
+                dc:identifier="sluice_down%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-set_afire-v">
+         <Lemma writtenForm="set afire" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="set_afire%2:43:00::"
+                order="4"
+                id="ewn-set_afire-v-02766097-04"
+                n="0"
+                synset="ewn-02766097-v"
+                dc:identifier="set_afire%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-reflect-v">
+         <Lemma writtenForm="reflect" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="5"
+                senseidx="0"
+                lexid="0"
+                sensekey="reflect%2:43:00::"
+                order="1"
+                id="ewn-reflect-v-02771882-01"
+                n="3"
+                synset="ewn-02771882-v"
+                dc:identifier="reflect%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-reflective-a-02014978-01"/>
+            <!-- reflective -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-rekindle-v">
+         <Lemma writtenForm="rekindle" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="rekindle%2:43:00::"
+                order="1"
+                id="ewn-rekindle-v-02767552-01"
+                n="0"
+                synset="ewn-02767552-v"
+                dc:identifier="rekindle%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-emit-v">
+         <Lemma writtenForm="emit" partOfSpeech="v"/>
+         <Form writtenForm="emitted"/>
+         <Form writtenForm="emitting"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="emit%2:43:00::"
+                order="1"
+                id="ewn-emit-v-02773266-01"
+                n="1"
+                synset="ewn-02773266-v"
+                dc:identifier="emit%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-emission-n-01255647-01"/>
+            <!-- emanation, emission -->
+            <SenseRelation relType="derivation" target="ewn-emitter-n-03288738-01"/>
+            <!-- emitter -->
+            <SenseRelation relType="antonym" target="ewn-absorb-v-02771422-01"/>
+            <!-- absorb, take in -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-storm-v">
+         <Lemma writtenForm="storm" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="1"
+                sensekey="storm%2:43:01::"
+                order="1"
+                id="ewn-storm-v-02775858-01"
+                n="3"
+                synset="ewn-02775858-v"
+                dc:identifier="storm%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-storm-n-11482925-01"/>
+            <!-- violent storm, storm -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="1"
+                lexid="2"
+                sensekey="storm%2:43:02::"
+                order="1"
+                id="ewn-storm-v-02776128-01"
+                n="2"
+                synset="ewn-02776128-v"
+                dc:identifier="storm%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-storm-n-11482925-01"/>
+            <!-- violent storm, storm -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shine-v">
+         <Lemma writtenForm="shine" partOfSpeech="v"/>
+         <Form writtenForm="shone"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-21"
+                senseidx="0"
+                lexid="1"
+                sensekey="shine%2:43:01::"
+                order="1"
+                id="ewn-shine-v-02769241-01"
+                n="6"
+                synset="ewn-02769241-v"
+                dc:identifier="shine%2:43:03::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shine-n-04961131-03"/>
+            <!-- refulgence, shine, radiance, refulgency, effulgence, radiancy -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="6"
+                senseidx="1"
+                lexid="2"
+                sensekey="shine%2:43:02::"
+                order="1"
+                id="ewn-shine-v-02769698-01"
+                n="1"
+                synset="ewn-02769698-v"
+                dc:identifier="shine%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shine-n-04961131-03"/>
+            <!-- refulgence, shine, radiance, refulgency, effulgence, radiancy -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-8"
+                verbFrames="ewn-sb-1"
+                tagCnt="9"
+                senseidx="2"
+                lexid="3"
+                sensekey="shine%2:43:03::"
+                order="2"
+                id="ewn-shine-v-02771882-02"
+                n="0"
+                synset="ewn-02771882-v"
+                dc:identifier="shine%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shiner-n-09455894-01"/>
+            <!-- shiner -->
+            <SenseRelation relType="derivation" target="ewn-shine-n-04961131-03"/>
+            <!-- refulgence, shine, radiance, refulgency, effulgence, radiancy -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-bluster-v">
+         <Lemma writtenForm="bluster" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="bluster%2:43:00::"
+                order="1"
+                id="ewn-bluster-v-02776320-01"
+                n="0"
+                synset="ewn-02776320-v"
+                dc:identifier="bluster%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-bluster-n-11485696-01"/>
+            <!-- bluster -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-light_up-v">
+         <Lemma writtenForm="light up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="1"
+                sensekey="light_up%2:43:01::"
+                order="1"
+                id="ewn-light_up-v-02767187-01"
+                n="0"
+                synset="ewn-02767187-v"
+                dc:identifier="light_up%2:43:01::"
+                lexicalized="true"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="light_up%2:43:02::"
+                order="1"
+                id="ewn-light_up-v-02770080-01"
+                n="3"
+                synset="ewn-02770080-v"
+                dc:identifier="light_up%2:43:02::"
+                lexicalized="true"/>
+         <Sense verbFrames="ewn-sb-3 ewn-sb-1"
+                senseidx="2"
+                lexid="3"
+                sensekey="light_up%2:43:03::"
+                order="3"
+                id="ewn-light_up-v-02777127-03"
+                n="2"
+                synset="ewn-02777127-v"
+                dc:identifier="light_up%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-ice_over-v">
+         <Lemma writtenForm="ice over" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="ice_over%2:43:00::"
+                order="3"
+                id="ewn-ice_over-v-02764539-03"
+                n="0"
+                synset="ewn-02764539-v"
+                dc:identifier="ice_over%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sparkle-v">
+         <Lemma writtenForm="sparkle" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="1"
+                sensekey="sparkle%2:43:01::"
+                order="1"
+                id="ewn-sparkle-v-02772348-01"
+                n="0"
+                synset="ewn-02772348-v"
+                dc:identifier="sparkle%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-sparkle-n-04960121-05"/>
+            <!-- glister, scintillation, glitter, glisten, sparkle -->
+            <SenseRelation relType="derivation" target="ewn-sparkle-n-07427268-02"/>
+            <!-- glitter, coruscation, sparkle -->
+            <SenseRelation relType="derivation" target="ewn-sparkler-n-13393296-02"/>
+            <!-- sparkler, ice -->
+            <SenseRelation relType="derivation" target="ewn-sparkling-n-07426245-03"/>
+            <!-- scintillation, twinkle, sparkling -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="sparkle%2:43:02::"
+                order="2"
+                id="ewn-sparkle-v-02772645-02"
+                n="2"
+                synset="ewn-02772645-v"
+                dc:identifier="sparkle%2:43:02::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-sparkle-n-07427268-02"/>
+            <!-- glitter, coruscation, sparkle -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-thunder-v">
+         <Lemma writtenForm="thunder" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="thunder%2:43:00::"
+                order="1"
+                id="ewn-thunder-v-02776493-01"
+                n="2"
+                synset="ewn-02776493-v"
+                dc:identifier="thunder%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-thunder-n-07411955-01"/>
+            <!-- thunder -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flicker-v">
+         <Lemma writtenForm="flicker" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="flicker%2:43:00::"
+                order="1"
+                id="ewn-flicker-v-02769567-01"
+                n="1"
+                synset="ewn-02769567-v"
+                dc:identifier="flicker%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-flicker-n-07426910-01"/>
+            <!-- glint, flicker, spark -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-burn-v">
+         <Lemma writtenForm="burn" partOfSpeech="v"/>
+         <Form writtenForm="burnt"/>
+         <Sense verbTemplates="ewn-st-147"
+                verbFrames="ewn-sb-8 ewn-sb-11"
+                tagCnt="2"
+                senseidx="0"
+                lexid="1"
+                sensekey="burn%2:43:01::"
+                order="1"
+                id="ewn-burn-v-02768426-01"
+                n="4"
+                synset="ewn-02768426-v"
+                dc:identifier="burn%2:43:02::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-burnable-s-00475233-01"/>
+            <!-- ignitable, burnable, ignitible -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="10"
+                senseidx="1"
+                lexid="2"
+                sensekey="burn%2:43:02::"
+                order="1"
+                id="ewn-burn-v-02774832-01"
+                n="1"
+                synset="ewn-02774832-v"
+                dc:identifier="burn%2:43:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-come_down-v">
+         <Lemma writtenForm="come down" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="come_down%2:43:00::"
+                order="2"
+                id="ewn-come_down-v-02762779-02"
+                n="2"
+                synset="ewn-02762779-v"
+                dc:identifier="come_down%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-coruscate-v">
+         <Lemma writtenForm="coruscate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="coruscate%2:43:00::"
+                order="3"
+                id="ewn-coruscate-v-02772348-03"
+                n="0"
+                synset="ewn-02772348-v"
+                dc:identifier="coruscate%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-coruscant-s-00280484-02"/>
+            <!-- aglitter, coruscant, glittering, sparkly, glinting, glittery, fulgid, glistering, scintillating, scintillant -->
+            <SenseRelation relType="derivation" target="ewn-coruscation-n-07427268-03"/>
+            <!-- glitter, coruscation, sparkle -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sprinkle-v">
+         <Lemma writtenForm="sprinkle" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="sprinkle%2:43:00::"
+                order="1"
+                id="ewn-sprinkle-v-02763786-01"
+                n="2"
+                synset="ewn-02763786-v"
+                dc:identifier="sprinkle%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-sprinkle-n-11526585-02"/>
+            <!-- sprinkling, sprinkle, scattering -->
+            <SenseRelation relType="derivation" target="ewn-sprinkling-n-11526585-03"/>
+            <!-- sprinkling, sprinkle, scattering -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-pour-v">
+         <Lemma writtenForm="pour" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="pour%2:43:00::"
+                order="1"
+                id="ewn-pour-v-02763991-01"
+                n="5"
+                synset="ewn-02763991-v"
+                dc:identifier="pour%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-freeze-v">
+         <Lemma writtenForm="freeze" partOfSpeech="v"/>
+         <Form writtenForm="froze"/>
+         <Form writtenForm="frozen"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="freeze%2:43:00::"
+                order="1"
+                id="ewn-freeze-v-02764784-01"
+                n="5"
+                synset="ewn-02764784-v"
+                dc:identifier="freeze%2:43:10::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-freeze-n-11460617-01"/>
+            <!-- freeze, frost -->
+            <SenseRelation relType="derivation" target="ewn-freezing-n-13505847-02"/>
+            <!-- freezing, freeze -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-beam-v">
+         <Lemma writtenForm="beam" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="beam%2:43:00::"
+                order="2"
+                id="ewn-beam-v-02769698-02"
+                n="1"
+                synset="ewn-02769698-v"
+                dc:identifier="beam%2:43:03::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-beam-n-11448137-01"/>
+            <!-- shaft, shaft of light, beam of light, beam, ray of light, light beam, ray, irradiation -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-winkle-v">
+         <Lemma writtenForm="winkle" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="winkle%2:43:00::"
+                order="2"
+                id="ewn-winkle-v-02770723-02"
+                n="0"
+                synset="ewn-02770723-v"
+                dc:identifier="winkle%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sheet-v">
+         <Lemma writtenForm="sheet" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="sheet%2:43:00::"
+                order="1"
+                id="ewn-sheet-v-02764220-01"
+                n="0"
+                synset="ewn-02764220-v"
+                dc:identifier="sheet%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-rain-v">
+         <Lemma writtenForm="rain" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-11 ewn-sb-3"
+                tagCnt="13"
+                senseidx="0"
+                lexid="0"
+                sensekey="rain%2:43:00::"
+                order="1"
+                id="ewn-rain-v-02762516-01"
+                n="0"
+                synset="ewn-02762516-v"
+                dc:identifier="rain%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-rain-n-15033174-01"/>
+            <!-- rainwater, rain -->
+            <SenseRelation relType="derivation" target="ewn-rain-n-11521799-01"/>
+            <!-- rainfall, rain -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-set_on_fire-v">
+         <Lemma writtenForm="set on fire" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="set_on_fire%2:43:00::"
+                order="3"
+                id="ewn-set_on_fire-v-02766097-03"
+                n="0"
+                synset="ewn-02766097-v"
+                dc:identifier="set_on_fire%2:43:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-reignite-v">
+         <Lemma writtenForm="reignite" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="reignite%2:43:00::"
+                order="1"
+                id="ewn-reignite-v-02766302-01"
+                n="0"
+                synset="ewn-02766302-v"
+                dc:identifier="reignite%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-patter-v">
+         <Lemma writtenForm="patter" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="patter%2:43:00::"
+                order="4"
+                id="ewn-patter-v-02763786-04"
+                n="0"
+                synset="ewn-02763786-v"
+                dc:identifier="patter%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-haze-v">
+         <Lemma writtenForm="haze" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="haze%2:43:00::"
+                order="1"
+                id="ewn-haze-v-02778160-01"
+                n="0"
+                synset="ewn-02778160-v"
+                dc:identifier="haze%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-haze-n-11486287-01"/>
+            <!-- haze -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-rain_buckets-v">
+         <Lemma writtenForm="rain buckets" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="rain_buckets%2:43:00::"
+                order="5"
+                id="ewn-rain_buckets-v-02763991-05"
+                n="0"
+                synset="ewn-02763991-v"
+                dc:identifier="rain_buckets%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-plague-v">
+         <Lemma writtenForm="plague" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-10"
+                tagCnt="6"
+                senseidx="0"
+                lexid="0"
+                sensekey="plague%2:43:00::"
+                order="2"
+                id="ewn-plague-v-02777278-02"
+                n="0"
+                synset="ewn-02777278-v"
+                dc:identifier="plague%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-plague-n-08012854-02"/>
+            <!-- plague, infestation -->
+            <SenseRelation relType="derivation" target="ewn-plague-n-14099961-01"/>
+            <!-- plague, pest, pestilence -->
+            <SenseRelation relType="derivation" target="ewn-plague-n-14162173-01"/>
+            <!-- plague, pest, pestis, pestilence -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-frost_over-v">
+         <Lemma writtenForm="frost over" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="frost_over%2:43:00::"
+                order="2"
+                id="ewn-frost_over-v-02764539-02"
+                n="0"
+                synset="ewn-02764539-v"
+                dc:identifier="frost_over%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-steam-v">
+         <Lemma writtenForm="steam" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-2 ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="steam%2:43:00::"
+                order="1"
+                id="ewn-steam-v-02774537-01"
+                n="1"
+                synset="ewn-02774537-v"
+                dc:identifier="steam%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-drizzle-v">
+         <Lemma writtenForm="drizzle" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="drizzle%2:43:00::"
+                order="1"
+                id="ewn-drizzle-v-02763433-01"
+                n="0"
+                synset="ewn-02763433-v"
+                dc:identifier="drizzle%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-drizzle-n-11522740-01"/>
+            <!-- mizzle, drizzle -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-cloud-v">
+         <Lemma writtenForm="cloud" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="cloud%2:43:00::"
+                order="2"
+                id="ewn-cloud-v-02776675-02"
+                n="0"
+                synset="ewn-02776675-v"
+                dc:identifier="cloud%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-cloud-n-09270316-01"/>
+            <!-- cloud -->
+            <SenseRelation relType="derivation" target="ewn-clouding-n-13470739-01"/>
+            <!-- clouding up, clouding -->
+            <SenseRelation relType="also" target="ewn-cloud_over-v-02776978-02"/>
+            <!-- overcloud, cloud over, cloud up -->
+            <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/>
+            <!-- overcloud, cloud over, cloud up -->
+            <SenseRelation relType="also" target="ewn-cloud_over-v-02776978-02"/>
+            <!-- overcloud, cloud over, cloud up -->
+            <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/>
+            <!-- overcloud, cloud over, cloud up -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-black_out-v">
+         <Lemma writtenForm="black out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="black_out%2:43:00::"
+                order="1"
+                id="ewn-black_out-v-02768257-01"
+                n="0"
+                synset="ewn-02768257-v"
+                dc:identifier="black_out%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-suck-v">
+         <Lemma writtenForm="suck" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="0"
+                lexid="0"
+                sensekey="suck%2:43:00::"
+                order="1"
+                id="ewn-suck-v-02771650-01"
+                n="2"
+                synset="ewn-02771650-v"
+                dc:identifier="suck%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-suck-n-00844353-02"/>
+            <!-- suck, suction, sucking -->
+            <SenseRelation relType="derivation" target="ewn-suction-n-00844353-03"/>
+            <!-- suck, suction, sucking -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sluice-v">
+         <Lemma writtenForm="sluice" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-1 ewn-sb-4"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="sluice%2:43:00::"
+                order="1"
+                id="ewn-sluice-v-02764357-01"
+                n="0"
+                synset="ewn-02764357-v"
+                dc:identifier="sluice%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-sluice-n-04251507-01"/>
+            <!-- penstock, sluiceway, sluice -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-boom-v">
+         <Lemma writtenForm="boom" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122 ewn-st-135"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="boom%2:43:00::"
+                order="2"
+                id="ewn-boom-v-02776493-02"
+                n="2"
+                synset="ewn-02776493-v"
+                dc:identifier="boom%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-clear_up-v">
+         <Lemma writtenForm="clear up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="clear_up%2:43:00::"
+                order="1"
+                id="ewn-clear_up-v-02777127-01"
+                n="3"
+                synset="ewn-02777127-v"
+                dc:identifier="clear_up%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="antonym" target="ewn-overcast-v-02776675-01"/>
+            <!-- cloud, overcast -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-light-v">
+         <Lemma writtenForm="light" partOfSpeech="v"/>
+         <Form writtenForm="lit"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="light%2:43:00::"
+                order="2"
+                id="ewn-light-v-02765572-02"
+                n="3"
+                synset="ewn-02765572-v"
+                dc:identifier="light%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-light-n-03671917-02"/>
+            <!-- ignitor, igniter, light, lighter -->
+            <SenseRelation relType="derivation" target="ewn-lighter-n-15125928-03"/>
+            <!-- ignitor, igniter, lighter -->
+            <SenseRelation relType="derivation" target="ewn-lighter-n-03671917-01"/>
+            <!-- ignitor, igniter, light, lighter -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-spatter-v">
+         <Lemma writtenForm="spatter" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="spatter%2:43:00::"
+                order="3"
+                id="ewn-spatter-v-02763786-03"
+                n="1"
+                synset="ewn-02763786-v"
+                dc:identifier="spatter%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-overcloud-v">
+         <Lemma writtenForm="overcloud" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="overcloud%2:43:00::"
+                order="1"
+                id="ewn-overcloud-v-02776978-01"
+                n="0"
+                synset="ewn-02776978-v"
+                dc:identifier="overcloud%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-suck_in-v">
+         <Lemma writtenForm="suck in" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="suck_in%2:43:00::"
+                order="2"
+                id="ewn-suck_in-v-02771650-02"
+                n="1"
+                synset="ewn-02771650-v"
+                dc:identifier="suck_in%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-give_out-v">
+         <Lemma writtenForm="give out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="give_out%2:43:00::"
+                order="2"
+                id="ewn-give_out-v-02773266-02"
+                n="0"
+                synset="ewn-02773266-v"
+                dc:identifier="give_out%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-cloud_over-v">
+         <Lemma writtenForm="cloud over" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="cloud_over%2:43:00::"
+                order="2"
+                id="ewn-cloud_over-v-02776978-02"
+                n="0"
+                synset="ewn-02776978-v"
+                dc:identifier="cloud_over%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-cloud-v-02776675-02"/>
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-enkindle-v">
+         <Lemma writtenForm="enkindle" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="enkindle%2:43:00::"
+                order="2"
+                id="ewn-enkindle-v-02767330-02"
+                n="0"
+                synset="ewn-02767330-v"
+                dc:identifier="enkindle%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-opalesce-v">
+         <Lemma writtenForm="opalesce" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-8"
+                verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="opalesce%2:43:00::"
+                order="1"
+                id="ewn-opalesce-v-02771189-01"
+                n="0"
+                synset="ewn-02771189-v"
+                dc:identifier="opalesce%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-opalescent-s-00282886-03"/>
+            <!-- opalescent, iridescent, pearlescent, opaline, nacreous -->
+            <SenseRelation relType="derivation" target="ewn-opalescence-n-04960855-01"/>
+            <!-- iridescence, opalescence -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-glow-v">
+         <Lemma writtenForm="glow" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="glow%2:43:00::"
+                order="2"
+                id="ewn-glow-v-02774832-02"
+                n="2"
+                synset="ewn-02774832-v"
+                dc:identifier="glow%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-glow-n-11488186-02"/>
+            <!-- incandescence, glow -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-catch-v">
+         <Lemma writtenForm="catch" partOfSpeech="v"/>
+         <Form writtenForm="caught"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="catch%2:43:00::"
+                order="1"
+                id="ewn-catch-v-02767092-01"
+                n="19"
+                synset="ewn-02767092-v"
+                dc:identifier="catch%2:43:04::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-ice_up-v">
+         <Lemma writtenForm="ice up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="ice_up%2:43:00::"
+                order="1"
+                id="ewn-ice_up-v-02764539-01"
+                n="0"
+                synset="ewn-02764539-v"
+                dc:identifier="ice_up%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-stream-v">
+         <Lemma writtenForm="stream" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="stream%2:43:00::"
+                order="3"
+                id="ewn-stream-v-02763991-03"
+                n="3"
+                synset="ewn-02763991-v"
+                dc:identifier="stream%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-pelt-v">
+         <Lemma writtenForm="pelt" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="pelt%2:43:00::"
+                order="2"
+                id="ewn-pelt-v-02763991-02"
+                n="2"
+                synset="ewn-02763991-v"
+                dc:identifier="pelt%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-pelter-n-11522520-06"/>
+            <!-- torrent, cloudburst, waterspout, soaker, pelter, downpour, deluge -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-waft-v">
+         <Lemma writtenForm="waft" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-4"
+                senseidx="0"
+                lexid="0"
+                sensekey="waft%2:43:00::"
+                order="1"
+                id="ewn-waft-v-02775741-01"
+                n="1"
+                synset="ewn-02775741-v"
+                dc:identifier="waft%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-smoke-v">
+         <Lemma writtenForm="smoke" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="smoke%2:43:00::"
+                order="2"
+                id="ewn-smoke-v-02773880-02"
+                n="1"
+                synset="ewn-02773880-v"
+                dc:identifier="smoke%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-smoke-n-13578096-01"/>
+            <!-- smoke, smoking -->
+            <SenseRelation relType="derivation" target="ewn-smoke-n-11528510-01"/>
+            <!-- smoke, fume -->
+            <SenseRelation relType="derivation" target="ewn-smoking-n-13578096-02"/>
+            <!-- smoke, smoking -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-mirror-v">
+         <Lemma writtenForm="mirror" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-10 ewn-sb-11"
+                tagCnt="4"
+                senseidx="0"
+                lexid="0"
+                sensekey="mirror%2:43:00::"
+                order="1"
+                id="ewn-mirror-v-02772883-01"
+                n="0"
+                synset="ewn-02772883-v"
+                dc:identifier="mirror%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-mirror-n-05775242-01"/>
+            <!-- mirror -->
+            <SenseRelation relType="derivation" target="ewn-mirror-n-03778568-01"/>
+            <!-- mirror -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flick-v">
+         <Lemma writtenForm="flick" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="flick%2:43:00::"
+                order="2"
+                id="ewn-flick-v-02769567-02"
+                n="4"
+                synset="ewn-02769567-v"
+                dc:identifier="flick%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-take_in-v">
+         <Lemma writtenForm="take in" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="take_in%2:43:00::"
+                order="2"
+                id="ewn-take_in-v-02771422-02"
+                n="2"
+                synset="ewn-02771422-v"
+                dc:identifier="take_in%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-liquefy-v">
+         <Lemma writtenForm="liquefy" partOfSpeech="v"/>
+         <Form writtenForm="liquefied"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="liquefy%2:43:00::"
+                order="1"
+                id="ewn-liquefy-v-02763262-01"
+                n="0"
+                synset="ewn-02763262-v"
+                dc:identifier="liquefy%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-liquefiable-s-02269741-01"/>
+            <!-- liquefiable, liquifiable -->
+            <SenseRelation relType="derivation" target="ewn-liquefaction-n-13529854-01"/>
+            <!-- liquefaction -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-set_in-v">
+         <Lemma writtenForm="set in" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="set_in%2:43:00::"
+                order="1"
+                id="ewn-set_in-v-02775600-01"
+                n="1"
+                synset="ewn-02775600-v"
+                dc:identifier="set_in%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-rain_cats_and_dogs-v">
+         <Lemma writtenForm="rain cats and dogs" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="rain_cats_and_dogs%2:43:00::"
+                order="4"
+                id="ewn-rain_cats_and_dogs-v-02763991-04"
+                n="0"
+                synset="ewn-02763991-v"
+                dc:identifier="rain_cats_and_dogs%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-dry_out-v">
+         <Lemma writtenForm="dry out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="dry_out%2:43:00::"
+                order="2"
+                id="ewn-dry_out-v-02777714-02"
+                n="1"
+                synset="ewn-02777714-v"
+                dc:identifier="dry_out%2:43:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-cloud_up-v">
+         <Lemma writtenForm="cloud up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="cloud_up%2:43:00::"
+                order="3"
+                id="ewn-cloud_up-v-02776978-03"
+                n="0"
+                synset="ewn-02776978-v"
+                dc:identifier="cloud_up%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-cloud-v-02776675-02"/>
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shoot-v">
+         <Lemma writtenForm="shoot" partOfSpeech="v"/>
+         <Form writtenForm="shot"/>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="0"
+                lexid="0"
+                sensekey="shoot%2:43:00::"
+                order="1"
+                id="ewn-shoot-v-02774217-01"
+                n="9"
+                synset="ewn-02774217-v"
+                dc:identifier="shoot%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-glare-v">
+         <Lemma writtenForm="glare" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="glare%2:43:00::"
+                order="1"
+                id="ewn-glare-v-02771048-01"
+                n="1"
+                synset="ewn-02771048-v"
+                dc:identifier="glare%2:43:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-rain_down-v">
+         <Lemma writtenForm="rain down" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-11 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="rain_down%2:43:00::"
+                order="2"
+                id="ewn-rain_down-v-02762516-02"
+                n="0"
+                synset="ewn-02762516-v"
+                dc:identifier="rain_down%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-douse-v">
+         <Lemma writtenForm="douse" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="douse%2:43:00::"
+                order="1"
+                id="ewn-douse-v-02766453-01"
+                n="0"
+                synset="ewn-02766453-v"
+                dc:identifier="douse%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-swamp-v">
+         <Lemma writtenForm="swamp" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="swamp%2:43:00::"
+                order="1"
+                id="ewn-swamp-v-02777522-01"
+                n="0"
+                synset="ewn-02777522-v"
+                dc:identifier="swamp%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-swamp-n-09475525-01"/>
+            <!-- swampland, swamp -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-luminesce-v">
+         <Lemma writtenForm="luminesce" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="luminesce%2:43:00::"
+                order="1"
+                id="ewn-luminesce-v-02772181-01"
+                n="0"
+                synset="ewn-02772181-v"
+                dc:identifier="luminesce%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-luminescent-s-00273276-01"/>
+            <!-- luminescent -->
+            <SenseRelation relType="derivation" target="ewn-luminescence-n-11496830-01"/>
+            <!-- luminescence -->
+            <SenseRelation relType="derivation" target="ewn-luminescence-n-05025951-01"/>
+            <!-- glow, luminescence -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-conflagrate-v">
+         <Lemma writtenForm="conflagrate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="conflagrate%2:43:01::"
+                order="6"
+                id="ewn-conflagrate-v-02766580-06"
+                n="1"
+                synset="ewn-02766580-v"
+                dc:identifier="conflagrate%2:43:00::"
+                lexicalized="true"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="1"
+                lexid="2"
+                sensekey="conflagrate%2:43:02::"
+                order="3"
+                id="ewn-conflagrate-v-02767330-03"
+                n="0"
+                synset="ewn-02767330-v"
+                dc:identifier="conflagrate%2:43:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-squall-v">
+         <Lemma writtenForm="squall" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="squall%2:43:00::"
+                order="1"
+                id="ewn-squall-v-02775977-01"
+                n="2"
+                synset="ewn-02775977-v"
+                dc:identifier="squall%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-squall-n-11534441-01"/>
+            <!-- squall -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-sleet-v">
+         <Lemma writtenForm="sleet" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="sleet%2:43:00::"
+                order="1"
+                id="ewn-sleet-v-02765212-01"
+                n="0"
+                synset="ewn-02765212-v"
+                dc:identifier="sleet%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-sleet-n-11528369-01"/>
+            <!-- sleet -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-fume-v">
+         <Lemma writtenForm="fume" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="fume%2:43:00::"
+                order="1"
+                id="ewn-fume-v-02773880-01"
+                n="1"
+                synset="ewn-02773880-v"
+                dc:identifier="fume%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-fume-n-11528510-02"/>
+            <!-- smoke, fume -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shade-v">
+         <Lemma writtenForm="shade" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-9 ewn-sb-10 ewn-sb-11"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="shade%2:43:00::"
+                order="2"
+                id="ewn-shade-v-02774660-02"
+                n="0"
+                synset="ewn-02774660-v"
+                dc:identifier="shade%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shade-n-14008098-01"/>
+            <!-- shade, shadowiness, shadiness -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flare-v">
+         <Lemma writtenForm="flare" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="1"
+                sensekey="flare%2:43:01::"
+                order="1"
+                id="ewn-flare-v-02768764-01"
+                n="0"
+                synset="ewn-02768764-v"
+                dc:identifier="flare%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-flare-n-13503086-01"/>
+            <!-- flare -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="flare%2:43:02::"
+                order="1"
+                id="ewn-flare-v-02768939-01"
+                n="2"
+                synset="ewn-02768939-v"
+                dc:identifier="flare%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-flare-n-13503086-01"/>
+            <!-- flare -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-blow-v">
+         <Lemma writtenForm="blow" partOfSpeech="v"/>
+         <Form writtenForm="blew"/>
+         <Form writtenForm="blown"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-4 ewn-sb-3 ewn-sb-1"
+                tagCnt="5"
+                senseidx="0"
+                lexid="0"
+                sensekey="blow%2:43:00::"
+                order="1"
+                id="ewn-blow-v-02775199-01"
+                n="1"
+                synset="ewn-02775199-v"
+                dc:identifier="blow%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-blow-n-11485416-03"/>
+            <!-- blast, blow, gust -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shade_off-v">
+         <Lemma writtenForm="shade off" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-10 ewn-sb-9"
+                senseidx="0"
+                lexid="0"
+                sensekey="shade_off%2:43:00::"
+                order="3"
+                id="ewn-shade_off-v-02774660-03"
+                n="0"
+                synset="ewn-02774660-v"
+                dc:identifier="shade_off%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-ray-v">
+         <Lemma writtenForm="ray" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="0"
+                lexid="0"
+                sensekey="ray%2:43:00::"
+                order="1"
+                id="ewn-ray-v-02774389-01"
+                n="0"
+                synset="ewn-02774389-v"
+                dc:identifier="ray%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-ray-n-11448137-04"/>
+            <!-- shaft, shaft of light, beam of light, beam, ray of light, light beam, ray, irradiation -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-put_out-v">
+         <Lemma writtenForm="put out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="put_out%2:43:00::"
+                order="2"
+                id="ewn-put_out-v-02766453-02"
+                n="4"
+                synset="ewn-02766453-v"
+                dc:identifier="put_out%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-put-v-01496398-01"/>
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shadow-v">
+         <Lemma writtenForm="shadow" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-10 ewn-sb-9"
+                senseidx="0"
+                lexid="0"
+                sensekey="shadow%2:43:00::"
+                order="1"
+                id="ewn-shadow-v-02774660-01"
+                n="1"
+                synset="ewn-02774660-v"
+                dc:identifier="shadow%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-shadow-n-08663881-03"/>
+            <!-- dark, darkness, shadow -->
+            <SenseRelation relType="derivation" target="ewn-shadow-n-14008429-01"/>
+            <!-- shadow -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-fog_up-v">
+         <Lemma writtenForm="fog up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="fog_up%2:43:00::"
+                order="1"
+                id="ewn-fog_up-v-02777846-01"
+                n="0"
+                synset="ewn-02777846-v"
+                dc:identifier="fog_up%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-outshine-v">
+         <Lemma writtenForm="outshine" partOfSpeech="v"/>
+         <Form writtenForm="outshone"/>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="0"
+                lexid="0"
+                sensekey="outshine%2:43:00::"
+                order="1"
+                id="ewn-outshine-v-02769124-01"
+                n="0"
+                synset="ewn-02769124-v"
+                dc:identifier="outshine%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-snow-v">
+         <Lemma writtenForm="snow" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                tagCnt="10"
+                senseidx="0"
+                lexid="0"
+                sensekey="snow%2:43:00::"
+                order="1"
+                id="ewn-snow-v-02764935-01"
+                n="0"
+                synset="ewn-02764935-v"
+                dc:identifier="snow%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-snow-n-15068330-01"/>
+            <!-- snow -->
+            <SenseRelation relType="derivation" target="ewn-snow-n-11528800-01"/>
+            <!-- snow, snowfall -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-combust-v">
+         <Lemma writtenForm="combust" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="combust%2:43:01::"
+                order="5"
+                id="ewn-combust-v-02766580-05"
+                n="1"
+                synset="ewn-02766580-v"
+                dc:identifier="combust%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-combustible-a-00474982-01"/>
+            <!-- combustible -->
+            <SenseRelation relType="derivation" target="ewn-combustive-s-00475492-03"/>
+            <!-- comburant, comburent, combustive -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+                senseidx="1"
+                lexid="2"
+                sensekey="combust%2:43:02::"
+                order="2"
+                id="ewn-combust-v-02768426-02"
+                n="0"
+                synset="ewn-02768426-v"
+                dc:identifier="combust%2:43:02::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-combustible-a-00474982-01"/>
+            <!-- combustible -->
+            <SenseRelation relType="derivation" target="ewn-combustive-s-00475492-03"/>
+            <!-- comburant, comburent, combustive -->
+            <SenseRelation relType="derivation" target="ewn-combustion-n-00378877-02"/>
+            <!-- combustion, burning -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-spit-v">
+         <Lemma writtenForm="spit" partOfSpeech="v"/>
+         <Form writtenForm="spat"/>
+         <Form writtenForm="spitted"/>
+         <Form writtenForm="spitting"/>
+         <Sense verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="spit%2:43:00::"
+                order="2"
+                id="ewn-spit-v-02763786-02"
+                n="2"
+                synset="ewn-02763786-v"
+                dc:identifier="spit%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-char-v">
+         <Lemma writtenForm="char" partOfSpeech="v"/>
+         <Form writtenForm="charred"/>
+         <Form writtenForm="charring"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="char%2:43:00::"
+                order="1"
+                id="ewn-char-v-02777955-01"
+                n="0"
+                synset="ewn-02777955-v"
+                dc:identifier="char%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-char-n-14709333-01"/>
+            <!-- char -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-spark-v">
+         <Lemma writtenForm="spark" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="spark%2:43:00::"
+                order="1"
+                id="ewn-spark-v-02772645-01"
+                n="1"
+                synset="ewn-02772645-v"
+                dc:identifier="spark%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-spark-n-09465245-01"/>
+            <!-- spark -->
+            <SenseRelation relType="derivation" target="ewn-spark-n-11531956-02"/>
+            <!-- discharge, electric discharge, electric arc, spark, arc -->
+            <SenseRelation relType="derivation" target="ewn-spark-n-07426910-02"/>
+            <!-- glint, flicker, spark -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-kindle-v">
+         <Lemma writtenForm="kindle" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="1"
+                sensekey="kindle%2:43:01::"
+                order="1"
+                id="ewn-kindle-v-02767330-01"
+                n="1"
+                synset="ewn-02767330-v"
+                dc:identifier="kindle%2:43:00::"
+                lexicalized="true"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="kindle%2:43:02::"
+                order="1"
+                id="ewn-kindle-v-02767643-01"
+                n="0"
+                synset="ewn-02767643-v"
+                dc:identifier="kindle%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-kindling-n-15126153-01"/>
+            <!-- kindling, tinder, spunk, touchwood, punk -->
+            <SenseRelation relType="derivation" target="ewn-kindling-n-00379287-04"/>
+            <!-- kindling, firing, inflammation, ignition, lighting -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-scintillate-v">
+         <Lemma writtenForm="scintillate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="scintillate%2:43:01::"
+                order="3"
+                id="ewn-scintillate-v-02770723-03"
+                n="2"
+                synset="ewn-02770723-v"
+                dc:identifier="scintillate%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-scintillant-s-00280484-08"/>
+            <!-- aglitter, coruscant, glittering, sparkly, glinting, glittery, fulgid, glistering, scintillating, scintillant -->
+            <SenseRelation relType="derivation" target="ewn-scintillation-n-04778367-01"/>
+            <!-- scintillation -->
+            <SenseRelation relType="derivation" target="ewn-scintilla-n-09448916-01"/>
+            <!-- scintilla -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="scintillate%2:43:02::"
+                order="2"
+                id="ewn-scintillate-v-02772348-02"
+                n="1"
+                synset="ewn-02772348-v"
+                dc:identifier="scintillate%2:43:03::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-scintillant-s-00280484-08"/>
+            <!-- aglitter, coruscant, glittering, sparkly, glinting, glittery, fulgid, glistering, scintillating, scintillant -->
+            <SenseRelation relType="derivation" target="ewn-scintillation-n-04960121-04"/>
+            <!-- glister, scintillation, glitter, glisten, sparkle -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-11"
+                senseidx="2"
+                lexid="3"
+                sensekey="scintillate%2:43:03::"
+                order="1"
+                id="ewn-scintillate-v-02773718-01"
+                n="0"
+                synset="ewn-02773718-v"
+                dc:identifier="scintillate%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-scintillation-n-07426245-02"/>
+            <!-- scintillation, twinkle, sparkling -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-blow_out-v">
+         <Lemma writtenForm="blow out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="blow_out%2:43:01::"
+                order="1"
+                id="ewn-blow_out-v-02766970-01"
+                n="2"
+                synset="ewn-02766970-v"
+                dc:identifier="blow_out%2:43:01::"
+                lexicalized="true"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="1"
+                lexid="2"
+                sensekey="blow_out%2:43:02::"
+                order="2"
+                id="ewn-blow_out-v-02767855-02"
+                n="1"
+                synset="ewn-02767855-v"
+                dc:identifier="blow_out%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-inflame-v">
+         <Lemma writtenForm="inflame" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="1"
+                sensekey="inflame%2:43:01::"
+                order="4"
+                id="ewn-inflame-v-02767330-04"
+                n="2"
+                synset="ewn-02767330-v"
+                dc:identifier="inflame%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-inflammation-n-00379287-05"/>
+            <!-- kindling, firing, inflammation, ignition, lighting -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="inflame%2:43:02::"
+                order="2"
+                id="ewn-inflame-v-02767643-02"
+                n="1"
+                synset="ewn-02767643-v"
+                dc:identifier="inflame%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-inflammation-n-00379287-05"/>
+            <!-- kindling, firing, inflammation, ignition, lighting -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-gutter-v">
+         <Lemma writtenForm="gutter" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="gutter%2:43:00::"
+                order="1"
+                id="ewn-gutter-v-02775035-01"
+                n="0"
+                synset="ewn-02775035-v"
+                dc:identifier="gutter%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flame-v">
+         <Lemma writtenForm="flame" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="1"
+                sensekey="flame%2:43:01::"
+                order="1"
+                id="ewn-flame-v-02765401-01"
+                n="1"
+                synset="ewn-02765401-v"
+                dc:identifier="flame%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-flame-n-13502051-02"/>
+            <!-- flame, flaming, fire -->
+            <SenseRelation relType="derivation" target="ewn-flaming-n-13502051-03"/>
+            <!-- flame, flaming, fire -->
+         </Sense>
+         <Sense verbTemplates="ewn-st-149 ewn-st-150"
+                verbFrames="ewn-sb-1"
+                senseidx="1"
+                lexid="2"
+                sensekey="flame%2:43:02::"
+                order="2"
+                id="ewn-flame-v-02768939-02"
+                n="0"
+                synset="ewn-02768939-v"
+                dc:identifier="flame%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/>
+            <!-- blaze up, burn up, flame up, flare -->
+            <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/>
+            <!-- blaze up, burn up, flame up, flare -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-clear-v">
+         <Lemma writtenForm="clear" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-3 ewn-sb-1"
+                tagCnt="2"
+                senseidx="0"
+                lexid="0"
+                sensekey="clear%2:43:00::"
+                order="2"
+                id="ewn-clear-v-02777127-02"
+                n="2"
+                synset="ewn-02777127-v"
+                dc:identifier="clear%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-brighten-v">
+         <Lemma writtenForm="brighten" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1 ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="brighten%2:43:00::"
+                order="4"
+                id="ewn-brighten-v-02777127-04"
+                n="1"
+                synset="ewn-02777127-v"
+                dc:identifier="brighten%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-deflagrate-v">
+         <Lemma writtenForm="deflagrate" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="deflagrate%2:43:00::"
+                order="1"
+                id="ewn-deflagrate-v-02778268-01"
+                n="0"
+                synset="ewn-02778268-v"
+                dc:identifier="deflagrate%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-deflagration-n-13471590-01"/>
+            <!-- deflagration -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-burn_up-v">
+         <Lemma writtenForm="burn up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="burn_up%2:43:00::"
+                order="4"
+                id="ewn-burn_up-v-02768764-04"
+                n="0"
+                synset="ewn-02768764-v"
+                dc:identifier="burn_up%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-quench-v">
+         <Lemma writtenForm="quench" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="quench%2:43:00::"
+                order="4"
+                id="ewn-quench-v-02767855-04"
+                n="1"
+                synset="ewn-02767855-v"
+                dc:identifier="quench%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-quenching-n-00230801-03"/>
+            <!-- extinguishing, extinction, quenching -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-blight-v">
+         <Lemma writtenForm="blight" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-10"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="blight%2:43:00::"
+                order="1"
+                id="ewn-blight-v-02777278-01"
+                n="0"
+                synset="ewn-02777278-v"
+                dc:identifier="blight%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-blight-n-14238813-01"/>
+            <!-- blight -->
+            <SenseRelation relType="derivation" target="ewn-blight-n-14586446-01"/>
+            <!-- blight -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-hail-v">
+         <Lemma writtenForm="hail" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="hail%2:43:00::"
+                order="1"
+                id="ewn-hail-v-02765073-01"
+                n="4"
+                synset="ewn-02765073-v"
+                dc:identifier="hail%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-hail-n-11485929-01"/>
+            <!-- hail -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-run_dry-v">
+         <Lemma writtenForm="run dry" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="run_dry%2:43:00::"
+                order="1"
+                id="ewn-run_dry-v-02777714-01"
+                n="0"
+                synset="ewn-02777714-v"
+                dc:identifier="run_dry%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-mizzle-v">
+         <Lemma writtenForm="mizzle" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="mizzle%2:43:00::"
+                order="2"
+                id="ewn-mizzle-v-02763433-02"
+                n="0"
+                synset="ewn-02763433-v"
+                dc:identifier="mizzle%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-mizzle-n-11522740-02"/>
+            <!-- mizzle, drizzle -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-set_ablaze-v">
+         <Lemma writtenForm="set ablaze" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="set_ablaze%2:43:00::"
+                order="1"
+                id="ewn-set_ablaze-v-02766097-01"
+                n="0"
+                synset="ewn-02766097-v"
+                dc:identifier="set_ablaze%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-reek-v">
+         <Lemma writtenForm="reek" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="reek%2:43:00::"
+                order="1"
+                id="ewn-reek-v-02774078-01"
+                n="3"
+                synset="ewn-02774078-v"
+                dc:identifier="reek%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-coal-v">
+         <Lemma writtenForm="coal" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="coal%2:43:00::"
+                order="2"
+                id="ewn-coal-v-02777955-02"
+                n="0"
+                synset="ewn-02777955-v"
+                dc:identifier="coal%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-coal-n-14838786-01"/>
+            <!-- coal -->
+            <SenseRelation relType="derivation" target="ewn-coal-n-09296036-02"/>
+            <!-- coal, ember -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-twinkle-v">
+         <Lemma writtenForm="twinkle" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-8"
+                verbFrames="ewn-sb-1"
+                senseidx="0"
+                lexid="0"
+                sensekey="twinkle%2:43:00::"
+                order="1"
+                id="ewn-twinkle-v-02770723-01"
+                n="1"
+                synset="ewn-02770723-v"
+                dc:identifier="twinkle%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-twinkle-n-07426245-01"/>
+            <!-- scintillation, twinkle, sparkling -->
+            <SenseRelation relType="derivation" target="ewn-twinkler-n-09487616-01"/>
+            <!-- twinkler -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-absorb-v">
+         <Lemma writtenForm="absorb" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="absorb%2:43:00::"
+                order="1"
+                id="ewn-absorb-v-02771422-01"
+                n="5"
+                synset="ewn-02771422-v"
+                dc:identifier="absorb%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-absorptive-a-00006354-02"/>
+            <!-- absorbent, absorptive -->
+            <SenseRelation relType="derivation" target="ewn-absorbent-a-00006354-01"/>
+            <!-- absorbent, absorptive -->
+            <SenseRelation relType="derivation" target="ewn-absorbable-a-00008753-01"/>
+            <!-- absorbable -->
+            <SenseRelation relType="derivation" target="ewn-absorption-n-13445356-01"/>
+            <!-- absorption -->
+            <SenseRelation relType="antonym" target="ewn-emit-v-02773266-01"/>
+            <!-- give out, emit, give off -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-catch_fire-v">
+         <Lemma writtenForm="catch fire" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="catch_fire%2:43:00::"
+                order="3"
+                id="ewn-catch_fire-v-02766580-03"
+                n="0"
+                synset="ewn-02766580-v"
+                dc:identifier="catch_fire%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-snuff_out-v">
+         <Lemma writtenForm="snuff out" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                senseidx="0"
+                lexid="0"
+                sensekey="snuff_out%2:43:00::"
+                order="1"
+                id="ewn-snuff_out-v-02767855-01"
+                n="1"
+                synset="ewn-02767855-v"
+                dc:identifier="snuff_out%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-flare_up-v">
+         <Lemma writtenForm="flare up" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="flare_up%2:43:00::"
+                order="1"
+                id="ewn-flare_up-v-02770203-01"
+                n="0"
+                synset="ewn-02770203-v"
+                dc:identifier="flare_up%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-ignite-v">
+         <Lemma writtenForm="ignite" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
+                tagCnt="2"
+                senseidx="0"
+                lexid="1"
+                sensekey="ignite%2:43:01::"
+                order="1"
+                id="ewn-ignite-v-02765572-01"
+                n="0"
+                synset="ewn-02765572-v"
+                dc:identifier="ignite%2:43:00::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-ignitible-s-00475233-03"/>
+            <!-- ignitable, burnable, ignitible -->
+            <SenseRelation relType="derivation" target="ewn-ignitable-s-00475233-02"/>
+            <!-- ignitable, burnable, ignitible -->
+            <SenseRelation relType="derivation" target="ewn-ignition-n-13517076-01"/>
+            <!-- ignition -->
+            <SenseRelation relType="derivation" target="ewn-ignition-n-00379287-01"/>
+            <!-- kindling, firing, inflammation, ignition, lighting -->
+            <SenseRelation relType="derivation" target="ewn-igniter-n-15125928-01"/>
+            <!-- ignitor, igniter, lighter -->
+            <SenseRelation relType="derivation" target="ewn-igniter-n-03671917-03"/>
+            <!-- ignitor, igniter, light, lighter -->
+            <SenseRelation relType="derivation" target="ewn-ignitor-n-15125928-02"/>
+            <!-- ignitor, igniter, lighter -->
+            <SenseRelation relType="derivation" target="ewn-ignitor-n-03671917-04"/>
+            <!-- ignitor, igniter, light, lighter -->
+            <SenseRelation relType="antonym" target="ewn-extinguish-v-02767855-03"/>
+            <!-- extinguish, quench, blow out, snuff out -->
+         </Sense>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="1"
+                lexid="2"
+                sensekey="ignite%2:43:02::"
+                order="2"
+                id="ewn-ignite-v-02766580-02"
+                n="1"
+                synset="ewn-02766580-v"
+                dc:identifier="ignite%2:43:01::"
+                lexicalized="true">
+            <SenseRelation relType="derivation" target="ewn-ignitible-s-00475233-03"/>
+            <!-- ignitable, burnable, ignitible -->
+            <SenseRelation relType="derivation" target="ewn-ignitable-s-00475233-02"/>
+            <!-- ignitable, burnable, ignitible -->
+            <SenseRelation relType="derivation" target="ewn-ignition-n-00379287-01"/>
+            <!-- kindling, firing, inflammation, ignition, lighting -->
+         </Sense>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-erupt-v">
+         <Lemma writtenForm="erupt" partOfSpeech="v"/>
+         <Sense verbFrames="ewn-sb-1"
+                tagCnt="1"
+                senseidx="0"
+                lexid="0"
+                sensekey="erupt%2:43:00::"
+                order="1"
+                id="ewn-erupt-v-02766580-01"
+                n="2"
+                synset="ewn-02766580-v"
+                dc:identifier="erupt%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-shower_down-v">
+         <Lemma writtenForm="shower down" partOfSpeech="v"/>
+         <Sense verbTemplates="ewn-st-122"
+                verbFrames="ewn-sb-3"
+                senseidx="0"
+                lexid="0"
+                sensekey="shower_down%2:43:00::"
+                order="2"
+                id="ewn-shower_down-v-02763609-02"
+                n="0"
+                synset="ewn-02763609-v"
+                dc:identifier="shower_down%2:43:00::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <Synset id="ewn-02762516-v"
+              ili="i35464"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>precipitate as rain</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762779-v"/>
+         <!-- precipitate, come down, fall -->
+         <SynsetRelation relType="hyponym" target="ewn-02763433-v"/>
+         <!-- drizzle, mizzle -->
+         <SynsetRelation relType="hyponym" target="ewn-02763609-v"/>
+         <!-- shower down, shower -->
+         <SynsetRelation relType="hyponym" target="ewn-02763786-v"/>
+         <!-- spit, spatter, pitter-patter, patter, sprinkle -->
+         <SynsetRelation relType="hyponym" target="ewn-02763991-v"/>
+         <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
+         <SynsetRelation relType="is_entailed_by" target="ewn-02776128-v"/>
+         <!-- storm -->
+         <Example>"If it rains much more, we can expect some flooding"</Example>
+      </Synset>
+      <Synset id="ewn-02762779-v"
+              ili="i35465"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>fall from clouds</Definition>
+         <SynsetRelation relType="entails" target="ewn-00365521-v"/>
+         <!-- distill, condense, distil -->
+         <SynsetRelation relType="similar" target="ewn-01976312-v"/>
+         <!-- fall -->
+         <SynsetRelation relType="hyponym" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <SynsetRelation relType="hyponym" target="ewn-02763140-v"/>
+         <!-- spat -->
+         <SynsetRelation relType="hyponym" target="ewn-02764935-v"/>
+         <!-- snow -->
+         <SynsetRelation relType="hyponym" target="ewn-02765073-v"/>
+         <!-- hail -->
+         <SynsetRelation relType="hyponym" target="ewn-02765212-v"/>
+         <!-- sleet -->
+         <Example>"rain, snow and sleet were falling"</Example>
+         <Example>"Vesuvius precipitated its fiery, destructive rage on Herculaneum"</Example>
+      </Synset>
+      <Synset id="ewn-02763140-v"
+              ili="i35466"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>come down like raindrops</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762779-v"/>
+         <!-- precipitate, come down, fall -->
+         <Example>"Bullets were spatting down on us"</Example>
+      </Synset>
+      <Synset id="ewn-02763262-v"
+              ili="i35467"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become liquid</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00145958-v"/>
+         <!-- change state, turn -->
+         <Example>"The garden air overnight liquefied into a morning dew"</Example>
+      </Synset>
+      <Synset id="ewn-02763433-v"
+              ili="i35468"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>rain lightly</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <Example>"When it drizzles in summer, hiking can be pleasant"</Example>
+      </Synset>
+      <Synset id="ewn-02763609-v"
+              ili="i35469"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>rain abundantly</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <Example>"Meteors showered down over half of Australia"</Example>
+      </Synset>
+      <Synset id="ewn-02763786-v"
+              ili="i35470"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>rain gently</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <Example>"It has only sprinkled, but the roads are slick"</Example>
+      </Synset>
+      <Synset id="ewn-02763991-v"
+              ili="i35471"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>rain heavily</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <SynsetRelation relType="hyponym" target="ewn-02764220-v"/>
+         <!-- sheet -->
+         <SynsetRelation relType="hyponym" target="ewn-02764357-v"/>
+         <!-- sluice, sluice down -->
+         <Example>"Put on your rain coat-- it's pouring outside!"</Example>
+      </Synset>
+      <Synset id="ewn-02764220-v"
+              ili="i35472"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>come down as if in sheets</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02763991-v"/>
+         <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
+         <Example>"The rain was sheeting down during the monsoon"</Example>
+      </Synset>
+      <Synset id="ewn-02764357-v"
+              ili="i35473"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>pour as if from a sluice</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02763991-v"/>
+         <!-- pelt, rain buckets, rain cats and dogs, stream, pour -->
+         <Example>"An aggressive tide sluiced across the barrier reef"</Example>
+      </Synset>
+      <Synset id="ewn-02764539-v"
+              ili="i35474"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become covered with a layer of ice; of a surface such as a window</Definition>
+         <SynsetRelation relType="entails" target="ewn-02764784-v"/>
+         <!-- freeze -->
+         <SynsetRelation relType="hypernym" target="ewn-00109468-v"/>
+         <!-- change -->
+         <Example>"When the wings iced up, the pilot was forced to land his plane"</Example>
+      </Synset>
+      <Synset id="ewn-02764784-v"
+              ili="i35475"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be very cold, below the freezing point</Definition>
+         <SynsetRelation relType="is_entailed_by" target="ewn-02764539-v"/>
+         <!-- ice over, ice up, frost over -->
+         <Example>"It is freezing in Kalamazoo"</Example>
+      </Synset>
+      <Synset id="ewn-02764935-v"
+              ili="i35476"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>fall as snow</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762779-v"/>
+         <!-- precipitate, come down, fall -->
+         <Example>"It was snowing all night"</Example>
+      </Synset>
+      <Synset id="ewn-02765073-v"
+              ili="i35477"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>precipitate as small ice particles</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762779-v"/>
+         <!-- precipitate, come down, fall -->
+         <Example>"It hailed for an hour"</Example>
+      </Synset>
+      <Synset id="ewn-02765212-v"
+              ili="i35478"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>precipitate as a mixture of rain and snow</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02762779-v"/>
+         <!-- precipitate, come down, fall -->
+         <Example>"If the temperature rises above freezing, it will probably sleet"</Example>
+      </Synset>
+      <Synset id="ewn-02765401-v"
+              ili="i35479"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be in flames or aflame</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00377673-v"/>
+         <!-- combust, burn -->
+         <Example>"The sky seemed to flame in the Hawaiian sunset"</Example>
+      </Synset>
+      <Synset id="ewn-02765572-v"
+              ili="i35480"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cause to start burning; subject to fire or great heat</Definition>
+         <SynsetRelation relType="causes" target="ewn-00377673-v"/>
+         <!-- combust, burn -->
+         <SynsetRelation relType="hypernym" target="ewn-02768426-v"/>
+         <!-- combust, burn -->
+         <SynsetRelation relType="hyponym" target="ewn-01202519-v"/>
+         <!-- fire up, light, light up -->
+         <SynsetRelation relType="hyponym" target="ewn-02766302-v"/>
+         <!-- reignite -->
+         <SynsetRelation relType="hyponym" target="ewn-02767330-v"/>
+         <!-- conflagrate, enkindle, inflame, kindle -->
+         <SynsetRelation relType="hyponym" target="ewn-02770080-v"/>
+         <!-- light up -->
+         <SynsetRelation relType="hyponym" target="ewn-02770203-v"/>
+         <!-- flare up -->
+         <SynsetRelation relType="is_entailed_by" target="ewn-02766097-v"/>
+         <!-- set aflame, set afire, set on fire, set ablaze -->
+         <Example>"Great heat can ignite almost any dry matter"</Example>
+         <Example>"Light a cigarette"</Example>
+      </Synset>
+      <Synset id="ewn-02766097-v"
+              ili="i35481"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>set fire to; cause to start burning</Definition>
+         <SynsetRelation relType="entails" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <SynsetRelation relType="hypernym" target="ewn-02768426-v"/>
+         <!-- combust, burn -->
+         <Example>"Lightning set afire to the forest"</Example>
+      </Synset>
+      <Synset id="ewn-02766302-v"
+              ili="i35482"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>ignite anew, as of something burning</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <Example>"The strong winds reignited the cooling embers"</Example>
+      </Synset>
+      <Synset id="ewn-02766453-v"
+              ili="i35483"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>put out, as of a candle or a light</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02767855-v"/>
+         <!-- extinguish, quench, blow out, snuff out -->
+         <Example>"Douse the lights"</Example>
+      </Synset>
+      <Synset id="ewn-02766580-v"
+              ili="i35484"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>start to burn or burst into flames</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00145958-v"/>
+         <!-- change state, turn -->
+         <SynsetRelation relType="hyponym" target="ewn-02766970-v"/>
+         <!-- blow out -->
+         <SynsetRelation relType="hyponym" target="ewn-02767092-v"/>
+         <!-- catch -->
+         <SynsetRelation relType="hyponym" target="ewn-02767187-v"/>
+         <!-- light up -->
+         <SynsetRelation relType="similar" target="ewn-02768426-v"/>
+         <!-- combust, burn -->
+         <Example>"Marsh gases ignited suddenly"</Example>
+         <Example>"The oily rags combusted spontaneously"</Example>
+      </Synset>
+      <Synset id="ewn-02766970-v"
+              ili="i35485"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>erupt in an uncontrolled manner</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02766580-v"/>
+         <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
+         <Example>"The oil well blew out"</Example>
+      </Synset>
+      <Synset id="ewn-02767092-v"
+              ili="i35486"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>start burning</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02766580-v"/>
+         <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
+         <Example>"The fire caught"</Example>
+      </Synset>
+      <Synset id="ewn-02767187-v"
+              ili="i35487"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>start to burn with a bright flame</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02766580-v"/>
+         <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
+         <Example>"The coal in the BBQ grill finally lit up"</Example>
+      </Synset>
+      <Synset id="ewn-02767330-v"
+              ili="i35488"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cause to start burning</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <SynsetRelation relType="hyponym" target="ewn-02767552-v"/>
+         <!-- rekindle -->
+         <Example>"The setting sun kindled the sky with oranges and reds"</Example>
+      </Synset>
+      <Synset id="ewn-02767552-v"
+              ili="i35489"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>kindle anew, as of a fire</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02767330-v"/>
+         <!-- conflagrate, enkindle, inflame, kindle -->
+      </Synset>
+      <Synset id="ewn-02767643-v"
+              ili="i35490"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>catch fire</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02770203-v"/>
+         <!-- flare up -->
+         <Example>"The dried grass of the prairie kindled, spreading the flames for miles"</Example>
+      </Synset>
+      <Synset id="ewn-02767855-v"
+              ili="i35491"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>put out, as of fires, flames, or lights</Definition>
+         <SynsetRelation relType="hyponym" target="ewn-01213186-v"/>
+         <!-- stub -->
+         <SynsetRelation relType="hyponym" target="ewn-02766453-v"/>
+         <!-- put out, douse -->
+         <SynsetRelation relType="hyponym" target="ewn-02768257-v"/>
+         <!-- black out -->
+         <Example>"Too big to be extinguished at once, the forest fires at best could be contained"</Example>
+         <Example>"quench the flames"</Example>
+         <Example>"snuff out the candles"</Example>
+      </Synset>
+      <Synset id="ewn-02768257-v"
+              ili="i35492"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>obliterate or extinguish</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02767855-v"/>
+         <!-- extinguish, quench, blow out, snuff out -->
+         <Example>"Some life-forms were obliterated by the radiation, others survived"</Example>
+      </Synset>
+      <Synset id="ewn-02768426-v"
+              ili="i35493"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cause to burn or combust</Definition>
+         <SynsetRelation relType="causes" target="ewn-00377673-v"/>
+         <!-- combust, burn -->
+         <SynsetRelation relType="similar" target="ewn-02766580-v"/>
+         <!-- conflagrate, take fire, ignite, catch fire, erupt, combust -->
+         <SynsetRelation relType="hyponym" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <SynsetRelation relType="hyponym" target="ewn-02766097-v"/>
+         <!-- set aflame, set afire, set on fire, set ablaze -->
+         <SynsetRelation relType="hyponym" target="ewn-02777955-v"/>
+         <!-- char, coal -->
+         <SynsetRelation relType="hyponym" target="ewn-02778268-v"/>
+         <!-- deflagrate -->
+         <Example>"The sun burned off the fog"</Example>
+         <Example>"We combust coal and other fossil fuels"</Example>
+      </Synset>
+      <Synset id="ewn-02768764-v"
+              ili="i35494"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>burn brightly</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00377673-v"/>
+         <!-- combust, burn -->
+         <Example>"Every star seemed to flare with new intensity"</Example>
+      </Synset>
+      <Synset id="ewn-02768939-v"
+              ili="i35495"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine with a sudden light</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"The night sky flared with the massive bombardment"</Example>
+      </Synset>
+      <Synset id="ewn-02769124-v"
+              ili="i35496"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine brighter than</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"What star outshines the sun?"</Example>
+      </Synset>
+      <Synset id="ewn-02769241-v"
+              ili="i35497"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>throw or flash the light of (a lamp)</Definition>
+         <SynsetRelation relType="causes" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"Shine the light on that window, please"</Example>
+      </Synset>
+      <Synset id="ewn-02769408-v"
+              ili="i35498"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine with a weak or fitful light</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"Beech leaves shimmered in the moonlight"</Example>
+      </Synset>
+      <Synset id="ewn-02769567-v"
+              ili="i35499"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine unsteadily</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"The candle flickered"</Example>
+      </Synset>
+      <Synset id="ewn-02769698-v"
+              ili="i35500"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit light; be bright, as of the sun or a light</Definition>
+         <SynsetRelation relType="hyponym" target="ewn-02164751-v"/>
+         <!-- beat down -->
+         <SynsetRelation relType="hyponym" target="ewn-02164863-v"/>
+         <!-- beacon -->
+         <SynsetRelation relType="hyponym" target="ewn-02167103-v"/>
+         <!-- glare -->
+         <SynsetRelation relType="hyponym" target="ewn-02768939-v"/>
+         <!-- flame, flare -->
+         <SynsetRelation relType="hyponym" target="ewn-02769124-v"/>
+         <!-- outshine -->
+         <SynsetRelation relType="hyponym" target="ewn-02769408-v"/>
+         <!-- shimmer -->
+         <SynsetRelation relType="hyponym" target="ewn-02769567-v"/>
+         <!-- flick, flicker -->
+         <SynsetRelation relType="hyponym" target="ewn-02770572-v"/>
+         <!-- blaze -->
+         <SynsetRelation relType="hyponym" target="ewn-02770723-v"/>
+         <!-- scintillate, twinkle, winkle -->
+         <SynsetRelation relType="hyponym" target="ewn-02774832-v"/>
+         <!-- burn, glow -->
+         <SynsetRelation relType="is_caused_by" target="ewn-02769241-v"/>
+         <!-- shine -->
+         <Example>"The sun shone bright that day"</Example>
+         <Example>"The fire beamed on their faces"</Example>
+      </Synset>
+      <Synset id="ewn-02770080-v"
+              ili="i35501"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>ignite</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <Example>"The sky lit up quickly above the raging volcano"</Example>
+      </Synset>
+      <Synset id="ewn-02770203-v"
+              ili="i35502"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>ignite quickly and suddenly, especially after having died down</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02765572-v"/>
+         <!-- light, ignite -->
+         <SynsetRelation relType="hyponym" target="ewn-02767643-v"/>
+         <!-- inflame, kindle -->
+         <Example>"the fire flared up and died down once again"</Example>
+      </Synset>
+      <Synset id="ewn-02770396-v"
+              ili="i35503"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>burn brightly and intensely</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00377673-v"/>
+         <!-- combust, burn -->
+         <Example>"The summer sun alone can cause a pine to blaze"</Example>
+      </Synset>
+      <Synset id="ewn-02770572-v"
+              ili="i35504"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine brightly and intensively</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <Example>"Meteors blazed across the atmosphere"</Example>
+      </Synset>
+      <Synset id="ewn-02770723-v"
+              ili="i35505"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit or reflect light in a flickering manner</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <SynsetRelation relType="domain_topic" target="ewn-09262646-n"/>
+         <!-- celestial body, heavenly body -->
+         <SynsetRelation relType="similar" target="ewn-02773718-v"/>
+         <!-- scintillate -->
+         <Example>"Does a constellation twinkle more brightly than a single star?"</Example>
+      </Synset>
+      <Synset id="ewn-02771048-v"
+              ili="i35506"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be sharply reflected</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02771882-v"/>
+         <!-- shine, reflect -->
+         <Example>"The moon glared back at itself from the lake's surface"</Example>
+      </Synset>
+      <Synset id="ewn-02771189-v"
+              ili="i35507"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>reflect light or colors like an opal</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02771882-v"/>
+         <!-- shine, reflect -->
+         <Example>"Distant clouds opalesce like pale brocade"</Example>
+         <Example>"raindrops caught in a sunbeam seem to opalesce"</Example>
+      </Synset>
+      <Synset id="ewn-02771422-v"
+              ili="i35508"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>suck or take up or in</Definition>
+         <SynsetRelation relType="hyponym" target="ewn-02771650-v"/>
+         <!-- suck, suck in -->
+         <Example>"A black star absorbs all matter"</Example>
+      </Synset>
+      <Synset id="ewn-02771650-v"
+              ili="i35509"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>attract by using an inexorable force, inducement, etc.</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02771422-v"/>
+         <!-- absorb, take in -->
+         <Example>"The current boom in the economy sucked many workers in from abroad"</Example>
+      </Synset>
+      <Synset id="ewn-02771882-v"
+              ili="i35510"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be bright by reflecting or casting light</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <SynsetRelation relType="hyponym" target="ewn-02739328-v"/>
+         <!-- resplend -->
+         <SynsetRelation relType="hyponym" target="ewn-02771048-v"/>
+         <!-- glare -->
+         <SynsetRelation relType="hyponym" target="ewn-02771189-v"/>
+         <!-- opalesce -->
+         <SynsetRelation relType="hyponym" target="ewn-02772181-v"/>
+         <!-- luminesce -->
+         <SynsetRelation relType="hyponym" target="ewn-02772348-v"/>
+         <!-- scintillate, sparkle, coruscate -->
+         <Example>"Drive carefully--the wet road reflects"</Example>
+      </Synset>
+      <Synset id="ewn-02772181-v"
+              ili="i35511"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be or become luminescent; exhibit luminescence</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02771882-v"/>
+         <!-- shine, reflect -->
+      </Synset>
+      <Synset id="ewn-02772348-v"
+              ili="i35512"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>reflect brightly</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02771882-v"/>
+         <!-- shine, reflect -->
+         <Example>"Unquarried marble sparkled on the hillside"</Example>
+      </Synset>
+      <Synset id="ewn-02772645-v"
+              ili="i35513"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit or produce sparks</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"A high tension wire, brought down by a storm, can continue to spark"</Example>
+      </Synset>
+      <Synset id="ewn-02772883-v"
+              ili="i35514"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>reflect as if in a mirror</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02140736-v"/>
+         <!-- reflect, reverberate -->
+         <Example>"The smallest pond at night mirrors the firmament above"</Example>
+      </Synset>
+      <Synset id="ewn-02773074-v"
+              ili="i35515"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>send out rays or waves</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"The sun radiates heat"</Example>
+      </Synset>
+      <Synset id="ewn-02773266-v"
+              ili="i35516"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>give off, send forth, or discharge; as of light, heat, or radiation, vapor, etc.</Definition>
+         <SynsetRelation relType="hyponym" target="ewn-00292048-v"/>
+         <!-- effuse -->
+         <SynsetRelation relType="hyponym" target="ewn-02771882-v"/>
+         <!-- shine, reflect -->
+         <SynsetRelation relType="hyponym" target="ewn-02772645-v"/>
+         <!-- sparkle, spark -->
+         <SynsetRelation relType="hyponym" target="ewn-02773074-v"/>
+         <!-- radiate -->
+         <SynsetRelation relType="hyponym" target="ewn-02773718-v"/>
+         <!-- scintillate -->
+         <SynsetRelation relType="hyponym" target="ewn-02773880-v"/>
+         <!-- fume, smoke -->
+         <SynsetRelation relType="hyponym" target="ewn-02774078-v"/>
+         <!-- reek -->
+         <SynsetRelation relType="hyponym" target="ewn-02774217-v"/>
+         <!-- shoot -->
+         <SynsetRelation relType="hyponym" target="ewn-02774389-v"/>
+         <!-- ray -->
+         <SynsetRelation relType="hyponym" target="ewn-02774537-v"/>
+         <!-- steam -->
+         <Example>"The ozone layer blocks some harmful rays which the sun emits"</Example>
+      </Synset>
+      <Synset id="ewn-02773718-v"
+              ili="i35517"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>give off</Definition>
+         <SynsetRelation relType="similar" target="ewn-02770723-v"/>
+         <!-- scintillate, twinkle, winkle -->
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"the substance scintillated sparks and flashes"</Example>
+      </Synset>
+      <Synset id="ewn-02773880-v"
+              ili="i35518"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit a cloud of fine particles</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"The chimney was fuming"</Example>
+      </Synset>
+      <Synset id="ewn-02774078-v"
+              ili="i35519"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>give off smoke, fumes, warm vapour, steam, etc.</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"Marshes reeking in the sun"</Example>
+      </Synset>
+      <Synset id="ewn-02774217-v"
+              ili="i35520"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit (as light, flame, or fumes) suddenly and forcefully</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"The dragon shot fumes and flames out of its mouth"</Example>
+      </Synset>
+      <Synset id="ewn-02774389-v"
+              ili="i35521"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit as rays</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"That tower rays a laser beam for miles across the sky"</Example>
+      </Synset>
+      <Synset id="ewn-02774537-v"
+              ili="i35522"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>emit steam</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02773266-v"/>
+         <!-- give out, emit, give off -->
+         <Example>"The rain forest was literally steaming"</Example>
+      </Synset>
+      <Synset id="ewn-02774660-v"
+              ili="i35523"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cast a shadow over</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00312341-v"/>
+         <!-- darken -->
+      </Synset>
+      <Synset id="ewn-02774832-v"
+              ili="i35524"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>shine intensely, as if with heat</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02769698-v"/>
+         <!-- shine, beam -->
+         <SynsetRelation relType="hyponym" target="ewn-02775035-v"/>
+         <!-- gutter -->
+         <Example>"The coals were glowing in the dark"</Example>
+         <Example>"The candles were burning"</Example>
+      </Synset>
+      <Synset id="ewn-02775035-v"
+              ili="i35525"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>burn unsteadily, feebly, or low; flicker</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02774832-v"/>
+         <!-- burn, glow -->
+         <Example>"The cooling lava continued to gutter toward lower ground"</Example>
+      </Synset>
+      <Synset id="ewn-02775199-v"
+              ili="i35526"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be blowing or storming</Definition>
+         <SynsetRelation relType="hyponym" target="ewn-02775438-v"/>
+         <!-- breeze -->
+         <SynsetRelation relType="hyponym" target="ewn-02775600-v"/>
+         <!-- set in -->
+         <SynsetRelation relType="hyponym" target="ewn-02775741-v"/>
+         <!-- waft -->
+         <SynsetRelation relType="hyponym" target="ewn-02775858-v"/>
+         <!-- storm -->
+         <SynsetRelation relType="hyponym" target="ewn-02775977-v"/>
+         <!-- squall -->
+         <SynsetRelation relType="hyponym" target="ewn-02776320-v"/>
+         <!-- bluster -->
+         <Example>"The wind blew from the West"</Example>
+      </Synset>
+      <Synset id="ewn-02775438-v"
+              ili="i35527"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow gently and lightly</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <Example>"It breezes most evenings at the shore"</Example>
+      </Synset>
+      <Synset id="ewn-02775600-v"
+              ili="i35528"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow toward the shore</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <Example>"That gale could set in on us with the next high tide"</Example>
+      </Synset>
+      <Synset id="ewn-02775741-v"
+              ili="i35529"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow gently</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <Example>"A breeze wafted through the door"</Example>
+      </Synset>
+      <Synset id="ewn-02775858-v"
+              ili="i35530"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow hard</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <SynsetRelation relType="is_entailed_by" target="ewn-02776493-v"/>
+         <!-- thunder, boom -->
+         <Example>"It was storming all night"</Example>
+      </Synset>
+      <Synset id="ewn-02775977-v"
+              ili="i35531"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow in a squall</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <Example>"When it squalls, a prudent sailor reefs his sails"</Example>
+      </Synset>
+      <Synset id="ewn-02776128-v"
+              ili="i35532"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>rain, hail, or snow hard and be very windy, often with thunder or lightning</Definition>
+         <SynsetRelation relType="entails" target="ewn-02762516-v"/>
+         <!-- rain down, rain -->
+         <Example>"If it storms, we'll need shelter"</Example>
+      </Synset>
+      <Synset id="ewn-02776320-v"
+              ili="i35533"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>blow hard; be gusty, as of wind</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02775199-v"/>
+         <!-- blow -->
+         <Example>"A southeaster blustered onshore"</Example>
+         <Example>"The flames blustered"</Example>
+      </Synset>
+      <Synset id="ewn-02776493-v"
+              ili="i35534"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>be the case that thunder is being heard</Definition>
+         <SynsetRelation relType="entails" target="ewn-02775858-v"/>
+         <!-- storm -->
+         <Example>"Whenever it thunders, my dog crawls under the bed"</Example>
+      </Synset>
+      <Synset id="ewn-02776675-v"
+              ili="i35535"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>make overcast or cloudy</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00312341-v"/>
+         <!-- darken -->
+         <SynsetRelation relType="hyponym" target="ewn-02777846-v"/>
+         <!-- fog up -->
+         <SynsetRelation relType="hyponym" target="ewn-02778160-v"/>
+         <!-- haze -->
+         <Example>"Fall weather often overcasts our beaches"</Example>
+      </Synset>
+      <Synset id="ewn-02776978-v"
+              ili="i35536"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become covered with clouds</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00313162-v"/>
+         <!-- darken -->
+         <Example>"The sky clouded over"</Example>
+      </Synset>
+      <Synset id="ewn-02777127-v"
+              ili="i35537"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become clear</Definition>
+         <Example>"The sky cleared after the storm"</Example>
+      </Synset>
+      <Synset id="ewn-02777278-v"
+              ili="i35538"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cause to suffer a blight</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00260813-v"/>
+         <!-- smite, afflict -->
+         <Example>"Too much rain may blight the garden with mold"</Example>
+      </Synset>
+      <Synset id="ewn-02777522-v"
+              ili="i35539"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>drench or submerge or be drenched or submerged</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00217578-v"/>
+         <!-- flood -->
+         <Example>"The tsunami swamped every boat in the harbor"</Example>
+      </Synset>
+      <Synset id="ewn-02777714-v"
+              ili="i35540"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become empty of water</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-00219829-v"/>
+         <!-- dry out, dry -->
+         <Example>"The river runs dry in the summer"</Example>
+      </Synset>
+      <Synset id="ewn-02777846-v"
+              ili="i35541"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>get foggy</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02776675-v"/>
+         <!-- cloud, overcast -->
+         <Example>"The windshield fogged up"</Example>
+      </Synset>
+      <Synset id="ewn-02777955-v"
+              ili="i35542"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>burn to charcoal</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02768426-v"/>
+         <!-- combust, burn -->
+         <Example>"Without a drenching rain, the forest fire will char everything"</Example>
+      </Synset>
+      <Synset id="ewn-02778160-v"
+              ili="i35543"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>become hazy, dull, or cloudy</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02776675-v"/>
+         <!-- cloud, overcast -->
+      </Synset>
+      <Synset id="ewn-02778268-v"
+              ili="i35544"
+              partOfSpeech="v"
+              dc:subject="verb.weather"
+              lexicalized="true">
+         <Definition>cause to burn rapidly and with great intensity</Definition>
+         <SynsetRelation relType="hypernym" target="ewn-02768426-v"/>
+         <!-- combust, burn -->
+         <Example>"care must be exercised when this substance is to be deflagrated"</Example>
+      </Synset>
+   </Lexicon>
+</LexicalResource>
