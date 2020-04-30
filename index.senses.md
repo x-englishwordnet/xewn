@@ -40,7 +40,7 @@ Here are the differences:
 ### examples
 
 
-	line	line entry 									synset ref (for ease of reference)
+	line	line entry 					synset ref (for ease of reference)
 
 S H A K E S P E A R E
 
