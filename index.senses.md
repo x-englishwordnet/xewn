@@ -1,4 +1,4 @@
-#WNDB index.sense
+# WNDB index.sense
 
 
 The index comes in 3 flavours:
@@ -15,21 +15,21 @@ Here are the differences:
 
 ---
 
-###index.sense
+### index.sense
 - all sensekeys are generated
 - if the sense is described as having case in the lemma form:
     - the lower-cased sensekey comes first
     - the cased sensekey comes immediately after
 - index lookup, if case-insensitive,  will presumably land on the first one
 
-###index.sense.cased
+### index.sense.cased
 - all sensekeys are generated
 - if the sense is described as having case in the lemma form,
   only the cased sensekey appears in the index
 - this is a one-one mapping between synset offset and sensekey
 - index lookup may be case-sensitive or case-insensitive 
 
-###index.sense.legacy
+### index.sense.legacy
 - all sensekeys are lower-cased and come from the *dc:identifier* attribute
 - they are not generated and any change reflects a decision on the lexicographer's side
 - they cannot serve as a measure of database stability
