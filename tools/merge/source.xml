@@ -5,7 +5,7 @@
 	xsi:schemaLocation="https://x-englishwordnet.github.io/ewn-validation/xEWN-LMF-1.10.xsd"
 	xmlns:dc="http://purl.org/dc/elements/1.1/" >
 
-	<Lexicon id="ewn"
+	<Lexicon id="xewn"
 		label="English WordNet"
 		language="en"
 		version="2019"

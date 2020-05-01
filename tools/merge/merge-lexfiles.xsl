@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ~ Copyright (c) 2020. Bernard Bou <1313ou@gmail.com>. -->
+
 <xsl:transform version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xsl:output method="xml" indent="yes" />
 
@@ -25,18 +28,18 @@
 			</xsl:for-each>
 		</xsl:message>
 
-		<LexicalResource 
-			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		<LexicalResource
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10.xsd"
 			xmlns:dc="http://purl.org/dc/elements/1.1/">
-			<Lexicon 
-				id="ewn" 
-				label="English WordNet" 
-				version="2019" 
-				language="en" 
-				email="john@mccr.ae" 
+			<Lexicon
+				id="ewn"
+				label="English WordNet"
+				version="2020"
+				language="en"
+				email="john@mccr.ae"
 				license="https://wordnet.princeton.edu/license-and-commercial-use"
-				url="https://github.com/globalwordnet/english-wordnet" 
+				url="https://github.com/globalwordnet/english-wordnet"
 				confidenceScore="1.0">
 
 				<!-- S Y N T A T I C B E H A V I O U R -->
