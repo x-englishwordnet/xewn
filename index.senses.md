@@ -4,7 +4,7 @@
 The index comes in 3 flavours:
 
 - index.sense
-- index.sense.cased
+- index.sense.pools
 - index.sense.legacy
 
 Most libraries and applications expect to find an **index.sense** file in the *dict* directory. 
@@ -17,17 +17,17 @@ Here are the differences:
 
 ### index.sense
 - all sensekeys are generated
+- if the sense is described as having case in the lemma form,
+  only the cased sensekey appears in the index
+- this is a one-one mapping between synset offset and sensekey
+- index lookup is case-sensitive but may be case-insensitive 
+
+### index.sense.pools
+- all sensekeys are generated
 - if the sense is described as having case in the lemma form:
     - the lower-cased sensekey comes first
     - the cased sensekey comes immediately after
 - index lookup, if case-insensitive,  will presumably land on the first one
-
-### index.sense.cased
-- all sensekeys are generated
-- if the sense is described as having case in the lemma form,
-  only the cased sensekey appears in the index
-- this is a one-one mapping between synset offset and sensekey
-- index lookup may be case-sensitive or case-insensitive 
 
 ### index.sense.legacy
 - all sensekeys are lower-cased and come from the *dc:identifier* attribute
@@ -41,94 +41,211 @@ Here are the differences:
 
 
 	line	line entry 					synset ref (for ease of reference)
-
+	
 S H A K E S P E A R E
 
+
 *index.sense*
 
-	207800:	shakespeare%1:18:00:: 11291779 0 11			A
-	207801:	Shakespeare%1:18:00:: 11291779 0 11			A
-	253441:	william_shakespeare%1:18:00:: 11291779 0 0	A
-	253442:	William_Shakespeare%1:18:00:: 11291779 0 0	A
-	
-*index.sense.cased*
+    33411:  Shakespeare%1:18:00:: 11291779 0 11      A
 
-	168804:	Shakespeare%1:18:00:: 11291779 0 11			A
-	208411:	William_Shakespeare%1:18:00:: 11291779 0 0	A
-	
+*index.sense.pools*
+    
+    168514: shakespeare%1:18:00:: 11291779 0 11      A
+
 *index.sense.legacy*
 
-	168779:	shakespeare%1:18:00:: 11291779 0 11			A
-	208379:	william_shakespeare%1:18:00:: 11291779 0 0	A
-	
+    168773: shakespeare%1:18:00:: 11291779 0 11      A
+
 B A R O Q U E
 
+
 *index.sense*
 
-	19777:	baroque%1:07:00:: 04691427 1 0						C
-	19778:	baroque%1:28:00:: 15238185 0 0				A
-	19779:	Baroque%1:28:00:: 15238185 0 0				A
-	19780:	baroque%3:01:00:: 02941399 1 0					B
-	19781:	Baroque%3:01:00:: 02941399 1 0					B
-	19782:	baroque%5:00:00:fancy:00 01773173 0 1					D
-	
-*index.sense.cased*
+    4338:  Baroque%1:28:00:: 15238185 0 0            A
+    4339:  Baroque%3:01:00:: 02941415 1 0            B
+    51398: baroque%1:07:00:: 04691427 1 0            C
+    51399: baroque%3:01:00:: 02941415 1 0            D
+    51400: baroque%5:00:00:fancy:00 01773174 0 1     E
 
-	15770:	baroque%1:07:00:: 04691427 1 0						C
-	15771:	Baroque%1:28:00:: 15238185 0 0				A
-	15772:	baroque%3:01:00:: 02941399 1 0					B
-	15773:	Baroque%3:01:00:: 02941399 1 0					B
-	15774:	baroque%5:00:00:fancy:00 01773173 0 1					D
-	
+*index.sense.pools*
+
+    15746: baroque%1:07:00:: 04691427 1 0            C
+    15747: baroque%1:28:00:: 15238185 0 0            A
+    15748: baroque%3:01:00:: 02941415 1 0            B + D
+    15749: baroque%5:00:00:fancy:00 01773174 0 1     E
+
 *index.sense.legacy*
 
-	15768:	baroque%1:07:00:: 04691427 1 0						C
-	15769:	baroque%1:28:00:: 15238185 0 0				A
-	15770:	baroque%3:01:00:: 02941399 1 0					B
-	15771:	baroque%5:00:00:fancy:00 01773173 0 1					D
-	
+    15768: baroque%1:07:00:: 04691427 1 0            C
+    15769: baroque%1:28:00:: 15238185 0 0            A
+    15770: baroque%3:01:00:: 02941415 1 0            B + D
+    15771: baroque%5:00:00:fancy:00 01773174 0 1     E
+
 E A R T H
 
 *index.sense*
 
-	69663:	earth%1:06:00:: 03460710 6 0				A
-	69664:	earth%1:09:00:: 05661297 5 0					B
-	69665:	earth%1:15:00:: 08565436 3 3						C
-	69666:	Earth%1:15:00:: 08565436 3 3						C
-	69667:	earth%1:17:00:: 09279481 0 51							D
-	69668:	Earth%1:17:00:: 09279481 0 51							D
-	69669:	earth%1:17:01:: 09279481 0 51							D
-	69670:	earth%1:17:02:: 09342355 2 20								E
-	69671:	earth%1:27:01:: 14822959 1 20									F
-	69672:	earth%1:27:02:: 14824363 4 0										G
-	69673:	earth%2:35:00:: 01290950 1 0											H
-	69674:	earth%2:39:00:: 02147436 0 0													I
-	
-*index.sense.cased*
+    11379: Earth%1:15:00:: 08565436 3 3              A
+    11380: Earth%1:17:00:: 09279481 0 51             B
+    86752: earth%1:06:00:: 03460710 6 0              C
+    86753: earth%1:09:00:: 05661297 5 0              D
+    86754: earth%1:15:00:: 08565436 3 3              E
+    86755: earth%1:17:01:: 09279481 0 51             F
+    86756: earth%1:17:02:: 09342355 2 20             G
+    86757: earth%1:27:01:: 14822959 1 20             H
+    86758: earth%1:27:02:: 14824363 4 0              I
+    86759: earth%2:35:00:: 01290951 1 0              J
+    86760: earth%2:39:00:: 02147437 0 0              K
 
-	58138:	earth%1:06:00:: 03460710 6 0				A
-	58139:	earth%1:09:00:: 05661297 5 0					B
-	58140:	earth%1:15:00:: 08565436 3 3						C
-	58141:	Earth%1:15:00:: 08565436 3 3						C
-	58142:	Earth%1:17:00:: 09279481 0 51							D
-	58143:	earth%1:17:01:: 09279481 0 51							D
-	58144:	earth%1:17:02:: 09342355 2 20								E
-	58145:	earth%1:27:01:: 14822959 1 20									F
-	58146:	earth%1:27:02:: 14824363 4 0										G
-	58147:	earth%2:35:00:: 01290950 1 0											H
-	58148:	arth%2:39:00:: 02147436 0 0												I
-	
+*index.sense.pools*
+
+    58044: earth%1:06:00:: 03460710 6 0              C
+    58045: earth%1:09:00:: 05661297 5 0              D
+    58046: earth%1:15:00:: 08565436 3 3              A + E
+    58047: earth%1:17:00:: 09279481 0 51             B
+    58048: earth%1:17:01:: 09279481 0 51             F
+    58049: earth%1:17:02:: 09342355 2 20             G
+    58050: earth%1:27:01:: 14822959 1 20             H
+    58051: earth%1:27:02:: 14824363 4 0              I
+    58052: earth%2:35:00:: 01290951 1 0              J
+    58053: earth%2:39:00:: 02147437 0 0              K
+
 *index.sense.legacy*
 
-	58131:	earth%1:06:00:: 03460710 6 0				A
-	58132:	earth%1:09:00:: 05661297 5 0					B
-	58133:	earth%1:15:00:: 08565436 3 3						C
-	58134:	earth%1:17:00:: 09279481 0 51							D
-	58135:	earth%1:17:01:: 09342355 2 20								E
-	58136:	earth%1:27:00:: 14822959 1 20									F
-	58137:	earth%1:27:01:: 14824363 4 0										G
-	58138:	earth%2:35:00:: 01290950 1 0											H
-	58139:	earth%2:39:00:: 02147436 0 0												I
-	
-	
-	
+    58131: earth%1:06:00:: 03460710 6 0              C
+    58132: earth%1:09:00:: 05661297 5 0              D
+    58133: earth%1:15:00:: 08565436 3 3              A + E
+    58134: earth%1:17:00:: 09279481 0 51             B
+    58135: earth%1:17:01:: 09342355 2 20             G
+    58136: earth%1:27:00:: 14822959 1 20             H
+    58137: earth%1:27:01:: 14824363 4 0              I
+    58138: earth%2:35:00:: 01290951 1 0              J
+    58139: earth%2:39:00:: 02147437 0 0              K
+
+K B
+
+*index.sense*
+
+    19718:  KB%1:23:01:: 13614693 2 0                A
+    19719:  KB%1:23:02:: 13614856 1 0                B
+    123840: kB%1:23:01:: 13614693 2 0                C
+    123841: kB%1:23:02:: 13614856 1 0                D
+    123986: kb%1:23:00:: 13614983 0 0                E
+
+*index.sense.pools*
+
+    103880: kb%1:23:00:: 13614983 0 0                E
+    103881: kb%1:23:01:: 13614693 2 0                A + C
+    103882: kb%1:23:02:: 13614856 1 0                B + D
+
+*index.sense.legacy*
+
+    104023: kb%1:23:00:: 13614693 2 0                A + C
+    104024: kb%1:23:02:: 13614856 1 0                B + D
+    104025: kb%1:23:04:: 13614983 0 0                E
+
+D O O M S D A Y
+
+*index.sense*
+
+    10974: Doomsday%1:28:00:: 15150947 0 0           A
+    84375: doomsday%1:11:00:: 07343761 1 0           B
+    84376: doomsday%1:28:00:: 15150947 0 0           C
+
+*index.sense.pools*
+
+    55308: doomsday%1:11:00:: 07343761 1 0           B
+    55309: doomsday%1:28:00:: 15150947 0 0           A + C
+
+*index.sense.legacy*
+
+    55395: doomsday%1:11:00:: 07343761 1 0           B
+    55396: doomsday%1:28:00:: 15150947 0 0           A + C
+
+B I B L E
+
+*index.sense*
+
+    4933:  Bible%1:10:00:: 06423727 0 13             A
+    53630: bible%1:10:00:: 06414639 1 0              B
+
+*index.sense.pools*
+
+    18575: bible%1:10:00:: 06423727 0 13 06414639 1 0    A + B
+
+*index.sense.legacy*
+
+    18601: bible%1:10:00:: 06423727 0 13             A
+    18602: bible%1:10:01:: 06414639 1 0              B
+
+B O O K
+
+*index.sense*
+
+    5292:  Book%1:10:01:: 06423727 8 0               A
+    5293:  Book%1:10:02:: 06454173 7 0               B
+    56733: book%1:06:01:: 02870146 1 10              C
+    56734: book%1:06:02:: 02870616 10 0              D
+    56735: book%1:10:01:: 06387073 9 0               E
+    56736: book%1:10:02:: 06403025 0 46              F
+    56737: book%1:10:03:: 06628953 2 2               G
+    56738: book%1:10:04:: 07020291 3 1               H
+    56739: book%1:14:01:: 07959883 6 0               I
+    56740: book%1:14:02:: 07960111 5 0               J
+    56741: book%1:21:00:: 13391813 4 0               K
+    56742: book%2:31:00:: 00678081 0 3               L
+    56743: book%2:41:01:: 02498534 2 1               M
+    56744: book%2:41:02:: 02498716 1 1               N
+    56745: book%2:41:03:: 02599988 3 0               O
+
+*index.sense.pools*
+
+    22046: book%1:06:01:: 02870146 1 10              C
+    22047: book%1:06:02:: 02870616 10 0              D
+    22048: book%1:10:01:: 06423727 8 0 06387073 9 0      A + E
+    22049: book%1:10:02:: 06403025 0 46 06454173 7 0     F + B
+    22050: book%1:10:03:: 06628953 2 2               G
+    22051: book%1:10:04:: 07020291 3 1               H
+    22052: book%1:14:01:: 07959883 6 0               I
+    22053: book%1:14:02:: 07960111 5 0               J
+    22054: book%1:21:00:: 13391813 4 0               K
+    22055: book%2:31:00:: 00678081 0 3               L
+    22056: book%2:41:01:: 02498534 2 1               M
+    22057: book%2:41:02:: 02498716 1 1               N
+    22058: book%2:41:03:: 02599988 3 0               O
+
+*index.sense.legacy*
+
+    22075: book%1:06:00:: 02870146 1 10              C
+    22076: book%1:06:02:: 02870616 10 0              D
+    22077: book%1:10:00:: 06403025 0 46              F + B
+    22078: book%1:10:01:: 07020291 3 1               H
+    22079: book%1:10:02:: 06628953 2 2               G
+    22080: book%1:10:03:: 06387073 9 0               E
+    22081: book%1:10:04:: 06423727 8 0               A + B
+    22082: book%1:10:05:: 06454173 7 0               B
+    22083: book%1:14:00:: 07959883 6 0               I
+    22084: book%1:14:01:: 07960111 5 0               J
+    22085: book%1:21:00:: 13391813 4 0               K
+    22086: book%2:31:00:: 00678081 0 3               L
+    22087: book%2:41:00:: 02498534 2 1               M
+    22088: book%2:41:01:: 02498716 1 1               N
+    22089: book%2:41:03:: 02599988 3 0               O
+
+W O R D N E T
+
+*index.sense*
+
+    39274:  WordNet%1:10:00:: 06631608 1 0           A
+    210332: wordnet%1:10:00:: 06631952 0 0           B
+
+*index.sense.pools*
+
+    209326: wordnet%1:10:00:: 06631952 0 0 06631608 1 0      A + B
+
+*index.sense.legacy*
+
+    209629: wordnet%1:10:00:: 06631608 1 0           A
+    209630: wordnet%1:10:01:: 06631952 0 0           B
+
