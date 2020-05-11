@@ -29,9 +29,9 @@
 			</xsl:message>
 		</xsl:if>
 
-		<xsl:variable name="pos" select="$sensenode[1]/../Lemma/@partOfSpeech" />
-		<!-- <xsl:variable name="lexfile" select="id($sensenode[1]/@synset)/@dc:subject" /> -->
-		<xsl:variable name="lexfile" select="key('find-synset-by-id',$sensenode[1]/@synset)/@dc:subject" />
+		<xsl:variable name="pos" select="$sensenode/../Lemma/@partOfSpeech" />
+		<!-- <xsl:variable name="lexfile" select="id($sensenode/@synset)/@dc:subject" /> -->
+		<xsl:variable name="lexfile" select="key('find-synset-by-id',$sensenode/@synset)/@dc:subject" />
 
 		<xsl:if test='$debug = true()'>
 			<xsl:message>

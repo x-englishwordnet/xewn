@@ -17,4 +17,4 @@ IN=$1
 # -sense		SENSEID
 # -offset		(n|v|a|r|s)		OFFSET
 
-java -cp ewn-grind.jar org.ewn.grind.Grinder1 "${IN}" $2 $3 $4
+java -ea -cp ewn-grind.jar org.ewn.grind.Grinder1 "${IN}" $2 $3 $4

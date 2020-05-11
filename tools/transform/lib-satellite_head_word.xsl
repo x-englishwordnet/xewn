@@ -78,7 +78,7 @@
 	<xsl:template name="is-satellite-head">
 		<xsl:param name="sensenode" />
 
-		<xsl:variable name="is_a" select="$sensenode[1]/../Lemma/@partOfSpeech='a'" />
+		<xsl:variable name="is_a" select="$sensenode/../Lemma/@partOfSpeech='a'" />
 		<xsl:variable name="antonym_relation" select="$sensenode/SenseRelation[@relType='antonym']" />
 		<xsl:variable name="is_head" select="$antonym_relation/@target != '' and $is_a" />
 

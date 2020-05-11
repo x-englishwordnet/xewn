@@ -946,7 +946,7 @@ deprecatively r 1 1 \ 1 0 00081173
 depressingly r 1 1 \ 1 0 00081254
 derisively r 1 1 \ 1 0 00297473
 derisorily r 1 0 1 0 00297473
-derp r 1 0 1 0 00512837
+derp r 1 0 1 0 00512923
 descriptively r 1 1 \ 1 0 00297657
 deservedly r 1 1 ! 1 0 00297796
 designedly r 1 0 1 0 00061520
@@ -3595,7 +3595,7 @@ so r 10 1 ;u 10 0 00145002 00117084 00145326 00145523 00145666 00119804 00145166
 so-so r 1 0 1 0 00054866
 so_far r 3 0 3 0 00027794 00097558 00028071
 so_to_speak r 2 0 2 0 00151133 00151237
-so_yeah r 1 1 ^ 1 0 00512904
+so_yeah r 1 1 ^ 1 0 00512990
 soaking r 1 0 1 0 00456795
 sobbingly r 1 0 1 0 00455745
 soberly r 1 1 \ 1 0 00181915
@@ -4006,7 +4006,7 @@ together_with r 1 1 ^ 1 0 00115890
 tolerably r 1 2 ! \ 1 0 00054866
 tolerantly r 1 2 ! \ 1 0 00376836
 tomorrow r 1 0 1 0 00474346
-tonally r 1 1 ^ 1 0 00512983
+tonally r 1 1 ^ 1 0 00513069
 tonelessly r 1 1 \ 1 0 00474435
 tongue-in-cheek r 2 0 2 0 00274352 00084295
 tonight r 1 0 1 0 00078143

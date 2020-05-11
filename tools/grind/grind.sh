@@ -12,5 +12,4 @@ if [ -z "$2" ]; then
 fi
 echo "DIR: $OUTDIR" 1>&2;
 
-java -jar ewn-grind.jar "${IN}" "${OUTDIR}" 
-
+java -ea -jar ewn-grind.jar "${IN}" "${OUTDIR}"

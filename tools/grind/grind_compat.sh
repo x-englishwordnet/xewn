@@ -16,5 +16,4 @@ if [ -z "$2" ]; then
 fi
 echo "DIR: $OUTDIR" 1>&2;
 
-java -jar ewn-grind.jar ${COMPAT_POINTER} ${COMPAT_LEXID} "${IN}" "${OUTDIR}"
-
+java -ea -jar ewn-grind.jar ${COMPAT_POINTER} ${COMPAT_LEXID} "${IN}" "${OUTDIR}"

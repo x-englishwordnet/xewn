@@ -9,6 +9,8 @@
 	<!-- L E X I D F A C T O R Y -->
 
 	<!-- Make lexid, dispatch as per one of three methods {legacy, nbased, idx} -->
+	<!-- Dispatcher -->
+
 	<xsl:template name="make-lexid">
 		<xsl:param name="sensenode" />
 		<xsl:param name="method" />
@@ -81,7 +83,7 @@
 	<xsl:template name="make-lexid-from-n">
 		<xsl:param name="sensenode" />
 
-		<xsl:variable name="numsenses" select="count($sensenode[1]/parent::LexicalEntry/Sense)" />
+		<xsl:variable name="numsenses" select="count($sensenode/parent::LexicalEntry/Sense)" />
 
 		<xsl:if test='$debug = true()'>
 			<xsl:message>
@@ -96,14 +98,14 @@
 		<xsl:choose>
 			<xsl:when test="$numsenses &gt; 1">
 				<xsl:variable name="minn">
-					<xsl:for-each select="$sensenode[1]/parent::LexicalEntry/Sense/@n">
+					<xsl:for-each select="$sensenode/parent::LexicalEntry/Sense/@n">
 						<xsl:sort select="." data-type="number" order="ascending" />
 						<xsl:if test="position() = 1">
 							<xsl:value-of select="number(.)" />
 						</xsl:if>
 					</xsl:for-each>
 				</xsl:variable>
-				<xsl:value-of select="$sensenode[1]/@n - $minn" />
+				<xsl:value-of select="$sensenode/@n - $minn" />
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:value-of select="0" />
@@ -117,8 +119,8 @@
 	<xsl:template name="make-lexid-from-idx">
 		<xsl:param name="sensenode" />
 
-		<xsl:variable name="senseid" select="$sensenode[1]/@id" />
-		<xsl:variable name="allsenses" select="$sensenode[1]/parent::LexicalEntry/Sense" />
+		<xsl:variable name="senseid" select="$sensenode/@id" />
+		<xsl:variable name="allsenses" select="$sensenode/parent::LexicalEntry/Sense" />
 		<xsl:variable name="numsenses" select="count($allsenses)" />
 
 		<xsl:if test='$debug = true()'>

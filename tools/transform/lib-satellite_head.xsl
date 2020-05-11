@@ -42,7 +42,7 @@
 				<xsl:variable name="synset_id" select="$sensenode/@synset" />
 				<!-- <xsl:variable name="synset" select="id($synset_id)" /> -->
 				<xsl:variable name="synset" select="key('find-synset-by-id',$synset_id)" />
-				<xsl:variable name="head_synset_id" select="$synset[1]/SynsetRelation[@relType='similar']/@target" />
+				<xsl:variable name="head_synset_id" select="$synset/SynsetRelation[@relType='similar']/@target" />
 				<xsl:variable name="head_senses" select="//Sense[@synset=$head_synset_id]" />
 
 				<xsl:if test='$debug'>
