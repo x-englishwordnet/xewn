@@ -9,7 +9,7 @@ The index comes in 3 flavours:
 
 Most libraries and applications expect to find an **index.sense** file in the *dict* directory. 
 
-In case of compatibility problems or because of your application's needs and requirements, you can rename either *index.sense.cased* or *index.sense.legacy* to default target *index.sense*.
+In case of compatibility problems or because of your application's needs and requirements, you can rename either *index.sense.pools* or *index.sense.legacy* to default target *index.sense*.
 
 Here are the differences:
 
@@ -17,30 +17,39 @@ Here are the differences:
 
 ### index.sense
 - all sensekeys are generated
+- sensekeys may have upper-case characters in the lemma part of the sensekey which follows the lemma's form in the lexical entry
+- there are as many sensekeys and lines as there are senses in the lexicographer's files
 - if the sense is described as having case in the lemma form,
   only the cased sensekey appears in the index
 - this is a one-one mapping between synset offset and sensekey
-- index lookup is case-sensitive but may be case-insensitive 
+- proper index lookup is case-sensitive
 
 ### index.sense.pools
 - all sensekeys are generated
-- if the sense is described as having case in the lemma form:
-    - the lower-cased sensekey comes first
-    - the cased sensekey comes immediately after
-- index lookup, if case-insensitive,  will presumably land on the first one
+- all sensekeys in the index are lower-cased
+- if the sense is described as having upper-case in the lemma form:
+    - only the lower-cased sensekey is present in the index
+    - the cased sensekey is not used in the index
+- index lookup, if case-sensitive,  has to lower-case the target
+- each line is uniquely indexed by its sensekey
+- in some cases a line may have multiple values grouped in a sense pool; this happens when lower-casing has the effect of merging two cased sensekeys into one and the values cannot be merged
+- taking into account the entries past the first one requires non-standard processing but parsing until this break point is reached is standard.
 
 ### index.sense.legacy
 - all sensekeys are lower-cased and come from the *dc:identifier* attribute
 - they are not generated and any change reflects a decision on the lexicographer's side
 - they cannot serve as a measure of database stability
 - this is not a one-one mapping between synset offset and sensekey
+- index lookup, if case-sensitive,  has to lower-case the target
+- each line is uniquely indexed by its sensekey
+- in some cases a line may have multiple values grouped in a sense pool; this happens when lower-casing has the effect of merging two cased sensekeys into one and the values cannot be merged
 
 ------------------
 
 ### examples
 
 
-	line	line entry 					synset ref (for ease of reference)
+	line	line entry 				synset ref (for ease of reference)
 	
 S H A K E S P E A R E
 
