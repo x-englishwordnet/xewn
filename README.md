@@ -11,7 +11,9 @@
 </p>
 
 
-*'Shadow'* English WordNet is a  fork of upstream  [globalwordnet/english-wordnet](https://github.com/globalwordnet/english-wordnet). Please note this independent initiative is not endorsed by the Global WordNet Association. This is the direction I would suggest taking, but by no means the one they'll take. Data issues should be referred to the upstream project.
+*'Shadow'* English WordNet can be thought of as a  fork of upstream  [globalwordnet/english-wordnet](https://github.com/globalwordnet/english-wordnet). But this is misleading as it does not live a life of its own. Rather, it brings extra data, tools and constraints to the core project. **The set of core data is exactly the same.**
+
+Please note this independent initiative is not endorsed by the Global WordNet Association. Data issues should be referred to the upstream project.
 
 ***
 
@@ -26,7 +28,7 @@ This project  is designed to produce a __transformed__ version of English Wordne
 
 ### Name space
 
-The project is due to migrate to a namespace of its own: https://github.com/x-englishwordnet/ with
+The project has migrated to a space of its own: https://github.com/x-englishwordnet/ with
 
 - [xewn](https://github.com/x-englishwordnet/xewn), the master project
 - [schemas](https://github.com/x-englishwordnet/schemas) 
