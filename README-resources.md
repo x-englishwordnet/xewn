@@ -2,7 +2,7 @@
 <img width="256" height="256" src="images/xewn2.png">
 </p>
 
-# X English WordNet Resources
+# X English WordNet - Resources
 
 <p>
 <sub>
@@ -10,9 +10,11 @@
 </sub>
 </p>
 
-English WordNet [home](https://github.com/globalwordnet/english-wordnet).
+EWN English WordNet [home](https://github.com/globalwordnet/english-wordnet).
 
-*'Shadow'* X-English WordNet [home](https://github.com/x-englishwordnet).
+XEWN *'Shadow'* X-English WordNet [home](https://github.com/x-englishwordnet).
+
+### Data
 
 XEWN [build chain and main entry point](https://github.com/x-englishwordnet/xewn).
 
@@ -24,7 +26,19 @@ XEWN [data in sqlite format](https://github.com/x-englishwordnet/sqlite)
 
 XEWN [XML schemas](https://github.com/x-englishwordnet/schemas)
 
-XEWN [XML grind](https://github.com/x-englishwordnet/grind)
+### Build Tools
+
+XEWN Transformation, Merging, Validation  [XML tools](https://github.com/w-englishwordnet/xml-transform-merge-validate)
+
+- Transformation (XSLT 1.0, Saxon XSLT 3.0)
+- Merging (Saxon XSLT 3.0)
+- Validation (XSLT 1.0, Woodstox)
+
+XEWN [XML to WNDB grind](https://github.com/x-englishwordnet/grind)
+
+SQLUNET [WNDB to SQL builder](https://sourceforge.net/projects/sqlunetbuilder/)
+
+### Libraries
 
 XEWN [XML jwi](https://github.com/x-englishwordnet/jwi)
 
@@ -37,13 +51,3 @@ EWN [XML beans](https://github.com/x-englishwordnet/ewn-xmlbeans)
 EWN [XML jaxb](https://github.com/x-englishwordnet/ewn-jaxb)
 
 Parse  [WNDB parse](https://github.com/x-englishwordnet/parse)
-
-Validation  [XML validation](https://github.com/1313ou/ewn-validate)
-
-Validation with Saxon [XML validation](https://github.com/1313ou/ewn-validate2)
-
-Transformation  [XML transformation](https://github.com/1313ou/ewn-transformation)
-
-Transformation  using Saxon [XML transformation](https://github.com/1313ou/ewn-transformation3)
-
-Merging using Saxon [XML transformation](https://github.com/1313ou/ewn-merging)

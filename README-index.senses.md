@@ -1,5 +1,8 @@
-# WNDB index.sense
+<p align="center">
+<img width="256" height="256" src="images/xewn2.png">
+</p>
 
+# WNDB index.sense
 
 The index comes in 3 flavours:
 
