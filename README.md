@@ -4,9 +4,9 @@
 
 # X English WordNet
 
-<p>
+<p align="center">
 <sub>
-<i>X</i> stands for '<b>trans</b>formed' (as in <i>xform</i>) or 'e<b>X</b>tended', so while it may be pronounced '<i>xoon</i>', it must be undertood as <b>XSLT-transformed and Extended English WordNet.</b>
+<i>X</i> stands for '<b>trans</b>formed' (as in <i>xform</i>) or 'e<b>X</b>tended'</b>
 </sub>
 </p>
 
@@ -17,16 +17,17 @@ Please note this independent initiative is not endorsed by the Global WordNet As
 
 ***
 
-This project  is designed to produce a __transformed__ version of English Wordnet data in the form of
+This project  is designed to produce a __transformed__ version of English WordNet data in the form of
 
 - augmented XML files in the __xsrc__ directory
 - WordNet-format data in the __wndb__ directory
+- SQL versions
 
 ***
 
 ![Dataflow1](images/dataflow1.png  "Dataflow")
 
-### Home space
+### Home
 
 The project has migrated to a space of its own: https://github.com/x-englishwordnet/ with
 
