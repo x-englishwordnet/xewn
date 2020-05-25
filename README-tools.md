@@ -6,14 +6,14 @@
 
 The tools' location:
 
-- [transforming, merging, validating](https://github.com/x-englishwordnet/transform-merge-validate)
+- [transforming, merging, validating](https://github.com/x-englishwordnet/xml-transform-merge-validate)
 - [ewn-grind](https://github.com/x-englishwordnet/grind)
 
 
 ### Transformer
 
-[ewn-transformation](https://github.com/x-englishwordnet/transform) 
-[ewn-transformation3](https://github.com/x-englishwordnet/transform3) 
+[ewn-transformation](https://github.com/x-englishwordnet/xml-transform-merge-validate/tree/master/transform) 
+[ewn-transformation3](https://github.com/x-englishwordnet/xml-transform-merge-validate/tree/master/transform3) 
 Transformations are expressed in XSLT 1.0 to make processing __declarative__, __versatile__. Transformations are __pipelined__.
 
 In some cases it is easier to declare transformations in XSLT 3.0. A Woodstox transformer is then used.
@@ -28,14 +28,14 @@ Generates a sensemap. Each line maps a sense id to its generated internal sensek
 
 ### Merge tool
 
-[ewn-merging](https://github.com/x-englishwordnet/merge) 
+[ewn-merging](https://github.com/x-englishwordnet/xml-transform-merge-validate/tree/master/merge) 
 XSLT merging of lexicographer files.
 Merges the XML files into one using XSLT 3.0-conformant Saxon 9.9 powerhouse transformer
 
 ### Validator
 
-[ewn-validation](https://github.com/x-englishwordnet/ewn-validate) 
-[ewn-validation2](https://github.com/x-englishwordnet/ewn-validate2) 
+[ewn-validation](https://github.com/x-englishwordnet/xml-transform-merge-validate/tree/master/validate) 
+[ewn-validation2](https://github.com/x-englishwordnet/xml-transform-merge-validate/tree/master/validate2) 
 Validation is based on XSD which permits fine-grained strict type validation.
 5 schemas are provided to validate each stage of the pipeline (see below)
 Types have been factored out.

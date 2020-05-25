@@ -28,7 +28,7 @@ XEWN [XML schemas](https://github.com/x-englishwordnet/schemas)
 
 ### Build Tools
 
-XEWN Transformation, Merging, Validation  [XML tools](https://github.com/w-englishwordnet/xml-transform-merge-validate)
+XEWN Transformation, Merging, Validation  [XML tools](https://github.com/x-englishwordnet/xml-transform-merge-validate)
 
 - Transformation (XSLT 1.0, Saxon XSLT 3.0)
 - Merging (Saxon XSLT 3.0)
@@ -42,11 +42,11 @@ SQLUNET [WNDB to SQL builder](https://sourceforge.net/projects/sqlunetbuilder/)
 
 XEWN [XML jwi](https://github.com/x-englishwordnet/jwi)
 
-XEWN [XML beans](https://github.com/x-englishwordnet/xewn-xmlbeans)
+XEWN [XML beans](https://github.com/x-englishwordnet/xewn-beans)
 
 XEWN [XML jaxb](https://github.com/x-englishwordnet/xewn-jaxb)
 
-EWN [XML beans](https://github.com/x-englishwordnet/ewn-xmlbeans)
+EWN [XML beans](https://github.com/x-englishwordnet/ewn-beans)
 
 EWN [XML jaxb](https://github.com/x-englishwordnet/ewn-jaxb)
 
