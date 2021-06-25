@@ -16,7 +16,16 @@ ISDIR="$3"
 
 echo -e "${MAGENTA}XSD: $XSD${RESET}" 1>&2;
 
-if [ "$ISDIR" == "-dir"  ]; then
+if [ "$DATA" == "-"  ]; then
+	shift # consume XSD
+	shift # consume -
+	echo -e "${CYAN}STDIN${RESET}" 1>&2;
+	#tmpfile=$(mktemp /tmp/ewn.XXXXXX)
+	#cat - > ${tmpfile}
+	#java -jar validator2-runnable.jar "$XSD" ${tmpfile} $*
+	#rm ${tmpfile}
+	java -jar validator2-runnable.jar "$XSD" - $*
+elif [ "$ISDIR" == "-dir"  ]; then
 	shift # consume XSD
 	shift # consume dir
 	shift # consume -dir

@@ -1,9 +1,9 @@
 UPSTREAM:
-commit 66a6736d2e8a8b7f6aa923f987d3bdc77120ab32
-Merge: e98f380 e07e810
+commit 12486ddae4e9f8601aedebd3ca5a6ab866807fc1
+Merge: 5768c7b 0132deb
 Author: John McCrae <john@mccr.ae>
-Date:   Thu Apr 16 19:48:28 2020 +0100
+Date:   Tue Jun 22 13:56:56 2021 +0100
 
-    Merge pull request #410 from globalwordnet/2020-release-candidate
+    Merge pull request #642 from globalwordnet/Issue-#235
     
-    2020 release candidate
+    Fixes #235
