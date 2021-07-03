@@ -27012,8 +27012,8 @@
               dc:subject="noun.process"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>a market situation in which the demand for a good disappears if its price is rised, and conversely, if the price of a good decreases, the demand becomes infinite. </Definition>
-         <ILIDefinition>a market situation in which the demand for a good disappears if its price is rised, and conversely, if the price of a good decreases, the demand becomes infinite. </ILIDefinition>
+         <Definition>a market situation in which the demand for a good disappears if its price is rised, and conversely, if the price of a good decreases, the demand becomes infinite.</Definition>
+         <ILIDefinition>a market situation in which the demand for a good disappears if its price is rised, and conversely, if the price of a good decreases, the demand becomes infinite.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13482365-n"/>
          <!-- demand -->
       </Synset>

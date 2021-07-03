@@ -2797,32 +2797,14 @@
                 verbFrames="ewn-sb-26"
                 tagCnt="57"
                 senseidx="0"
-                lexid="1"
-                sensekey="find%2:31:01::"
+                lexid="0"
+                sensekey="find%2:31:00::"
                 order="1"
                 id="ewn-find-v-00717144-01"
                 n="4"
                 synset="ewn-00717144-v"
                 dc:identifier="find%2:31:10::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-26"
-                tagCnt="29"
-                senseidx="1"
-                lexid="2"
-                sensekey="find%2:31:02::"
-                order="2"
-                id="ewn-find-v-00723361-02"
-                n="8"
-                synset="ewn-00723361-v"
-                dc:identifier="find%2:31:09::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-find-n-00043933-02"/>
-            <!-- uncovering, find, discovery -->
-            <SenseRelation relType="also" target="ewn-find_out-v-00600349-06"/>
-            <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
-            <SenseRelation relType="also" target="ewn-find_out-v-00600349-06"/>
-            <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
-         </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-rake_up-v">
          <Lemma writtenForm="rake up" partOfSpeech="v"/>
@@ -3869,7 +3851,7 @@
                 synset="ewn-00592510-v"
                 dc:identifier="see%2:31:01::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-26"
+         <Sense verbFrames="ewn-sb-26 ewn-sb-8"
                 tagCnt="40"
                 senseidx="1"
                 lexid="2"
@@ -3954,8 +3936,6 @@
             <!-- rule, prescript -->
             <SenseRelation relType="derivation" target="ewn-ruler-n-10560786-01"/>
             <!-- swayer, ruler -->
-            <SenseRelation relType="also" target="ewn-rule_out-v-02635471-02"/>
-            <!-- close out, preclude, rule out -->
             <SenseRelation relType="also" target="ewn-rule_out-v-02635471-02"/>
             <!-- close out, preclude, rule out -->
          </Sense>
@@ -6710,7 +6690,7 @@
       <LexicalEntry id="ewn-determine-v">
          <Lemma writtenForm="determine" partOfSpeech="v"/>
          <Sense verbTemplates="ewn-st-137"
-                verbFrames="ewn-sb-29 ewn-sb-8 ewn-sb-26"
+                verbFrames="ewn-sb-29 ewn-sb-26 ewn-sb-8"
                 tagCnt="9"
                 senseidx="0"
                 lexid="1"
@@ -7098,8 +7078,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-slip-n-00074648-01"/>
             <!-- slip, miscue, parapraxis, slip-up -->
-            <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/>
-            <!-- stumble, slip up, trip up -->
             <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/>
             <!-- stumble, slip up, trip up -->
          </Sense>
@@ -9599,8 +9577,6 @@
             <!-- subtract, take off, deduct -->
             <SenseRelation relType="also" target="ewn-add_up-v-02651091-03"/>
             <!-- add up, amount, total, number, come -->
-            <SenseRelation relType="also" target="ewn-add_up-v-02651091-03"/>
-            <!-- add up, amount, total, number, come -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-prefer-v">
@@ -10722,9 +10698,7 @@
                 n="1"
                 synset="ewn-00600349-v"
                 dc:identifier="find_out%2:31:00::"
-                lexicalized="true">
-            <SenseRelation relType="also" target="ewn-find-v-00723361-02"/>
-         </Sense>
+                lexicalized="true"/>
          <Sense verbFrames="ewn-sb-9"
                 senseidx="1"
                 lexid="2"
@@ -13912,8 +13886,6 @@
             <!-- computer, estimator, calculator, reckoner, figurer -->
             <SenseRelation relType="derivation" target="ewn-reckoning-n-05810193-04"/>
             <!-- computation, calculation, figuring, reckoning -->
-            <SenseRelation relType="also" target="ewn-reckon-v-00714537-09"/>
-            <!-- bet, swear, bank, reckon, count, look, depend, rely, calculate -->
             <SenseRelation relType="also" target="ewn-reckon-v-00714537-09"/>
             <!-- bet, swear, bank, reckon, count, look, depend, rely, calculate -->
          </Sense>
@@ -17153,8 +17125,6 @@
             <!-- computation, calculation, figuring, reckoning -->
             <SenseRelation relType="also" target="ewn-figure_out-v-00636568-03"/>
             <!-- lick, figure out, puzzle out, solve, work, work out -->
-            <SenseRelation relType="also" target="ewn-figure_out-v-00636568-03"/>
-            <!-- lick, figure out, puzzle out, solve, work, work out -->
          </Sense>
          <Sense verbFrames="ewn-sb-26 ewn-sb-8"
                 tagCnt="20"
@@ -17587,10 +17557,6 @@
             <!-- memory -->
             <SenseRelation relType="derivation" target="ewn-memory-n-05768199-01"/>
             <!-- remembering, memory -->
-            <SenseRelation relType="derivation" target="ewn-memory-n-05943778-01"/>
-            <!-- memory -->
-            <SenseRelation relType="derivation" target="ewn-memory-n-05768199-01"/>
-            <!-- remembering, memory -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-dictate-v">
@@ -17704,10 +17670,6 @@
             <!-- idea, estimate, estimation, approximation -->
             <SenseRelation relType="derivation" target="ewn-estimation-n-00876924-02"/>
             <!-- estimate, estimation -->
-            <SenseRelation relType="also" target="ewn-overestimate-v-00673936-01"/>
-            <!-- overrate, overestimate -->
-            <SenseRelation relType="also" target="ewn-underestimate-v-00675685-02"/>
-            <!-- lowball, underestimate -->
             <SenseRelation relType="also" target="ewn-overestimate-v-00673936-01"/>
             <!-- overrate, overestimate -->
             <SenseRelation relType="also" target="ewn-underestimate-v-00675685-02"/>
@@ -18118,8 +18080,6 @@
             <!-- think -->
             <SenseRelation relType="also" target="ewn-think_back-v-00612810-02"/>
             <!-- think back, remember -->
-            <SenseRelation relType="also" target="ewn-think_back-v-00612810-02"/>
-            <!-- think back, remember -->
          </Sense>
          <Sense verbTemplates="ewn-st-14"
                 verbFrames="ewn-sb-2"
@@ -18160,12 +18120,6 @@
             <!-- thinker -->
             <SenseRelation relType="derivation" target="ewn-thinking-n-05778923-01"/>
             <!-- thinking, mentation, intellection, thought, cerebration, thought process -->
-            <SenseRelation relType="also" target="ewn-think_over-v-00632042-02"/>
-            <!-- ponder, mull over, think over, chew over, muse, mull, meditate, reflect, ruminate, contemplate, speculate, excogitate -->
-            <SenseRelation relType="also" target="ewn-think_out-v-00631551-01"/>
-            <!-- think out -->
-            <SenseRelation relType="also" target="ewn-think_up-v-01637684-01"/>
-            <!-- think of, concoct, dream up, think up, hatch -->
             <SenseRelation relType="also" target="ewn-think_over-v-00632042-02"/>
             <!-- ponder, mull over, think over, chew over, muse, mull, meditate, reflect, ruminate, contemplate, speculate, excogitate -->
             <SenseRelation relType="also" target="ewn-think_out-v-00631551-01"/>
@@ -18383,10 +18337,6 @@
             <!-- mystification, obfuscation, bafflement, bewilderment, befuddlement, bemusement, puzzlement -->
             <SenseRelation relType="derivation" target="ewn-puzzler-n-06797496-02"/>
             <!-- teaser, puzzler, puzzle, mystifier -->
-            <SenseRelation relType="also" target="ewn-puzzle_over-v-00623325-01"/>
-            <!-- puzzle over -->
-            <SenseRelation relType="also" target="ewn-puzzle_out-v-00636568-04"/>
-            <!-- lick, figure out, puzzle out, solve, work, work out -->
             <SenseRelation relType="also" target="ewn-puzzle_over-v-00623325-01"/>
             <!-- puzzle over -->
             <SenseRelation relType="also" target="ewn-puzzle_out-v-00636568-04"/>
@@ -19120,7 +19070,7 @@
       <LexicalEntry id="ewn-discover-v">
          <Lemma writtenForm="discover" partOfSpeech="v"/>
          <Sense verbTemplates="ewn-st-112"
-                verbFrames="ewn-sb-8 ewn-sb-26"
+                verbFrames="ewn-sb-26 ewn-sb-8"
                 tagCnt="21"
                 senseidx="0"
                 lexid="1"
@@ -19148,24 +19098,6 @@
                 synset="ewn-00654017-v"
                 dc:identifier="discover%2:31:03::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-26"
-                tagCnt="16"
-                senseidx="2"
-                lexid="3"
-                sensekey="discover%2:31:03::"
-                order="1"
-                id="ewn-discover-v-00723361-01"
-                n="3"
-                synset="ewn-00723361-v"
-                dc:identifier="discover%2:31:00::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-discovery-n-07229092-01"/>
-            <!-- discovery -->
-            <SenseRelation relType="derivation" target="ewn-discovery-n-05816226-01"/>
-            <!-- find, discovery, breakthrough -->
-            <SenseRelation relType="derivation" target="ewn-discovery-n-00043933-01"/>
-            <!-- uncovering, find, discovery -->
-         </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-recognize-v">
          <Lemma writtenForm="recognize" partOfSpeech="v"/>
@@ -21043,7 +20975,7 @@
             <SenseRelation relType="derivation" target="ewn-absorption-n-05708052-03"/>
             <!-- preoccupation, preoccupancy, absorption, engrossment -->
          </Sense>
-         <Sense verbFrames="ewn-sb-9 ewn-sb-20 ewn-sb-8"
+         <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-20"
                 tagCnt="1"
                 senseidx="1"
                 lexid="2"
@@ -21549,8 +21481,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-dwell_on-v-02646310-01"/>
             <!-- dwell on, linger over -->
-            <SenseRelation relType="also" target="ewn-dwell_on-v-02646310-01"/>
-            <!-- dwell on, linger over -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-except-v">
@@ -21643,8 +21573,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-construal-n-06755325-01"/>
             <!-- construal -->
-            <SenseRelation relType="also" target="ewn-construe_with-v-02666897-02"/>
-            <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
             <SenseRelation relType="also" target="ewn-construe_with-v-02666897-02"/>
             <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
          </Sense>
@@ -22869,8 +22797,6 @@
          <!-- catch, trip up -->
          <SynsetRelation relType="hyponym" target="ewn-00723226-v"/>
          <!-- ascertain -->
-         <SynsetRelation relType="hyponym" target="ewn-00723361-v"/>
-         <!-- discover, find -->
          <SynsetRelation relType="similar" target="ewn-02133338-v"/>
          <!-- witness, find, see -->
          <Example>"I learned that she has two grown-up children"</Example>
@@ -29772,31 +29698,12 @@
          <SynsetRelation relType="hyponym" target="ewn-00723813-v"/>
          <!-- price -->
       </Synset>
-      <Synset id="ewn-00723361-v"
-              ili="i25308"
-              partOfSpeech="v"
-              dc:subject="verb.cognition"
-              lexicalized="true">
-         <Definition>make a discovery</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00600349-v"/>
-         <!-- get a line, get wind, discover, learn, see, find out, hear, get word, pick up -->
-         <SynsetRelation relType="hyponym" target="ewn-00723679-v"/>
-         <!-- rake up -->
-         <SynsetRelation relType="hyponym" target="ewn-00723989-v"/>
-         <!-- ferret, ferret out -->
-         <SynsetRelation relType="similar" target="ewn-01641524-v"/>
-         <!-- discover, find -->
-         <Example>"She found that he had lied to her"</Example>
-         <Example>"The story is false, so far as I can discover"</Example>
-      </Synset>
       <Synset id="ewn-00723679-v"
               ili="i25309"
               partOfSpeech="v"
               dc:subject="verb.cognition"
               lexicalized="true">
          <Definition>bring to light</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00723361-v"/>
-         <!-- discover, find -->
          <Example>"He raked up the misdeeds of his predecessor"</Example>
       </Synset>
       <Synset id="ewn-00723813-v"
@@ -29815,8 +29722,6 @@
               dc:subject="verb.cognition"
               lexicalized="true">
          <Definition>search and discover through persistent investigation</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00723361-v"/>
-         <!-- discover, find -->
          <Example>"She ferreted out the truth"</Example>
       </Synset>
       <Synset id="ewn-00724156-v"

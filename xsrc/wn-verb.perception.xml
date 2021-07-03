@@ -1743,16 +1743,6 @@
                 synset="ewn-02139137-v"
                 dc:identifier="seem%2:39:01::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-28"
-                senseidx="2"
-                lexid="3"
-                sensekey="seem%2:39:03::"
-                order="1"
-                id="ewn-seem-v-02202748-01"
-                n="3"
-                synset="ewn-02202748-v"
-                dc:identifier="seem%2:39:02::"
-                lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-disguise-v">
          <Lemma writtenForm="disguise" partOfSpeech="v"/>
@@ -3236,8 +3226,6 @@
             <!-- sound -->
             <SenseRelation relType="also" target="ewn-sound_off-v-01654652-01"/>
             <!-- sound off, strike up -->
-            <SenseRelation relType="also" target="ewn-sound_off-v-01654652-01"/>
-            <!-- sound off, strike up -->
          </Sense>
          <Sense verbFrames="ewn-sb-8"
                 tagCnt="1"
@@ -3302,24 +3290,6 @@
             <!-- spectator, viewer, looker, witness, watcher -->
             <SenseRelation relType="derivation" target="ewn-look-n-00878805-01"/>
             <!-- look, looking at, looking -->
-            <SenseRelation relType="also" target="ewn-look_back-v-02136564-01"/>
-            <!-- look back, look backward -->
-            <SenseRelation relType="also" target="ewn-look_away-v-02136728-01"/>
-            <!-- look away -->
-            <SenseRelation relType="also" target="ewn-look_after-v-02171879-01"/>
-            <!-- look after -->
-            <SenseRelation relType="also" target="ewn-look_on-v-02133118-02"/>
-            <!-- look on, watch -->
-            <SenseRelation relType="also" target="ewn-look_up_to-v-01831800-02"/>
-            <!-- look up to, admire -->
-            <SenseRelation relType="also" target="ewn-look_for-v-01318273-03"/>
-            <!-- search, seek, look for -->
-            <SenseRelation relType="also" target="ewn-look_into-v-00663742-03"/>
-            <!-- check up on, look into, check out, check over, go over, check, check into, suss out -->
-            <SenseRelation relType="also" target="ewn-look_back-v-00698180-02"/>
-            <!-- look back, retrospect, review -->
-            <SenseRelation relType="also" target="ewn-look_up-v-00878614-03"/>
-            <!-- consult, look up, refer -->
             <SenseRelation relType="also" target="ewn-look_back-v-02136564-01"/>
             <!-- look back, look backward -->
             <SenseRelation relType="also" target="ewn-look_away-v-02136728-01"/>
@@ -4286,8 +4256,6 @@
             <!-- gong, chime, bell -->
             <SenseRelation relType="also" target="ewn-chime_in-v-00782236-01"/>
             <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
-            <SenseRelation relType="also" target="ewn-chime_in-v-00782236-01"/>
-            <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-rub-v">
@@ -4887,8 +4855,6 @@
             <!-- conceal, hide -->
             <SenseRelation relType="also" target="ewn-show_off-v-02146446-03"/>
             <!-- swank, flaunt, flash, ostentate, show off -->
-            <SenseRelation relType="also" target="ewn-show_off-v-02146446-03"/>
-            <!-- swank, flaunt, flash, ostentate, show off -->
          </Sense>
          <Sense verbTemplates="ewn-st-134"
                 verbFrames="ewn-sb-4 ewn-sb-1"
@@ -5427,8 +5393,6 @@
             <!-- scent, odour, olfactory property, odor, smell, aroma -->
             <SenseRelation relType="also" target="ewn-smell_up-v-02130487-02"/>
             <!-- stink up, stink out, smell up -->
-            <SenseRelation relType="also" target="ewn-smell_up-v-02130487-02"/>
-            <!-- stink up, stink out, smell up -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-1"
                 tagCnt="3"
@@ -5745,10 +5709,6 @@
             <!-- scent, odour, olfactory property, odor, smell, aroma -->
             <SenseRelation relType="derivation" target="ewn-odour-n-05721684-03"/>
             <!-- olfactory sensation, olfactory perception, odour, odor, smell -->
-            <SenseRelation relType="derivation" target="ewn-odor-n-05721684-02"/>
-            <!-- olfactory sensation, olfactory perception, odour, odor, smell -->
-            <SenseRelation relType="derivation" target="ewn-odor-n-04987257-04"/>
-            <!-- scent, odour, olfactory property, odor, smell, aroma -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-take_notice-v">
@@ -6176,10 +6136,6 @@
             <!-- stink up, stink out, smell up -->
             <SenseRelation relType="also" target="ewn-stink_out-v-02130487-03"/>
             <!-- stink up, stink out, smell up -->
-            <SenseRelation relType="also" target="ewn-stink_up-v-02130487-01"/>
-            <!-- stink up, stink out, smell up -->
-            <SenseRelation relType="also" target="ewn-stink_out-v-02130487-03"/>
-            <!-- stink up, stink out, smell up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-thump-v">
@@ -6256,8 +6212,6 @@
             <!-- sniffer -->
             <SenseRelation relType="also" target="ewn-sniff_out-v-02129925-01"/>
             <!-- smell out, sniff out, scent out, nose out -->
-            <SenseRelation relType="also" target="ewn-sniff_out-v-02129925-01"/>
-            <!-- smell out, sniff out, scent out, nose out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-cruise-v">
@@ -6322,7 +6276,7 @@
             <SenseRelation relType="derivation" target="ewn-watch-n-00882340-01"/>
             <!-- vigil, watch -->
          </Sense>
-         <Sense verbFrames="ewn-sb-9 ewn-sb-2 ewn-sb-8"
+         <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-2"
                 tagCnt="77"
                 senseidx="2"
                 lexid="3"
@@ -7664,8 +7618,6 @@
             <!-- hearing, listening -->
             <SenseRelation relType="also" target="ewn-listen_in-v-02194160-01"/>
             <!-- listen in, eavesdrop -->
-            <SenseRelation relType="also" target="ewn-listen_in-v-02194160-01"/>
-            <!-- listen in, eavesdrop -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
                 tagCnt="34"
@@ -8217,8 +8169,6 @@
             <!-- ring, tintinnabulation, ringing -->
             <SenseRelation relType="derivation" target="ewn-ringing-n-07406463-02"/>
             <!-- ring, tintinnabulation, ringing -->
-            <SenseRelation relType="also" target="ewn-ring_out-v-02180305-01"/>
-            <!-- ring out -->
             <SenseRelation relType="also" target="ewn-ring_out-v-02180305-01"/>
             <!-- ring out -->
          </Sense>
@@ -10555,8 +10505,6 @@
             <!-- nose -->
             <SenseRelation relType="also" target="ewn-nose_out-v-02129925-04"/>
             <!-- smell out, sniff out, scent out, nose out -->
-            <SenseRelation relType="also" target="ewn-nose_out-v-02129925-04"/>
-            <!-- smell out, sniff out, scent out, nose out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-project-v">
@@ -10811,12 +10759,6 @@
             <!-- rale, rattle, rattling -->
             <SenseRelation relType="derivation" target="ewn-rattling-n-07405840-02"/>
             <!-- rale, rattle, rattling -->
-            <SenseRelation relType="also" target="ewn-rattle_off-v-00947680-02"/>
-            <!-- rattle down, roll off, rattle off, spiel off, reel off -->
-            <SenseRelation relType="also" target="ewn-rattle_down-v-00947680-01"/>
-            <!-- rattle down, roll off, rattle off, spiel off, reel off -->
-            <SenseRelation relType="also" target="ewn-rattle_on-v-01039370-04"/>
-            <!-- yap away, yack away, yack, rattle on, jaw -->
             <SenseRelation relType="also" target="ewn-rattle_off-v-00947680-02"/>
             <!-- rattle down, roll off, rattle off, spiel off, reel off -->
             <SenseRelation relType="also" target="ewn-rattle_down-v-00947680-01"/>
@@ -11280,8 +11222,6 @@
             <!-- scent, odour, olfactory property, odor, smell, aroma -->
             <SenseRelation relType="derivation" target="ewn-scent-n-05722108-01"/>
             <!-- scent -->
-            <SenseRelation relType="also" target="ewn-scent_out-v-02129925-02"/>
-            <!-- smell out, sniff out, scent out, nose out -->
             <SenseRelation relType="also" target="ewn-scent_out-v-02129925-02"/>
             <!-- smell out, sniff out, scent out, nose out -->
          </Sense>
@@ -13305,6 +13245,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-mug-v">
          <Lemma writtenForm="mug" partOfSpeech="v"/>
+         <Form writtenForm="mugged"/>
+         <Form writtenForm="mugging"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"
@@ -13340,6 +13282,30 @@
                 n="2"
                 synset="ewn-90006181-v"
                 dc:identifier="stunt%2:39:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-burst_out-v">
+         <Lemma writtenForm="burst out" partOfSpeech="v"/>
+         <Sense senseidx="0"
+                lexid="0"
+                sensekey="burst_out%2:39:00::"
+                order="5"
+                id="ewn-burst_out-v-02161949-05"
+                n="3"
+                synset="ewn-02161949-v"
+                dc:identifier="burst_out%2:39:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-pop_out-v">
+         <Lemma writtenForm="pop out" partOfSpeech="v"/>
+         <Sense senseidx="0"
+                lexid="0"
+                sensekey="pop_out%2:39:00::"
+                order="4"
+                id="ewn-pop_out-v-02161949-04"
+                n="4"
+                synset="ewn-02161949-v"
+                dc:identifier="pop_out%2:39:02::"
                 lexicalized="true"/>
       </LexicalEntry>
       <Synset id="ewn-02110264-v"
@@ -14887,6 +14853,7 @@
          <!-- survey -->
          <SynsetRelation relType="is_entailed_by" target="ewn-02154940-v"/>
          <!-- watch -->
+         <SynsetRelation relType="hypernym" target="ewn-00033592-v"/>
          <Example>"She looked over the expanse of land"</Example>
          <Example>"Look at your child!"</Example>
          <Example>"Look--a deer in the backyard!"</Example>
@@ -15039,7 +15006,7 @@
               partOfSpeech="v"
               dc:subject="verb.perception"
               lexicalized="true">
-         <Definition>give a certain impression or have a certain outward aspect</Definition>
+         <Definition>give a certain impression of being something or having a certain aspect</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02610777-v"/>
          <!-- be -->
          <SynsetRelation relType="hyponym" target="ewn-02138515-v"/>
@@ -15118,11 +15085,9 @@
               partOfSpeech="v"
               dc:subject="verb.perception"
               lexicalized="true">
-         <Definition>seem to be true, probable, or apparent</Definition>
+         <Definition>(of a proposition) seem to be true, probable, or apparent</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02610777-v"/>
          <!-- be -->
-         <SynsetRelation relType="hyponym" target="ewn-02202748-v"/>
-         <!-- seem -->
          <Example>"It seems that he is very gifted"</Example>
          <Example>"It appears that the weather in California is very bad"</Example>
       </Synset>
@@ -16342,7 +16307,7 @@
               partOfSpeech="v"
               dc:subject="verb.perception"
               lexicalized="true">
-         <Definition>discover or determine the existence, presence, or fact of</Definition>
+         <Definition>discover or determine the existence, presence, or fact of by perception with the eyes</Definition>
          <SynsetRelation relType="similar" target="ewn-01641524-v"/>
          <!-- discover, find -->
          <SynsetRelation relType="hypernym" target="ewn-02168177-v"/>
@@ -16940,6 +16905,7 @@
          <Definition>throw a glance at; take a brief look at</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02134989-v"/>
          <!-- look -->
+         <SynsetRelation relType="hyponym" target="ewn-00008792-v"/>
          <Example>"She only glanced at the paper"</Example>
          <Example>"I only peeked--I didn't see anything interesting"</Example>
       </Synset>
@@ -18950,17 +18916,6 @@
          <!-- sound, go -->
          <Example>"The thunder rolled"</Example>
          <Example>"rolling drums"</Example>
-      </Synset>
-      <Synset id="ewn-02202748-v"
-              ili="i32747"
-              partOfSpeech="v"
-              dc:subject="verb.perception"
-              lexicalized="true">
-         <Definition>appear to one's own mind or opinion</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-02139137-v"/>
-         <!-- seem, appear -->
-         <Example>"I seem to be misunderstood by everyone"</Example>
-         <Example>"I can't seem to learn these Chinese characters"</Example>
       </Synset>
       <Synset id="ewn-02202937-v"
               ili="i32748"

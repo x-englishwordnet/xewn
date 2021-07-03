@@ -14,7 +14,7 @@ THISDIR=`dirname $(readlink -m "$0")`
 source ${THISDIR}/home.sh
 
 # in
-SRCDIR=${HOMEDIR}/src
+SRCDIR=${HOMEDIR}/src/xml
 
 # out
 XSRCDIR=${HOMEDIR}/xsrc

@@ -30133,8 +30133,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="ringlet%1:08:00::"
-                order="1"
-                id="ewn-ringlet-n-89143529-01"
+                order="2"
+                id="ewn-ringlet-n-89143529-02"
                 n="1"
                 synset="ewn-89143529-n"
                 dc:identifier="ringlet%1:08:00::"
@@ -30802,8 +30802,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="curl%1:08:00::"
-                order="1"
-                id="ewn-curl-n-89143529-01"
+                order="3"
+                id="ewn-curl-n-89143529-03"
                 n="2"
                 synset="ewn-89143529-n"
                 dc:identifier="curl%1:08:00::"
@@ -33179,8 +33179,6 @@
                 synset="ewn-05291631-n"
                 dc:identifier="maxillary%1:08:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-maxillary-a-02889451-01"/>
-            <!-- maxillary -->
             <SenseRelation relType="derivation" target="ewn-maxillary-a-02889451-01"/>
             <!-- maxillary -->
          </Sense>

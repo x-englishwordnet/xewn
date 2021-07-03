@@ -5243,7 +5243,7 @@
                 id="ewn-doomsday-n-15196354-11"
                 n="0"
                 synset="ewn-15196354-n"
-                dc:identifier="doomsday%1:28:00::"
+                dc:identifier="doomsday%1:28:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-mid-March-n">
@@ -23332,6 +23332,18 @@
                 dc:identifier="yuga%1:28:01::"
                 lexicalized="true"/>
       </LexicalEntry>
+      <LexicalEntry id="ewn-lang_syne-n">
+         <Lemma writtenForm="lang syne" partOfSpeech="n"/>
+         <Sense senseidx="0"
+                lexid="0"
+                sensekey="lang_syne%1:28:00::"
+                order="5"
+                id="ewn-lang_syne-n-15277446-05"
+                n="0"
+                synset="ewn-15277446-n"
+                dc:identifier="lang_syne%1:28:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
       <!-- time period, period, period of time -->
       <Synset id="ewn-15137796-n"
               ili="i116632"
@@ -37802,7 +37814,7 @@
          <ILIDefinition>the vector difference between the velocities of two bodies : the velocity of a body with respect to another regarded as being at rest.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-15307914-n"/>
          <!-- velocity, speed -->
-         <Example> The motion may have a different appearance as viewed from a different reference frame, but this can be explained by including the relative velocity of the reference frame in the description of the motion. </Example>
+         <Example>The motion may have a different appearance as viewed from a different reference frame, but this can be explained by including the relative velocity of the reference frame in the description of the motion.</Example>
       </Synset>
       <Synset id="ewn-92440807-n"
               ili="in"
@@ -37951,7 +37963,7 @@
          <SynsetRelation relType="holo_part" target="ewn-92440709-n"/>
          <SynsetRelation relType="hypernym" target="ewn-15179734-n"/>
          <!-- time unit, unit of time -->
-         <Example dc:source="https://en.wikipedia.org"> Like Summer, Spring, Winter and Autumn, each yuga involves stages or gradual changes which the earth and the consciousness of mankind goes through as a whole.</Example>
+         <Example dc:source="https://en.wikipedia.org">Like Summer, Spring, Winter and Autumn, each yuga involves stages or gradual changes which the earth and the consciousness of mankind goes through as a whole.</Example>
       </Synset>
    </Lexicon>
 </LexicalResource>

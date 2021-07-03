@@ -15353,7 +15353,7 @@
                 id="ewn-KB-n-13648977-04"
                 n="2"
                 synset="ewn-13648977-n"
-                dc:identifier="kb%1:23:00::"
+                dc:identifier="kb%1:23:05::"
                 lexicalized="true"/>
          <Sense senseidx="1"
                 lexid="2"
@@ -15362,7 +15362,7 @@
                 id="ewn-KB-n-13649142-03"
                 n="1"
                 synset="ewn-13649142-n"
-                dc:identifier="kb%1:23:02::"
+                dc:identifier="kb%1:23:06::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-KiB-n">
@@ -25181,8 +25181,6 @@
                 synset="ewn-13779389-n"
                 dc:identifier="stride%1:23:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-stride-v-01916702-01"/>
-            <!-- stride -->
             <SenseRelation relType="derivation" target="ewn-stride-v-01923704-01"/>
             <!-- stride -->
          </Sense>
@@ -45848,8 +45846,8 @@
               dc:subject="noun.quantity"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>as much as a tray will hold; enough to fill a tray. </Definition>
-         <ILIDefinition>as much as a tray will hold; enough to fill a tray. </ILIDefinition>
+         <Definition>as much as a tray will hold; enough to fill a tray.</Definition>
+         <ILIDefinition>as much as a tray will hold; enough to fill a tray.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13778265-n"/>
          <!-- containerful -->
       </Synset>
@@ -45999,8 +45997,8 @@
               dc:subject="noun.quantity"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>a unit of area measurement equivalent to 1 centimeter in length multiplied by 1 centimeter in width, where one centimeter equals 0.3937 inch. </Definition>
-         <ILIDefinition>a unit of area measurement equivalent to 1 centimeter in length multiplied by 1 centimeter in width, where one centimeter equals 0.3937 inch. </ILIDefinition>
+         <Definition>a unit of area measurement equivalent to 1 centimeter in length multiplied by 1 centimeter in width, where one centimeter equals 0.3937 inch.</Definition>
+         <ILIDefinition>a unit of area measurement equivalent to 1 centimeter in length multiplied by 1 centimeter in width, where one centimeter equals 0.3937 inch.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13621647-n"/>
          <!-- square measure, area unit -->
          <SynsetRelation relType="holo_part" target="ewn-13634537-n"/>
@@ -46115,8 +46113,8 @@
               dc:subject="noun.quantity"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>the minimum amount of classes a teacher has to conduct, as stated in his contract. </Definition>
-         <ILIDefinition>the minimum amount of classes a teacher has to conduct, as stated in his contract. </ILIDefinition>
+         <Definition>the minimum amount of classes a teacher has to conduct, as stated in his contract.</Definition>
+         <ILIDefinition>the minimum amount of classes a teacher has to conduct, as stated in his contract.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13620591-n"/>
          <!-- quota -->
       </Synset>

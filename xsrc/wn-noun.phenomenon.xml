@@ -3120,18 +3120,6 @@
                 dc:identifier="frost_snow%1:19:00::"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-hot_weather-n">
-         <Lemma writtenForm="hot weather" partOfSpeech="n"/>
-         <Sense senseidx="0"
-                lexid="0"
-                sensekey="hot_weather%1:19:00::"
-                order="1"
-                id="ewn-hot_weather-n-11487100-01"
-                n="0"
-                synset="ewn-11487100-n"
-                dc:identifier="hot_weather%1:19:00::"
-                lexicalized="true"/>
-      </LexicalEntry>
       <LexicalEntry id="ewn-chromatic_aberration-n">
          <Lemma writtenForm="chromatic aberration" partOfSpeech="n"/>
          <Sense senseidx="0"
@@ -17398,20 +17386,6 @@
          <!-- organic phenomenon -->
          <Example>"a successful graft or transplant requires a high degree of histocompatibility"</Example>
       </Synset>
-      <!-- hot weather -->
-      <Synset id="ewn-11487100-n"
-              ili="i97847"
-              partOfSpeech="n"
-              dc:subject="noun.phenomenon"
-              lexicalized="true">
-         <Definition>a period of unusually high temperatures</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-11545095-n"/>
-         <!-- conditions, weather condition, atmospheric condition, weather -->
-         <SynsetRelation relType="hyponym" target="ewn-11487233-n"/>
-         <!-- scorcher -->
-         <SynsetRelation relType="hyponym" target="ewn-11487308-n"/>
-         <!-- sultriness -->
-      </Synset>
       <!-- scorcher -->
       <Synset id="ewn-11487233-n"
               ili="i97848"
@@ -17419,8 +17393,6 @@
               dc:subject="noun.phenomenon"
               lexicalized="true">
          <Definition>an extremely hot day</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-11487100-n"/>
-         <!-- hot weather -->
       </Synset>
       <!-- sultriness -->
       <Synset id="ewn-11487308-n"
@@ -17429,8 +17401,6 @@
               dc:subject="noun.phenomenon"
               lexicalized="true">
          <Definition>oppressively hot and humid weather</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-11487100-n"/>
-         <!-- hot weather -->
       </Synset>
       <!-- hurricane -->
       <Synset id="ewn-11487417-n"
@@ -21283,8 +21253,6 @@
          <!-- cold weather -->
          <SynsetRelation relType="hyponym" target="ewn-11476879-n"/>
          <!-- fair weather, temperateness, sunshine -->
-         <SynsetRelation relType="hyponym" target="ewn-11487100-n"/>
-         <!-- hot weather -->
          <SynsetRelation relType="hyponym" target="ewn-11502540-n"/>
          <!-- thawing, thaw, warming -->
          <SynsetRelation relType="hyponym" target="ewn-11515038-n"/>
@@ -21627,8 +21595,8 @@
               dc:subject="noun.phenomenon"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>smoke that is a result of combusting the products made from dried  tobacco leaves, such as cigarettes.</Definition>
-         <ILIDefinition>smoke that is a result of combusting the products made from dried  tobacco leaves, such as cigarettes.</ILIDefinition>
+         <Definition>smoke that is a result of combusting the products made from dried tobacco leaves, such as cigarettes.</Definition>
+         <ILIDefinition>smoke that is a result of combusting the products made from dried tobacco leaves, such as cigarettes.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-11528510-n"/>
          <!-- smoke, fume -->
          <Example dc:source="https://en.wikipedia.org">You should quit smoking, don't you know that tobacco smoke contains harmful substances?</Example>

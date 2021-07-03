@@ -25657,8 +25657,6 @@
               dc:subject="noun.event"
               lexicalized="true">
          <Definition>an event that happens</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00029677-n"/>
-         <!-- event -->
          <SynsetRelation relType="hyponym" target="ewn-07299259-n"/>
          <!-- concomitant, attendant, accompaniment, co-occurrence -->
          <SynsetRelation relType="hyponym" target="ewn-07299741-n"/>
@@ -25747,6 +25745,8 @@
          <!-- crash, collapse -->
          <SynsetRelation relType="hyponym" target="ewn-07494665-n"/>
          <!-- supervention -->
+         <SynsetRelation relType="hypernym" target="ewn-00029677-n"/>
+         <!-- event -->
       </Synset>
       <!-- concomitant, attendant, accompaniment, co-occurrence -->
       <Synset id="ewn-07299259-n"
@@ -29285,7 +29285,7 @@
               partOfSpeech="n"
               dc:subject="noun.event"
               lexicalized="true">
-         <Definition>an event (or the result of an event) that completely destroys something</Definition>
+         <Definition>an event that completely destroys something</Definition>
          <SynsetRelation relType="hypernym" target="ewn-07306035-n"/>
          <!-- ending, finish, conclusion -->
          <SynsetRelation relType="hyponym" target="ewn-07345428-n"/>
@@ -37195,7 +37195,7 @@
               partOfSpeech="n"
               dc:subject="noun.event"
               lexicalized="true">
-         <Definition>a party at which tea is served</Definition>
+         <Definition>a party or reception at which tea is served</Definition>
          <SynsetRelation relType="hypernym" target="ewn-07462241-n"/>
          <!-- party -->
       </Synset>
@@ -39476,7 +39476,7 @@
          <ILIDefinition>a religious ceremonial or ritual observance that is held to be an affair of the individual conscience because it is neither forbidden nor enjoined by the scriptures.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-07465442-n"/>
          <!-- ceremonial, ceremonial occasion, ceremony, observance -->
-         <Example> For all of the wild-eyed (and completely sectarian) assertions floating around the LCMS that ordination is a mere adiaphoron, that "laying on of hands" does not mean ritual ordination but rather a democratic election, that ordination confers nothing - I have yet to ever read about anyone actually graduating seminary and taking a call to a congregation and choosing to forgo the rite of ordination.</Example>
+         <Example>For all of the wild-eyed (and completely sectarian) assertions floating around the LCMS that ordination is a mere adiaphoron, that "laying on of hands" does not mean ritual ordination but rather a democratic election, that ordination confers nothing - I have yet to ever read about anyone actually graduating seminary and taking a call to a congregation and choosing to forgo the rite of ordination.</Example>
       </Synset>
       <Synset id="ewn-92443554-n"
               ili="in"

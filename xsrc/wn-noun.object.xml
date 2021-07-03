@@ -3270,15 +3270,14 @@
                 synset="ewn-09381123-n"
                 dc:identifier="moon%1:17:00::"
                 lexicalized="true"/>
-         <Sense tagCnt="30"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="moon%1:17:02::"
                 order="2"
                 id="ewn-moon-n-09381255-02"
                 n="0"
                 synset="ewn-09381255-n"
-                dc:identifier="moon%1:17:01::"
+                dc:identifier="moon%1:17:03::"
                 lexicalized="true"/>
          <Sense tagCnt="1"
                 senseidx="2"
@@ -10258,7 +10257,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-Moon-n">
          <Lemma writtenForm="Moon" partOfSpeech="n"/>
-         <Sense tagCnt="1"
+         <Sense tagCnt="30"
                 senseidx="0"
                 lexid="0"
                 sensekey="Moon%1:17:00::"
@@ -10266,7 +10265,7 @@
                 id="ewn-Moon-n-09381255-01"
                 n="0"
                 synset="ewn-09381255-n"
-                dc:identifier="moon%1:17:02::"
+                dc:identifier="moon%1:17:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-the_Alps-n">
@@ -20534,15 +20533,14 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-sun-n">
          <Lemma writtenForm="sun" partOfSpeech="n"/>
-         <Sense tagCnt="42"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="sun%1:17:01::"
                 order="1"
                 id="ewn-sun-n-09473312-01"
                 n="0"
                 synset="ewn-09473312-n"
-                dc:identifier="sun%1:17:00::"
+                dc:identifier="sun%1:17:02::"
                 lexicalized="true"/>
          <Sense tagCnt="1"
                 senseidx="1"
@@ -20557,15 +20555,14 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-earth-n">
          <Lemma writtenForm="earth" partOfSpeech="n"/>
-         <Sense tagCnt="51"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="earth%1:17:01::"
                 order="2"
                 id="ewn-earth-n-09293800-02"
                 n="0"
                 synset="ewn-09293800-n"
-                dc:identifier="earth%1:17:00::"
+                dc:identifier="earth%1:17:02::"
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-earthling-n-10718758-02"/>
             <!-- earthling, worldling, tellurian, earthman -->
@@ -26584,8 +26581,6 @@
                 synset="ewn-09357302-n"
                 dc:identifier="ground%1:17:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-ground-v-01409010-01"/>
-            <!-- ground -->
             <SenseRelation relType="derivation" target="ewn-ground-v-01409338-01"/>
             <!-- ground -->
             <SenseRelation relType="derivation" target="ewn-ground-v-02026205-01"/>
@@ -28085,8 +28080,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="El_Libertador%1:17:00::"
-                order="3"
-                id="ewn-El_Libertador-n-09253407-03"
+                order="2"
+                id="ewn-El_Libertador-n-09253407-02"
                 n="1"
                 synset="ewn-09253407-n"
                 dc:identifier="el_libertador%1:17:00::"
@@ -38958,7 +38953,7 @@
               partOfSpeech="n"
               dc:subject="noun.object"
               lexicalized="true">
-         <Definition>( geology) a depression in southwestern Asia and eastern Africa; extends from the valley of the Jordan River to Mozambique; marked by geological faults</Definition>
+         <Definition>(geology) a depression in southwestern Asia and eastern Africa; extends from the valley of the Jordan River to Mozambique; marked by geological faults</Definition>
          <SynsetRelation relType="instance_hypernym" target="ewn-09433102-n"/>
          <!-- rift valley -->
          <SynsetRelation relType="holo_part" target="ewn-09230176-n"/>
@@ -53702,7 +53697,7 @@
          <ILIDefinition>a body that emits radiation in constant proportion to the corresponding black-body radiation.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-00021007-n"/>
          <!-- matter -->
-         <Example dc:source="https://en.wikipedia.org"> A source with lower emissivity independent of frequency often is referred to as a gray body.</Example>
+         <Example dc:source="https://en.wikipedia.org">A source with lower emissivity independent of frequency often is referred to as a gray body.</Example>
       </Synset>
       <Synset id="ewn-92464675-n"
               ili="in"

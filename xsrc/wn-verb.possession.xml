@@ -3621,8 +3621,6 @@
             <!-- take -->
             <SenseRelation relType="also" target="ewn-give_back-v-02289796-04"/>
             <!-- give back, refund, return, repay -->
-            <SenseRelation relType="also" target="ewn-give_back-v-02289796-04"/>
-            <!-- give back, refund, return, repay -->
          </Sense>
          <Sense verbFrames="ewn-sb-14"
                 tagCnt="12"
@@ -4691,7 +4689,7 @@
       <LexicalEntry id="ewn-offer-v">
          <Lemma writtenForm="offer" partOfSpeech="v"/>
          <Sense verbTemplates="ewn-st-89 ewn-st-90"
-                verbFrames="ewn-sb-15 ewn-sb-14 ewn-sb-8 ewn-sb-11"
+                verbFrames="ewn-sb-14 ewn-sb-15 ewn-sb-8 ewn-sb-11"
                 tagCnt="95"
                 senseidx="0"
                 lexid="1"
@@ -4705,7 +4703,7 @@
             <SenseRelation relType="derivation" target="ewn-offer-n-07199736-01"/>
             <!-- offering, offer -->
          </Sense>
-         <Sense verbFrames="ewn-sb-15 ewn-sb-14 ewn-sb-8"
+         <Sense verbFrames="ewn-sb-14 ewn-sb-15 ewn-sb-8"
                 tagCnt="31"
                 senseidx="1"
                 lexid="2"
@@ -4750,7 +4748,7 @@
             <SenseRelation relType="derivation" target="ewn-offering-n-07199736-02"/>
             <!-- offering, offer -->
          </Sense>
-         <Sense verbFrames="ewn-sb-15 ewn-sb-8 ewn-sb-14"
+         <Sense verbFrames="ewn-sb-14 ewn-sb-15 ewn-sb-8"
                 senseidx="4"
                 lexid="5"
                 sensekey="offer%2:40:05::"
@@ -6265,7 +6263,7 @@
             <!-- saver -->
          </Sense>
          <Sense verbTemplates="ewn-st-69"
-                verbFrames="ewn-sb-8 ewn-sb-2"
+                verbFrames="ewn-sb-2 ewn-sb-8"
                 tagCnt="4"
                 senseidx="1"
                 lexid="2"
@@ -8676,8 +8674,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-riddance-n-00396141-02"/>
             <!-- elimination, riddance -->
-            <SenseRelation relType="also" target="ewn-rid_of-v-02635337-02"/>
-            <!-- eliminate, obviate, rid of -->
             <SenseRelation relType="also" target="ewn-rid_of-v-02635337-02"/>
             <!-- eliminate, obviate, rid of -->
          </Sense>
@@ -11192,8 +11188,6 @@
             <!-- renter -->
             <SenseRelation relType="also" target="ewn-rent_out-v-02214281-02"/>
             <!-- farm out, hire out, rent out -->
-            <SenseRelation relType="also" target="ewn-rent_out-v-02214281-02"/>
-            <!-- farm out, hire out, rent out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-deduct-v">
@@ -11714,12 +11708,6 @@
             <!-- buy up, buy out, take over -->
             <SenseRelation relType="also" target="ewn-buy_out-v-02279144-02"/>
             <!-- buy up, buy out, take over -->
-            <SenseRelation relType="also" target="ewn-buy_in-v-02328282-02"/>
-            <!-- buy in, stock up, stock -->
-            <SenseRelation relType="also" target="ewn-buy_up-v-02279144-03"/>
-            <!-- buy up, buy out, take over -->
-            <SenseRelation relType="also" target="ewn-buy_out-v-02279144-02"/>
-            <!-- buy up, buy out, take over -->
          </Sense>
          <Sense verbFrames="ewn-sb-8"
                 senseidx="1"
@@ -11998,14 +11986,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-passage-n-00318861-01"/>
             <!-- passage, handing over -->
-            <SenseRelation relType="also" target="ewn-pass_on-v-02595169-02"/>
-            <!-- submit, pass on, relegate -->
-            <SenseRelation relType="also" target="ewn-pass_on-v-02235029-01"/>
-            <!-- pass on -->
-            <SenseRelation relType="also" target="ewn-pass_on-v-02301114-04"/>
-            <!-- pass on, give, impart, leave -->
-            <SenseRelation relType="also" target="ewn-pass_on-v-00744289-02"/>
-            <!-- communicate, put across, pass along, pass on, pass -->
             <SenseRelation relType="also" target="ewn-pass_on-v-02595169-02"/>
             <!-- submit, pass on, relegate -->
             <SenseRelation relType="also" target="ewn-pass_on-v-02235029-01"/>
@@ -12843,12 +12823,6 @@
             <!-- repossess, take back -->
             <SenseRelation relType="also" target="ewn-take_in-v-02498233-01"/>
             <!-- take in -->
-            <SenseRelation relType="also" target="ewn-take_out-v-02316367-03"/>
-            <!-- take out, draw off, draw, withdraw -->
-            <SenseRelation relType="also" target="ewn-take_back-v-02210669-01"/>
-            <!-- repossess, take back -->
-            <SenseRelation relType="also" target="ewn-take_in-v-02498233-01"/>
-            <!-- take in -->
          </Sense>
          <Sense verbTemplates="ewn-st-25"
                 verbFrames="ewn-sb-16 ewn-sb-8"
@@ -12874,8 +12848,6 @@
                 synset="ewn-02212900-v"
                 dc:identifier="take%2:40:02::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-take_out-v-02316367-03"/>
-            <!-- take out, draw off, draw, withdraw -->
             <SenseRelation relType="also" target="ewn-take_out-v-02316367-03"/>
             <!-- take out, draw off, draw, withdraw -->
          </Sense>
@@ -12928,14 +12900,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-taker-n-10709280-01"/>
             <!-- taker -->
-            <SenseRelation relType="also" target="ewn-take_over-v-02221342-02"/>
-            <!-- absorb, take over -->
-            <SenseRelation relType="also" target="ewn-take_over-v-02306786-02"/>
-            <!-- assume, accept, take over, bear -->
-            <SenseRelation relType="also" target="ewn-take_up-v-02351720-04"/>
-            <!-- take up, adopt, take over, borrow -->
-            <SenseRelation relType="also" target="ewn-take_in-v-02663091-01"/>
-            <!-- take in -->
             <SenseRelation relType="also" target="ewn-take_over-v-02221342-02"/>
             <!-- absorb, take over -->
             <SenseRelation relType="also" target="ewn-take_over-v-02306786-02"/>
@@ -13739,16 +13703,6 @@
             <!-- pay off, buy off -->
             <SenseRelation relType="also" target="ewn-pay_out-v-02306463-02"/>
             <!-- pay out, disburse -->
-            <SenseRelation relType="also" target="ewn-fund-v-02220288-01"/>
-            <!-- fund -->
-            <SenseRelation relType="also" target="ewn-pay_off-v-02357015-02"/>
-            <!-- pay off, liquidate -->
-            <SenseRelation relType="also" target="ewn-pay_off-v-02261661-02"/>
-            <!-- pay off, redeem -->
-            <SenseRelation relType="also" target="ewn-pay_off-v-02289648-02"/>
-            <!-- pay off, buy off -->
-            <SenseRelation relType="also" target="ewn-pay_out-v-02306463-02"/>
-            <!-- pay out, disburse -->
          </Sense>
          <Sense verbTemplates="ewn-st-97"
                 verbFrames="ewn-sb-2 ewn-sb-8"
@@ -13804,10 +13758,6 @@
             <!-- payee -->
             <SenseRelation relType="derivation" target="ewn-payer-n-10429497-01"/>
             <!-- payer, remunerator -->
-            <SenseRelation relType="also" target="ewn-pay_back-v-01156413-01"/>
-            <!-- pay off, pay back, get, fix -->
-            <SenseRelation relType="also" target="ewn-pay_off-v-01156413-02"/>
-            <!-- pay off, pay back, get, fix -->
             <SenseRelation relType="also" target="ewn-pay_back-v-01156413-01"/>
             <!-- pay off, pay back, get, fix -->
             <SenseRelation relType="also" target="ewn-pay_off-v-01156413-02"/>
@@ -16928,28 +16878,15 @@
                 lexid="2"
                 sensekey="tithe%2:40:02::"
                 order="1"
-                id="ewn-tithe-v-02257563-01"
-                n="2"
-                synset="ewn-02257563-v"
-                dc:identifier="tithe%2:40:03::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-tither-n-10732661-01"/>
-            <!-- tither -->
-         </Sense>
-         <Sense verbFrames="ewn-sb-8"
-                senseidx="2"
-                lexid="3"
-                sensekey="tithe%2:40:03::"
-                order="1"
                 id="ewn-tithe-v-02311849-01"
                 n="1"
                 synset="ewn-02311849-v"
                 dc:identifier="tithe%2:40:00::"
                 lexicalized="true"/>
          <Sense verbFrames="ewn-sb-10 ewn-sb-9"
-                senseidx="3"
-                lexid="4"
-                sensekey="tithe%2:40:04::"
+                senseidx="2"
+                lexid="3"
+                sensekey="tithe%2:40:03::"
                 order="1"
                 id="ewn-tithe-v-02311988-01"
                 n="0"
@@ -17529,8 +17466,6 @@
             <!-- cashable, redeemable -->
             <SenseRelation relType="derivation" target="ewn-cash-n-13407787-01"/>
             <!-- hard cash, hard currency, cash -->
-            <SenseRelation relType="also" target="ewn-cash_in_on-v-02284358-01"/>
-            <!-- cash in on -->
             <SenseRelation relType="also" target="ewn-cash_in_on-v-02284358-01"/>
             <!-- cash in on -->
          </Sense>
@@ -19255,7 +19190,7 @@
                 synset="ewn-02338685-v"
                 dc:identifier="place%2:40:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-place-n-00587299-07"/>
+            <SenseRelation relType="derivation" target="ewn-place-n-00587299-05"/>
             <!-- position, situation, berth, place, spot, post, office, billet -->
             <SenseRelation relType="derivation" target="ewn-place-n-08530790-01"/>
             <!-- property, place -->
@@ -19485,10 +19420,6 @@
             <!-- transaction, dealing, dealings -->
             <SenseRelation relType="derivation" target="ewn-dealing-n-01108713-02"/>
             <!-- transaction, dealing, dealings -->
-            <SenseRelation relType="also" target="ewn-deal_out-v-02299397-09"/>
-            <!-- dispense, dole out, deal, deal out, mete out, parcel out, distribute, administer, allot, lot, dish out, shell out -->
-            <SenseRelation relType="also" target="ewn-trade-v-02265169-01"/>
-            <!-- merchandise, trade -->
             <SenseRelation relType="also" target="ewn-deal_out-v-02299397-09"/>
             <!-- dispense, dole out, deal, deal out, mete out, parcel out, distribute, administer, allot, lot, dish out, shell out -->
             <SenseRelation relType="also" target="ewn-trade-v-02265169-01"/>
@@ -20289,8 +20220,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-farm_out-v-02214281-03"/>
             <!-- farm out, hire out, rent out -->
-            <SenseRelation relType="also" target="ewn-farm_out-v-02214281-03"/>
-            <!-- farm out, hire out, rent out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-re-equip-v">
@@ -20539,10 +20468,6 @@
             <!-- retention, keeping, holding -->
             <SenseRelation relType="antonym" target="ewn-lose-v-02292634-01"/>
             <!-- lose -->
-            <SenseRelation relType="also" target="ewn-keep_back-v-02218472-02"/>
-            <!-- keep back, withhold -->
-            <SenseRelation relType="also" target="ewn-keep_back-v-02288169-03"/>
-            <!-- retain, keep back, hold back, hold -->
             <SenseRelation relType="also" target="ewn-keep_back-v-02218472-02"/>
             <!-- keep back, withhold -->
             <SenseRelation relType="also" target="ewn-keep_back-v-02288169-03"/>
@@ -21187,12 +21112,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-hand-n-05572223-01"/>
             <!-- mitt, manus, hand, paw -->
-            <SenseRelation relType="also" target="ewn-hand_out-v-02206426-03"/>
-            <!-- hand out, pass out, give out, distribute -->
-            <SenseRelation relType="also" target="ewn-hand_down-v-02235397-01"/>
-            <!-- hand down -->
-            <SenseRelation relType="also" target="ewn-hand_over-v-02298282-01"/>
-            <!-- deliver, render, turn in, hand over, fork up, fork out, fork over -->
             <SenseRelation relType="also" target="ewn-hand_out-v-02206426-03"/>
             <!-- hand out, pass out, give out, distribute -->
             <SenseRelation relType="also" target="ewn-hand_down-v-02235397-01"/>
@@ -22111,10 +22030,6 @@
             <!-- store, stack away, stash away, hive away, lay in, put in, salt away -->
             <SenseRelation relType="also" target="ewn-hive_up-v-02310836-05"/>
             <!-- lay away, stash, hive up, squirrel away, hoard, cache -->
-            <SenseRelation relType="also" target="ewn-hive_away-v-02285938-02"/>
-            <!-- store, stack away, stash away, hive away, lay in, put in, salt away -->
-            <SenseRelation relType="also" target="ewn-hive_up-v-02310836-05"/>
-            <!-- lay away, stash, hive up, squirrel away, hoard, cache -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-glaze-v">
@@ -22424,6 +22339,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-trap-v">
          <Lemma writtenForm="trap" partOfSpeech="v"/>
+         <Form writtenForm="trapped"/>
+         <Form writtenForm="trapping"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"
@@ -22433,6 +22350,18 @@
                 n="4"
                 synset="ewn-90005881-v"
                 dc:identifier="trap%2:40:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-fine-v">
+         <Lemma writtenForm="fine" partOfSpeech="v"/>
+         <Sense senseidx="0"
+                lexid="0"
+                sensekey="fine%2:40:00::"
+                order="2"
+                id="ewn-fine-v-02312392-02"
+                n="2"
+                synset="ewn-02312392-v"
+                dc:identifier="fine%2:40:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <Synset id="ewn-02204104-v"
@@ -25765,22 +25694,10 @@
               partOfSpeech="v"
               dc:subject="verb.possession"
               lexicalized="true">
-         <Definition>pay a tenth of one's income, especially to the church</Definition>
+         <Definition>pay a tenth of one's income; pay one tenth of, especially to the church</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02256551-v"/>
          <!-- pay -->
-         <SynsetRelation relType="similar" target="ewn-02257563-v"/>
-         <!-- tithe -->
          <Example>"Although she left the church officially, she still tithes"</Example>
-      </Synset>
-      <Synset id="ewn-02257563-v"
-              ili="i32998"
-              partOfSpeech="v"
-              dc:subject="verb.possession"
-              lexicalized="true">
-         <Definition>pay one tenth of; pay tithes on, especially to the church</Definition>
-         <SynsetRelation relType="similar" target="ewn-02257350-v"/>
-         <!-- tithe -->
-         <Example>"He tithed his income to the Church"</Example>
       </Synset>
       <Synset id="ewn-02257739-v"
               ili="i32999"

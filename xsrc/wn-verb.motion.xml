@@ -315,8 +315,6 @@
             <!-- stealth, stealing -->
             <SenseRelation relType="also" target="ewn-steal_away-v-02080274-02"/>
             <!-- slip away, steal away, sneak away, sneak off, sneak out -->
-            <SenseRelation relType="also" target="ewn-steal_away-v-02080274-02"/>
-            <!-- slip away, steal away, sneak away, sneak off, sneak out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-stroll-v">
@@ -786,8 +784,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-sweep-n-00345975-01"/>
             <!-- sweep -->
-            <SenseRelation relType="also" target="ewn-sweep_through-v-02528247-04"/>
-            <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
             <SenseRelation relType="also" target="ewn-sweep_through-v-02528247-04"/>
             <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
          </Sense>
@@ -1316,25 +1312,10 @@
          <Lemma writtenForm="stride" partOfSpeech="v"/>
          <Form writtenForm="stridden"/>
          <Form writtenForm="strode"/>
-         <Sense verbFrames="ewn-sb-8"
-                senseidx="0"
-                lexid="1"
-                sensekey="stride%2:38:01::"
-                order="1"
-                id="ewn-stride-v-01916702-01"
-                n="1"
-                synset="ewn-01916702-v"
-                dc:identifier="stride%2:38:03::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-stride-n-13779389-04"/>
-            <!-- step, pace, footstep, stride -->
-            <SenseRelation relType="derivation" target="ewn-stride-n-00286733-02"/>
-            <!-- pace, stride, tread -->
-         </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
-                senseidx="1"
-                lexid="2"
-                sensekey="stride%2:38:02::"
+                senseidx="0"
+                lexid="0"
+                sensekey="stride%2:38:00::"
                 order="1"
                 id="ewn-stride-v-01923704-01"
                 n="0"
@@ -1447,8 +1428,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-tide-n-07417119-01"/>
             <!-- tide -->
-            <SenseRelation relType="also" target="ewn-tide_over-v-02629427-01"/>
-            <!-- keep going, bridge over, tide over -->
             <SenseRelation relType="also" target="ewn-tide_over-v-02629427-01"/>
             <!-- keep going, bridge over, tide over -->
          </Sense>
@@ -1640,8 +1619,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-breeze-n-00576402-02"/>
             <!-- cinch, duck soup, picnic, child's play, piece of cake, walkover, pushover, breeze, snap -->
-            <SenseRelation relType="also" target="ewn-breeze_through-v-02528247-01"/>
-            <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
             <SenseRelation relType="also" target="ewn-breeze_through-v-02528247-01"/>
             <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
          </Sense>
@@ -2301,8 +2278,6 @@
             <!-- rise, come up, arise, lift, go up, move up, uprise -->
             <SenseRelation relType="also" target="ewn-fall_in-v-01993067-02"/>
             <!-- give way, give, collapse, cave in, founder, fall in, break -->
-            <SenseRelation relType="also" target="ewn-fall_in-v-01993067-02"/>
-            <!-- give way, give, collapse, cave in, founder, fall in, break -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-1"
                 tagCnt="43"
@@ -2541,8 +2516,6 @@
             <!-- step -->
             <SenseRelation relType="derivation" target="ewn-step-n-13779389-03"/>
             <!-- step, pace, footstep, stride -->
-            <SenseRelation relType="also" target="ewn-step_out-v-02020253-01"/>
-            <!-- step out -->
             <SenseRelation relType="also" target="ewn-step_out-v-02020253-01"/>
             <!-- step out -->
          </Sense>
@@ -2822,18 +2795,6 @@
             <!-- rise, come up, ascend, uprise -->
             <SenseRelation relType="also" target="ewn-come_up-v-01994295-02"/>
             <!-- rise, come up, rise up, surface -->
-            <SenseRelation relType="also" target="ewn-come_with-v-02722040-03"/>
-            <!-- accompany, attach to, come with, go with -->
-            <SenseRelation relType="also" target="ewn-come_through-v-02529837-03"/>
-            <!-- succeed, deliver the goods, bring home the bacon, come through, win -->
-            <SenseRelation relType="also" target="ewn-come_in-v-02673478-01"/>
-            <!-- come in -->
-            <SenseRelation relType="also" target="ewn-come_through-v-02626004-04"/>
-            <!-- survive, make it, come through, pull round, pull through -->
-            <SenseRelation relType="also" target="ewn-come_up-v-01974362-02"/>
-            <!-- rise, come up, ascend, uprise -->
-            <SenseRelation relType="also" target="ewn-come_up-v-01994295-02"/>
-            <!-- rise, come up, rise up, surface -->
          </Sense>
          <Sense verbTemplates="ewn-st-131"
                 verbFrames="ewn-sb-4 ewn-sb-2 ewn-sb-22 ewn-sb-1"
@@ -2956,8 +2917,6 @@
             <!-- chaser -->
             <SenseRelation relType="derivation" target="ewn-chase-n-00320765-02"/>
             <!-- following, pursuit, chase, pursual -->
-            <SenseRelation relType="also" target="ewn-chase_away-v-02006752-01"/>
-            <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
             <SenseRelation relType="also" target="ewn-chase_away-v-02006752-01"/>
             <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
          </Sense>
@@ -3356,8 +3315,6 @@
                 synset="ewn-02076429-v"
                 dc:identifier="edge%2:38:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-edge_in-v-02021789-01"/>
-            <!-- edge in, edge up -->
             <SenseRelation relType="also" target="ewn-edge_in-v-02021789-01"/>
             <!-- edge in, edge up -->
          </Sense>
@@ -4396,8 +4353,6 @@
             <!-- gyration, revolution, rotation -->
             <SenseRelation relType="also" target="ewn-revolve_around-v-02682306-03"/>
             <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
-            <SenseRelation relType="also" target="ewn-revolve_around-v-02682306-03"/>
-            <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-introduce-v">
@@ -5368,10 +5323,6 @@
             <!-- walk about, walk around, perambulate -->
             <SenseRelation relType="also" target="ewn-walk_about-v-01914958-02"/>
             <!-- walk about, walk around, perambulate -->
-            <SenseRelation relType="also" target="ewn-walk_around-v-01914958-03"/>
-            <!-- walk about, walk around, perambulate -->
-            <SenseRelation relType="also" target="ewn-walk_about-v-01914958-02"/>
-            <!-- walk about, walk around, perambulate -->
          </Sense>
          <Sense verbTemplates="ewn-st-22"
                 verbFrames="ewn-sb-9 ewn-sb-8"
@@ -5728,8 +5679,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-barge_in-v-00782236-06"/>
             <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
-            <SenseRelation relType="also" target="ewn-barge_in-v-00782236-06"/>
-            <!-- chime in, chisel in, break in, butt in, barge in, put in, cut in -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-joggle-v">
@@ -6020,10 +5969,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-sneak-n-10506264-02"/>
             <!-- stalker, prowler, sneak -->
-            <SenseRelation relType="also" target="ewn-sneak_away-v-02080274-03"/>
-            <!-- slip away, steal away, sneak away, sneak off, sneak out -->
-            <SenseRelation relType="also" target="ewn-sneak_out-v-02080274-05"/>
-            <!-- slip away, steal away, sneak away, sneak off, sneak out -->
             <SenseRelation relType="also" target="ewn-sneak_away-v-02080274-03"/>
             <!-- slip away, steal away, sneak away, sneak off, sneak out -->
             <SenseRelation relType="also" target="ewn-sneak_out-v-02080274-05"/>
@@ -8373,8 +8318,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-pour_down-v-01204994-05"/>
             <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
-            <SenseRelation relType="also" target="ewn-pour_down-v-01204994-05"/>
-            <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
          </Sense>
          <Sense verbFrames="ewn-sb-8 ewn-sb-21"
                 tagCnt="6"
@@ -9377,12 +9320,6 @@
             <!-- turning, turn -->
             <SenseRelation relType="derivation" target="ewn-turning-n-00350856-02"/>
             <!-- turning, turn -->
-            <SenseRelation relType="also" target="ewn-turn_back-v-02008542-02"/>
-            <!-- backtrack, turn back, double back -->
-            <SenseRelation relType="also" target="ewn-turn_away-v-02038145-03"/>
-            <!-- turn away, deflect, bend -->
-            <SenseRelation relType="also" target="ewn-turn_to-v-00899077-02"/>
-            <!-- turn to, address -->
             <SenseRelation relType="also" target="ewn-turn_back-v-02008542-02"/>
             <!-- backtrack, turn back, double back -->
             <SenseRelation relType="also" target="ewn-turn_away-v-02038145-03"/>
@@ -11102,8 +11039,6 @@
             <!-- glider, sailplane -->
             <SenseRelation relType="also" target="ewn-glide_by-v-02076777-05"/>
             <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
-            <SenseRelation relType="also" target="ewn-glide_by-v-02076777-05"/>
-            <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
          </Sense>
          <Sense verbTemplates="ewn-st-11"
                 verbFrames="ewn-sb-8 ewn-sb-11"
@@ -11514,8 +11449,6 @@
             <!-- hopper -->
             <SenseRelation relType="derivation" target="ewn-hopper-n-00129909-04"/>
             <!-- hopper, grounder, ground ball, groundball -->
-            <SenseRelation relType="also" target="ewn-hop_on-v-01927367-01"/>
-            <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
             <SenseRelation relType="also" target="ewn-hop_on-v-01927367-01"/>
             <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
          </Sense>
@@ -12007,8 +11940,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-thrust_ahead-v-02000606-02"/>
             <!-- barge, thrust ahead, push forward -->
-            <SenseRelation relType="also" target="ewn-thrust_ahead-v-02000606-02"/>
-            <!-- barge, thrust ahead, push forward -->
          </Sense>
          <Sense verbFrames="ewn-sb-4 ewn-sb-22"
                 tagCnt="4"
@@ -12428,8 +12359,6 @@
             <!-- marcher, parader -->
             <SenseRelation relType="also" target="ewn-march_on-v-01996535-05"/>
             <!-- pass on, march on, go on, advance, move on, progress -->
-            <SenseRelation relType="also" target="ewn-march_on-v-01996535-05"/>
-            <!-- pass on, march on, go on, advance, move on, progress -->
          </Sense>
          <Sense verbFrames="ewn-sb-20 ewn-sb-21"
                 tagCnt="1"
@@ -12727,8 +12656,6 @@
             <!-- slip, sideslip, skid -->
             <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/>
             <!-- stumble, slip up, trip up -->
-            <SenseRelation relType="also" target="ewn-slip_up-v-00619747-02"/>
-            <!-- stumble, slip up, trip up -->
          </Sense>
          <Sense verbFrames="ewn-sb-22"
                 tagCnt="11"
@@ -12747,8 +12674,6 @@
             <!-- slip, elusion, eluding -->
             <SenseRelation relType="also" target="ewn-slip_away-v-02076777-06"/>
             <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
-            <SenseRelation relType="also" target="ewn-slip_away-v-02076777-06"/>
-            <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
          </Sense>
          <Sense verbFrames="ewn-sb-4 ewn-sb-22"
                 tagCnt="2"
@@ -12763,10 +12688,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-slip-n-00171531-01"/>
             <!-- slip, sideslip -->
-            <SenseRelation relType="also" target="ewn-slip_by-v-02076777-04"/>
-            <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
-            <SenseRelation relType="also" target="ewn-slip_away-v-02080274-01"/>
-            <!-- slip away, steal away, sneak away, sneak off, sneak out -->
             <SenseRelation relType="also" target="ewn-slip_by-v-02076777-04"/>
             <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
             <SenseRelation relType="also" target="ewn-slip_away-v-02080274-01"/>
@@ -13232,10 +13153,6 @@
             <!-- lark about, romp, cavort, lark, sport, run around, skylark, disport, rollick, frisk, gambol, frolic -->
             <SenseRelation relType="also" target="ewn-run_away-v-02079296-06"/>
             <!-- take to the woods, turn tail, lam, fly the coop, run, run away, escape, head for the hills, break away, scat, bunk, scarper, hightail it -->
-            <SenseRelation relType="also" target="ewn-run_around-v-01887709-11"/>
-            <!-- lark about, romp, cavort, lark, sport, run around, skylark, disport, rollick, frisk, gambol, frolic -->
-            <SenseRelation relType="also" target="ewn-run_away-v-02079296-06"/>
-            <!-- take to the woods, turn tail, lam, fly the coop, run, run away, escape, head for the hills, break away, scat, bunk, scarper, hightail it -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
                 senseidx="3"
@@ -13313,8 +13230,6 @@
             <!-- runnel, streamlet, rivulet, rill, run -->
             <SenseRelation relType="derivation" target="ewn-run-n-07422377-03"/>
             <!-- discharge, outpouring, run -->
-            <SenseRelation relType="also" target="ewn-run_over-v-02076087-04"/>
-            <!-- run over, overrun, well over, brim over, overflow -->
             <SenseRelation relType="also" target="ewn-run_over-v-02076087-04"/>
             <!-- run over, overrun, well over, brim over, overflow -->
          </Sense>
@@ -13764,8 +13679,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-flash_back-v-02008715-02"/>
             <!-- cut back, flash back -->
-            <SenseRelation relType="also" target="ewn-flash_back-v-02008715-02"/>
-            <!-- cut back, flash back -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-creep-v">
@@ -14197,8 +14110,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-tag-n-00488885-01"/>
             <!-- tag -->
-            <SenseRelation relType="also" target="ewn-tag_along-v-02030876-01"/>
-            <!-- tag along -->
             <SenseRelation relType="also" target="ewn-tag_along-v-02030876-01"/>
             <!-- tag along -->
          </Sense>
@@ -14855,8 +14766,6 @@
             <!-- drawing, drawing off -->
             <SenseRelation relType="also" target="ewn-draw_out-v-01634074-05"/>
             <!-- evoke, draw out, extract, elicit, educe -->
-            <SenseRelation relType="also" target="ewn-draw_out-v-01634074-05"/>
-            <!-- evoke, draw out, extract, elicit, educe -->
          </Sense>
          <Sense verbFrames="ewn-sb-8 ewn-sb-21"
                 tagCnt="9"
@@ -15218,8 +15127,6 @@
             <!-- incoming, entrance, ingress, entry, entering -->
             <SenseRelation relType="antonym" target="ewn-exit-v-02019450-01"/>
             <!-- exit, leave, get out, go out -->
-            <SenseRelation relType="also" target="ewn-enter_upon-v-02217428-01"/>
-            <!-- come upon, luck into, enter upon -->
             <SenseRelation relType="also" target="ewn-enter_upon-v-02217428-01"/>
             <!-- come upon, luck into, enter upon -->
          </Sense>
@@ -15887,18 +15794,6 @@
             <!-- produce, bring on, bring out -->
             <SenseRelation relType="also" target="ewn-bring_out-v-02161530-03"/>
             <!-- produce, bring on, bring out -->
-            <SenseRelation relType="also" target="ewn-bring_forward-v-01997958-02"/>
-            <!-- bring forward, advance -->
-            <SenseRelation relType="also" target="ewn-bring_down-v-01985050-03"/>
-            <!-- bring down, put down, land -->
-            <SenseRelation relType="also" target="ewn-bring_down-v-01977139-05"/>
-            <!-- bring down, get down, let down, take down, lower -->
-            <SenseRelation relType="also" target="ewn-bring_up-v-01978076-05"/>
-            <!-- bring up, elevate, lift, get up, raise -->
-            <SenseRelation relType="also" target="ewn-bring_on-v-02161530-02"/>
-            <!-- produce, bring on, bring out -->
-            <SenseRelation relType="also" target="ewn-bring_out-v-02161530-03"/>
-            <!-- produce, bring on, bring out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-arouse-v">
@@ -16315,8 +16210,6 @@
                 lexicalized="true">
             <SenseRelation relType="antonym" target="ewn-rush-v-02062918-01"/>
             <!-- rush along, bucket along, rush, belt along, step on it, hasten, cannonball along, speed, pelt along, race, hotfoot, hie -->
-            <SenseRelation relType="also" target="ewn-linger_over-v-02646310-02"/>
-            <!-- dwell on, linger over -->
             <SenseRelation relType="also" target="ewn-linger_over-v-02646310-02"/>
             <!-- dwell on, linger over -->
          </Sense>
@@ -18292,8 +18185,6 @@
             <!-- intruder, trespasser, interloper -->
             <SenseRelation relType="also" target="ewn-intrude_on-v-02023568-01"/>
             <!-- intrude on, encroach upon, invade, obtrude upon -->
-            <SenseRelation relType="also" target="ewn-intrude_on-v-02023568-01"/>
-            <!-- intrude on, encroach upon, invade, obtrude upon -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-wheel_around-v">
@@ -18681,8 +18572,6 @@
             <!-- bowing, obeisance, bow -->
             <SenseRelation relType="also" target="ewn-bow_down-v-02067538-02"/>
             <!-- prostrate, bow down -->
-            <SenseRelation relType="also" target="ewn-bow_down-v-02067538-02"/>
-            <!-- prostrate, bow down -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
                 senseidx="1"
@@ -18754,8 +18643,6 @@
             <!-- stoop -->
             <SenseRelation relType="derivation" target="ewn-stooper-n-10679201-01"/>
             <!-- stooper -->
-            <SenseRelation relType="also" target="ewn-stoop_to-v-00911087-01"/>
-            <!-- stoop to -->
             <SenseRelation relType="also" target="ewn-stoop_to-v-00911087-01"/>
             <!-- stoop to -->
          </Sense>
@@ -18845,8 +18732,6 @@
             <!-- lifter, weightlifter -->
             <SenseRelation relType="also" target="ewn-lift_up-v-01980103-02"/>
             <!-- lift up, pick up, gather up -->
-            <SenseRelation relType="also" target="ewn-lift_up-v-01980103-02"/>
-            <!-- lift up, pick up, gather up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-set_off-v">
@@ -18932,10 +18817,6 @@
                 synset="ewn-02042202-v"
                 dc:identifier="tip%2:38:01::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-tip_over-v-01913971-02"/>
-            <!-- tump over, bowl over, overturn, upset, tip over, turn over, knock over -->
-            <SenseRelation relType="also" target="ewn-tip_over-v-01913390-03"/>
-            <!-- tump over, overturn, tip over, turn over -->
             <SenseRelation relType="also" target="ewn-tip_over-v-01913971-02"/>
             <!-- tump over, bowl over, overturn, upset, tip over, turn over, knock over -->
             <SenseRelation relType="also" target="ewn-tip_over-v-01913390-03"/>
@@ -19471,8 +19352,6 @@
             <!-- leaper, bounder -->
             <SenseRelation relType="also" target="ewn-leap_out-v-02680375-01"/>
             <!-- jump, stick out, stand out, jump out, leap out -->
-            <SenseRelation relType="also" target="ewn-leap_out-v-02680375-01"/>
-            <!-- jump, stick out, stand out, jump out, leap out -->
          </Sense>
          <Sense verbTemplates="ewn-st-22"
                 verbFrames="ewn-sb-8"
@@ -19697,14 +19576,6 @@
             <!-- parkway, drive -->
             <SenseRelation relType="derivation" target="ewn-driver-n-10054631-01"/>
             <!-- driver -->
-            <SenseRelation relType="also" target="ewn-drive_out-v-02060390-02"/>
-            <!-- rout out, rouse, drive out, force out -->
-            <SenseRelation relType="also" target="ewn-drive_out-v-02006752-02"/>
-            <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
-            <SenseRelation relType="also" target="ewn-drive_off-v-02006752-06"/>
-            <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
-            <SenseRelation relType="also" target="ewn-drive_away-v-02006752-04"/>
-            <!-- chase away, drive away, drive off, run off, turn back, dispel, drive out -->
             <SenseRelation relType="also" target="ewn-drive_out-v-02060390-02"/>
             <!-- rout out, rouse, drive out, force out -->
             <SenseRelation relType="also" target="ewn-drive_out-v-02006752-02"/>
@@ -20375,10 +20246,6 @@
             <!-- crowd out, force out -->
             <SenseRelation relType="also" target="ewn-force_out-v-02060390-03"/>
             <!-- rout out, rouse, drive out, force out -->
-            <SenseRelation relType="also" target="ewn-force_out-v-02017692-01"/>
-            <!-- crowd out, force out -->
-            <SenseRelation relType="also" target="ewn-force_out-v-02060390-03"/>
-            <!-- rout out, rouse, drive out, force out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-call_off-v">
@@ -20792,8 +20659,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-ease_up-v-01852407-04"/>
             <!-- ease up, give way, move over, yield, give -->
-            <SenseRelation relType="also" target="ewn-ease_up-v-01852407-04"/>
-            <!-- ease up, give way, move over, yield, give -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-wing-v">
@@ -20870,8 +20735,6 @@
             <!-- skip -->
             <SenseRelation relType="also" target="ewn-skip_over-v-00618188-04"/>
             <!-- jump, skip, pass over, skip over -->
-            <SenseRelation relType="also" target="ewn-skip_over-v-00618188-04"/>
-            <!-- jump, skip, pass over, skip over -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-8"
                 senseidx="2"
@@ -20933,12 +20796,6 @@
                 synset="ewn-02054081-v"
                 dc:identifier="pass%2:38:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-pass_over-v-00618188-02"/>
-            <!-- jump, skip, pass over, skip over -->
-            <SenseRelation relType="also" target="ewn-pass_over-v-01919358-05"/>
-            <!-- move through, pass through, transit, pass over, pass across -->
-            <SenseRelation relType="also" target="ewn-pass_over-v-01916152-05"/>
-            <!-- cover, cut through, get over, cut across, track, cross, pass over, traverse, get across -->
             <SenseRelation relType="also" target="ewn-pass_over-v-00618188-02"/>
             <!-- jump, skip, pass over, skip over -->
             <SenseRelation relType="also" target="ewn-pass_over-v-01919358-05"/>
@@ -21060,8 +20917,6 @@
             <!-- ascent, ascension, rising, rise -->
             <SenseRelation relType="antonym" target="ewn-fall-v-01974840-02"/>
             <!-- go down, descend, come down, fall -->
-            <SenseRelation relType="also" target="ewn-rise_up-v-01994295-03"/>
-            <!-- rise, come up, rise up, surface -->
             <SenseRelation relType="also" target="ewn-rise_up-v-01994295-03"/>
             <!-- rise, come up, rise up, surface -->
          </Sense>
@@ -21943,8 +21798,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-shoot_up-v-00433525-01"/>
             <!-- shoot up -->
-            <SenseRelation relType="also" target="ewn-shoot_up-v-00433525-01"/>
-            <!-- shoot up -->
          </Sense>
          <Sense verbFrames="ewn-sb-4 ewn-sb-22"
                 tagCnt="3"
@@ -22488,8 +22341,6 @@
             <!-- sinking -->
             <SenseRelation relType="antonym" target="ewn-float-v-01908286-01"/>
             <!-- float, swim -->
-            <SenseRelation relType="also" target="ewn-sink_in-v-01460583-02"/>
-            <!-- filter, percolate, sink in, permeate -->
             <SenseRelation relType="also" target="ewn-sink_in-v-01460583-02"/>
             <!-- filter, percolate, sink in, permeate -->
          </Sense>
@@ -23130,10 +22981,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-slider-n-10295637-02"/>
             <!-- luger, slider -->
-            <SenseRelation relType="also" target="ewn-slide_down-v-01992900-02"/>
-            <!-- slump, slide down, sink -->
-            <SenseRelation relType="also" target="ewn-slide_by-v-02076777-08"/>
-            <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
             <SenseRelation relType="also" target="ewn-slide_down-v-01992900-02"/>
             <!-- slump, slide down, sink -->
             <SenseRelation relType="also" target="ewn-slide_by-v-02076777-08"/>
@@ -23884,10 +23731,6 @@
             <!-- leaning, inclination, tilt, list, lean -->
             <SenseRelation relType="derivation" target="ewn-leaner-n-00106444-01"/>
             <!-- leaner -->
-            <SenseRelation relType="also" target="ewn-lean_against-v-01592928-03"/>
-            <!-- lean on, lean against, rest on -->
-            <SenseRelation relType="also" target="ewn-lean_on-v-01592928-01"/>
-            <!-- lean on, lean against, rest on -->
             <SenseRelation relType="also" target="ewn-lean_against-v-01592928-03"/>
             <!-- lean on, lean against, rest on -->
             <SenseRelation relType="also" target="ewn-lean_on-v-01592928-01"/>
@@ -24790,8 +24633,6 @@
             <!-- flowing, flow -->
             <SenseRelation relType="derivation" target="ewn-flowing-n-07420493-02"/>
             <!-- flowing, flow -->
-            <SenseRelation relType="also" target="ewn-flow_from-v-02640648-02"/>
-            <!-- be due, flow from -->
             <SenseRelation relType="also" target="ewn-flow_from-v-02640648-02"/>
             <!-- be due, flow from -->
          </Sense>
@@ -25889,8 +25730,6 @@
             <!-- stand still -->
             <SenseRelation relType="also" target="ewn-move_over-v-01852407-01"/>
             <!-- ease up, give way, move over, yield, give -->
-            <SenseRelation relType="also" target="ewn-move_over-v-01852407-01"/>
-            <!-- ease up, give way, move over, yield, give -->
          </Sense>
          <Sense verbTemplates="ewn-st-10"
                 verbFrames="ewn-sb-4 ewn-sb-2 ewn-sb-22 ewn-sb-1"
@@ -25914,12 +25753,6 @@
             <!-- motion, movement -->
             <SenseRelation relType="derivation" target="ewn-mover-n-10355644-01"/>
             <!-- mover -->
-            <SenseRelation relType="also" target="ewn-move_on-v-01996535-04"/>
-            <!-- pass on, march on, go on, advance, move on, progress -->
-            <SenseRelation relType="also" target="ewn-move_out-v-01860197-01"/>
-            <!-- move out -->
-            <SenseRelation relType="also" target="ewn-move_back-v-01998474-08"/>
-            <!-- pull back, retreat, move back, recede, draw back, retire, pull away, withdraw -->
             <SenseRelation relType="also" target="ewn-move_on-v-01996535-04"/>
             <!-- pass on, march on, go on, advance, move on, progress -->
             <SenseRelation relType="also" target="ewn-move_out-v-01860197-01"/>
@@ -26055,8 +25888,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-center-n-08538999-01"/>
             <!-- centre, midpoint, center -->
-            <SenseRelation relType="also" target="ewn-center_on-v-02682306-02"/>
-            <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
             <SenseRelation relType="also" target="ewn-center_on-v-02682306-02"/>
             <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
          </Sense>
@@ -29365,14 +29196,6 @@
             <!-- back off, back down, back up -->
             <SenseRelation relType="also" target="ewn-back_out-v-02001408-01"/>
             <!-- back out -->
-            <SenseRelation relType="also" target="ewn-back_up-v-02001712-01"/>
-            <!-- back off, back down, back up -->
-            <SenseRelation relType="also" target="ewn-back_off-v-02001712-02"/>
-            <!-- back off, back down, back up -->
-            <SenseRelation relType="also" target="ewn-back_down-v-02001712-03"/>
-            <!-- back off, back down, back up -->
-            <SenseRelation relType="also" target="ewn-back_out-v-02001408-01"/>
-            <!-- back out -->
          </Sense>
          <Sense verbFrames="ewn-sb-20 ewn-sb-21"
                 tagCnt="4"
@@ -29536,8 +29359,6 @@
             <!-- speed, fastness, swiftness -->
             <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/>
             <!-- quicken, speed up, speed, accelerate -->
-            <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/>
-            <!-- quicken, speed up, speed, accelerate -->
          </Sense>
          <Sense verbTemplates="ewn-st-131"
                 verbFrames="ewn-sb-4 ewn-sb-22"
@@ -29580,8 +29401,6 @@
             <!-- speed, fastness, swiftness -->
             <SenseRelation relType="derivation" target="ewn-speeding-n-00330986-02"/>
             <!-- hurrying, speed, speeding -->
-            <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/>
-            <!-- quicken, speed up, speed, accelerate -->
             <SenseRelation relType="also" target="ewn-speed_up-v-00439133-02"/>
             <!-- quicken, speed up, speed, accelerate -->
          </Sense>
@@ -30104,10 +29923,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-file-n-08445713-01"/>
             <!-- Indian file, single file, file -->
-            <SenseRelation relType="also" target="ewn-file_in-v-01924213-01"/>
-            <!-- file in -->
-            <SenseRelation relType="also" target="ewn-file_out-v-01924587-01"/>
-            <!-- file out -->
             <SenseRelation relType="also" target="ewn-file_in-v-01924213-01"/>
             <!-- file in -->
             <SenseRelation relType="also" target="ewn-file_out-v-01924587-01"/>
@@ -30750,8 +30565,6 @@
             <!-- parting, leave, leave-taking, farewell -->
             <SenseRelation relType="also" target="ewn-part_with-v-02350643-03"/>
             <!-- give up, part with, dispense with, spare -->
-            <SenseRelation relType="also" target="ewn-part_with-v-02350643-03"/>
-            <!-- give up, part with, dispense with, spare -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-1"
                 tagCnt="4"
@@ -30787,10 +30600,6 @@
             <!-- send on, forward -->
             <SenseRelation relType="also" target="ewn-send_off-v-01958986-03"/>
             <!-- despatch, send off, dispatch -->
-            <SenseRelation relType="also" target="ewn-send_on-v-01959367-02"/>
-            <!-- send on, forward -->
-            <SenseRelation relType="also" target="ewn-send_off-v-01958986-03"/>
-            <!-- despatch, send off, dispatch -->
          </Sense>
          <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-20 ewn-sb-11 ewn-sb-21"
                 tagCnt="79"
@@ -30805,10 +30614,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-sending-n-00121986-01"/>
             <!-- sending -->
-            <SenseRelation relType="also" target="ewn-send_away-v-02407967-07"/>
-            <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
-            <SenseRelation relType="also" target="ewn-send_away-v-02471362-03"/>
-            <!-- send away, drop, dismiss, send packing -->
             <SenseRelation relType="also" target="ewn-send_away-v-02407967-07"/>
             <!-- send away, sack, dismiss, fire, give notice, can, give the axe, terminate, give the sack, displace, force out -->
             <SenseRelation relType="also" target="ewn-send_away-v-02471362-03"/>
@@ -31932,8 +31737,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-sail_through-v-02528247-05"/>
             <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
-            <SenseRelation relType="also" target="ewn-sail_through-v-02528247-05"/>
-            <!-- ace, sail through, pass with flying colors, breeze through, nail, sweep through -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-8 ewn-sb-22 ewn-sb-1"
                 tagCnt="1"
@@ -32706,8 +32509,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-cutting-n-00947021-02"/>
             <!-- film editing, cutting -->
-            <SenseRelation relType="also" target="ewn-cut_to-v-01864471-01"/>
-            <!-- cut to -->
             <SenseRelation relType="also" target="ewn-cut_to-v-01864471-01"/>
             <!-- cut to -->
          </Sense>
@@ -34204,10 +34005,6 @@
             <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
             <SenseRelation relType="also" target="ewn-climb_down-v-01982590-02"/>
             <!-- alight, climb down -->
-            <SenseRelation relType="also" target="ewn-climb_on-v-01927367-06"/>
-            <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
-            <SenseRelation relType="also" target="ewn-climb_down-v-01982590-02"/>
-            <!-- alight, climb down -->
          </Sense>
          <Sense verbFrames="ewn-sb-22"
                 tagCnt="2"
@@ -35432,10 +35229,6 @@
             <!-- roller -->
             <SenseRelation relType="derivation" target="ewn-roller-n-04108591-01"/>
             <!-- roller -->
-            <SenseRelation relType="also" target="ewn-roll_down-v-01970713-02"/>
-            <!-- roll down, avalanche -->
-            <SenseRelation relType="also" target="ewn-roll_over-v-01871802-01"/>
-            <!-- roll over -->
             <SenseRelation relType="also" target="ewn-roll_down-v-01970713-02"/>
             <!-- roll down, avalanche -->
             <SenseRelation relType="also" target="ewn-roll_over-v-01871802-01"/>
@@ -36910,8 +36703,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-move_in-v-01859968-01"/>
             <!-- move in -->
-            <SenseRelation relType="also" target="ewn-move_in-v-01859968-01"/>
-            <!-- move in -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-run_by-v">
@@ -37222,32 +37013,6 @@
                 synset="ewn-01839438-v"
                 dc:identifier="go%2:38:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-go_on-v-01996535-06"/>
-            <!-- pass on, march on, go on, advance, move on, progress -->
-            <SenseRelation relType="also" target="ewn-go_up-v-01925957-04"/>
-            <!-- climb up, climb, mount, go up -->
-            <SenseRelation relType="also" target="ewn-go_by-v-02076777-07"/>
-            <!-- slip away, go by, glide by, lapse, elapse, pass, slide by, slip by, go along -->
-            <SenseRelation relType="also" target="ewn-go_off-v-02077642-06"/>
-            <!-- bolt, absquatulate, abscond, run off, go off, make off, decamp -->
-            <SenseRelation relType="also" target="ewn-go_out-v-02673617-01"/>
-            <!-- go out -->
-            <SenseRelation relType="also" target="ewn-go_by-v-02055618-05"/>
-            <!-- pass by, go by, go past, surpass, pass, travel by -->
-            <SenseRelation relType="also" target="ewn-go_up-v-01972576-05"/>
-            <!-- rise, come up, arise, lift, go up, move up, uprise -->
-            <SenseRelation relType="also" target="ewn-go_down-v-01993887-03"/>
-            <!-- go down, go under, settle, sink -->
-            <SenseRelation relType="also" target="ewn-go_down-v-01974660-02"/>
-            <!-- go down, go under, set -->
-            <SenseRelation relType="also" target="ewn-go_down-v-01974840-03"/>
-            <!-- go down, descend, come down, fall -->
-            <SenseRelation relType="also" target="ewn-go_under-v-01993887-04"/>
-            <!-- go down, go under, settle, sink -->
-            <SenseRelation relType="also" target="ewn-go_on-v-00783045-02"/>
-            <!-- proceed, go on, carry on, continue -->
-            <SenseRelation relType="also" target="ewn-go_around-v-00971905-01"/>
-            <!-- go around, circulate, spread -->
             <SenseRelation relType="also" target="ewn-go_on-v-01996535-06"/>
             <!-- pass on, march on, go on, advance, move on, progress -->
             <SenseRelation relType="also" target="ewn-go_up-v-01925957-04"/>
@@ -37708,8 +37473,6 @@
             <!-- jump, jumping -->
             <SenseRelation relType="also" target="ewn-jump_on-v-01927367-05"/>
             <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
-            <SenseRelation relType="also" target="ewn-jump_on-v-01927367-05"/>
-            <!-- climb on, bestride, hop on, get on, mount, jump on, mount up -->
          </Sense>
          <Sense verbTemplates="ewn-st-22"
                 verbFrames="ewn-sb-8"
@@ -38029,6 +37792,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-dab-v">
          <Lemma writtenForm="dab" partOfSpeech="v"/>
+         <Form writtenForm="dabbed"/>
+         <Form writtenForm="dabbing"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"
@@ -43060,7 +42825,7 @@
               partOfSpeech="v"
               dc:subject="verb.motion"
               lexicalized="true">
-         <Definition>change orientation or direction, also in the abstract sense</Definition>
+         <Definition>to change orientation or direction</Definition>
          <SynsetRelation relType="similar" target="ewn-02094251-v"/>
          <!-- turn -->
          <SynsetRelation relType="hypernym" target="ewn-01835473-v"/>
@@ -43126,7 +42891,6 @@
          <SynsetRelation relType="is_entailed_by" target="ewn-01524685-v"/>
          <Example>"Turn towards me"</Example>
          <Example>"The mugger turned and fled before I could see his face"</Example>
-         <Example>"She turned from herself and learned to listen to others' needs"</Example>
       </Synset>
       <Synset id="ewn-01912197-v"
               ili="i31252"
@@ -43394,8 +43158,6 @@
          <!-- pass -->
          <SynsetRelation relType="hyponym" target="ewn-01885950-v"/>
          <!-- tramp -->
-         <SynsetRelation relType="hyponym" target="ewn-01916702-v"/>
-         <!-- stride -->
          <SynsetRelation relType="hyponym" target="ewn-01916886-v"/>
          <!-- walk -->
          <SynsetRelation relType="hyponym" target="ewn-01917230-v"/>
@@ -43413,16 +43175,6 @@
          <SynsetRelation relType="hyponym" target="ewn-02099338-v"/>
          <!-- hop -->
          <Example>"The caravan covered almost 100 miles each day"</Example>
-      </Synset>
-      <Synset id="ewn-01916702-v"
-              ili="i31276"
-              partOfSpeech="v"
-              dc:subject="verb.motion"
-              lexicalized="true">
-         <Definition>cover or traverse by taking long steps</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-01916152-v"/>
-         <!-- cover, cut through, get over, cut across, track, cross, pass over, traverse, get across -->
-         <Example>"She strode several miles towards the woods"</Example>
       </Synset>
       <Synset id="ewn-01916886-v"
               ili="i31277"
@@ -48368,8 +48120,6 @@
          <Definition>cause to be in an appropriate place, state, or relation</Definition>
          <SynsetRelation relType="hypernym" target="ewn-01496967-v"/>
          <!-- pose, lay, position, place, set, put -->
-         <SynsetRelation relType="hyponym" target="ewn-01151793-v"/>
-         <!-- deploy -->
          <SynsetRelation relType="hyponym" target="ewn-01153576-v"/>
          <!-- direct, aim, take, train, take aim -->
          <SynsetRelation relType="hyponym" target="ewn-01991507-v"/>

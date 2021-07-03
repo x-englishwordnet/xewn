@@ -7733,8 +7733,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="dissymmetry%1:25:00::"
-                order="2"
-                id="ewn-dissymmetry-n-13921202-02"
+                order="3"
+                id="ewn-dissymmetry-n-13921202-03"
                 n="0"
                 synset="ewn-13921202-n"
                 dc:identifier="dissymmetry%1:25:01::"
@@ -12666,7 +12666,7 @@
          <ILIDefinition>a curve whose equation in Cartesian coordinates is of the form y = a cos x.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13890262-n"/>
          <!-- curved shape, curve -->
-         <Example> The shape of the cosine curve is the same for each full rotation of the angle and so the function is called 'periodic'.</Example>
+         <Example>The shape of the cosine curve is the same for each full rotation of the angle and so the function is called 'periodic'.</Example>
       </Synset>
       <Synset id="ewn-92447289-n"
               ili="in"
@@ -12733,8 +12733,8 @@
               dc:subject="noun.shape"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>    a curve between two points along which a body can move under gravity in a shorter time than for any other curve.</Definition>
-         <ILIDefinition>    a curve between two points along which a body can move under gravity in a shorter time than for any other curve.</ILIDefinition>
+         <Definition>a curve between two points along which a body can move under gravity in a shorter time than for any other curve.</Definition>
+         <ILIDefinition>a curve between two points along which a body can move under gravity in a shorter time than for any other curve.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-13890262-n"/>
          <!-- curved shape, curve -->
          <Example>The brachistochrone is a cycloid with a horizontal base and with its cusp at the point A.</Example>

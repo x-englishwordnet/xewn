@@ -1161,8 +1161,8 @@
                 senseidx="1"
                 lexid="2"
                 sensekey="rack_up%2:33:02::"
-                order="4"
-                id="ewn-rack_up-v-01114241-04"
+                order="3"
+                id="ewn-rack_up-v-01114241-03"
                 n="0"
                 synset="ewn-01114241-v"
                 dc:identifier="rack_up%2:33:01::"
@@ -4036,8 +4036,6 @@
             <!-- track, running -->
             <SenseRelation relType="also" target="ewn-run_off-v-01083898-01"/>
             <!-- run off -->
-            <SenseRelation relType="also" target="ewn-run_off-v-01083898-01"/>
-            <!-- run off -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
                 tagCnt="7"
@@ -4354,23 +4352,6 @@
             <!-- tackle -->
             <SenseRelation relType="derivation" target="ewn-tackler-n-10707734-01"/>
             <!-- tackler -->
-         </Sense>
-      </LexicalEntry>
-      <LexicalEntry id="ewn-deploy-v">
-         <Lemma writtenForm="deploy" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8"
-                tagCnt="2"
-                senseidx="0"
-                lexid="0"
-                sensekey="deploy%2:33:00::"
-                order="1"
-                id="ewn-deploy-v-01151793-01"
-                n="0"
-                synset="ewn-01151793-v"
-                dc:identifier="deploy%2:33:00::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-deployment-n-01145922-01"/>
-            <!-- deployment -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-re-arm-v">
@@ -4786,8 +4767,6 @@
             <!-- gun -->
             <SenseRelation relType="derivation" target="ewn-gunner-n-09831257-03"/>
             <!-- machine gunner, gunner, cannoneer, artilleryman -->
-            <SenseRelation relType="also" target="ewn-gun_down-v-01139390-01"/>
-            <!-- gun down -->
             <SenseRelation relType="also" target="ewn-gun_down-v-01139390-01"/>
             <!-- gun down -->
          </Sense>
@@ -5365,25 +5344,11 @@
       <LexicalEntry id="ewn-hit-v">
          <Lemma writtenForm="hit" partOfSpeech="v"/>
          <Form writtenForm="hitting"/>
-         <Sense verbFrames="ewn-sb-2 ewn-sb-8"
-                tagCnt="3"
+         <Sense verbFrames="ewn-sb-9 ewn-sb-2 ewn-sb-8 ewn-sb-10 ewn-sb-11"
+                tagCnt="2"
                 senseidx="0"
                 lexid="1"
                 sensekey="hit%2:33:01::"
-                order="2"
-                id="ewn-hit-v-01114241-02"
-                n="7"
-                synset="ewn-01114241-v"
-                dc:identifier="hit%2:33:02::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-hit-n-00044640-01"/>
-            <!-- hit -->
-         </Sense>
-         <Sense verbFrames="ewn-sb-9 ewn-sb-2 ewn-sb-8 ewn-sb-10 ewn-sb-11"
-                tagCnt="2"
-                senseidx="1"
-                lexid="2"
-                sensekey="hit%2:33:02::"
                 order="2"
                 id="ewn-hit-v-01126313-02"
                 n="9"
@@ -5392,9 +5357,9 @@
                 lexicalized="true"/>
          <Sense verbFrames="ewn-sb-9 ewn-sb-8"
                 tagCnt="8"
-                senseidx="2"
-                lexid="3"
-                sensekey="hit%2:33:03::"
+                senseidx="1"
+                lexid="2"
+                sensekey="hit%2:33:02::"
                 order="2"
                 id="ewn-hit-v-01139564-02"
                 n="5"
@@ -5405,9 +5370,9 @@
             <!-- hitting, striking, hit -->
          </Sense>
          <Sense verbFrames="ewn-sb-8 ewn-sb-11"
-                senseidx="3"
-                lexid="4"
-                sensekey="hit%2:33:04::"
+                senseidx="2"
+                lexid="3"
+                sensekey="hit%2:33:03::"
                 order="1"
                 id="ewn-hit-v-01154862-01"
                 n="14"
@@ -5856,8 +5821,6 @@
             <!-- participant, player -->
             <SenseRelation relType="derivation" target="ewn-playing-n-00041926-01"/>
             <!-- playing -->
-            <SenseRelation relType="also" target="ewn-play_out-v-01084045-01"/>
-            <!-- play out -->
             <SenseRelation relType="also" target="ewn-play_out-v-01084045-01"/>
             <!-- play out -->
          </Sense>
@@ -7271,7 +7234,7 @@
                 synset="ewn-01153025-v"
                 dc:identifier="point%2:33:10::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-2 ewn-sb-22"
+         <Sense verbFrames="ewn-sb-22 ewn-sb-2"
                 tagCnt="8"
                 senseidx="1"
                 lexid="2"
@@ -8674,7 +8637,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-charge-v">
          <Lemma writtenForm="charge" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-2"
+         <Sense verbFrames="ewn-sb-9 ewn-sb-2 ewn-sb-8"
                 tagCnt="16"
                 senseidx="0"
                 lexid="1"
@@ -8840,8 +8803,6 @@
             <!-- nerve, cheek, face, boldness, brass -->
             <SenseRelation relType="also" target="ewn-face_off-v-01086459-01"/>
             <!-- face off, bully off -->
-            <SenseRelation relType="also" target="ewn-face_off-v-01086459-01"/>
-            <!-- face off, bully off -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-expel-v">
@@ -8886,8 +8847,6 @@
             <!-- fighter, attack aircraft, fighter aircraft -->
             <SenseRelation relType="derivation" target="ewn-fighting-n-01173452-02"/>
             <!-- scrap, combat, fight, fighting -->
-            <SenseRelation relType="also" target="ewn-fight_off-v-01133623-03"/>
-            <!-- repel, drive back, rebuff, fight off, repulse -->
             <SenseRelation relType="also" target="ewn-fight_off-v-01133623-03"/>
             <!-- repel, drive back, rebuff, fight off, repulse -->
          </Sense>
@@ -9426,10 +9385,6 @@
             <!-- wall in, wall up -->
             <SenseRelation relType="also" target="ewn-wall_up-v-01392596-02"/>
             <!-- wall in, wall up -->
-            <SenseRelation relType="also" target="ewn-wall_in-v-01392596-01"/>
-            <!-- wall in, wall up -->
-            <SenseRelation relType="also" target="ewn-wall_up-v-01392596-02"/>
-            <!-- wall in, wall up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-unarm-v">
@@ -9561,8 +9516,8 @@
                 senseidx="0"
                 lexid="0"
                 sensekey="tally%2:33:00::"
-                order="3"
-                id="ewn-tally-v-01114241-03"
+                order="2"
+                id="ewn-tally-v-01114241-02"
                 n="1"
                 synset="ewn-01114241-v"
                 dc:identifier="tally%2:33:00::"
@@ -10287,7 +10242,7 @@
                 synset="ewn-01091334-v"
                 dc:identifier="place%2:33:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-place-n-00587299-07"/>
+            <SenseRelation relType="derivation" target="ewn-place-n-00587299-05"/>
             <!-- position, situation, berth, place, spot, post, office, billet -->
          </Sense>
          <Sense verbFrames="ewn-sb-9 ewn-sb-8"
@@ -11729,6 +11684,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-squat-v">
          <Lemma writtenForm="squat" partOfSpeech="v"/>
+         <Form writtenForm="squatted"/>
+         <Form writtenForm="squatting"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"
@@ -14379,9 +14336,7 @@
          <!-- make, have, get -->
          <SynsetRelation relType="is_caused_by" target="ewn-01116045-v"/>
          <!-- drive in -->
-         <Example>"The home team scored many times"</Example>
-         <Example>"He hit a home run"</Example>
-         <Example>"He hit .300 in the past season"</Example>
+         <Example>"The home team is racking up points"</Example>
       </Synset>
       <Synset id="ewn-01114789-v"
               ili="i27157"
@@ -16868,17 +16823,6 @@
          <SynsetRelation relType="hypernym" target="ewn-02459338-v"/>
          <!-- back, support, plunk for, indorse, endorse, plump for -->
       </Synset>
-      <Synset id="ewn-01151793-v"
-              ili="i27371"
-              partOfSpeech="v"
-              dc:subject="verb.competition"
-              lexicalized="true">
-         <Definition>place troops or weapons in battle formation</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-01991174-v"/>
-         <!-- position -->
-         <SynsetRelation relType="hyponym" target="ewn-01151936-v"/>
-         <!-- play -->
-      </Synset>
       <Synset id="ewn-01151936-v"
               ili="i27372"
               partOfSpeech="v"
@@ -16889,8 +16833,6 @@
          <!-- play -->
          <SynsetRelation relType="similar" target="ewn-01082457-v"/>
          <!-- play -->
-         <SynsetRelation relType="hypernym" target="ewn-01151793-v"/>
-         <!-- deploy -->
          <SynsetRelation relType="hyponym" target="ewn-01152334-v"/>
          <!-- pitch -->
          <SynsetRelation relType="hyponym" target="ewn-01152476-v"/>

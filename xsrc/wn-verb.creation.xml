@@ -518,10 +518,6 @@
             <!-- refashion, redo, make over, remake -->
             <SenseRelation relType="also" target="ewn-make_up-v-01637966-04"/>
             <!-- make up, fabricate, invent, cook up, manufacture -->
-            <SenseRelation relType="also" target="ewn-make_over-v-01622744-04"/>
-            <!-- refashion, redo, make over, remake -->
-            <SenseRelation relType="also" target="ewn-make_up-v-01637966-04"/>
-            <!-- make up, fabricate, invent, cook up, manufacture -->
          </Sense>
          <Sense verbTemplates="ewn-st-115"
                 verbFrames="ewn-sb-8 ewn-sb-21"
@@ -3011,10 +3007,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-gloss-n-04962337-02"/>
             <!-- burnish, glossiness, gloss, polish -->
-            <SenseRelation relType="also" target="ewn-gloss_over-v-02521921-01"/>
-            <!-- skimp over, gloss over, smooth over, skate over, slur over -->
-            <SenseRelation relType="also" target="ewn-gloss_over-v-02152539-02"/>
-            <!-- sleek over, gloss over, hush up, whitewash -->
             <SenseRelation relType="also" target="ewn-gloss_over-v-02521921-01"/>
             <!-- skimp over, gloss over, smooth over, skate over, slur over -->
             <SenseRelation relType="also" target="ewn-gloss_over-v-02152539-02"/>
@@ -7097,8 +7089,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-draw_up-v-00708633-03"/>
             <!-- draw up, frame, compose -->
-            <SenseRelation relType="also" target="ewn-draw_up-v-00708633-03"/>
-            <!-- draw up, frame, compose -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-preassemble-v">
@@ -7543,12 +7533,6 @@
                 synset="ewn-01632781-v"
                 dc:identifier="bring%2:36:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-bring_on-v-01647592-02"/>
-            <!-- induce, bring on -->
-            <SenseRelation relType="also" target="ewn-bring_off-v-02528530-03"/>
-            <!-- negociate, bring off, manage, carry off, pull off -->
-            <SenseRelation relType="also" target="ewn-bring_up-v-01633150-09"/>
-            <!-- bring up, evoke, conjure, call forth, put forward, call down, arouse, invoke, stir, conjure up, raise -->
             <SenseRelation relType="also" target="ewn-bring_on-v-01647592-02"/>
             <!-- induce, bring on -->
             <SenseRelation relType="also" target="ewn-bring_off-v-02528530-03"/>
@@ -8564,8 +8548,6 @@
             <!-- author, writer -->
             <SenseRelation relType="derivation" target="ewn-writing-n-00931533-01"/>
             <!-- composition, authorship, writing, penning -->
-            <SenseRelation relType="also" target="ewn-write_out-v-01758384-01"/>
-            <!-- write up, write out -->
             <SenseRelation relType="also" target="ewn-write_out-v-01758384-01"/>
             <!-- write up, write out -->
          </Sense>
@@ -9943,8 +9925,6 @@
             <!-- originator, conceiver, mastermind -->
             <SenseRelation relType="also" target="ewn-originate_in-v-02633747-01"/>
             <!-- originate in -->
-            <SenseRelation relType="also" target="ewn-originate_in-v-02633747-01"/>
-            <!-- originate in -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-jewel-v">
@@ -10116,7 +10096,7 @@
          <Lemma writtenForm="build" partOfSpeech="v"/>
          <Form writtenForm="built"/>
          <Sense verbTemplates="ewn-st-37"
-                verbFrames="ewn-sb-8 ewn-sb-2"
+                verbFrames="ewn-sb-2 ewn-sb-8"
                 tagCnt="123"
                 senseidx="0"
                 lexid="1"
@@ -10196,10 +10176,7 @@
                 n="8"
                 synset="ewn-01673314-v"
                 dc:identifier="rack%2:36:00::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-rack-n-04045203-01"/>
-            <!-- rack -->
-         </Sense>
+                lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-create_from_raw_material-v">
          <Lemma writtenForm="create from raw material" partOfSpeech="v"/>
@@ -10380,8 +10357,6 @@
             <!-- dreamer, wishful thinker, escapist -->
             <SenseRelation relType="derivation" target="ewn-dreaming-n-05776803-02"/>
             <!-- dreaming, dream -->
-            <SenseRelation relType="also" target="ewn-dream_up-v-01637684-03"/>
-            <!-- think of, concoct, dream up, think up, hatch -->
             <SenseRelation relType="also" target="ewn-dream_up-v-01637684-03"/>
             <!-- think of, concoct, dream up, think up, hatch -->
          </Sense>
@@ -13296,8 +13271,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-bear_out-v-02669418-03"/>
             <!-- corroborate, support, underpin, bear out -->
-            <SenseRelation relType="also" target="ewn-bear_out-v-02669418-03"/>
-            <!-- corroborate, support, underpin, bear out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-disassemble-v">
@@ -15079,7 +15052,7 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-plume-n-03976356-01"/>
             <!-- plume -->
-            <SenseRelation relType="derivation" target="ewn-plume-n-01898672-02"/>
+            <SenseRelation relType="derivation" target="ewn-plume-n-01898672-01"/>
             <!-- plumage, plume, feather -->
          </Sense>
       </LexicalEntry>
@@ -17987,8 +17960,6 @@
             <!-- pipe up -->
             <SenseRelation relType="derivation" target="ewn-pipe-n-03951891-01"/>
             <!-- pipe -->
-            <SenseRelation relType="also" target="ewn-pipe_up-v-01052437-01"/>
-            <!-- pipe up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-trigger_off-v">
@@ -18803,12 +18774,14 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-slap-v">
          <Lemma writtenForm="slap" partOfSpeech="v"/>
+         <Form writtenForm="slapped"/>
+         <Form writtenForm="slapping"/>
          <Sense verbFrames="ewn-sb-8"
                 senseidx="0"
                 lexid="0"
                 sensekey="slap%2:36:00::"
-                order="1"
-                id="ewn-slap-v-90019491-01"
+                order="2"
+                id="ewn-slap-v-90019491-02"
                 n="1"
                 synset="ewn-90019491-v"
                 dc:identifier="slap%2:36:01::"
@@ -20077,8 +20050,6 @@
               dc:subject="verb.creation"
               lexicalized="true">
          <Definition>make a discovery, make a new finding</Definition>
-         <SynsetRelation relType="similar" target="ewn-00723361-v"/>
-         <!-- discover, find -->
          <SynsetRelation relType="hypernym" target="ewn-01636885-v"/>
          <!-- conceive, conceptualise, gestate, conceptualize -->
          <SynsetRelation relType="similar" target="ewn-00920843-v"/>

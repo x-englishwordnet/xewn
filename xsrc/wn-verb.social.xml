@@ -1369,8 +1369,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-bump_off-v-02488014-05"/>
             <!-- polish off, slay, bump off, murder, hit, dispatch, off, remove -->
-            <SenseRelation relType="also" target="ewn-bump_off-v-02488014-05"/>
-            <!-- polish off, slay, bump off, murder, hit, dispatch, off, remove -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-demote-v">
@@ -2247,8 +2245,6 @@
             <!-- first step, opening, opening move, initiative -->
             <SenseRelation relType="antonym" target="ewn-close-v-02430760-01"/>
             <!-- close -->
-            <SenseRelation relType="also" target="ewn-open_up-v-01648963-02"/>
-            <!-- open up, pioneer -->
             <SenseRelation relType="also" target="ewn-open_up-v-01648963-02"/>
             <!-- open up, pioneer -->
          </Sense>
@@ -5486,10 +5482,6 @@
             <!-- vote in -->
             <SenseRelation relType="also" target="ewn-vote_out-v-02479111-05"/>
             <!-- shoot down, vote out, vote down, kill, defeat -->
-            <SenseRelation relType="also" target="ewn-vote_in-v-02405779-01"/>
-            <!-- vote in -->
-            <SenseRelation relType="also" target="ewn-vote_out-v-02479111-05"/>
-            <!-- shoot down, vote out, vote down, kill, defeat -->
          </Sense>
          <Sense verbFrames="ewn-sb-8"
                 senseidx="1"
@@ -7143,7 +7135,7 @@
             <SenseRelation relType="derivation" target="ewn-work-n-04606723-01"/>
             <!-- piece of work, work -->
          </Sense>
-         <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-10 ewn-sb-22 ewn-sb-11"
+         <Sense verbFrames="ewn-sb-9 ewn-sb-8 ewn-sb-22 ewn-sb-10 ewn-sb-11"
                 senseidx="7"
                 lexid="8"
                 sensekey="work%2:41:08::"
@@ -9401,8 +9393,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-legalisation-n-01197870-02"/>
             <!-- legalization, legitimation, legalisation -->
-            <SenseRelation relType="antonym" target="ewn-outlaw-v-02486512-01"/>
-            <!-- criminalise, outlaw, illegalize, criminalize, illegalise -->
             <SenseRelation relType="antonym" target="ewn-outlaw-v-02486512-01"/>
             <!-- criminalise, outlaw, illegalize, criminalize, illegalise -->
          </Sense>
@@ -13038,7 +13028,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-resign-v">
          <Lemma writtenForm="resign" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-2"
+         <Sense verbFrames="ewn-sb-2 ewn-sb-8"
                 tagCnt="9"
                 senseidx="0"
                 lexid="1"
@@ -15536,8 +15526,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-cook_up-v-01637966-03"/>
             <!-- make up, fabricate, invent, cook up, manufacture -->
-            <SenseRelation relType="also" target="ewn-cook_up-v-01637966-03"/>
-            <!-- make up, fabricate, invent, cook up, manufacture -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-moon-v">
@@ -15783,8 +15771,6 @@
             <!-- effort, try, endeavor, attempt, endeavour -->
             <SenseRelation relType="derivation" target="ewn-trier-n-10748650-01"/>
             <!-- attempter, essayer, trier -->
-            <SenseRelation relType="also" target="ewn-try_out-v-02537291-04"/>
-            <!-- essay, test, try out, try, prove, examine -->
             <SenseRelation relType="also" target="ewn-try_out-v-02537291-04"/>
             <!-- essay, test, try out, try, prove, examine -->
          </Sense>
@@ -16769,8 +16755,6 @@
             <!-- recompense, compensation -->
             <SenseRelation relType="also" target="ewn-compensate-v-02678329-01"/>
             <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
-            <SenseRelation relType="also" target="ewn-compensate-v-02678329-01"/>
-            <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-fall_from_grace-v">
@@ -17461,8 +17445,6 @@
             <!-- invitee, guest -->
             <SenseRelation relType="derivation" target="ewn-invitation-n-07200808-01"/>
             <!-- invitation -->
-            <SenseRelation relType="also" target="ewn-invite_out-v-02492311-03"/>
-            <!-- take out, ask out, invite out, ask -->
             <SenseRelation relType="also" target="ewn-invite_out-v-02492311-03"/>
             <!-- take out, ask out, invite out, ask -->
          </Sense>
@@ -18579,8 +18561,6 @@
             <!-- dispensation -->
             <SenseRelation relType="also" target="ewn-dispense_with-v-02539728-06"/>
             <!-- forgo, forego, foreswear, dispense with, relinquish, waive -->
-            <SenseRelation relType="also" target="ewn-dispense_with-v-02539728-06"/>
-            <!-- forgo, forego, foreswear, dispense with, relinquish, waive -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-flirt-v">
@@ -18938,7 +18918,7 @@
                 synset="ewn-02428309-v"
                 dc:identifier="pass%2:41:11::"
                 lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-2 ewn-sb-8"
+         <Sense verbFrames="ewn-sb-8 ewn-sb-2"
                 tagCnt="29"
                 senseidx="1"
                 lexid="2"
@@ -19157,10 +19137,7 @@
                 n="2"
                 synset="ewn-02413852-v"
                 dc:identifier="rack%2:41:01::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-rack-n-04045203-01"/>
-            <!-- rack -->
-         </Sense>
+                lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-home-v">
          <Lemma writtenForm="home" partOfSpeech="v"/>
@@ -20578,7 +20555,7 @@
             <SenseRelation relType="derivation" target="ewn-government-n-01127115-01"/>
             <!-- governance, government, administration, government activity, governing -->
          </Sense>
-         <Sense verbFrames="ewn-sb-11 ewn-sb-2 ewn-sb-8"
+         <Sense verbFrames="ewn-sb-2 ewn-sb-11 ewn-sb-8"
                 tagCnt="11"
                 senseidx="1"
                 lexid="2"
@@ -22217,8 +22194,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-cross-n-14501251-01"/>
             <!-- cross, crown of thorns -->
-            <SenseRelation relType="also" target="ewn-double_cross-v-02543478-01"/>
-            <!-- double cross -->
             <SenseRelation relType="also" target="ewn-double_cross-v-02543478-01"/>
             <!-- double cross -->
          </Sense>
@@ -24529,8 +24504,6 @@
             <!-- intruder, trespasser, interloper -->
             <SenseRelation relType="also" target="ewn-trespass-v-02575977-01"/>
             <!-- take advantage, trespass -->
-            <SenseRelation relType="also" target="ewn-trespass-v-02575977-01"/>
-            <!-- take advantage, trespass -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-embargo-v">
@@ -25142,8 +25115,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-skimp_over-v-02521921-05"/>
             <!-- skimp over, gloss over, smooth over, skate over, slur over -->
-            <SenseRelation relType="also" target="ewn-skimp_over-v-02521921-05"/>
-            <!-- skimp over, gloss over, smooth over, skate over, slur over -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-territorialize-v">
@@ -25625,8 +25596,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-push-n-04843914-02"/>
             <!-- energy, push, get-up-and-go -->
-            <SenseRelation relType="also" target="ewn-push_on-v-01997581-02"/>
-            <!-- plough on, press on, push on -->
             <SenseRelation relType="also" target="ewn-push_on-v-01997581-02"/>
             <!-- plough on, press on, push on -->
          </Sense>
@@ -27188,21 +27157,10 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-get_together-v">
          <Lemma writtenForm="get together" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-2 ewn-sb-22"
-                tagCnt="1"
+         <Sense verbFrames="ewn-sb-22"
                 senseidx="0"
                 lexid="1"
                 sensekey="get_together%2:41:01::"
-                order="4"
-                id="ewn-get_together-v-02421408-04"
-                n="2"
-                synset="ewn-02421408-v"
-                dc:identifier="get_together%2:41:00::"
-                lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-22"
-                senseidx="1"
-                lexid="2"
-                sensekey="get_together%2:41:02::"
                 order="3"
                 id="ewn-get_together-v-02439823-03"
                 n="3"
@@ -27211,9 +27169,9 @@
                 lexicalized="true"/>
          <Sense verbFrames="ewn-sb-2 ewn-sb-22"
                 tagCnt="1"
-                senseidx="2"
-                lexid="3"
-                sensekey="get_together%2:41:03::"
+                senseidx="1"
+                lexid="2"
+                sensekey="get_together%2:41:02::"
                 order="2"
                 id="ewn-get_together-v-02492581-02"
                 n="1"
@@ -27226,9 +27184,9 @@
          <Sense verbTemplates="ewn-st-140"
                 verbFrames="ewn-sb-9"
                 tagCnt="1"
-                senseidx="3"
-                lexid="4"
-                sensekey="get_together%2:41:04::"
+                senseidx="2"
+                lexid="3"
+                sensekey="get_together%2:41:03::"
                 order="3"
                 id="ewn-get_together-v-02604140-03"
                 n="0"
@@ -27799,12 +27757,6 @@
             <!-- deed, human action, act, human activity -->
             <SenseRelation relType="antonym" target="ewn-refrain-v-02731589-01"/>
             <!-- refrain, forbear -->
-            <SenseRelation relType="also" target="ewn-act_on-v-02381520-03"/>
-            <!-- pursue, follow up on, act on -->
-            <SenseRelation relType="also" target="ewn-act_up-v-02523321-01"/>
-            <!-- carry on, act up -->
-            <SenseRelation relType="also" target="ewn-act_upon-v-02542223-02"/>
-            <!-- act upon, influence, work -->
             <SenseRelation relType="also" target="ewn-act_on-v-02381520-03"/>
             <!-- pursue, follow up on, act on -->
             <SenseRelation relType="also" target="ewn-act_up-v-02523321-01"/>
@@ -29925,7 +29877,7 @@
                 synset="ewn-02543626-v"
                 dc:identifier="place%2:41:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-place-n-00587299-07"/>
+            <SenseRelation relType="derivation" target="ewn-place-n-00587299-05"/>
             <!-- position, situation, berth, place, spot, post, office, billet -->
             <SenseRelation relType="derivation" target="ewn-place-n-08577045-02"/>
             <!-- place, home -->
@@ -30857,8 +30809,6 @@
             <!-- licensee -->
             <SenseRelation relType="derivation" target="ewn-licence-n-14018291-02"/>
             <!-- license, licence -->
-            <SenseRelation relType="derivation" target="ewn-licensee-n-10278190-01"/>
-            <!-- licensee -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-put_forward-v">
@@ -31780,8 +31730,6 @@
             <!-- offense, offence -->
             <SenseRelation relType="derivation" target="ewn-offense-n-00767587-01"/>
             <!-- offense, offence -->
-            <SenseRelation relType="derivation" target="ewn-offence-n-00767587-02"/>
-            <!-- offense, offence -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-regroup-v">
@@ -32547,7 +32495,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-dabble-v">
          <Lemma writtenForm="dabble" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-33 ewn-sb-2"
+         <Sense verbFrames="ewn-sb-2 ewn-sb-8 ewn-sb-33"
                 senseidx="0"
                 lexid="1"
                 sensekey="dabble%2:41:01::"
@@ -34648,6 +34596,18 @@
                 n="0"
                 synset="ewn-91000861-v"
                 dc:identifier="upvote%2:41:01::"
+                lexicalized="true"/>
+      </LexicalEntry>
+      <LexicalEntry id="ewn-hit_it_off-v">
+         <Lemma writtenForm="hit it off" partOfSpeech="v"/>
+         <Sense senseidx="0"
+                lexid="0"
+                sensekey="hit_it_off%2:41:00::"
+                order="5"
+                id="ewn-hit_it_off-v-02463998-05"
+                n="0"
+                synset="ewn-02463998-v"
+                dc:identifier="hit_it_off%2:41:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <Synset id="ewn-02372031-v"
@@ -37472,7 +37432,7 @@
               partOfSpeech="v"
               dc:subject="verb.social"
               lexicalized="true">
-         <Definition>work together on a common enterprise of project</Definition>
+         <Definition>work together on a common enterprise or project</Definition>
          <SynsetRelation relType="similar" target="ewn-02421881-v"/>
          <!-- collaborate -->
          <SynsetRelation relType="hypernym" target="ewn-02418610-v"/>
@@ -42146,7 +42106,7 @@
               partOfSpeech="v"
               dc:subject="verb.social"
               lexicalized="true">
-         <Definition>issue a ticket or a fine to as a penalty</Definition>
+         <Definition>record a fine as a penalty in a police record</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02503785-v"/>
          <!-- book -->
          <SynsetRelation relType="hyponym" target="ewn-02504636-v"/>
@@ -47902,7 +47862,7 @@
          <!-- modify, alter, change -->
          <SynsetRelation relType="hyponym" target="ewn-01609993-v"/>
          <!-- bond, draw together -->
-         <Example>"the Democratic Patry platform united several splinter groups"</Example>
+         <Example>"the Democratic Party platform united several splinter groups"</Example>
       </Synset>
       <Synset id="ewn-02609306-v"
               ili="i34705"

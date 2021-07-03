@@ -1974,8 +1974,6 @@
             <!-- widen -->
             <SenseRelation relType="also" target="ewn-narrow_down-v-00438402-04"/>
             <!-- specialise, narrow down, specialize, narrow -->
-            <SenseRelation relType="also" target="ewn-narrow_down-v-00438402-04"/>
-            <!-- specialise, narrow down, specialize, narrow -->
          </Sense>
          <Sense verbFrames="ewn-sb-4 ewn-sb-2 ewn-sb-22 ewn-sb-1"
                 tagCnt="1"
@@ -2424,8 +2422,6 @@
             <!-- centralization, centralisation -->
             <SenseRelation relType="derivation" target="ewn-centralisation-n-01240437-02"/>
             <!-- centralization, centralisation -->
-            <SenseRelation relType="antonym" target="ewn-decentralise-v-00406465-03"/>
-            <!-- decentralize, deconcentrate, decentralise -->
             <SenseRelation relType="antonym" target="ewn-decentralise-v-00406465-03"/>
             <!-- decentralize, deconcentrate, decentralise -->
             <SenseRelation relType="antonym" target="ewn-decentralize-v-00406465-01"/>
@@ -8275,10 +8271,6 @@
             <!-- mark out, mark off -->
             <SenseRelation relType="also" target="ewn-mark_out-v-00235426-02"/>
             <!-- mark out, mark off -->
-            <SenseRelation relType="also" target="ewn-mark_off-v-00235426-01"/>
-            <!-- mark out, mark off -->
-            <SenseRelation relType="also" target="ewn-mark_out-v-00235426-02"/>
-            <!-- mark out, mark off -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-hush_up-v">
@@ -8474,8 +8466,6 @@
                 synset="ewn-00482872-v"
                 dc:identifier="settle%2:30:04::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-settle_on-v-00487639-02"/>
-            <!-- fixate, settle on -->
             <SenseRelation relType="also" target="ewn-settle_on-v-00487639-02"/>
             <!-- fixate, settle on -->
          </Sense>
@@ -9359,8 +9349,6 @@
             <!-- doubling, double -->
             <SenseRelation relType="also" target="ewn-double_up-v-01142049-02"/>
             <!-- parlay, double up -->
-            <SenseRelation relType="also" target="ewn-double_up-v-01142049-02"/>
-            <!-- parlay, double up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-incarnadine-v">
@@ -9913,10 +9901,6 @@
             <!-- taper -->
             <SenseRelation relType="derivation" target="ewn-taper-n-13925486-01"/>
             <!-- taper -->
-            <SenseRelation relType="also" target="ewn-taper_off-v-00306198-01"/>
-            <!-- taper off -->
-            <SenseRelation relType="also" target="ewn-taper_off-v-02689494-01"/>
-            <!-- peter out, taper off, fizzle, fizzle out -->
             <SenseRelation relType="also" target="ewn-taper_off-v-00306198-01"/>
             <!-- taper off -->
             <SenseRelation relType="also" target="ewn-taper_off-v-02689494-01"/>
@@ -11139,23 +11123,6 @@
                 dc:identifier="sallow%2:30:00::"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-oversimplify-v">
-         <Lemma writtenForm="oversimplify" partOfSpeech="v"/>
-         <Form writtenForm="oversimplified"/>
-         <Sense verbFrames="ewn-sb-8"
-                senseidx="0"
-                lexid="0"
-                sensekey="oversimplify%2:30:00::"
-                order="1"
-                id="ewn-oversimplify-v-00401647-01"
-                n="1"
-                synset="ewn-00401647-v"
-                dc:identifier="oversimplify%2:30:00::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-oversimplification-n-06752094-01"/>
-            <!-- simplism, oversimplification -->
-         </Sense>
-      </LexicalEntry>
       <LexicalEntry id="ewn-strike_out-v">
          <Lemma writtenForm="strike out" partOfSpeech="v"/>
          <Sense verbFrames="ewn-sb-2"
@@ -12372,8 +12339,6 @@
             <!-- still, hush, stillness -->
             <SenseRelation relType="also" target="ewn-hush_up-v-02152539-04"/>
             <!-- sleek over, gloss over, hush up, whitewash -->
-            <SenseRelation relType="also" target="ewn-hush_up-v-02152539-04"/>
-            <!-- sleek over, gloss over, hush up, whitewash -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-brecciate-v">
@@ -12952,8 +12917,6 @@
             <!-- flood, inundation, alluvion, deluge -->
             <SenseRelation relType="also" target="ewn-flood_out-v-00753137-03"/>
             <!-- flood out, deluge, overwhelm -->
-            <SenseRelation relType="also" target="ewn-flood_out-v-00753137-03"/>
-            <!-- flood out, deluge, overwhelm -->
          </Sense>
          <Sense verbFrames="ewn-sb-1"
                 senseidx="1"
@@ -13230,8 +13193,6 @@
             <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
             <SenseRelation relType="antonym" target="ewn-blur-v-00313791-01"/>
             <!-- blear, blur -->
-            <SenseRelation relType="also" target="ewn-focus_on-v-02682306-01"/>
-            <!-- revolve about, center, concentrate on, center on, revolve around, focus on -->
          </Sense>
          <Sense verbFrames="ewn-sb-22 ewn-sb-1"
                 senseidx="1"
@@ -13927,8 +13888,6 @@
             <SenseRelation relType="derivation" target="ewn-decentralization-n-01240623-01"/>
             <!-- decentralisation, decentralization -->
             <SenseRelation relType="antonym" target="ewn-centralize-v-00406161-01"/>
-            <!-- concentrate, centralize, centralise -->
-            <SenseRelation relType="antonym" target="ewn-centralise-v-00406161-02"/>
             <!-- concentrate, centralize, centralise -->
             <SenseRelation relType="antonym" target="ewn-centralise-v-00406161-02"/>
             <!-- concentrate, centralize, centralise -->
@@ -15383,8 +15342,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-slacken_off-v-00156293-03"/>
             <!-- ease up, flag, ease off, slacken off -->
-            <SenseRelation relType="also" target="ewn-slacken_off-v-00156293-03"/>
-            <!-- ease up, flag, ease off, slacken off -->
          </Sense>
          <Sense verbFrames="ewn-sb-1 ewn-sb-2"
                 tagCnt="4"
@@ -15886,10 +15843,6 @@
             <!-- switch on, turn on -->
             <SenseRelation relType="also" target="ewn-turn_off-v-01513208-03"/>
             <!-- cut, turn out, switch off, turn off -->
-            <SenseRelation relType="also" target="ewn-turn_on-v-01513031-02"/>
-            <!-- switch on, turn on -->
-            <SenseRelation relType="also" target="ewn-turn_off-v-01513208-03"/>
-            <!-- cut, turn out, switch off, turn off -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-1"
                 tagCnt="21"
@@ -15906,10 +15859,6 @@
             <!-- turn of events, turn, twist -->
             <SenseRelation relType="derivation" target="ewn-turning-n-00196264-01"/>
             <!-- turning -->
-            <SenseRelation relType="also" target="ewn-turn_around-v-00206006-01"/>
-            <!-- turn around, pick up -->
-            <SenseRelation relType="also" target="ewn-turn_off-v-01812593-01"/>
-            <!-- put off, turn off -->
             <SenseRelation relType="also" target="ewn-turn_around-v-00206006-01"/>
             <!-- turn around, pick up -->
             <SenseRelation relType="also" target="ewn-turn_off-v-01812593-01"/>
@@ -19912,8 +19861,6 @@
             <!-- ion -->
             <SenseRelation relType="antonym" target="ewn-deionize-v-00521840-01"/>
             <!-- ewn-de-00521840-v  -->
-            <SenseRelation relType="antonym" target="ewn-deionize-v-00521840-01"/>
-            <!-- ewn-de-00521840-v  -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-overhaul-v">
@@ -21257,8 +21204,6 @@
             <!-- increment, growth, increase -->
             <SenseRelation relType="also" target="ewn-grow_up-v-02546044-01"/>
             <!-- grow up -->
-            <SenseRelation relType="also" target="ewn-grow_up-v-02546044-01"/>
-            <!-- grow up -->
          </Sense>
          <Sense verbTemplates="ewn-st-144"
                 verbFrames="ewn-sb-4 ewn-sb-1"
@@ -22130,10 +22075,6 @@
             <!-- filling -->
             <SenseRelation relType="antonym" target="ewn-empty-v-00450647-01"/>
             <!-- empty -->
-            <SenseRelation relType="also" target="ewn-fill_in-v-01699462-02"/>
-            <!-- shade, fill in -->
-            <SenseRelation relType="also" target="ewn-fill_out-v-01197471-04"/>
-            <!-- plump, fatten, fat, fatten up, flesh out, fatten out, plump out, fill out -->
             <SenseRelation relType="also" target="ewn-fill_in-v-01699462-02"/>
             <!-- shade, fill in -->
             <SenseRelation relType="also" target="ewn-fill_out-v-01197471-04"/>
@@ -23307,20 +23248,6 @@
                 n="1"
                 synset="ewn-00314788-v"
                 dc:identifier="veil%2:30:00::"
-                lexicalized="true"/>
-      </LexicalEntry>
-      <LexicalEntry id="ewn-turn_to-v">
-         <Lemma writtenForm="turn to" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-9"
-                tagCnt="9"
-                senseidx="0"
-                lexid="0"
-                sensekey="turn_to%2:30:00::"
-                order="1"
-                id="ewn-turn_to-v-00550851-01"
-                n="1"
-                synset="ewn-00550851-v"
-                dc:identifier="turn_to%2:30:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-felt_up-v">
@@ -25267,8 +25194,6 @@
             <!-- size -->
             <SenseRelation relType="also" target="ewn-size_up-v-02157817-01"/>
             <!-- take stock, scrutinise, scrutinize, size up -->
-            <SenseRelation relType="also" target="ewn-size_up-v-02157817-01"/>
-            <!-- take stock, scrutinise, scrutinize, size up -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-foredate-v">
@@ -26047,10 +25972,6 @@
                 synset="ewn-00135665-v"
                 dc:identifier="bring%2:30:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-bring_down-v-00430013-08"/>
-            <!-- trim, trim down, trim back, bring down, cut, cut down, cut back, reduce -->
-            <SenseRelation relType="also" target="ewn-bring_up-v-02545454-03"/>
-            <!-- bring up, nurture, rear, raise, parent -->
             <SenseRelation relType="also" target="ewn-bring_down-v-00430013-08"/>
             <!-- trim, trim down, trim back, bring down, cut, cut down, cut back, reduce -->
             <SenseRelation relType="also" target="ewn-bring_up-v-02545454-03"/>
@@ -30412,7 +30333,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-complete-v">
          <Lemma writtenForm="complete" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-11"
+         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
                 tagCnt="5"
                 senseidx="0"
                 lexid="1"
@@ -33648,10 +33569,6 @@
             <!-- disentangle, unsnarl, straighten out -->
             <SenseRelation relType="also" target="ewn-straighten_out-v-00622730-08"/>
             <!-- illuminate, clear, crystalise, crystallize, elucidate, crystalize, shed light on, enlighten, clear up, sort out, crystallise, straighten out -->
-            <SenseRelation relType="also" target="ewn-straighten_out-v-01466149-03"/>
-            <!-- disentangle, unsnarl, straighten out -->
-            <SenseRelation relType="also" target="ewn-straighten_out-v-00622730-08"/>
-            <!-- illuminate, clear, crystalise, crystallize, elucidate, crystalize, shed light on, enlighten, clear up, sort out, crystallise, straighten out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-wither-v">
@@ -35150,8 +35067,6 @@
             <!-- catheter -->
             <SenseRelation relType="derivation" target="ewn-catheterisation-n-00322388-02"/>
             <!-- catheterisation, catheterization -->
-            <SenseRelation relType="derivation" target="ewn-catheterization-n-00322388-01"/>
-            <!-- catheterisation, catheterization -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-stall-v">
@@ -35849,8 +35764,6 @@
             <!-- breaking, breakage, break -->
             <SenseRelation relType="also" target="ewn-break_up-v-00209582-02"/>
             <!-- decompose, break down, break up -->
-            <SenseRelation relType="also" target="ewn-break_up-v-00209582-02"/>
-            <!-- decompose, break down, break up -->
          </Sense>
          <Sense verbTemplates="ewn-st-6"
                 verbFrames="ewn-sb-8 ewn-sb-11"
@@ -35898,10 +35811,6 @@
                 synset="ewn-00340274-v"
                 dc:identifier="break%2:30:01::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-break_out-v-00346162-02"/>
-            <!-- break out, erupt -->
-            <SenseRelation relType="also" target="ewn-break_through-v-00427702-01"/>
-            <!-- break through, come through -->
             <SenseRelation relType="also" target="ewn-break_out-v-00346162-02"/>
             <!-- break out, erupt -->
             <SenseRelation relType="also" target="ewn-break_through-v-00427702-01"/>
@@ -36404,8 +36313,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-take_off-v-00642914-03"/>
             <!-- subtract, take off, deduct -->
-            <SenseRelation relType="also" target="ewn-take_off-v-00642914-03"/>
-            <!-- subtract, take off, deduct -->
          </Sense>
          <Sense verbFrames="ewn-sb-8 ewn-sb-11"
                 tagCnt="7"
@@ -36660,8 +36567,6 @@
             <!-- setting -->
             <SenseRelation relType="also" target="ewn-set_ahead-v-01998320-02"/>
             <!-- set ahead, advance -->
-            <SenseRelation relType="also" target="ewn-set_ahead-v-01998320-02"/>
-            <!-- set ahead, advance -->
          </Sense>
          <Sense verbFrames="ewn-sb-5 ewn-sb-21"
                 tagCnt="9"
@@ -36674,18 +36579,6 @@
                 synset="ewn-00299677-v"
                 dc:identifier="set%2:30:01::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-set_off-v-02723706-03"/>
-            <!-- cancel, offset, set off -->
-            <SenseRelation relType="also" target="ewn-set_up-v-00408773-01"/>
-            <!-- lay out, set, set up -->
-            <SenseRelation relType="also" target="ewn-set_off-v-01647199-05"/>
-            <!-- trigger, trip, spark off, trigger off, activate, spark, set off, actuate, touch off -->
-            <SenseRelation relType="also" target="ewn-set_apart-v-00679602-03"/>
-            <!-- specify, set apart, assign -->
-            <SenseRelation relType="also" target="ewn-set_aside-v-00726112-04"/>
-            <!-- reserve, earmark, appropriate, set aside, allow -->
-            <SenseRelation relType="also" target="ewn-set_off-v-00852919-03"/>
-            <!-- incite, instigate, set off, stir up -->
             <SenseRelation relType="also" target="ewn-set_off-v-02723706-03"/>
             <!-- cancel, offset, set off -->
             <SenseRelation relType="also" target="ewn-set_up-v-00408773-01"/>
@@ -41203,14 +41096,6 @@
                 synset="ewn-00149403-v"
                 dc:identifier="get%2:30:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-get_on-v-00249545-05"/>
-            <!-- get along, advance, get on, shape up, progress, come on, come along -->
-            <SenseRelation relType="also" target="ewn-get_along-v-00249545-06"/>
-            <!-- get along, advance, get on, shape up, progress, come on, come along -->
-            <SenseRelation relType="also" target="ewn-get_over-v-01111038-02"/>
-            <!-- master, get over, overcome, surmount, subdue -->
-            <SenseRelation relType="also" target="ewn-get_ahead-v-01113439-06"/>
-            <!-- get ahead, make headway, gain ground, advance, pull ahead, win, gain -->
             <SenseRelation relType="also" target="ewn-get_on-v-00249545-05"/>
             <!-- get along, advance, get on, shape up, progress, come on, come along -->
             <SenseRelation relType="also" target="ewn-get_along-v-00249545-06"/>
@@ -48896,8 +48781,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-slur_over-v-02521921-04"/>
             <!-- skimp over, gloss over, smooth over, skate over, slur over -->
-            <SenseRelation relType="also" target="ewn-slur_over-v-02521921-04"/>
-            <!-- skimp over, gloss over, smooth over, skate over, slur over -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-impregnate-v">
@@ -49819,10 +49702,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-clear-n-08649998-02"/>
             <!-- open, clear -->
-            <SenseRelation relType="also" target="ewn-clear_off-v-00181704-01"/>
-            <!-- clear away, clear off -->
-            <SenseRelation relType="also" target="ewn-clear_away-v-00181704-02"/>
-            <!-- clear away, clear off -->
             <SenseRelation relType="also" target="ewn-clear_off-v-00181704-01"/>
             <!-- clear away, clear off -->
             <SenseRelation relType="also" target="ewn-clear_away-v-00181704-02"/>
@@ -51763,8 +51642,6 @@
             <!-- commixture, mix, intermixture, mixing, admixture, mixture -->
             <SenseRelation relType="also" target="ewn-mix_up-v-00622051-02"/>
             <!-- mix up, stump -->
-            <SenseRelation relType="also" target="ewn-mix_up-v-00622051-02"/>
-            <!-- mix up, stump -->
          </Sense>
          <Sense verbFrames="ewn-sb-8"
                 tagCnt="1"
@@ -53507,8 +53384,6 @@
             <!-- bubble -->
             <SenseRelation relType="also" target="ewn-bubble_over-v-01766953-01"/>
             <!-- spill over, bubble over, overflow -->
-            <SenseRelation relType="also" target="ewn-bubble_over-v-01766953-01"/>
-            <!-- spill over, bubble over, overflow -->
          </Sense>
          <Sense verbFrames="ewn-sb-11"
                 senseidx="1"
@@ -54232,8 +54107,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-cut_off-v-00780320-04"/>
             <!-- disrupt, break up, interrupt, cut off -->
-            <SenseRelation relType="also" target="ewn-cut_off-v-00780320-04"/>
-            <!-- disrupt, break up, interrupt, cut off -->
          </Sense>
          <Sense verbTemplates="ewn-st-145"
                 verbFrames="ewn-sb-8 ewn-sb-11"
@@ -54277,12 +54150,6 @@
                 synset="ewn-00474253-v"
                 dc:identifier="cut%2:30:02::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-cut_back-v-00237442-04"/>
-            <!-- restrict, cut back, curtail, curb -->
-            <SenseRelation relType="also" target="ewn-cut_back-v-00430013-03"/>
-            <!-- trim, trim down, trim back, bring down, cut, cut down, cut back, reduce -->
-            <SenseRelation relType="also" target="ewn-cut_out-v-00473602-01"/>
-            <!-- cut out -->
             <SenseRelation relType="also" target="ewn-cut_back-v-00237442-04"/>
             <!-- restrict, cut back, curtail, curb -->
             <SenseRelation relType="also" target="ewn-cut_back-v-00430013-03"/>
@@ -55807,8 +55674,6 @@
             <!-- patching -->
             <SenseRelation relType="also" target="ewn-patch_up-v-00766947-02"/>
             <!-- conciliate, make up, settle, patch up, reconcile -->
-            <SenseRelation relType="also" target="ewn-patch_up-v-00766947-02"/>
-            <!-- conciliate, make up, settle, patch up, reconcile -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-globalise-v">
@@ -55942,14 +55807,6 @@
             <!-- die down -->
             <SenseRelation relType="antonym" target="ewn-be_born-v-00361585-01"/>
             <!-- be born -->
-            <SenseRelation relType="also" target="ewn-die_out-v-00428636-01"/>
-            <!-- die out, die off -->
-            <SenseRelation relType="also" target="ewn-die_off-v-00428636-02"/>
-            <!-- die out, die off -->
-            <SenseRelation relType="also" target="ewn-die_down-v-00242912-02"/>
-            <!-- die down, die back -->
-            <SenseRelation relType="also" target="ewn-die_down-v-00224594-01"/>
-            <!-- die down -->
          </Sense>
          <Sense verbTemplates="ewn-st-131"
                 verbFrames="ewn-sb-1"
@@ -56203,12 +56060,6 @@
             <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
             <SenseRelation relType="also" target="ewn-even_up-v-02678329-07"/>
             <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
-            <SenseRelation relType="also" target="ewn-even_out-v-02678329-05"/>
-            <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
-            <SenseRelation relType="also" target="ewn-even_off-v-02678329-06"/>
-            <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
-            <SenseRelation relType="also" target="ewn-even_up-v-02678329-07"/>
-            <!-- correct, make up, even out, counterbalance, even up, even off, compensate -->
          </Sense>
          <Sense verbFrames="ewn-sb-1"
                 senseidx="1"
@@ -56285,24 +56136,13 @@
          <Lemma writtenForm="burst out" partOfSpeech="v"/>
          <Sense verbFrames="ewn-sb-1 ewn-sb-2"
                 senseidx="0"
-                lexid="1"
-                sensekey="burst_out%2:30:01::"
+                lexid="0"
+                sensekey="burst_out%2:30:00::"
                 order="6"
                 id="ewn-burst_out-v-00308567-06"
                 n="2"
                 synset="ewn-00308567-v"
                 dc:identifier="burst_out%2:30:00::"
-                lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-1 ewn-sb-4"
-                tagCnt="1"
-                senseidx="1"
-                lexid="2"
-                sensekey="burst_out%2:30:02::"
-                order="2"
-                id="ewn-burst_out-v-00427109-02"
-                n="1"
-                synset="ewn-00427109-v"
-                dc:identifier="burst_out%2:30:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-melt_down-v">
@@ -60511,20 +60351,9 @@
       <LexicalEntry id="ewn-pop_out-v">
          <Lemma writtenForm="pop out" partOfSpeech="v"/>
          <Sense verbFrames="ewn-sb-1 ewn-sb-4"
-                tagCnt="3"
                 senseidx="0"
-                lexid="1"
-                sensekey="pop_out%2:30:01::"
-                order="1"
-                id="ewn-pop_out-v-00427109-01"
-                n="0"
-                synset="ewn-00427109-v"
-                dc:identifier="pop_out%2:30:01::"
-                lexicalized="true"/>
-         <Sense verbFrames="ewn-sb-1 ewn-sb-4"
-                senseidx="1"
-                lexid="2"
-                sensekey="pop_out%2:30:02::"
+                lexid="0"
+                sensekey="pop_out%2:30:00::"
                 order="1"
                 id="ewn-pop_out-v-00530491-01"
                 n="3"
@@ -62222,8 +62051,6 @@
             <!-- branch -->
             <SenseRelation relType="also" target="ewn-branch_out-v-00437357-02"/>
             <!-- broaden, diversify, branch out -->
-            <SenseRelation relType="also" target="ewn-branch_out-v-00437357-02"/>
-            <!-- broaden, diversify, branch out -->
          </Sense>
          <Sense verbFrames="ewn-sb-1"
                 senseidx="1"
@@ -62444,6 +62271,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-commit-v">
          <Lemma writtenForm="commit" partOfSpeech="v"/>
+         <Form writtenForm="committed"/>
+         <Form writtenForm="committing"/>
          <Sense verbFrames="ewn-sb-8"
                 senseidx="0"
                 lexid="1"
@@ -81667,20 +81496,8 @@
          <!-- modify, alter, change -->
          <SynsetRelation relType="hyponym" target="ewn-00243282-v"/>
          <!-- reduce -->
-         <SynsetRelation relType="hyponym" target="ewn-00401647-v"/>
-         <!-- oversimplify -->
          <Example>"We had to simplify the instructions"</Example>
          <Example>"this move will simplify our lives"</Example>
-      </Synset>
-      <Synset id="ewn-00401647-v"
-              ili="i23733"
-              partOfSpeech="v"
-              dc:subject="verb.change"
-              lexicalized="true">
-         <Definition>make too simple</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00401333-v"/>
-         <!-- simplify -->
-         <Example>"Don't oversimplify the instructions"</Example>
       </Synset>
       <Synset id="ewn-00401789-v"
               ili="i23734"
@@ -82879,8 +82696,6 @@
          <!-- turn out -->
          <SynsetRelation relType="hyponym" target="ewn-00426798-v"/>
          <!-- crop out, basset -->
-         <SynsetRelation relType="hyponym" target="ewn-00427109-v"/>
-         <!-- burst out, pop out -->
          <SynsetRelation relType="hyponym" target="ewn-00427254-v"/>
          <!-- re-emerge, reappear -->
          <SynsetRelation relType="hyponym" target="ewn-00427534-v"/>
@@ -83110,16 +82925,6 @@
          <!-- materialize, materialise, happen -->
          <Example>"Did your latest book appear yet?"</Example>
          <Example>"The new Woody Allen film hasn't come out yet"</Example>
-      </Synset>
-      <Synset id="ewn-00427109-v"
-              ili="i23856"
-              partOfSpeech="v"
-              dc:subject="verb.change"
-              lexicalized="true">
-         <Definition>appear suddenly</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00423043-v"/>
-         <!-- appear -->
-         <Example>"Spring popped up everywhere in the valley"</Example>
       </Synset>
       <Synset id="ewn-00427254-v"
               ili="i23857"
@@ -90585,15 +90390,6 @@
          <Example>"This will save money"</Example>
          <Example>"I'll save you the trouble"</Example>
          <Example>"This will save you a lot of time"</Example>
-      </Synset>
-      <Synset id="ewn-00550851-v"
-              ili="i24491"
-              partOfSpeech="v"
-              dc:subject="verb.change"
-              lexicalized="true">
-         <Definition>direct one's interest or attention towards; go into</Definition>
-         <Example>"The student turned to the teacher for help"</Example>
-         <Example>"People turn to mysticism at the turn of a millennium"</Example>
       </Synset>
       <Synset id="ewn-00551059-v"
               ili="i24492"

@@ -1,9 +1,6 @@
 UPSTREAM:
-commit 12486ddae4e9f8601aedebd3ca5a6ab866807fc1
-Merge: 5768c7b 0132deb
-Author: John McCrae <john@mccr.ae>
-Date:   Tue Jun 22 13:56:56 2021 +0100
+commit 89bb8a57e9375957e7e60d4314c15dc0d25ff630
+Author: John P. McCrae <john@mccr.ae>
+Date:   Mon Jun 28 10:05:16 2021 +0100
 
-    Merge pull request #642 from globalwordnet/Issue-#235
-    
-    Fixes #235
+    Fix validity issues

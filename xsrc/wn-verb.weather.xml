@@ -274,8 +274,6 @@
             <!-- blazing, blaze -->
             <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/>
             <!-- blaze up, burn up, flame up, flare -->
-            <SenseRelation relType="also" target="ewn-blaze_up-v-02768764-03"/>
-            <!-- blaze up, burn up, flame up, flare -->
          </Sense>
          <Sense verbTemplates="ewn-st-149 ewn-st-150"
                 verbFrames="ewn-sb-1"
@@ -1170,25 +1168,7 @@
             <!-- overcloud, cloud over, cloud up -->
             <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/>
             <!-- overcloud, cloud over, cloud up -->
-            <SenseRelation relType="also" target="ewn-cloud_over-v-02776978-02"/>
-            <!-- overcloud, cloud over, cloud up -->
-            <SenseRelation relType="also" target="ewn-cloud_up-v-02776978-03"/>
-            <!-- overcloud, cloud over, cloud up -->
          </Sense>
-      </LexicalEntry>
-      <LexicalEntry id="ewn-black_out-v">
-         <Lemma writtenForm="black out" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-11 ewn-sb-8"
-                tagCnt="1"
-                senseidx="0"
-                lexid="0"
-                sensekey="black_out%2:43:00::"
-                order="1"
-                id="ewn-black_out-v-02768257-01"
-                n="0"
-                synset="ewn-02768257-v"
-                dc:identifier="black_out%2:43:00::"
-                lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-suck-v">
          <Lemma writtenForm="suck" partOfSpeech="v"/>
@@ -2211,8 +2191,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/>
             <!-- blaze up, burn up, flame up, flare -->
-            <SenseRelation relType="also" target="ewn-flame_up-v-02768764-02"/>
-            <!-- blaze up, burn up, flame up, flare -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-clear-v">
@@ -2899,21 +2877,9 @@
          <!-- stub -->
          <SynsetRelation relType="hyponym" target="ewn-02766453-v"/>
          <!-- put out, douse -->
-         <SynsetRelation relType="hyponym" target="ewn-02768257-v"/>
-         <!-- black out -->
          <Example>"Too big to be extinguished at once, the forest fires at best could be contained"</Example>
          <Example>"quench the flames"</Example>
          <Example>"snuff out the candles"</Example>
-      </Synset>
-      <Synset id="ewn-02768257-v"
-              ili="i35492"
-              partOfSpeech="v"
-              dc:subject="verb.weather"
-              lexicalized="true">
-         <Definition>obliterate or extinguish</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-02767855-v"/>
-         <!-- extinguish, quench, blow out, snuff out -->
-         <Example>"Some life-forms were obliterated by the radiation, others survived"</Example>
       </Synset>
       <Synset id="ewn-02768426-v"
               ili="i35493"

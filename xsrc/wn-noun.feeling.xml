@@ -724,8 +724,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-cheerful-s-01668480-01"/>
             <!-- pollyannaish, cheerful, upbeat -->
-            <SenseRelation relType="derivation" target="ewn-cheerful-s-01668480-01"/>
-            <!-- pollyannaish, cheerful, upbeat -->
             <SenseRelation relType="derivation" target="ewn-blithe-s-00364371-01"/>
          </Sense>
       </LexicalEntry>
@@ -3810,10 +3808,7 @@
                 n="0"
                 synset="ewn-07501369-n"
                 dc:identifier="wishing%1:12:00::"
-                lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-wish-v-01828281-01"/>
-            <!-- wish -->
-         </Sense>
+                lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-lowness-n">
          <Lemma writtenForm="lowness" partOfSpeech="n"/>
@@ -4460,8 +4455,6 @@
             <!-- care, wish, like -->
             <SenseRelation relType="derivation" target="ewn-wish-v-01828474-01"/>
             <!-- wish well, wish -->
-            <SenseRelation relType="derivation" target="ewn-wish-v-01828281-01"/>
-            <!-- wish -->
             <SenseRelation relType="derivation" target="ewn-wish-v-00905166-01"/>
             <!-- wish -->
          </Sense>
@@ -8484,8 +8477,6 @@
                 synset="ewn-07537968-n"
                 dc:identifier="timorousness%1:12:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-timid-s-00266855-03"/>
-            <!-- faint-hearted, timid, fainthearted, faint -->
             <SenseRelation relType="derivation" target="ewn-timid-s-00266855-03"/>
             <!-- faint-hearted, timid, fainthearted, faint -->
             <SenseRelation relType="derivation" target="ewn-timorous-s-00253364-02"/>

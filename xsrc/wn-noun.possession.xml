@@ -16938,8 +16938,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="ad_valorem_tax%1:21:00::"
-                order="3"
-                id="ewn-ad_valorem_tax-n-13337744-03"
+                order="1"
+                id="ewn-ad_valorem_tax-n-13337744-01"
                 n="0"
                 synset="ewn-13337744-n"
                 dc:identifier="ad_valorem_tax%1:21:00::"
@@ -23272,6 +23272,7 @@
          <Definition>a grant to a person or school for some educational project</Definition>
          <SynsetRelation relType="hyponym" target="ewn-13288710-n"/>
          <!-- postdoc, post doc, postdoctoral -->
+         <SynsetRelation relType="hypernym" target="ewn-00088243-n"/>
       </Synset>
       <!-- postdoc, post doc, postdoctoral -->
       <Synset id="ewn-13288710-n"

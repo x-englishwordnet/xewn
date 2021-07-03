@@ -1209,8 +1209,6 @@
             <!-- castration -->
             <SenseRelation relType="derivation" target="ewn-neutering-n-00693759-01"/>
             <!-- neutering, fixing, altering -->
-            <SenseRelation relType="derivation" target="ewn-neutering-n-00693759-01"/>
-            <!-- neutering, fixing, altering -->
          </Sense>
          <Sense verbFrames="ewn-sb-8 ewn-sb-9"
                 senseidx="1"
@@ -3906,7 +3904,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-stretch-v">
          <Lemma writtenForm="stretch" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-8 ewn-sb-2"
+         <Sense verbFrames="ewn-sb-2 ewn-sb-8"
                 tagCnt="11"
                 senseidx="0"
                 lexid="1"
@@ -4864,8 +4862,6 @@
             <!-- shrug -->
             <SenseRelation relType="also" target="ewn-shrug_off-v-00744118-01"/>
             <!-- shrug off -->
-            <SenseRelation relType="also" target="ewn-shrug_off-v-00744118-01"/>
-            <!-- shrug off -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-slobber-v">
@@ -4884,8 +4880,6 @@
             <!-- slobberer, drooler, driveller, dribbler -->
             <SenseRelation relType="derivation" target="ewn-slobber-n-05424022-04"/>
             <!-- drool, dribble, drivel, slobber -->
-            <SenseRelation relType="also" target="ewn-slobber_over-v-01831687-02"/>
-            <!-- drool over, slobber over -->
             <SenseRelation relType="also" target="ewn-slobber_over-v-01831687-02"/>
             <!-- drool over, slobber over -->
          </Sense>
@@ -5115,8 +5109,6 @@
             <!-- lavation, washing, wash -->
             <SenseRelation relType="derivation" target="ewn-washing-n-00256577-02"/>
             <!-- lavation, washing, wash -->
-            <SenseRelation relType="also" target="ewn-wash_up-v-00025027-01"/>
-            <!-- wash up, lave -->
             <SenseRelation relType="also" target="ewn-wash_up-v-00025027-01"/>
             <!-- wash up, lave -->
          </Sense>
@@ -5897,12 +5889,6 @@
             <!-- laugh off, laugh away -->
             <SenseRelation relType="also" target="ewn-laugh_at-v-00853615-05"/>
             <!-- poke fun, roast, rib, ridicule, blackguard, guy, make fun, jest at, laugh at -->
-            <SenseRelation relType="also" target="ewn-laugh_off-v-00803798-01"/>
-            <!-- laugh off, laugh away -->
-            <SenseRelation relType="also" target="ewn-laugh_away-v-00803798-02"/>
-            <!-- laugh off, laugh away -->
-            <SenseRelation relType="also" target="ewn-laugh_at-v-00853615-05"/>
-            <!-- poke fun, roast, rib, ridicule, blackguard, guy, make fun, jest at, laugh at -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-collapse-v">
@@ -6160,8 +6146,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-drowse-n-00860527-02"/>
             <!-- doze, drowse -->
-            <SenseRelation relType="also" target="ewn-drowse_off-v-00017275-08"/>
-            <!-- nod off, doze off, fall asleep, drop off, dope off, drift off, flake out, drowse off -->
             <SenseRelation relType="also" target="ewn-drowse_off-v-00017275-08"/>
             <!-- nod off, doze off, fall asleep, drop off, dope off, drift off, flake out, drowse off -->
          </Sense>
@@ -6525,12 +6509,6 @@
             <!-- cough, coughing -->
             <SenseRelation relType="derivation" target="ewn-coughing-n-14382579-02"/>
             <!-- cough, coughing -->
-            <SenseRelation relType="also" target="ewn-cough_out-v-00006238-03"/>
-            <!-- expectorate, spit up, cough up, cough out, spit out -->
-            <SenseRelation relType="also" target="ewn-cough_up-v-00006238-02"/>
-            <!-- expectorate, spit up, cough up, cough out, spit out -->
-            <SenseRelation relType="also" target="ewn-cough_up-v-02204855-01"/>
-            <!-- spit up, cough up, pony up -->
             <SenseRelation relType="also" target="ewn-cough_out-v-00006238-03"/>
             <!-- expectorate, spit up, cough up, cough out, spit out -->
             <SenseRelation relType="also" target="ewn-cough_up-v-00006238-02"/>
@@ -10901,8 +10879,6 @@
             <!-- slobberer, drooler, driveller, dribbler -->
             <SenseRelation relType="also" target="ewn-drool_over-v-01831687-01"/>
             <!-- drool over, slobber over -->
-            <SenseRelation relType="also" target="ewn-drool_over-v-01831687-01"/>
-            <!-- drool over, slobber over -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-bring_up-v">
@@ -11013,8 +10989,6 @@
             <!-- disrobe, undress, strip down, peel, uncase, unclothe, strip, discase -->
             <SenseRelation relType="also" target="ewn-dress_up-v-00043880-02"/>
             <!-- fig out, trick up, prink, deck up, deck out, dress up, attire, tog up, fig up, gussy up, trick out, tog out, overdress, rig out, get up, fancy up -->
-            <SenseRelation relType="also" target="ewn-dress_down-v-00045077-01"/>
-            <!-- dress down, underdress -->
             <SenseRelation relType="also" target="ewn-dress_down-v-00045077-01"/>
             <!-- dress down, underdress -->
          </Sense>
@@ -11804,10 +11778,6 @@
             <!-- snorkel breather, schnorchel, breather, snorkel, schnorkel -->
             <SenseRelation relType="derivation" target="ewn-breathing-n-00832852-01"/>
             <!-- ventilation, external respiration, respiration, breathing -->
-            <SenseRelation relType="also" target="ewn-breathe_out-v-00004227-03"/>
-            <!-- breathe out, expire, exhale -->
-            <SenseRelation relType="also" target="ewn-breathe_in-v-00005041-03"/>
-            <!-- breathe in, inhale, inspire -->
             <SenseRelation relType="also" target="ewn-breathe_out-v-00004227-03"/>
             <!-- breathe out, expire, exhale -->
             <SenseRelation relType="also" target="ewn-breathe_in-v-00005041-03"/>
@@ -12740,14 +12710,6 @@
             <!-- live in, sleep in -->
             <SenseRelation relType="also" target="ewn-sleep_out-v-01179802-02"/>
             <!-- sleep out, live out -->
-            <SenseRelation relType="also" target="ewn-sleep_in-v-00015799-02"/>
-            <!-- sleep late, sleep in -->
-            <SenseRelation relType="also" target="ewn-sleep_late-v-00015799-01"/>
-            <!-- sleep late, sleep in -->
-            <SenseRelation relType="also" target="ewn-sleep_in-v-01179611-02"/>
-            <!-- live in, sleep in -->
-            <SenseRelation relType="also" target="ewn-sleep_out-v-01179802-02"/>
-            <!-- sleep out, live out -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-reanimate-v">
@@ -12939,10 +12901,6 @@
             <!-- expectorator, spitter -->
             <SenseRelation relType="derivation" target="ewn-spitting-n-00119372-02"/>
             <!-- expectoration, spitting, spit -->
-            <SenseRelation relType="also" target="ewn-spit_up-v-00006238-04"/>
-            <!-- expectorate, spit up, cough up, cough out, spit out -->
-            <SenseRelation relType="also" target="ewn-spit_up-v-02204855-03"/>
-            <!-- spit up, cough up, pony up -->
             <SenseRelation relType="also" target="ewn-spit_up-v-00006238-04"/>
             <!-- expectorate, spit up, cough up, cough out, spit out -->
             <SenseRelation relType="also" target="ewn-spit_up-v-02204855-03"/>
@@ -14024,8 +13982,6 @@
             <!-- doze, drowse -->
             <SenseRelation relType="also" target="ewn-doze_off-v-00017275-07"/>
             <!-- nod off, doze off, fall asleep, drop off, dope off, drift off, flake out, drowse off -->
-            <SenseRelation relType="also" target="ewn-doze_off-v-00017275-07"/>
-            <!-- nod off, doze off, fall asleep, drop off, dope off, drift off, flake out, drowse off -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-void-v">
@@ -14835,8 +14791,6 @@
             <!-- diaphoresis, sweating, sudation, hidrosis, perspiration -->
             <SenseRelation relType="also" target="ewn-sweat_off-v-00045739-01"/>
             <!-- sweat off -->
-            <SenseRelation relType="also" target="ewn-sweat_off-v-00045739-01"/>
-            <!-- sweat off -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-hypertrophy-v">
@@ -14883,8 +14837,6 @@
                 synset="ewn-00010428-v"
                 dc:identifier="act%2:29:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-act_up-v-02126987-01"/>
-            <!-- act up -->
             <SenseRelation relType="also" target="ewn-act_up-v-02126987-01"/>
             <!-- act up -->
          </Sense>
@@ -15667,8 +15619,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-freshener-n-03400581-01"/>
             <!-- freshener -->
-            <SenseRelation relType="also" target="ewn-freshen_up-v-00024807-04"/>
-            <!-- refreshen, freshen up, freshen, refresh -->
             <SenseRelation relType="also" target="ewn-freshen_up-v-00024807-04"/>
             <!-- refreshen, freshen up, freshen, refresh -->
          </Sense>
@@ -17919,14 +17869,14 @@
                 dc:identifier="thug%2:29:01::"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-wildin-v">
+      <LexicalEntry id="ewn-wildin-ap--v">
          <Lemma writtenForm="wildin'" partOfSpeech="v"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"
                 sensekey="wildin'%2:29:00::"
                 order="1"
-                id="ewn-wildin-v-90002291-01"
+                id="ewn-wildin-ap--v-90002291-01"
                 n="0"
                 synset="ewn-90002291-v"
                 dc:identifier="wildin'%2:29:01::"
@@ -18353,6 +18303,7 @@
          <Definition>partly close one's eyes, as when hit by direct blinding light</Definition>
          <SynsetRelation relType="hypernym" target="ewn-00033592-v"/>
          <!-- look -->
+         <SynsetRelation relType="hypernym" target="ewn-02169748-v"/>
          <Example>"The driver squinted as the sun hit his windshield"</Example>
       </Synset>
       <Synset id="ewn-00008970-v"
@@ -19812,11 +19763,13 @@
               partOfSpeech="v"
               dc:subject="verb.body"
               lexicalized="true">
-         <Definition>have a certain outward or facial expression</Definition>
+         <Definition>to physically appear a certain way to another individual or group</Definition>
          <SynsetRelation relType="hypernym" target="ewn-02610777-v"/>
          <!-- be -->
          <SynsetRelation relType="hyponym" target="ewn-00008792-v"/>
          <!-- squint -->
+         <SynsetRelation relType="hyponym" target="ewn-02134989-v"/>
+         <!-- look -->
          <Example>"How does she look?"</Example>
          <Example>"The child looks unhappy"</Example>
          <Example>"She looked pale after the surgery"</Example>

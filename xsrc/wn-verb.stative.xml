@@ -2681,19 +2681,6 @@
             <!-- difference, divergence, deviation, departure -->
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-seem-v">
-         <Lemma writtenForm="seem" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-11"
-                senseidx="0"
-                lexid="0"
-                sensekey="seem%2:42:00::"
-                order="1"
-                id="ewn-seem-v-02751757-01"
-                n="2"
-                synset="ewn-02751757-v"
-                dc:identifier="seem%2:42:00::"
-                lexicalized="true"/>
-      </LexicalEntry>
       <LexicalEntry id="ewn-aberrate-v">
          <Lemma writtenForm="aberrate" partOfSpeech="v"/>
          <Sense verbFrames="ewn-sb-1"
@@ -3717,8 +3704,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-bridge-n-13815542-01"/>
             <!-- bridge -->
-            <SenseRelation relType="also" target="ewn-bridge_over-v-02629427-02"/>
-            <!-- keep going, bridge over, tide over -->
             <SenseRelation relType="also" target="ewn-bridge_over-v-02629427-02"/>
             <!-- keep going, bridge over, tide over -->
          </Sense>
@@ -6460,8 +6445,6 @@
             <!-- mete, borderline, delimitation, boundary line, border -->
             <SenseRelation relType="also" target="ewn-border_on-v-02709812-01"/>
             <!-- border on, approach -->
-            <SenseRelation relType="also" target="ewn-border_on-v-02709812-01"/>
-            <!-- border on, approach -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-regard-v">
@@ -7113,8 +7096,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-run_along-v-02709399-02"/>
             <!-- line, run along -->
-            <SenseRelation relType="also" target="ewn-run_along-v-02709399-02"/>
-            <!-- line, run along -->
          </Sense>
          <Sense verbFrames="ewn-sb-21"
                 tagCnt="1"
@@ -7483,8 +7464,6 @@
                 synset="ewn-02638434-v"
                 dc:identifier="miss%2:42:00::"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-have-v-02636270-01"/>
-            <!-- feature, have -->
             <SenseRelation relType="antonym" target="ewn-have-v-02636270-01"/>
             <!-- feature, have -->
          </Sense>
@@ -8834,7 +8813,7 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-relate-v">
          <Lemma writtenForm="relate" partOfSpeech="v"/>
-         <Sense verbFrames="ewn-sb-10 ewn-sb-4 ewn-sb-11"
+         <Sense verbFrames="ewn-sb-4 ewn-sb-10 ewn-sb-11"
                 tagCnt="9"
                 senseidx="0"
                 lexid="1"
@@ -9179,8 +9158,6 @@
             <!-- extent -->
             <SenseRelation relType="also" target="ewn-extend_to-v-02691488-02"/>
             <!-- touch, extend to, reach -->
-            <SenseRelation relType="also" target="ewn-extend_to-v-02691488-02"/>
-            <!-- touch, extend to, reach -->
          </Sense>
          <Sense verbFrames="ewn-sb-11"
                 tagCnt="11"
@@ -9480,10 +9457,6 @@
             <!-- liveable, livable -->
             <SenseRelation relType="derivation" target="ewn-liver-n-10287877-01"/>
             <!-- liver -->
-            <SenseRelation relType="also" target="ewn-live_in-v-01179611-01"/>
-            <!-- live in, sleep in -->
-            <SenseRelation relType="also" target="ewn-live_out-v-01179802-01"/>
-            <!-- sleep out, live out -->
             <SenseRelation relType="also" target="ewn-live_in-v-01179611-01"/>
             <!-- live in, sleep in -->
             <SenseRelation relType="also" target="ewn-live_out-v-01179802-01"/>
@@ -10358,8 +10331,6 @@
             <!-- issue, topic, matter, subject -->
             <SenseRelation relType="derivation" target="ewn-matter-n-05176769-01"/>
             <!-- matter -->
-            <SenseRelation relType="also" target="ewn-matter_to-v-02684473-01"/>
-            <!-- matter to, interest -->
             <SenseRelation relType="also" target="ewn-matter_to-v-02684473-01"/>
             <!-- matter to, interest -->
          </Sense>
@@ -11400,18 +11371,6 @@
             <!-- stick by, stick, stand by, adhere -->
             <SenseRelation relType="also" target="ewn-stand_firm-v-01119003-04"/>
             <!-- resist, withstand, stand firm, hold out -->
-            <SenseRelation relType="also" target="ewn-stand_for-v-02705339-02"/>
-            <!-- represent, correspond, stand for -->
-            <SenseRelation relType="also" target="ewn-stand_out-v-02680375-04"/>
-            <!-- jump, stick out, stand out, jump out, leap out -->
-            <SenseRelation relType="also" target="ewn-stand_out-v-02679754-02"/>
-            <!-- excel, stand out, surpass -->
-            <SenseRelation relType="also" target="ewn-stand_by-v-02732260-01"/>
-            <!-- stand by -->
-            <SenseRelation relType="also" target="ewn-stand_by-v-02644714-01"/>
-            <!-- stick by, stick, stand by, adhere -->
-            <SenseRelation relType="also" target="ewn-stand_firm-v-01119003-04"/>
-            <!-- resist, withstand, stand firm, hold out -->
          </Sense>
          <Sense verbFrames="ewn-sb-2 ewn-sb-1"
                 tagCnt="18"
@@ -11901,16 +11860,6 @@
             <!-- survive, endure, live on, hold up, live, last, go, hold out -->
             <SenseRelation relType="also" target="ewn-hold_up-v-00460731-03"/>
             <!-- delay, hold up, detain -->
-            <SenseRelation relType="also" target="ewn-hold_back-v-01133899-06"/>
-            <!-- turn back, stop, contain, hold back, check, arrest -->
-            <SenseRelation relType="also" target="ewn-hold_out-v-01119003-02"/>
-            <!-- resist, withstand, stand firm, hold out -->
-            <SenseRelation relType="also" target="ewn-hold_over-v-02688247-01"/>
-            <!-- hold over -->
-            <SenseRelation relType="also" target="ewn-hold_out-v-02624202-08"/>
-            <!-- survive, endure, live on, hold up, live, last, go, hold out -->
-            <SenseRelation relType="also" target="ewn-hold_up-v-00460731-03"/>
-            <!-- delay, hold up, detain -->
          </Sense>
          <Sense verbFrames="ewn-sb-22 ewn-sb-1"
                 tagCnt="3"
@@ -12258,10 +12207,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-reach-n-08646496-02"/>
             <!-- reach, range -->
-            <SenseRelation relType="also" target="ewn-reach_out-v-02695935-03"/>
-            <!-- reach out, extend, poke out -->
-            <SenseRelation relType="also" target="ewn-reach_into-v-02696141-01"/>
-            <!-- reach into -->
             <SenseRelation relType="also" target="ewn-reach_out-v-02695935-03"/>
             <!-- reach out, extend, poke out -->
             <SenseRelation relType="also" target="ewn-reach_into-v-02696141-01"/>
@@ -13238,8 +13183,6 @@
             <!-- lodging -->
             <SenseRelation relType="also" target="ewn-lodge_in-v-02654741-03"/>
             <!-- lodge in, occupy, reside -->
-            <SenseRelation relType="also" target="ewn-lodge_in-v-02654741-03"/>
-            <!-- lodge in, occupy, reside -->
          </Sense>
          <Sense verbFrames="ewn-sb-22"
                 tagCnt="3"
@@ -13550,8 +13493,6 @@
                 synset="ewn-02636270-v"
                 dc:identifier="have%2:42:00::"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-lack-v-02638434-02"/>
-            <!-- miss, lack -->
             <SenseRelation relType="antonym" target="ewn-lack-v-02638434-02"/>
             <!-- miss, lack -->
             <SenseRelation relType="antonym" target="ewn-miss-v-02638434-01"/>
@@ -16507,8 +16448,6 @@
             <!-- copiousness, abundance, teemingness -->
             <SenseRelation relType="also" target="ewn-abound_in-v-02721798-01"/>
             <!-- teem in, abound in, pullulate with -->
-            <SenseRelation relType="also" target="ewn-abound_in-v-02721798-01"/>
-            <!-- teem in, abound in, pullulate with -->
          </Sense>
          <Sense verbTemplates="ewn-st-152 ewn-st-151"
                 verbFrames="ewn-sb-8"
@@ -17582,8 +17521,6 @@
                 synset="ewn-02720849-v"
                 dc:identifier="teem%2:42:00::"
                 lexicalized="true">
-            <SenseRelation relType="also" target="ewn-teem_in-v-02721798-02"/>
-            <!-- teem in, abound in, pullulate with -->
             <SenseRelation relType="also" target="ewn-teem_in-v-02721798-02"/>
             <!-- teem in, abound in, pullulate with -->
          </Sense>
@@ -19037,22 +18974,6 @@
             <!-- isolate, sequester, sequestrate, keep apart, set apart -->
             <SenseRelation relType="also" target="ewn-keep_up-v-01116393-01"/>
             <!-- keep up -->
-            <SenseRelation relType="also" target="ewn-keep_in-v-02502037-01"/>
-            <!-- keep in -->
-            <SenseRelation relType="also" target="ewn-keep_out-v-02454205-02"/>
-            <!-- keep out, exclude, shut out, shut -->
-            <SenseRelation relType="also" target="ewn-keep_off-v-01192356-01"/>
-            <!-- keep off, avoid -->
-            <SenseRelation relType="also" target="ewn-keep_up-v-02685340-03"/>
-            <!-- keep up, sustain, prolong -->
-            <SenseRelation relType="also" target="ewn-keep_off-v-00813382-01"/>
-            <!-- stay off, keep off -->
-            <SenseRelation relType="also" target="ewn-keep_down-v-00236768-02"/>
-            <!-- keep down, number -->
-            <SenseRelation relType="also" target="ewn-keep_apart-v-00496744-03"/>
-            <!-- isolate, sequester, sequestrate, keep apart, set apart -->
-            <SenseRelation relType="also" target="ewn-keep_up-v-01116393-01"/>
-            <!-- keep up -->
          </Sense>
          <Sense verbTemplates="ewn-st-138"
                 verbFrames="ewn-sb-33"
@@ -20018,7 +19939,7 @@
             <!-- quit, cease, stop, give up, discontinue, lay off -->
          </Sense>
          <Sense verbTemplates="ewn-st-138 ewn-st-137"
-                verbFrames="ewn-sb-1 ewn-sb-33 ewn-sb-2"
+                verbFrames="ewn-sb-2 ewn-sb-1 ewn-sb-33"
                 tagCnt="146"
                 senseidx="1"
                 lexid="2"
@@ -20257,8 +20178,6 @@
             <!-- measuring rod, measure, measuring stick -->
             <SenseRelation relType="derivation" target="ewn-measure-n-00998911-03"/>
             <!-- measurement, measure, measuring, mensuration -->
-            <SenseRelation relType="also" target="ewn-measure_up-v-02684822-02"/>
-            <!-- measure up, qualify -->
             <SenseRelation relType="also" target="ewn-measure_up-v-02684822-02"/>
             <!-- measure up, qualify -->
          </Sense>
@@ -20524,8 +20443,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-co-occurrence-n-07299259-04"/>
             <!-- ewn-co-07299259-n  -->
-            <SenseRelation relType="also" target="ewn-cooccur_with-v-02666897-03"/>
-            <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
             <SenseRelation relType="also" target="ewn-cooccur_with-v-02666897-03"/>
             <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
          </Sense>
@@ -20898,8 +20815,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-going-n-00048792-01"/>
             <!-- going, sledding -->
-            <SenseRelation relType="also" target="ewn-go_with-v-02666897-05"/>
-            <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
             <SenseRelation relType="also" target="ewn-go_with-v-02666897-05"/>
             <!-- co-occur with, collocate with, cooccur with, go with, construe with -->
          </Sense>
@@ -21300,7 +21215,7 @@
             <!-- survival, endurance -->
          </Sense>
          <Sense verbTemplates="ewn-st-135"
-                verbFrames="ewn-sb-2 ewn-sb-8 ewn-sb-1"
+                verbFrames="ewn-sb-8 ewn-sb-2 ewn-sb-1"
                 tagCnt="20"
                 senseidx="1"
                 lexid="2"
@@ -21492,7 +21407,6 @@
                 synset="ewn-90000251-v"
                 dc:identifier="unfollow%2:42:01::"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-follow-v-90000231-01"/>
             <SenseRelation relType="antonym" target="ewn-follow-v-90000231-01"/>
          </Sense>
       </LexicalEntry>
@@ -21802,8 +21716,6 @@
          <!-- act -->
          <SynsetRelation relType="hyponym" target="ewn-02751588-v"/>
          <!-- test -->
-         <SynsetRelation relType="hyponym" target="ewn-02751757-v"/>
-         <!-- seem -->
          <SynsetRelation relType="hyponym" target="ewn-02751892-v"/>
          <!-- answer -->
          <SynsetRelation relType="hyponym" target="ewn-02752015-v"/>
@@ -29983,16 +29895,6 @@
          <SynsetRelation relType="hypernym" target="ewn-02610777-v"/>
          <!-- be -->
          <Example>"He tested positive for HIV"</Example>
-      </Synset>
-      <Synset id="ewn-02751757-v"
-              ili="i35403"
-              partOfSpeech="v"
-              dc:subject="verb.stative"
-              lexicalized="true">
-         <Definition>appear to exist</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-02610777-v"/>
-         <!-- be -->
-         <Example>"There seems no reason to go ahead with the project now"</Example>
       </Synset>
       <Synset id="ewn-02751892-v"
               ili="i35404"

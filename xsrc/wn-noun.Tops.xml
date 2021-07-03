@@ -1396,6 +1396,8 @@
          <!-- otherworld -->
          <SynsetRelation relType="hyponym" target="ewn-08016141-n"/>
          <!-- set -->
+         <SynsetRelation relType="hyponym" target="ewn-00029677-n"/>
+         <!-- event -->
       </Synset>
       <!-- thing -->
       <Synset id="ewn-00002452-n"
@@ -1708,7 +1710,7 @@
               partOfSpeech="n"
               dc:subject="noun.Tops"
               lexicalized="true">
-         <Definition>organisms (plants and animals) that live at or near the bottom of a sea</Definition>
+         <Definition>organisms (plants and animals) that live at or near the bottom of a sea, lake, river or stream</Definition>
          <SynsetRelation relType="hypernym" target="ewn-00004475-n"/>
          <!-- organism, being -->
          <SynsetRelation relType="hyponym" target="ewn-92419748-n"/>
@@ -3507,8 +3509,6 @@
          <!-- noesis, cognition, knowledge -->
          <SynsetRelation relType="hyponym" target="ewn-00023953-n"/>
          <!-- need, motive, motivation -->
-         <SynsetRelation relType="hyponym" target="ewn-00029677-n"/>
-         <!-- event -->
       </Synset>
       <!-- noesis, cognition, knowledge -->
       <Synset id="ewn-00023451-n"
@@ -4081,16 +4081,12 @@
               dc:subject="noun.Tops"
               lexicalized="true">
          <Definition>something that happens at a given place and time</Definition>
-         <SynsetRelation relType="hypernym" target="ewn-00023280-n"/>
-         <!-- psychological feature -->
          <SynsetRelation relType="hyponym" target="ewn-00030657-n"/>
          <!-- deed, human action, act, human activity -->
          <SynsetRelation relType="hyponym" target="ewn-07298069-n"/>
          <!-- might-have-been -->
          <SynsetRelation relType="hyponym" target="ewn-07298178-n"/>
          <!-- nonevent -->
-         <SynsetRelation relType="hyponym" target="ewn-07298313-n"/>
-         <!-- occurrent, happening, occurrence, natural event -->
          <SynsetRelation relType="hyponym" target="ewn-07303344-n"/>
          <!-- social event -->
          <SynsetRelation relType="hyponym" target="ewn-07303524-n"/>
@@ -4104,6 +4100,9 @@
          <SynsetRelation relType="hyponym" target="ewn-07494768-n"/>
          <!-- zap -->
          <SynsetRelation relType="hyponym" target="ewn-90008911-n"/>
+         <SynsetRelation relType="hypernym" target="ewn-00002137-n"/>
+         <!-- abstract entity, abstraction -->
+         <SynsetRelation relType="hyponym" target="ewn-07298313-n"/>
       </Synset>
       <!-- physical process, process -->
       <Synset id="ewn-00029976-n"
@@ -4617,8 +4616,8 @@
               dc:subject="noun.Tops"
               dc:source="plWordNet 4.0"
               lexicalized="true">
-         <Definition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.  </Definition>
-         <ILIDefinition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.  </ILIDefinition>
+         <Definition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.</Definition>
+         <ILIDefinition>Microscopic flora and fauna found on the surface of and/or attached to sand grains.</ILIDefinition>
          <SynsetRelation relType="hypernym" target="ewn-00005787-n"/>
          <!-- benthos -->
       </Synset>

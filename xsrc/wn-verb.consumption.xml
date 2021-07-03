@@ -1589,8 +1589,6 @@
             <!-- usance, economic consumption, use of goods and services, consumption, use -->
             <SenseRelation relType="also" target="ewn-use_up-v-01159815-03"/>
             <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
-            <SenseRelation relType="also" target="ewn-use_up-v-01159815-03"/>
-            <!-- deplete, eat, exhaust, wipe out, consume, eat up, use up, run through -->
          </Sense>
          <Sense verbTemplates="ewn-st-73"
                 verbFrames="ewn-sb-9 ewn-sb-15 ewn-sb-8 ewn-sb-24 ewn-sb-11 ewn-sb-21"
@@ -2262,8 +2260,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-gobbler-n-10153802-01"/>
             <!-- gobbler -->
-            <SenseRelation relType="also" target="ewn-gobble_up-v-01176396-02"/>
-            <!-- garbage down, shovel in, gobble up, bolt down -->
             <SenseRelation relType="also" target="ewn-gobble_up-v-01176396-02"/>
             <!-- garbage down, shovel in, gobble up, bolt down -->
          </Sense>
@@ -2959,8 +2955,6 @@
             <!-- suck, suction, sucking -->
             <SenseRelation relType="also" target="ewn-suck_in-v-01200618-03"/>
             <!-- take up, sop up, suck in, take in -->
-            <SenseRelation relType="also" target="ewn-suck_in-v-01200618-03"/>
-            <!-- take up, sop up, suck in, take in -->
          </Sense>
          <Sense verbFrames="ewn-sb-9 ewn-sb-2"
                 senseidx="1"
@@ -3036,10 +3030,6 @@
             <!-- diner, buffet car, dining compartment, dining car -->
             <SenseRelation relType="derivation" target="ewn-dining-n-00842178-01"/>
             <!-- dining -->
-            <SenseRelation relType="also" target="ewn-dine_in-v-01169871-02"/>
-            <!-- eat in, dine in -->
-            <SenseRelation relType="also" target="ewn-dine_out-v-01169974-02"/>
-            <!-- eat out, dine out -->
             <SenseRelation relType="also" target="ewn-dine_in-v-01169871-02"/>
             <!-- eat in, dine in -->
             <SenseRelation relType="also" target="ewn-dine_out-v-01169974-02"/>
@@ -4748,8 +4738,6 @@
                 lexicalized="true">
             <SenseRelation relType="also" target="ewn-take_up-v-01200618-04"/>
             <!-- take up, sop up, suck in, take in -->
-            <SenseRelation relType="also" target="ewn-take_up-v-01200618-04"/>
-            <!-- take up, sop up, suck in, take in -->
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-lick-v">
@@ -5921,12 +5909,6 @@
             <!-- eat out, dine out -->
             <SenseRelation relType="also" target="ewn-eat_up-v-01199335-01"/>
             <!-- polish off, eat up, finish -->
-            <SenseRelation relType="also" target="ewn-eat_in-v-01169871-01"/>
-            <!-- eat in, dine in -->
-            <SenseRelation relType="also" target="ewn-eat_out-v-01169974-01"/>
-            <!-- eat out, dine out -->
-            <SenseRelation relType="also" target="ewn-eat_up-v-01199335-01"/>
-            <!-- polish off, eat up, finish -->
          </Sense>
          <Sense verbTemplates="ewn-st-35"
                 verbFrames="ewn-sb-8"
@@ -6354,10 +6336,6 @@
             <!-- drinker -->
             <SenseRelation relType="derivation" target="ewn-drinking-n-00844789-01"/>
             <!-- imbibition, imbibing, drinking -->
-            <SenseRelation relType="also" target="ewn-drink_up-v-01178234-02"/>
-            <!-- drain the cup, drink up -->
-            <SenseRelation relType="also" target="ewn-drink_down-v-01204994-07"/>
-            <!-- pop, toss off, pour down, bolt down, drink down, kill, belt down, down -->
             <SenseRelation relType="also" target="ewn-drink_up-v-01178234-02"/>
             <!-- drain the cup, drink up -->
             <SenseRelation relType="also" target="ewn-drink_down-v-01204994-07"/>
@@ -7801,6 +7779,8 @@
       </LexicalEntry>
       <LexicalEntry id="ewn-dab-v">
          <Lemma writtenForm="dab" partOfSpeech="v"/>
+         <Form writtenForm="dabbed"/>
+         <Form writtenForm="dabbing"/>
          <Sense verbFrames="ewn-sb-2"
                 senseidx="0"
                 lexid="0"

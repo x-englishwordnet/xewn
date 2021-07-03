@@ -1614,8 +1614,6 @@
                 lexicalized="true">
             <SenseRelation relType="derivation" target="ewn-mutual-s-02159888-02"/>
             <!-- common, mutual -->
-            <SenseRelation relType="derivation" target="ewn-mutual-s-02159888-02"/>
-            <!-- common, mutual -->
             <SenseRelation relType="derivation" target="ewn-mutual-a-01952167-02"/>
             <!-- reciprocal, mutual -->
          </Sense>
@@ -3543,13 +3541,13 @@
                 dc:identifier="span_loading%1:24:00::"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sou-ap-sou-ap--east-n">
+      <LexicalEntry id="ewn-sou-ap--sou-ap--east-n">
          <Lemma writtenForm="sou'-sou'-east" partOfSpeech="n"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sou'-sou'-east%1:24:00::"
                 order="2"
-                id="ewn-sou-ap-sou-ap--east-n-13855318-02"
+                id="ewn-sou-ap--sou-ap--east-n-13855318-02"
                 n="0"
                 synset="ewn-13855318-n"
                 dc:identifier="sou'-sou'-east%1:24:00::"
@@ -5696,13 +5694,13 @@
                 dc:identifier="celsius_scale%1:24:00::"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sou-ap-sou-ap--west-n">
+      <LexicalEntry id="ewn-sou-ap--sou-ap--west-n">
          <Lemma writtenForm="sou'-sou'-west" partOfSpeech="n"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sou'-sou'-west%1:24:00::"
                 order="2"
-                id="ewn-sou-ap-sou-ap--west-n-13855822-02"
+                id="ewn-sou-ap--sou-ap--west-n-13855822-02"
                 n="0"
                 synset="ewn-13855822-n"
                 dc:identifier="sou'-sou'-west%1:24:00::"
@@ -9353,8 +9351,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Douglas_scale%1:24:00::"
-                order="1"
-                id="ewn-Douglas_scale-n-80870371-01"
+                order="2"
+                id="ewn-Douglas_scale-n-80870371-02"
                 n="0"
                 synset="ewn-80870371-n"
                 dc:identifier="douglas_scale%1:24:01::"
@@ -9365,8 +9363,8 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="international_sea_and_swell_scale%1:24:00::"
-                order="1"
-                id="ewn-international_sea_and_swell_scale-n-80870371-01"
+                order="3"
+                id="ewn-international_sea_and_swell_scale-n-80870371-03"
                 n="0"
                 synset="ewn-80870371-n"
                 dc:identifier="international_sea_and_swell_scale%1:24:01::"
