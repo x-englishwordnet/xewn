@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8" standalone="no"?>
 <LexicalResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xmlns:dc="http://purl.org/dc/elements/1.1/"
+                 xmlns:dc="https://globalwordnet.github.io/schemas/dc/"
                  xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd">
    <Lexicon id="ewn"
-            label="English WordNet"
+            label="Open English WordNet"
             language="en"
             email="john@mccr.ae"
             license="https://wordnet.princeton.edu/license-and-commercial-use"
@@ -15,45 +15,42 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Light%1:16:00::"
-                order="2"
-                id="ewn-Light-n-09207565-02"
-                n="12"
+                order="1"
+                id="ewn-light__1_16_00__"
+                n="0"
                 synset="ewn-09207565-n"
-                dc:identifier="light%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-logorrhea-n">
-         <Lemma writtenForm="logorrhea" partOfSpeech="n"/>
+         <Lemma writtenForm="logorrhea" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˌlɒ.ɡəˈɹɪ.ə</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">ˌlɔ.ɡəˈɹi.ə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="logorrhea%1:16:00::"
-                order="1"
-                id="ewn-logorrhea-n-09205298-01"
+                order="0"
+                id="ewn-logorrhea__1_16_00__"
                 n="0"
                 synset="ewn-09205298-n"
-                dc:identifier="logorrhea%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-ethics-n">
-         <Lemma writtenForm="ethics" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Lemma writtenForm="ethics" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈɛθ.ɪks</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ethics%1:16:00::"
-                order="2"
-                id="ewn-ethics-n-09206590-02"
+                order="1"
+                id="ewn-ethics__1_16_00__"
                 n="0"
                 synset="ewn-09206590-n"
-                dc:identifier="ethics%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-ethical-s-02042493-01"/>
-            <!-- honorable, honourable, ethical -->
-            <SenseRelation relType="derivation" target="ewn-ethical-a-00908608-01"/>
-            <!-- ethical -->
-            <SenseRelation relType="derivation" target="ewn-ethicist-n-10084873-01"/>
-            <!-- ethicist, ethician -->
-            <SenseRelation relType="derivation" target="ewn-ethician-n-10084873-02"/>
-            <!-- ethicist, ethician -->
+            <SenseRelation relType="derivation" target="ewn-ethical__5_00_00_right_01"/>
+            <SenseRelation relType="derivation" target="ewn-ethical__3_00_00__"/>
+            <SenseRelation relType="derivation" target="ewn-ethicist__1_18_00__"/>
+            <SenseRelation relType="derivation" target="ewn-ethician__1_18_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-wee_small_voice-n">
@@ -61,23 +58,23 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="wee_small_voice%1:16:00::"
-                order="1"
-                id="ewn-wee_small_voice-n-09207302-01"
+                order="0"
+                id="ewn-wee_small_voice__1_16_00__"
                 n="0"
                 synset="ewn-09207302-n"
-                dc:identifier="wee_small_voice%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-agromania-n">
-         <Lemma writtenForm="agromania" partOfSpeech="n"/>
+         <Lemma writtenForm="agromania" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">aɡɹə(ʊ)ˈmeɪnɪə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="agromania%1:16:00::"
-                order="1"
-                id="ewn-agromania-n-09204786-01"
+                order="0"
+                id="ewn-agromania__1_16_00__"
                 n="0"
                 synset="ewn-09204786-n"
-                dc:identifier="agromania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-necrophilism-n">
@@ -85,23 +82,24 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="necrophilism%1:16:00::"
-                order="2"
-                id="ewn-necrophilism-n-09205547-02"
+                order="1"
+                id="ewn-necrophilism__1_16_00__"
                 n="0"
                 synset="ewn-09205547-n"
-                dc:identifier="necrophilism%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-alcoholism-n">
-         <Lemma writtenForm="alcoholism" partOfSpeech="n"/>
+         <Lemma writtenForm="alcoholism" partOfSpeech="n">
+            <Pronunciation variety="US" phonemic="true">ˈælkə(ˌ)hɔlˌɪzəm</Pronunciation>
+            <Pronunciation variety="GB" phonemic="true">ˈælkəhɒlˌɪzəm</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="alcoholism%1:16:00::"
-                order="2"
-                id="ewn-alcoholism-n-09204890-02"
+                order="1"
+                id="ewn-alcoholism__1_16_01__"
                 n="1"
                 synset="ewn-09204890-n"
-                dc:identifier="alcoholism%1:16:01::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-adience-n">
@@ -109,86 +107,85 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="adience%1:16:00::"
-                order="1"
-                id="ewn-adience-n-09203688-01"
+                order="0"
+                id="ewn-adience__1_16_00__"
                 n="0"
                 synset="ewn-09203688-n"
-                dc:identifier="adience%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-adient-a-02614196-01"/>
-            <!-- adient -->
-            <SenseRelation relType="antonym" target="ewn-abience-n-09203513-01"/>
-            <!-- abience -->
+            <SenseRelation relType="antonym" target="ewn-abience__1_16_00__"/>
+            <SenseRelation relType="derivation" target="ewn-adient__3_01_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-Thanatos-n">
-         <Lemma writtenForm="Thanatos" partOfSpeech="n"/>
+         <Lemma writtenForm="Thanatos" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈθænəˌtɒs</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Thanatos%1:16:00::"
-                order="3"
-                id="ewn-Thanatos-n-09203864-03"
+                order="2"
+                id="ewn-thanatos__1_16_00__"
                 n="1"
                 synset="ewn-09203864-n"
-                dc:identifier="thanatos%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-mania-n">
-         <Lemma writtenForm="mania" partOfSpeech="n"/>
-         <Sense tagCnt="2"
-                senseidx="0"
+         <Lemma writtenForm="mania" partOfSpeech="n">
+            <Pronunciation variety="US" phonemic="true">ˈmeɪ.ni.ə</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="mania%1:16:00::"
-                order="1"
-                id="ewn-mania-n-09204454-01"
+                order="0"
+                id="ewn-mania__1_16_00__"
                 n="0"
                 synset="ewn-09204454-n"
-                dc:identifier="mania%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-manic-s-02399571-02"/>
-            <!-- frenzied, manic -->
+            <SenseRelation relType="derivation" target="ewn-manic__5_00_00_wild_02"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-score-n">
-         <Lemma writtenForm="score" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Lemma writtenForm="score" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">skɔː</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">skɔɹ</Pronunciation>
+            <Pronunciation phonemic="true">sko(ː)ɹ</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="score%1:16:00::"
-                order="1"
-                id="ewn-score-n-09202279-01"
+                order="0"
+                id="ewn-score__1_16_00__"
                 n="4"
                 synset="ewn-09202279-n"
-                dc:identifier="score%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-abience-n">
-         <Lemma writtenForm="abience" partOfSpeech="n"/>
+         <Lemma writtenForm="abience" partOfSpeech="n">
+            <Pronunciation variety="US" phonemic="true">ˈæb.i.n̩ts</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="abience%1:16:00::"
-                order="1"
-                id="ewn-abience-n-09203513-01"
+                order="0"
+                id="ewn-abience__1_16_00__"
                 n="0"
                 synset="ewn-09203513-n"
-                dc:identifier="abience%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-abient-a-02610106-01"/>
-            <!-- abient -->
-            <SenseRelation relType="antonym" target="ewn-adience-n-09203688-01"/>
-            <!-- adience -->
+            <SenseRelation relType="antonym" target="ewn-adience__1_16_00__"/>
+            <SenseRelation relType="derivation" target="ewn-abient__3_01_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-why-n">
-         <Lemma writtenForm="why" partOfSpeech="n"/>
+         <Lemma writtenForm="why" partOfSpeech="n">
+            <Pronunciation phonemic="true">ʍaɪ</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="why%1:16:00::"
-                order="1"
-                id="ewn-why-n-09202503-01"
+                order="0"
+                id="ewn-why__1_16_00__"
                 n="0"
                 synset="ewn-09202503-n"
-                dc:identifier="why%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-necromania-n">
@@ -196,26 +193,25 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="necromania%1:16:00::"
-                order="3"
-                id="ewn-necromania-n-09205547-03"
+                order="2"
+                id="ewn-necromania__1_16_00__"
                 n="0"
                 synset="ewn-09205547-n"
-                dc:identifier="necromania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-deterrence-n">
-         <Lemma writtenForm="deterrence" partOfSpeech="n"/>
+         <Lemma writtenForm="deterrence" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">dɪˈtɛɹəns</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="deterrence%1:16:00::"
-                order="2"
-                id="ewn-deterrence-n-09203015-02"
+                order="1"
+                id="ewn-deterrence__1_16_00__"
                 n="0"
                 synset="ewn-09203015-n"
-                dc:identifier="deterrence%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-deterrent-s-01769055-01"/>
-            <!-- deterrent -->
+            <SenseRelation relType="derivation" target="ewn-deterrent__5_00_00_preventive_00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-Christ_Within-n">
@@ -223,46 +219,44 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Christ_Within%1:16:00::"
-                order="4"
-                id="ewn-Christ_Within-n-09207565-04"
+                order="3"
+                id="ewn-christ_within__1_16_00__"
                 n="0"
                 synset="ewn-09207565-n"
-                dc:identifier="christ_within%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-cathexis-n">
-         <Lemma writtenForm="cathexis" partOfSpeech="n"/>
+         <Lemma writtenForm="cathexis" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">kəˈθɛk sɪs</Pronunciation>
+         </Lemma>
          <Form writtenForm="cathexes"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="cathexis%1:16:00::"
-                order="1"
-                id="ewn-cathexis-n-09208509-01"
+                order="0"
+                id="ewn-cathexis__1_16_00__"
                 n="0"
                 synset="ewn-09208509-n"
-                dc:identifier="cathexis%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-cathectic-a-02694935-01"/>
-            <!-- cathectic -->
+            <SenseRelation relType="derivation" target="ewn-cathectic__3_01_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-provocation-n">
-         <Lemma writtenForm="provocation" partOfSpeech="n"/>
+         <Lemma writtenForm="provocation" partOfSpeech="n">
+            <Pronunciation variety="US" phonemic="true">ˌpɹɑvəˈkeɪʃən</Pronunciation>
+            <Pronunciation variety="GB" phonemic="true">ˌpɹɒvəˈkeɪʃən</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="provocation%1:16:00::"
-                order="3"
-                id="ewn-provocation-n-09207872-03"
+                order="2"
+                id="ewn-provocation__1_16_00__"
                 n="1"
                 synset="ewn-09207872-n"
-                dc:identifier="provocation%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-provoke-v-01763170-08"/>
-            <!-- evoke, fire, enkindle, elicit, arouse, kindle, provoke, raise -->
-            <SenseRelation relType="derivation" target="ewn-provoke-v-01650408-01"/>
-            <!-- evoke, call forth, kick up, provoke -->
-            <SenseRelation relType="derivation" target="ewn-provoke-v-00795741-01"/>
-            <!-- stimulate, provoke -->
+            <SenseRelation relType="derivation" target="ewn-provoke__2_37_00__"/>
+            <SenseRelation relType="derivation" target="ewn-provoke__2_36_00__"/>
+            <SenseRelation relType="derivation" target="ewn-provoke__2_32_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-trichotillomania-n">
@@ -270,11 +264,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="trichotillomania%1:16:00::"
-                order="1"
-                id="ewn-trichotillomania-n-09205928-01"
+                order="0"
+                id="ewn-trichotillomania__1_16_00__"
                 n="0"
                 synset="ewn-09205928-n"
-                dc:identifier="trichotillomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-acathexis-n">
@@ -282,11 +275,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="acathexis%1:16:00::"
-                order="1"
-                id="ewn-acathexis-n-09208762-01"
+                order="0"
+                id="ewn-acathexis__1_16_00__"
                 n="0"
                 synset="ewn-09208762-n"
-                dc:identifier="acathexis%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-motivator-n">
@@ -294,33 +286,29 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="motivator%1:16:00::"
-                order="3"
-                id="ewn-motivator-n-09202673-03"
+                order="2"
+                id="ewn-motivator__1_16_00__"
                 n="0"
                 synset="ewn-09202673-n"
-                dc:identifier="motivator%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-motivate-v-01653541-01"/>
-            <!-- incite, move, motivate, prompt, propel, actuate -->
+            <SenseRelation relType="derivation" target="ewn-motivate__2_36_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-incitation-n">
-         <Lemma writtenForm="incitation" partOfSpeech="n"/>
+         <Lemma writtenForm="incitation" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ɪnsɪˈteɪʃ(ə)n</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="incitation%1:16:00::"
-                order="2"
-                id="ewn-incitation-n-09207872-02"
+                order="1"
+                id="ewn-incitation__1_16_00__"
                 n="0"
                 synset="ewn-09207872-n"
-                dc:identifier="incitation%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-incite-v-01653541-06"/>
-            <!-- incite, move, motivate, prompt, propel, actuate -->
-            <SenseRelation relType="derivation" target="ewn-incite-v-01233274-02"/>
-            <!-- incite, egg on, prod -->
-            <SenseRelation relType="derivation" target="ewn-incite-v-00852919-01"/>
-            <!-- incite, instigate, set off, stir up -->
+            <SenseRelation relType="derivation" target="ewn-incite__2_36_00__"/>
+            <SenseRelation relType="derivation" target="ewn-incite__2_35_00__"/>
+            <SenseRelation relType="derivation" target="ewn-incite__2_32_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-irrational_motive-n">
@@ -328,27 +316,25 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="irrational_motive%1:16:00::"
-                order="1"
-                id="ewn-irrational_motive-n-09203156-01"
+                order="0"
+                id="ewn-irrational_motive__1_16_00__"
                 n="0"
                 synset="ewn-09203156-n"
-                dc:identifier="irrational_motive%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-morality-n">
-         <Lemma writtenForm="morality" partOfSpeech="n"/>
-         <Sense tagCnt="5"
-                senseidx="0"
+         <Lemma writtenForm="morality" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">məˈɹælɪti</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="morality%1:16:00::"
-                order="4"
-                id="ewn-morality-n-09206590-04"
+                order="3"
+                id="ewn-morality__1_16_00__"
                 n="1"
                 synset="ewn-09206590-n"
-                dc:identifier="morality%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-moralistic-s-01553074-01"/>
-            <!-- moralistic -->
+            <SenseRelation relType="derivation" target="ewn-moralistic__5_00_00_moral_00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-Light_Within-n">
@@ -356,109 +342,103 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Light_Within%1:16:00::"
-                order="3"
-                id="ewn-Light_Within-n-09207565-03"
+                order="2"
+                id="ewn-light_within__1_16_00__"
                 n="0"
                 synset="ewn-09207565-n"
-                dc:identifier="light_within%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-signal-n">
-         <Lemma writtenForm="signal" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Lemma writtenForm="signal" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈsɪɡnəl</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="signal%1:16:00::"
-                order="1"
-                id="ewn-signal-n-09208177-01"
+                order="0"
+                id="ewn-signal__1_16_00__"
                 n="1"
                 synset="ewn-09208177-n"
-                dc:identifier="signal%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-life-n">
-         <Lemma writtenForm="life" partOfSpeech="n"/>
+         <Lemma writtenForm="life" partOfSpeech="n">
+            <Pronunciation phonemic="true">laɪf</Pronunciation>
+         </Lemma>
          <Form writtenForm="lives"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="life%1:16:00::"
-                order="1"
-                id="ewn-life-n-09201624-01"
+                order="0"
+                id="ewn-life__1_16_00__"
                 n="12"
                 synset="ewn-09201624-n"
-                dc:identifier="life%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-hedonism-n">
-         <Lemma writtenForm="hedonism" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Lemma writtenForm="hedonism" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˈhɛdənɪzəm</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">ˈhiːdənɪzəm</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="hedonism%1:16:00::"
-                order="1"
-                id="ewn-hedonism-n-09206868-01"
+                order="0"
+                id="ewn-hedonism__1_16_00__"
                 n="0"
                 synset="ewn-09206868-n"
-                dc:identifier="hedonism%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-hedonistic-s-01301832-02"/>
-            <!-- hedonic, hedonistic, epicurean -->
-            <SenseRelation relType="derivation" target="ewn-hedonic-s-01301832-01"/>
-            <!-- hedonic, hedonistic, epicurean -->
-            <SenseRelation relType="derivation" target="ewn-hedonist-n-10187776-01"/>
-            <!-- pleasure seeker, hedonist, pagan -->
+            <SenseRelation relType="derivation" target="ewn-hedonistic__5_00_00_indulgent_00"/>
+            <SenseRelation relType="derivation" target="ewn-hedonic__5_00_00_indulgent_00"/>
+            <SenseRelation relType="derivation" target="ewn-hedonist__1_18_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-kleptomania-n">
-         <Lemma writtenForm="kleptomania" partOfSpeech="n"/>
+         <Lemma writtenForm="kleptomania" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˌklɛptəˈmeɪni.ə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="kleptomania%1:16:00::"
-                order="1"
-                id="ewn-kleptomania-n-09205170-01"
+                order="0"
+                id="ewn-kleptomania__1_16_00__"
                 n="0"
                 synset="ewn-09205170-n"
-                dc:identifier="kleptomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-impulse-n">
-         <Lemma writtenForm="impulse" partOfSpeech="n"/>
-         <Sense tagCnt="10"
-                senseidx="0"
+         <Lemma writtenForm="impulse" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈɪmpʌls</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="impulse%1:16:00::"
-                order="2"
-                id="ewn-impulse-n-09203328-02"
+                order="1"
+                id="ewn-impulse__1_16_00__"
                 n="0"
                 synset="ewn-09203328-n"
-                dc:identifier="impulse%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-account-n">
          <Lemma writtenForm="account" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="account%1:16:00::"
-                order="2"
-                id="ewn-account-n-09202279-02"
+                order="1"
+                id="ewn-account__1_16_00__"
                 n="4"
                 synset="ewn-09202279-n"
-                dc:identifier="account%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-small_voice-n">
          <Lemma writtenForm="small voice" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="small_voice%1:16:00::"
-                order="2"
-                id="ewn-small_voice-n-09207302-02"
+                order="1"
+                id="ewn-small_voice__1_16_00__"
                 n="0"
                 synset="ewn-09207302-n"
-                dc:identifier="small_voice%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-scruples-n">
@@ -466,52 +446,52 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="scruples%1:16:00::"
-                order="2"
-                id="ewn-scruples-n-09207033-02"
+                order="1"
+                id="ewn-scruples__1_16_00__"
                 n="0"
                 synset="ewn-09207033-n"
-                dc:identifier="scruples%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-cacoethes-n">
-         <Lemma writtenForm="cacoethes" partOfSpeech="n"/>
+         <Lemma writtenForm="cacoethes" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˌkakəʊˈiːθiːz</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="cacoethes%1:16:00::"
-                order="3"
-                id="ewn-cacoethes-n-09204454-03"
+                order="2"
+                id="ewn-cacoethes__1_16_00__"
                 n="0"
                 synset="ewn-09204454-n"
-                dc:identifier="cacoethes%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-reason-n">
-         <Lemma writtenForm="reason" partOfSpeech="n"/>
-         <Sense tagCnt="76"
-                senseidx="0"
+         <Lemma writtenForm="reason" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈɹiːzən</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="reason%1:16:00::"
-                order="1"
-                id="ewn-reason-n-09201896-01"
+                order="0"
+                id="ewn-reason__1_16_00__"
                 n="0"
                 synset="ewn-09201896-n"
-                dc:identifier="reason%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-reason-v-00636134-01"/>
-            <!-- reason, reason out, conclude -->
+            <SenseRelation relType="derivation" target="ewn-reason__2_31_01__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-urge-n">
-         <Lemma writtenForm="urge" partOfSpeech="n"/>
-         <Sense tagCnt="2"
-                senseidx="0"
+         <Lemma writtenForm="urge" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ɜːd͡ʒ</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">ɝd͡ʒ</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="urge%1:16:00::"
-                order="1"
-                id="ewn-urge-n-09203328-01"
+                order="0"
+                id="ewn-urge__1_16_00__"
                 n="0"
                 synset="ewn-09203328-n"
-                dc:identifier="urge%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-potomania-n">
@@ -519,11 +499,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="potomania%1:16:00::"
-                order="3"
-                id="ewn-potomania-n-09204890-03"
+                order="2"
+                id="ewn-potomania__1_16_00__"
                 n="0"
                 synset="ewn-09204890-n"
-                dc:identifier="potomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-sense_of_right_and_wrong-n">
@@ -531,11 +510,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sense_of_right_and_wrong%1:16:00::"
-                order="4"
-                id="ewn-sense_of_right_and_wrong-n-09207033-04"
+                order="3"
+                id="ewn-sense_of_right_and_wrong__1_16_00__"
                 n="0"
                 synset="ewn-09207033-n"
-                dc:identifier="sense_of_right_and_wrong%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-moral_force-n">
@@ -543,11 +521,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="moral_force%1:16:00::"
-                order="1"
-                id="ewn-moral_force-n-09202859-01"
+                order="0"
+                id="ewn-moral_force__1_16_00__"
                 n="0"
                 synset="ewn-09202859-n"
-                dc:identifier="moral_force%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-death_wish-n">
@@ -555,11 +532,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="death_wish%1:16:00::"
-                order="2"
-                id="ewn-death_wish-n-09203864-02"
+                order="1"
+                id="ewn-death_wish__1_16_00__"
                 n="0"
                 synset="ewn-09203864-n"
-                dc:identifier="death_wish%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-onomatomania-n">
@@ -567,52 +543,51 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="onomatomania%1:16:00::"
-                order="1"
-                id="ewn-onomatomania-n-09206429-01"
+                order="0"
+                id="ewn-onomatomania__1_16_00__"
                 n="0"
                 synset="ewn-09206429-n"
-                dc:identifier="onomatomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-passion-n">
-         <Lemma writtenForm="passion" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Lemma writtenForm="passion" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈpæʃən</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="passion%1:16:00::"
-                order="2"
-                id="ewn-passion-n-09204454-02"
+                order="1"
+                id="ewn-passion__1_16_00__"
                 n="3"
                 synset="ewn-09204454-n"
-                dc:identifier="passion%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-conscience-n">
-         <Lemma writtenForm="conscience" partOfSpeech="n"/>
-         <Sense tagCnt="12"
-                senseidx="0"
+         <Lemma writtenForm="conscience" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈkɒnʃəns</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="conscience%1:16:00::"
-                order="1"
-                id="ewn-conscience-n-09207033-01"
+                order="0"
+                id="ewn-conscience__1_16_00__"
                 n="0"
                 synset="ewn-09207033-n"
-                dc:identifier="conscience%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-obsession-n">
-         <Lemma writtenForm="obsession" partOfSpeech="n"/>
+         <Lemma writtenForm="obsession" partOfSpeech="n">
+            <Pronunciation phonemic="true">əbˈsɛʃən</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="obsession%1:16:00::"
-                order="2"
-                id="ewn-obsession-n-09206152-02"
+                order="1"
+                id="ewn-obsession__1_16_00__"
                 n="0"
                 synset="ewn-09206152-n"
-                dc:identifier="obsession%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-obsessional-s-01589430-01"/>
-            <!-- obsessional, obsessive -->
+            <SenseRelation relType="derivation" target="ewn-obsessional__5_00_00_neurotic_00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-rational_motive-n">
@@ -620,27 +595,25 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="rational_motive%1:16:00::"
-                order="1"
-                id="ewn-rational_motive-n-09201718-01"
+                order="0"
+                id="ewn-rational_motive__1_16_00__"
                 n="0"
                 synset="ewn-09201718-n"
-                dc:identifier="rational_motive%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-occasion-n">
-         <Lemma writtenForm="occasion" partOfSpeech="n"/>
-         <Sense tagCnt="3"
-                senseidx="0"
+         <Lemma writtenForm="occasion" partOfSpeech="n">
+            <Pronunciation phonemic="true">əˈkeɪʒən</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="occasion%1:16:00::"
-                order="3"
-                id="ewn-occasion-n-09201896-03"
+                order="2"
+                id="ewn-occasion__1_16_00__"
                 n="2"
                 synset="ewn-09201896-n"
-                dc:identifier="occasion%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-occasion-v-01650070-01"/>
-            <!-- occasion -->
+            <SenseRelation relType="derivation" target="ewn-occasion__2_36_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-irresistible_impulse-n">
@@ -648,38 +621,38 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="irresistible_impulse%1:16:00::"
-                order="2"
-                id="ewn-irresistible_impulse-n-09204227-02"
+                order="1"
+                id="ewn-irresistible_impulse__1_16_00__"
                 n="0"
                 synset="ewn-09204227-n"
-                dc:identifier="irresistible_impulse%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-dipsomania-n">
-         <Lemma writtenForm="dipsomania" partOfSpeech="n"/>
+         <Lemma writtenForm="dipsomania" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˌdɪpsə(ʊ)ˈmeɪnɪə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="dipsomania%1:16:00::"
-                order="1"
-                id="ewn-dipsomania-n-09204890-01"
+                order="0"
+                id="ewn-dipsomania__1_16_00__"
                 n="0"
                 synset="ewn-09204890-n"
-                dc:identifier="dipsomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-disincentive-n">
-         <Lemma writtenForm="disincentive" partOfSpeech="n"/>
+         <Lemma writtenForm="disincentive" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˌdɪsɪnˈsɛntɪv</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="disincentive%1:16:00::"
-                order="1"
-                id="ewn-disincentive-n-09203015-01"
+                order="0"
+                id="ewn-disincentive__1_16_00__"
                 n="0"
                 synset="ewn-09203015-n"
-                dc:identifier="disincentive%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-incentive-n-09202673-01"/>
-            <!-- incentive, inducement, motivator -->
+            <SenseRelation relType="antonym" target="ewn-incentive__1_16_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-sense_of_shame-n">
@@ -687,11 +660,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sense_of_shame%1:16:00::"
-                order="1"
-                id="ewn-sense_of_shame-n-09207440-01"
+                order="0"
+                id="ewn-sense_of_shame__1_16_00__"
                 n="0"
                 synset="ewn-09207440-n"
-                dc:identifier="sense_of_shame%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-sense_of_duty-n">
@@ -699,57 +671,53 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sense_of_duty%1:16:00::"
-                order="2"
-                id="ewn-sense_of_duty-n-09207440-02"
+                order="1"
+                id="ewn-sense_of_duty__1_16_00__"
                 n="0"
                 synset="ewn-09207440-n"
-                dc:identifier="sense_of_duty%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-compulsion-n">
-         <Lemma writtenForm="compulsion" partOfSpeech="n"/>
-         <Sense tagCnt="3"
-                senseidx="0"
+         <Lemma writtenForm="compulsion" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">kəmˈpʌl.ʃən</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">kəmˈpʌl.ʃən</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="compulsion%1:16:01::"
-                order="1"
-                id="ewn-compulsion-n-09204227-01"
+                order="0"
+                id="ewn-compulsion__1_16_01__"
                 n="0"
                 synset="ewn-09204227-n"
-                dc:identifier="compulsion%1:16:01::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-compulsive-s-01588067-01"/>
-            <!-- compulsive -->
+            <SenseRelation relType="derivation" target="ewn-compulsive__5_00_00_neurotic_00"/>
          </Sense>
-         <Sense tagCnt="1"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="compulsion%1:16:02::"
-                order="1"
-                id="ewn-compulsion-n-09206152-01"
+                order="0"
+                id="ewn-compulsion__1_16_00__"
                 n="1"
                 synset="ewn-09206152-n"
-                dc:identifier="compulsion%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-compulsive-s-01588067-01"/>
-            <!-- compulsive -->
-            <SenseRelation relType="derivation" target="ewn-compulsive-n-09969936-01"/>
-            <!-- compulsive -->
+            <SenseRelation relType="derivation" target="ewn-compulsive__5_00_00_neurotic_00"/>
+            <SenseRelation relType="derivation" target="ewn-compulsive__1_18_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-monomania-n">
-         <Lemma writtenForm="monomania" partOfSpeech="n"/>
+         <Lemma writtenForm="monomania" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˌmɒnəʊˈmeɪnɪə</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">ˌmɑnoʊˈmeɪni.ə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="monomania%1:16:00::"
-                order="1"
-                id="ewn-monomania-n-09205421-01"
+                order="0"
+                id="ewn-monomania__1_16_00__"
                 n="0"
                 synset="ewn-09205421-n"
-                dc:identifier="monomania%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-monomaniacal-s-01589132-01"/>
-            <!-- monomaniacal -->
+            <SenseRelation relType="derivation" target="ewn-monomaniacal__5_00_00_neurotic_00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-moral_sense-n">
@@ -757,11 +725,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="moral_sense%1:16:00::"
-                order="3"
-                id="ewn-moral_sense-n-09207033-03"
+                order="2"
+                id="ewn-moral_sense__1_16_00__"
                 n="0"
                 synset="ewn-09207033-n"
-                dc:identifier="moral_sense%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-Inner_Light-n">
@@ -769,11 +736,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="Inner_Light%1:16:00::"
-                order="1"
-                id="ewn-Inner_Light-n-09207565-01"
+                order="0"
+                id="ewn-inner_light__1_16_00__"
                 n="0"
                 synset="ewn-09207565-n"
-                dc:identifier="inner_light%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-irrational_impulse-n">
@@ -781,23 +747,24 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="irrational_impulse%1:16:00::"
-                order="1"
-                id="ewn-irrational_impulse-n-09204011-01"
+                order="0"
+                id="ewn-irrational_impulse__1_16_00__"
                 n="0"
                 synset="ewn-09204011-n"
-                dc:identifier="irrational_impulse%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-necrophilia-n">
-         <Lemma writtenForm="necrophilia" partOfSpeech="n"/>
+         <Lemma writtenForm="necrophilia" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˌnɛkɹə(ʊ)ˈfɪlɪə</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">nɛkɹoʊˈfɪli.ə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="necrophilia%1:16:00::"
-                order="1"
-                id="ewn-necrophilia-n-09205547-01"
+                order="0"
+                id="ewn-necrophilia__1_16_00__"
                 n="0"
                 synset="ewn-09205547-n"
-                dc:identifier="necrophilia%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-phaneromania-n">
@@ -805,23 +772,24 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="phaneromania%1:16:00::"
-                order="1"
-                id="ewn-phaneromania-n-09205681-01"
+                order="0"
+                id="ewn-phaneromania__1_16_00__"
                 n="0"
                 synset="ewn-09205681-n"
-                dc:identifier="phaneromania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-wanderlust-n">
-         <Lemma writtenForm="wanderlust" partOfSpeech="n"/>
+         <Lemma writtenForm="wanderlust" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˈwɒndəlʌst</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">ˈwɑndɚˌlʌst</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="wanderlust%1:16:00::"
-                order="1"
-                id="ewn-wanderlust-n-09206037-01"
+                order="0"
+                id="ewn-wanderlust__1_16_00__"
                 n="0"
                 synset="ewn-09206037-n"
-                dc:identifier="wanderlust%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-mental_energy-n">
@@ -829,23 +797,24 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="mental_energy%1:16:00::"
-                order="2"
-                id="ewn-mental_energy-n-09207731-02"
+                order="1"
+                id="ewn-mental_energy__1_16_00__"
                 n="0"
                 synset="ewn-09207731-n"
-                dc:identifier="mental_energy%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-charge-n">
-         <Lemma writtenForm="charge" partOfSpeech="n"/>
+         <Lemma writtenForm="charge" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">t͡ʃɑːd͡ʒ</Pronunciation>
+            <Pronunciation variety="US" phonemic="true">t͡ʃɑɹd͡ʒ</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="charge%1:16:00::"
-                order="2"
-                id="ewn-charge-n-09208509-02"
+                order="1"
+                id="ewn-charge__1_16_00__"
                 n="8"
                 synset="ewn-09208509-n"
-                dc:identifier="charge%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-death_instinct-n">
@@ -853,54 +822,51 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="death_instinct%1:16:00::"
-                order="1"
-                id="ewn-death_instinct-n-09203864-01"
+                order="0"
+                id="ewn-death_instinct__1_16_00__"
                 n="0"
                 synset="ewn-09203864-n"
-                dc:identifier="death_instinct%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-incitement-n">
-         <Lemma writtenForm="incitement" partOfSpeech="n"/>
+         <Lemma writtenForm="incitement" partOfSpeech="n">
+            <Pronunciation phonemic="true">ɪnˈsaɪt.mənt</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="incitement%1:16:00::"
-                order="1"
-                id="ewn-incitement-n-09207872-01"
+                order="0"
+                id="ewn-incitement__1_16_00__"
                 n="2"
                 synset="ewn-09207872-n"
-                dc:identifier="incitement%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-incite-v-01233274-02"/>
-            <!-- incite, egg on, prod -->
+            <SenseRelation relType="derivation" target="ewn-incite__2_35_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-ground-n">
          <Lemma writtenForm="ground" partOfSpeech="n"/>
-         <Sense tagCnt="11"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ground%1:16:00::"
-                order="2"
-                id="ewn-ground-n-09201896-02"
+                order="1"
+                id="ewn-ground__1_16_00__"
                 n="1"
                 synset="ewn-09201896-n"
-                dc:identifier="ground%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-ground-v-00638550-03"/>
-            <!-- ground, found, establish, base -->
+            <SenseRelation relType="derivation" target="ewn-ground__2_31_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-pyromania-n">
-         <Lemma writtenForm="pyromania" partOfSpeech="n"/>
+         <Lemma writtenForm="pyromania" partOfSpeech="n">
+            <Pronunciation variety="GB" phonemic="true">ˌpʌɪɹə(ʊ)ˈmeɪnɪə</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="pyromania%1:16:00::"
-                order="1"
-                id="ewn-pyromania-n-09205826-01"
+                order="0"
+                id="ewn-pyromania__1_16_00__"
                 n="0"
                 synset="ewn-09205826-n"
-                dc:identifier="pyromania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-voice_of_conscience-n">
@@ -908,27 +874,23 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="voice_of_conscience%1:16:00::"
-                order="3"
-                id="ewn-voice_of_conscience-n-09207302-03"
+                order="2"
+                id="ewn-voice_of_conscience__1_16_00__"
                 n="0"
                 synset="ewn-09207302-n"
-                dc:identifier="voice_of_conscience%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-inducement-n">
          <Lemma writtenForm="inducement" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="inducement%1:16:00::"
-                order="2"
-                id="ewn-inducement-n-09202673-02"
+                order="1"
+                id="ewn-inducement__1_16_00__"
                 n="0"
                 synset="ewn-09202673-n"
-                dc:identifier="inducement%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-induce-v-00772482-01"/>
-            <!-- make, induce, stimulate, have, get, cause -->
+            <SenseRelation relType="derivation" target="ewn-induce__2_32_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-itchy_feet-n">
@@ -936,11 +898,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="itchy_feet%1:16:00::"
-                order="2"
-                id="ewn-itchy_feet-n-09206037-02"
+                order="1"
+                id="ewn-itchy_feet__1_16_00__"
                 n="0"
                 synset="ewn-09206037-n"
-                dc:identifier="itchy_feet%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-psychic_energy-n">
@@ -948,61 +909,61 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="psychic_energy%1:16:00::"
-                order="1"
-                id="ewn-psychic_energy-n-09207731-01"
+                order="0"
+                id="ewn-psychic_energy__1_16_00__"
                 n="0"
                 synset="ewn-09207731-n"
-                dc:identifier="psychic_energy%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-ethical_motive-n">
          <Lemma writtenForm="ethical motive" partOfSpeech="n"/>
-         <Sense tagCnt="1"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ethical_motive%1:16:00::"
-                order="1"
-                id="ewn-ethical_motive-n-09206590-01"
+                order="0"
+                id="ewn-ethical_motive__1_16_00__"
                 n="0"
                 synset="ewn-09206590-n"
-                dc:identifier="ethical_motive%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-possession-n">
-         <Lemma writtenForm="possession" partOfSpeech="n"/>
+         <Lemma writtenForm="possession" partOfSpeech="n">
+            <Pronunciation phonemic="true">pəˈzɛʃən</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="possession%1:16:00::"
-                order="2"
-                id="ewn-possession-n-09205421-02"
+                order="1"
+                id="ewn-possession__1_16_00__"
                 n="3"
                 synset="ewn-09205421-n"
-                dc:identifier="possession%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-dynamic-n">
-         <Lemma writtenForm="dynamic" partOfSpeech="n"/>
+         <Lemma writtenForm="dynamic" partOfSpeech="n">
+            <Pronunciation phonemic="true">daɪˈnæ.mɪk</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="dynamic%1:16:00::"
-                order="2"
-                id="ewn-dynamic-n-09202859-02"
+                order="1"
+                id="ewn-dynamic__1_16_00__"
                 n="0"
                 synset="ewn-09202859-n"
-                dc:identifier="dynamic%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-morals-n">
-         <Lemma writtenForm="morals" partOfSpeech="n"/>
-         <Sense tagCnt="2"
-                senseidx="0"
+         <Lemma writtenForm="morals" partOfSpeech="n">
+            <Pronunciation variety="US" phonemic="true">ˈmɔɹəlz</Pronunciation>
+            <Pronunciation variety="GB" phonemic="true">ˈmɒɹəlz</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="morals%1:16:00::"
-                order="3"
-                id="ewn-morals-n-09206590-03"
+                order="2"
+                id="ewn-morals__1_16_00__"
                 n="0"
                 synset="ewn-09206590-n"
-                dc:identifier="morals%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-libidinal_energy-n">
@@ -1010,11 +971,10 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="libidinal_energy%1:16:00::"
-                order="1"
-                id="ewn-libidinal_energy-n-09208337-01"
+                order="0"
+                id="ewn-libidinal_energy__1_16_00__"
                 n="0"
                 synset="ewn-09208337-n"
-                dc:identifier="libidinal_energy%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-egomania-n">
@@ -1022,39 +982,38 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="egomania%1:16:00::"
-                order="1"
-                id="ewn-egomania-n-09205039-01"
+                order="0"
+                id="ewn-egomania__1_16_00__"
                 n="0"
                 synset="ewn-09205039-n"
-                dc:identifier="egomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-wherefore-n">
-         <Lemma writtenForm="wherefore" partOfSpeech="n"/>
+         <Lemma writtenForm="wherefore" partOfSpeech="n">
+            <Pronunciation phonemic="true">ˈweə(ɹ)ˌfɔː(ɹ)</Pronunciation>
+         </Lemma>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="wherefore%1:16:00::"
-                order="2"
-                id="ewn-wherefore-n-09202503-02"
+                order="1"
+                id="ewn-wherefore__1_16_00__"
                 n="0"
                 synset="ewn-09202503-n"
-                dc:identifier="wherefore%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <LexicalEntry id="ewn-incentive-n">
-         <Lemma writtenForm="incentive" partOfSpeech="n"/>
-         <Sense tagCnt="5"
-                senseidx="0"
+         <Lemma writtenForm="incentive" partOfSpeech="n">
+            <Pronunciation phonemic="true">ɪnˈsɛntɪv</Pronunciation>
+         </Lemma>
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="incentive%1:16:00::"
-                order="1"
-                id="ewn-incentive-n-09202673-01"
+                order="0"
+                id="ewn-incentive__1_16_00__"
                 n="0"
                 synset="ewn-09202673-n"
-                dc:identifier="incentive%1:16:00::"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-disincentive-n-09203015-01"/>
-            <!-- deterrence, disincentive -->
+            <SenseRelation relType="antonym" target="ewn-disincentive__1_16_00__"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="ewn-logomania-n">
@@ -1062,27 +1021,28 @@
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="logomania%1:16:00::"
-                order="2"
-                id="ewn-logomania-n-09205298-02"
+                order="1"
+                id="ewn-logomania__1_16_00__"
                 n="0"
                 synset="ewn-09205298-n"
-                dc:identifier="logomania%1:16:00::"
                 lexicalized="true"/>
       </LexicalEntry>
       <!-- life -->
       <Synset id="ewn-09201624-n"
               ili="i84876"
+              members="ewn-life-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
          <Definition>a motive for living</Definition>
          <SynsetRelation relType="hypernym" target="ewn-00023953-n"/>
          <!-- need, motive, motivation -->
-         <Example>"pottery was his life"</Example>
+         <Example>pottery was his life</Example>
       </Synset>
       <!-- rational motive -->
       <Synset id="ewn-09201718-n"
               ili="i84877"
+              members="ewn-rational_motive-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1099,6 +1059,7 @@
       <!-- reason, ground -->
       <Synset id="ewn-09201896-n"
               ili="i84878"
+              members="ewn-reason-n ewn-ground-n ewn-occasion-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1109,25 +1070,27 @@
          <!-- score, account -->
          <SynsetRelation relType="hyponym" target="ewn-09202503-n"/>
          <!-- why, wherefore -->
-         <Example>"the reason that war was declared"</Example>
-         <Example>"the grounds for their declaration"</Example>
+         <Example>the reason that war was declared</Example>
+         <Example>the grounds for their declaration</Example>
       </Synset>
       <!-- score, account -->
       <Synset id="ewn-09202279-n"
               ili="i84880"
+              members="ewn-score-n ewn-account-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
          <Definition>grounds</Definition>
          <SynsetRelation relType="hypernym" target="ewn-09201896-n"/>
          <!-- reason, ground -->
-         <Example>"don't do it on my account"</Example>
-         <Example>"the paper was rejected on account of its length"</Example>
-         <Example>"he tried to blame the victim but his success on that score was doubtful"</Example>
+         <Example>don't do it on my account</Example>
+         <Example>the paper was rejected on account of its length</Example>
+         <Example>he tried to blame the victim but his success on that score was doubtful</Example>
       </Synset>
       <!-- why, wherefore -->
       <Synset id="ewn-09202503-n"
               ili="i84881"
+              members="ewn-why-n ewn-wherefore-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1138,6 +1101,7 @@
       <!-- incentive, inducement, motivator -->
       <Synset id="ewn-09202673-n"
               ili="i84882"
+              members="ewn-incentive-n ewn-inducement-n ewn-motivator-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1150,17 +1114,19 @@
       <!-- moral force, dynamic -->
       <Synset id="ewn-09202859-n"
               ili="i84883"
+              members="ewn-moral_force-n ewn-dynamic-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
          <Definition>an efficient incentive</Definition>
          <SynsetRelation relType="hypernym" target="ewn-09202673-n"/>
          <!-- incentive, inducement, motivator -->
-         <Example>"they hoped it would act as a spiritual dynamic on all churches"</Example>
+         <Example>they hoped it would act as a spiritual dynamic on all churches</Example>
       </Synset>
       <!-- deterrence, disincentive -->
       <Synset id="ewn-09203015-n"
               ili="i84884"
+              members="ewn-disincentive-n ewn-deterrence-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1171,6 +1137,7 @@
       <!-- irrational motive -->
       <Synset id="ewn-09203156-n"
               ili="i84885"
+              members="ewn-irrational_motive-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1187,6 +1154,7 @@
       <!-- impulse, urge -->
       <Synset id="ewn-09203328-n"
               ili="i84886"
+              members="ewn-urge-n ewn-impulse-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1201,11 +1169,12 @@
          <!-- Thanatos, death instinct, death wish -->
          <SynsetRelation relType="hyponym" target="ewn-09206037-n"/>
          <!-- itchy feet, wanderlust -->
-         <Example>"profound religious impulses"</Example>
+         <Example>profound religious impulses</Example>
       </Synset>
       <!-- abience -->
       <Synset id="ewn-09203513-n"
               ili="i84887"
+              members="ewn-abience-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1218,6 +1187,7 @@
       <!-- adience -->
       <Synset id="ewn-09203688-n"
               ili="i84888"
+              members="ewn-adience-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1230,6 +1200,7 @@
       <!-- Thanatos, death instinct, death wish -->
       <Synset id="ewn-09203864-n"
               ili="i84889"
+              members="ewn-death_instinct-n ewn-death_wish-n ewn-Thanatos-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1242,6 +1213,7 @@
       <!-- irrational impulse -->
       <Synset id="ewn-09204011-n"
               ili="i84890"
+              members="ewn-irrational_impulse-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1250,22 +1222,24 @@
          <!-- irrational motive -->
          <SynsetRelation relType="hyponym" target="ewn-09204227-n"/>
          <!-- compulsion, irresistible impulse -->
-         <Example>"the mass media and advertisers channel our irrational impulses"</Example>
+         <Example>the mass media and advertisers channel our irrational impulses</Example>
       </Synset>
       <!-- compulsion, irresistible impulse -->
       <Synset id="ewn-09204227-n"
               ili="i84891"
+              members="ewn-compulsion-n ewn-irresistible_impulse-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
          <Definition>an urge to do or say something that might be better left undone or unsaid</Definition>
          <SynsetRelation relType="hypernym" target="ewn-09204011-n"/>
          <!-- irrational impulse -->
-         <Example>"he felt a compulsion to babble on about the accident"</Example>
+         <Example>he felt a compulsion to babble on about the accident</Example>
       </Synset>
       <!-- passion, mania, cacoethes -->
       <Synset id="ewn-09204454-n"
               ili="i84892"
+              members="ewn-mania-n ewn-passion-n ewn-cacoethes-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1296,6 +1270,7 @@
       <!-- agromania -->
       <Synset id="ewn-09204786-n"
               ili="i84893"
+              members="ewn-agromania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1306,6 +1281,7 @@
       <!-- alcoholism, dipsomania, potomania -->
       <Synset id="ewn-09204890-n"
               ili="i84894"
+              members="ewn-dipsomania-n ewn-alcoholism-n ewn-potomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1316,6 +1292,7 @@
       <!-- egomania -->
       <Synset id="ewn-09205039-n"
               ili="i84895"
+              members="ewn-egomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1326,6 +1303,7 @@
       <!-- kleptomania -->
       <Synset id="ewn-09205170-n"
               ili="i84896"
+              members="ewn-kleptomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1336,6 +1314,7 @@
       <!-- logorrhea, logomania -->
       <Synset id="ewn-09205298-n"
               ili="i84897"
+              members="ewn-logorrhea-n ewn-logomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1346,6 +1325,7 @@
       <!-- monomania, possession -->
       <Synset id="ewn-09205421-n"
               ili="i84898"
+              members="ewn-monomania-n ewn-possession-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1356,6 +1336,7 @@
       <!-- necrophilism, necromania, necrophilia -->
       <Synset id="ewn-09205547-n"
               ili="i84899"
+              members="ewn-necrophilia-n ewn-necrophilism-n ewn-necromania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1366,6 +1347,7 @@
       <!-- phaneromania -->
       <Synset id="ewn-09205681-n"
               ili="i84900"
+              members="ewn-phaneromania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1376,6 +1358,7 @@
       <!-- pyromania -->
       <Synset id="ewn-09205826-n"
               ili="i84901"
+              members="ewn-pyromania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1386,6 +1369,7 @@
       <!-- trichotillomania -->
       <Synset id="ewn-09205928-n"
               ili="i84902"
+              members="ewn-trichotillomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1396,6 +1380,7 @@
       <!-- itchy feet, wanderlust -->
       <Synset id="ewn-09206037-n"
               ili="i84903"
+              members="ewn-wanderlust-n ewn-itchy_feet-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1406,6 +1391,7 @@
       <!-- compulsion, obsession -->
       <Synset id="ewn-09206152-n"
               ili="i84904"
+              members="ewn-compulsion-n ewn-obsession-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1414,11 +1400,12 @@
          <!-- irrational motive -->
          <SynsetRelation relType="hyponym" target="ewn-09206429-n"/>
          <!-- onomatomania -->
-         <Example>"her compulsion to wash her hands repeatedly"</Example>
+         <Example>her compulsion to wash her hands repeatedly</Example>
       </Synset>
       <!-- onomatomania -->
       <Synset id="ewn-09206429-n"
               ili="i84905"
+              members="ewn-onomatomania-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1429,6 +1416,7 @@
       <!-- morality, morals, ethics, ethical motive -->
       <Synset id="ewn-09206590-n"
               ili="i84906"
+              members="ewn-ethical_motive-n ewn-ethics-n ewn-morals-n ewn-morality-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1445,6 +1433,7 @@
       <!-- hedonism -->
       <Synset id="ewn-09206868-n"
               ili="i84907"
+              members="ewn-hedonism-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1455,6 +1444,7 @@
       <!-- scruples, moral sense, sense of right and wrong, conscience -->
       <Synset id="ewn-09207033-n"
               ili="i84908"
+              members="ewn-conscience-n ewn-scruples-n ewn-moral_sense-n ewn-sense_of_right_and_wrong-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1471,6 +1461,7 @@
       <!-- voice of conscience, small voice, wee small voice -->
       <Synset id="ewn-09207302-n"
               ili="i84909"
+              members="ewn-wee_small_voice-n ewn-small_voice-n ewn-voice_of_conscience-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1481,6 +1472,7 @@
       <!-- sense of shame, sense of duty -->
       <Synset id="ewn-09207440-n"
               ili="i84910"
+              members="ewn-sense_of_shame-n ewn-sense_of_duty-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1491,6 +1483,7 @@
       <!-- Christ Within, Light Within, Light, Inner Light -->
       <Synset id="ewn-09207565-n"
               ili="i84911"
+              members="ewn-Inner_Light-n ewn-Light-n ewn-Light_Within-n ewn-Christ_Within-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1501,6 +1494,7 @@
       <!-- mental energy, psychic energy -->
       <Synset id="ewn-09207731-n"
               ili="i84912"
+              members="ewn-psychic_energy-n ewn-mental_energy-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1515,6 +1509,7 @@
       <!-- incitement, incitation, provocation -->
       <Synset id="ewn-09207872-n"
               ili="i84913"
+              members="ewn-incitement-n ewn-incitation-n ewn-provocation-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1527,18 +1522,20 @@
       <!-- signal -->
       <Synset id="ewn-09208177-n"
               ili="i84914"
+              members="ewn-signal-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
          <Definition>any incitement to action</Definition>
          <SynsetRelation relType="hypernym" target="ewn-09207872-n"/>
          <!-- incitement, incitation, provocation -->
-         <Example>"he awaited the signal to start"</Example>
-         <Example>"the victory was a signal for wild celebration"</Example>
+         <Example>he awaited the signal to start</Example>
+         <Example>the victory was a signal for wild celebration</Example>
       </Synset>
       <!-- libidinal energy -->
       <Synset id="ewn-09208337-n"
               ili="i84915"
+              members="ewn-libidinal_energy-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1555,6 +1552,7 @@
       <!-- charge, cathexis -->
       <Synset id="ewn-09208509-n"
               ili="i84916"
+              members="ewn-cathexis-n ewn-charge-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1563,11 +1561,12 @@
          <!-- libidinal energy -->
          <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/>
          <!-- depth psychology, analysis, psychoanalysis -->
-         <Example>"Freud thought of cathexis as a psychic analog of an electrical charge"</Example>
+         <Example>Freud thought of cathexis as a psychic analog of an electrical charge</Example>
       </Synset>
       <!-- acathexis -->
       <Synset id="ewn-09208762-n"
               ili="i84917"
+              members="ewn-acathexis-n"
               partOfSpeech="n"
               dc:subject="noun.motive"
               lexicalized="true">
@@ -1577,5 +1576,56 @@
          <SynsetRelation relType="domain_topic" target="ewn-00705558-n"/>
          <!-- depth psychology, analysis, psychoanalysis -->
       </Synset>
+      <SyntacticBehaviour id="ditransitive"
+                          subcategorizationFrame="Somebody ----s somebody something"/>
+      <SyntacticBehaviour id="nonreferential" subcategorizationFrame="It is ----ing"/>
+      <SyntacticBehaviour id="nonreferential-sent" subcategorizationFrame="It ----s that CLAUSE"/>
+      <SyntacticBehaviour id="via" subcategorizationFrame="Somebody ----s"/>
+      <SyntacticBehaviour id="via-adj" subcategorizationFrame="Somebody ----s Adjective"/>
+      <SyntacticBehaviour id="via-at" subcategorizationFrame="Somebody ----s at something"/>
+      <SyntacticBehaviour id="via-for" subcategorizationFrame="Somebody ----s for something"/>
+      <SyntacticBehaviour id="via-ger" subcategorizationFrame="Somebody ----s VERB-ing"/>
+      <SyntacticBehaviour id="via-inf" subcategorizationFrame="Somebody ----s INFINITIVE"/>
+      <SyntacticBehaviour id="via-on-anim" subcategorizationFrame="Somebody ----s on somebody"/>
+      <SyntacticBehaviour id="via-on-inanim" subcategorizationFrame="Somebody ----s on something"/>
+      <SyntacticBehaviour id="via-out-of" subcategorizationFrame="Somebody ----s out of somebody"/>
+      <SyntacticBehaviour id="via-pp" subcategorizationFrame="Somebody ----s PP"/>
+      <SyntacticBehaviour id="via-that" subcategorizationFrame="Somebody ----s that CLAUSE"/>
+      <SyntacticBehaviour id="via-to" subcategorizationFrame="Somebody ----s to somebody"/>
+      <SyntacticBehaviour id="via-to-inf" subcategorizationFrame="Somebody ----s to INFINITIVE"/>
+      <SyntacticBehaviour id="via-whether-inf"
+                          subcategorizationFrame="Somebody ----s whether INFINITIVE"/>
+      <SyntacticBehaviour id="vibody" subcategorizationFrame="Somebody's (body part) ----s"/>
+      <SyntacticBehaviour id="vii" subcategorizationFrame="Something ----s"/>
+      <SyntacticBehaviour id="vii-adj" subcategorizationFrame="Something ----s Adjective/Noun"/>
+      <SyntacticBehaviour id="vii-inf" subcategorizationFrame="Something ----s INFINITIVE"/>
+      <SyntacticBehaviour id="vii-pp" subcategorizationFrame="Something is ----ing PP"/>
+      <SyntacticBehaviour id="vii-to" subcategorizationFrame="Something ----s to somebody"/>
+      <SyntacticBehaviour id="vtaa" subcategorizationFrame="Somebody ----s somebody"/>
+      <SyntacticBehaviour id="vtaa-inf"
+                          subcategorizationFrame="Somebody ----s somebody INFINITIVE"/>
+      <SyntacticBehaviour id="vtaa-into-ger"
+                          subcategorizationFrame="Somebody ----s somebody into V-ing something"/>
+      <SyntacticBehaviour id="vtaa-of"
+                          subcategorizationFrame="Somebody ----s somebody of something"/>
+      <SyntacticBehaviour id="vtaa-pp" subcategorizationFrame="Somebody ----s somebody PP"/>
+      <SyntacticBehaviour id="vtaa-to-inf"
+                          subcategorizationFrame="Somebody ----s somebody to INFINITIVE"/>
+      <SyntacticBehaviour id="vtaa-with"
+                          subcategorizationFrame="Somebody ----s somebody with something"/>
+      <SyntacticBehaviour id="vtai" subcategorizationFrame="Somebody ----s something"/>
+      <SyntacticBehaviour id="vtai-from"
+                          subcategorizationFrame="Somebody ----s something from somebody"/>
+      <SyntacticBehaviour id="vtai-on"
+                          subcategorizationFrame="Somebody ----s something on somebody"/>
+      <SyntacticBehaviour id="vtai-pp" subcategorizationFrame="Somebody ----s something PP"/>
+      <SyntacticBehaviour id="vtai-to"
+                          subcategorizationFrame="Somebody ----s something to somebody"/>
+      <SyntacticBehaviour id="vtai-with"
+                          subcategorizationFrame="Somebody ----s something with something"/>
+      <SyntacticBehaviour id="vtia" subcategorizationFrame="Something ----s somebody"/>
+      <SyntacticBehaviour id="vtii" subcategorizationFrame="Something ----s something"/>
+      <SyntacticBehaviour id="vtii-adj"
+                          subcategorizationFrame="Something ----s something Adjective/Noun"/>
    </Lexicon>
 </LexicalResource>

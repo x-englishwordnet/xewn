@@ -18,43 +18,24 @@
 		<LexicalResource 
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd"
-			xmlns:dc="http://purl.org/dc/elements/1.1/">
+			xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
 			<xsl:apply-templates select="./*" />
 		</LexicalResource>
 	</xsl:template>
 
 	<xsl:template match="Sense">
-		<xsl:variable name='senseid' select="@id" />
-
-		<xsl:variable name='sb'>
-			<xsl:for-each select="../SyntacticBehaviourRef">
-				<xsl:variable name='senses' select="@senses" />
-				<xsl:if test="contains($senses,$senseid)">
-					<xsl:value-of select="@idref" />
-					<xsl:text> </xsl:text>
-				</xsl:if>
-			</xsl:for-each>
-		</xsl:variable>
-		<xsl:variable name='sb_normalized'>
-			<xsl:value-of select="normalize-space($sb)" />
-		</xsl:variable>
-
-		<xsl:if test='$debug = true()'>
-			<xsl:message>
-				<xsl:value-of select="$senseid" />
-				<xsl:value-of select="concat(': ',$sb)" />
-				<xsl:text>&#xa;</xsl:text>
-			</xsl:message>
-		</xsl:if>
-
 		<xsl:copy>
-			<xsl:if test="$sb_normalized != ''">
+			<xsl:if test='@subcat'>
 				<xsl:attribute name="verbFrames">
-					<xsl:value-of select="$sb_normalized" />
+					<xsl:value-of select="@subcat" />
 				</xsl:attribute>
 			</xsl:if>
+			
 			<xsl:apply-templates select="@*|node()" />
 		</xsl:copy>
+	</xsl:template>
+
+	<xsl:template match="@subcat">
 	</xsl:template>
 
 	<xsl:template match="@*|node()">

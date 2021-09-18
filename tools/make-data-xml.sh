@@ -43,7 +43,7 @@ echo -e "${CYAN}X M L${Z}"
 # PRE-TRANSFORM VALIDATE
 echo -e "${C}* Validate src XML${Z}"
 pushd ${VALIDATORDIR} > /dev/null
-./validate2.sh EWN-LMF-1.1-relax_idrefs.xsd "$SRCDIR" -dir
+./validate2.sh 1.1b/EWN-LMF-1.1-relax_idrefs.xsd "$SRCDIR" -dir
 popd > /dev/null
 
 # TRANSFORM
@@ -61,7 +61,7 @@ popd > /dev/null
 # VALIDATE
 echo -e "${C}* Validate merged XML${Z}"
 pushd ${VALIDATORDIR} > /dev/null
-./validate2.sh xEWN-LMF-1.10.xsd $MERGED
+./validate2.sh 1.10b/xEWN-LMF-1.10.xsd $MERGED
 
 popd > /dev/null
 

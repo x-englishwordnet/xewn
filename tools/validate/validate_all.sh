@@ -18,7 +18,6 @@ declare -A versions=(
 ["1.10"]="	1.10	xsrc			xWN-LMF-1.10-relax_idrefs	xEWN-LMF-1.10-relax_idrefs" 
 ["1.10m"]="	1.10	xsrc_merged		xWN-LMF-1.10 				xEWN-LMF-1.10" 
 
-
 ["2.10"]="	2.10	xsrc2			xWN-LMF-2.10-relax_idrefs	xEWN-LMF-2.10-relax_idrefs"
 #["2.10m"]="	2.10	xsrc2_merged	xWN-LMF-2.10	 			xEWN-LMF-2.10"
 )

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- ~ Copyright (c) 2019. Bernard Bou <1313ou@gmail.com>. -->
 
-<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<xsl:transform xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
 
 	<xsl:import href='lib-lexid.xsl' />
 	<xsl:import href='lib-sensekey.xsl' />
@@ -24,7 +24,7 @@
 		<LexicalResource
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd"
-			xmlns:dc="http://purl.org/dc/elements/1.1/">
+			xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
 			<xsl:apply-templates select="./*" />
 		</LexicalResource>
 	</xsl:template>

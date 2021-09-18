@@ -18,7 +18,7 @@
 		<LexicalResource
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd"
-			xmlns:dc="http://purl.org/dc/elements/1.1/" >
+			xmlns:dc="https://globalwordnet.github.io/schemas/dc/" >
 			<xsl:apply-templates select="./*" />
 		</LexicalResource>
 	</xsl:template>

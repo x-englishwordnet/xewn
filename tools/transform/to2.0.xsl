@@ -17,7 +17,7 @@
 	<xsl:variable name="debug3" select="false()" />
 
 	<!-- in ns -->
-	<xsl:variable name="ns_dc" select="'http://purl.org/dc/elements/1.1/'" />
+	<xsl:variable name="ns_dc" select="'https://globalwordnet.github.io/schemas/dc/'" />
 
 	<!-- out ns -->
 	<xsl:variable name="ns_ili" select="'http://ili.org/ili/'" />
