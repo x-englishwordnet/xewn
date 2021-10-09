@@ -17,7 +17,7 @@
 	<xsl:template match="LexicalResource">
 		<LexicalResource xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.1/changes.xsd">
-			<Lexicon id = "ewn-change-senses-adjPosition" label="English WordNet - Changes to Sense/@adjPosition">
+			<Lexicon id = "oewn-change-senses-adjPosition" label="English WordNet - Changes to Sense/@adjPosition">
 				<Changes>
 					<xsl:apply-templates select="//Sense[@adjPosition != '']" />
 				</Changes>

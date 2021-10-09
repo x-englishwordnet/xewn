@@ -2,7 +2,7 @@
 <LexicalResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                  xmlns:dc="https://globalwordnet.github.io/schemas/dc/"
                  xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10-relax_idrefs.xsd">
-   <Lexicon id="ewn"
+   <Lexicon id="oewn"
             label="Open English WordNet"
             language="en"
             email="john@mccr.ae"
@@ -10,35 +10,35 @@
             version="2019"
             url="https://github.com/globalwordnet/english-wordnet"
             confidenceScore="1.0">
-      <LexicalEntry id="ewn-handheld-a">
+      <LexicalEntry id="oewn-handheld-a">
          <Lemma writtenForm="handheld" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="handheld%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-handheld__3_44_00__"
+                id="oewn-handheld__3.44.00.."
                 n="0"
-                synset="ewn-03161180-a"
+                synset="oewn-03161180-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hold__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-hold__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-held-a">
+      <LexicalEntry id="oewn-held-a">
          <Lemma writtenForm="held" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="held%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-held__3_44_00__"
+                id="oewn-held__3.44.00.."
                 n="0"
-                synset="ewn-03161358-a"
+                synset="oewn-03161358-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hold__2_41_14__"/>
+            <SenseRelation relType="participle" target="oewn-hold__2.41.14.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-operating-a">
+      <LexicalEntry id="oewn-operating-a">
          <Lemma writtenForm="operating" partOfSpeech="a">
             <Pronunciation variety="US" phonemic="true">ˈɑpəɹeɪtɪŋ</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">ˈɒpəɹeɪtɪŋ</Pronunciation>
@@ -48,113 +48,113 @@
                 sensekey="operating%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-operating__3_44_00__"
+                id="oewn-operating__3.44.00.."
                 n="0"
-                synset="ewn-03162996-a"
+                synset="oewn-03162996-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-operate__2_35_03__"/>
+            <SenseRelation relType="participle" target="oewn-operate__2.35.03.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-stacked-a">
+      <LexicalEntry id="oewn-stacked-a">
          <Lemma writtenForm="stacked" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="stacked%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-stacked__3_44_00__"
+                id="oewn-stacked__3.44.00.."
                 n="0"
-                synset="ewn-03166300-a"
+                synset="oewn-03166300-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-stack__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-stack__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-uncollected-a">
+      <LexicalEntry id="oewn-uncollected-a">
          <Lemma writtenForm="uncollected" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="uncollected%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-uncollected__3_44_00__"
+                id="oewn-uncollected__3.44.00.."
                 n="0"
-                synset="ewn-03160148-a"
+                synset="oewn-03160148-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-collected__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-collect__2_35_00__"/>
+            <SenseRelation relType="antonym" target="oewn-collected__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-collect__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-thoriated-a">
+      <LexicalEntry id="oewn-thoriated-a">
          <Lemma writtenForm="thoriated" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="thoriated%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-thoriated__3_44_00__"
+                id="oewn-thoriated__3.44.00.."
                 n="0"
-                synset="ewn-03166660-a"
+                synset="oewn-03166660-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-thoriate__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-thoriate__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-marched_upon-a">
+      <LexicalEntry id="oewn-marched_upon-a">
          <Lemma writtenForm="marched upon" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="marched_upon%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-marched_upon__3_44_00__"
+                id="oewn-marched_upon__3.44.00.."
                 n="0"
-                synset="ewn-03162580-a"
+                synset="oewn-03162580-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-march__2_38_01__"/>
+            <SenseRelation relType="participle" target="oewn-march__2.38.01.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sanitized-a">
+      <LexicalEntry id="oewn-sanitized-a">
          <Lemma writtenForm="sanitized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sanitized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-sanitized__3_44_00__"
+                id="oewn-sanitized__3.44.00.."
                 n="0"
-                synset="ewn-03165565-a"
+                synset="oewn-03165565-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sanitize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-sanitize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-plugged-a">
+      <LexicalEntry id="oewn-plugged-a">
          <Lemma writtenForm="plugged" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="plugged%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-plugged__3_44_00__"
+                id="oewn-plugged__3.44.00.."
                 n="0"
-                synset="ewn-03164146-a"
+                synset="oewn-03164146-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-plug__2_30_04__"/>
+            <SenseRelation relType="participle" target="oewn-plug__2.30.04.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sought-a">
+      <LexicalEntry id="oewn-sought-a">
          <Lemma writtenForm="sought" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sought%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-sought__3_44_00__"
+                id="oewn-sought__3.44.00.."
                 n="0"
-                synset="ewn-03166897-a"
+                synset="oewn-03166897-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-seek__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-seek__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-fitted-a">
+      <LexicalEntry id="oewn-fitted-a">
          <Lemma writtenForm="fitted" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈfɪtəd</Pronunciation>
          </Lemma>
@@ -163,71 +163,71 @@
                 sensekey="fitted%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-fitted__3_44_00__"
+                id="oewn-fitted__3.44.00.."
                 n="0"
-                synset="ewn-03161971-a"
+                synset="oewn-03161971-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-fit__2_42_02__"/>
+            <SenseRelation relType="participle" target="oewn-fit__2.42.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-avenged-a">
+      <LexicalEntry id="oewn-avenged-a">
          <Lemma writtenForm="avenged" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="avenged%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-avenged__3_44_00__"
+                id="oewn-avenged__3.44.00.."
                 n="0"
-                synset="ewn-03159292-a"
+                synset="oewn-03159292-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-unavenged__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-avenge__2_33_00__"/>
+            <SenseRelation relType="antonym" target="oewn-unavenged__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-avenge__2.33.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-pencilled-a">
+      <LexicalEntry id="oewn-pencilled-a">
          <Lemma writtenForm="pencilled" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="pencilled%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-pencilled__3_44_00__"
+                id="oewn-pencilled__3.44.00.."
                 n="0"
-                synset="ewn-03163722-a"
+                synset="oewn-03163722-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pencil__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-pencil__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-mounded_over-a">
+      <LexicalEntry id="oewn-mounded_over-a">
          <Lemma writtenForm="mounded over" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="mounded_over%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-mounded_over__3_44_00__"
+                id="oewn-mounded_over__3.44.00.."
                 n="0"
-                synset="ewn-03162908-a"
+                synset="oewn-03162908-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-mound_over__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-mound_over__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-cantering-a">
+      <LexicalEntry id="oewn-cantering-a">
          <Lemma writtenForm="cantering" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="cantering%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-cantering__3_44_00__"
+                id="oewn-cantering__3.44.00.."
                 n="0"
-                synset="ewn-03159804-a"
+                synset="oewn-03159804-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-canter__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-canter__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-keeled-a">
+      <LexicalEntry id="oewn-keeled-a">
          <Lemma writtenForm="keeled" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈkiːld</Pronunciation>
          </Lemma>
@@ -236,151 +236,151 @@
                 sensekey="keeled%3:44:00::"
                 adjIsHead="true"
                 order="3"
-                id="ewn-keeled__3_44_00__"
+                id="oewn-keeled__3.44.00.."
                 n="0"
-                synset="ewn-03165372-a"
+                synset="oewn-03165372-a"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-ranging-a">
+      <LexicalEntry id="oewn-ranging-a">
          <Lemma writtenForm="ranging" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="ranging%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-ranging__3_44_00__"
+                id="oewn-ranging__3.44.00.."
                 n="0"
-                synset="ewn-03165029-a"
+                synset="oewn-03165029-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-range__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-range__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-ungathered-a">
+      <LexicalEntry id="oewn-ungathered-a">
          <Lemma writtenForm="ungathered" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="ungathered%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-ungathered__3_44_00__"
+                id="oewn-ungathered__3.44.00.."
                 n="0"
-                synset="ewn-03160148-a"
+                synset="oewn-03160148-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-gathered__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-gather__2_35_00__"/>
+            <SenseRelation relType="antonym" target="oewn-gathered__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-gather__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-parked-a">
+      <LexicalEntry id="oewn-parked-a">
          <Lemma writtenForm="parked" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="parked%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-parked__3_44_00__"
+                id="oewn-parked__3.44.00.."
                 n="0"
-                synset="ewn-03163313-a"
+                synset="oewn-03163313-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-park__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-park__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-transpiring-a">
+      <LexicalEntry id="oewn-transpiring-a">
          <Lemma writtenForm="transpiring" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="transpiring%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-transpiring__3_44_00__"
+                id="oewn-transpiring__3.44.00.."
                 n="0"
-                synset="ewn-03166797-a"
+                synset="oewn-03166797-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-transpire__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-transpire__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-closed-captioned-a">
+      <LexicalEntry id="oewn-closed-captioned-a">
          <Lemma writtenForm="closed-captioned" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="closed-captioned%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-closed-captioned__3_44_00__"
+                id="oewn-closed-captioned__3.44.00.."
                 n="0"
-                synset="ewn-03166997-a"
+                synset="oewn-03166997-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-caption__2_40_00__"/>
+            <SenseRelation relType="participle" target="oewn-caption__2.40.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-carinated-a">
+      <LexicalEntry id="oewn-carinated-a">
          <Lemma writtenForm="carinated" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="carinated%3:44:00::"
                 adjIsHead="true"
                 order="2"
-                id="ewn-carinated__3_44_00__"
+                id="oewn-carinated__3.44.00.."
                 n="0"
-                synset="ewn-03165372-a"
+                synset="oewn-03165372-a"
                 lexicalized="true"/>
       </LexicalEntry>
-      <LexicalEntry id="ewn-hypophysectomised-a">
+      <LexicalEntry id="oewn-hypophysectomised-a">
          <Lemma writtenForm="hypophysectomised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="hypophysectomised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-hypophysectomised__3_44_00__"
+                id="oewn-hypophysectomised__3.44.00.."
                 n="0"
-                synset="ewn-03162135-a"
+                synset="oewn-03162135-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hypophysectomise__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-hypophysectomise__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-tittering-a">
+      <LexicalEntry id="oewn-tittering-a">
          <Lemma writtenForm="tittering" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="tittering%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-tittering__3_44_00__"
+                id="oewn-tittering__3.44.00.."
                 n="0"
-                synset="ewn-03166660-a"
+                synset="oewn-03166660-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-titter__2_29_00__"/>
+            <SenseRelation relType="participle" target="oewn-titter__2.29.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-penciled-a">
+      <LexicalEntry id="oewn-penciled-a">
          <Lemma writtenForm="penciled" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="penciled%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-penciled__3_44_00__"
+                id="oewn-penciled__3.44.00.."
                 n="0"
-                synset="ewn-03163722-a"
+                synset="oewn-03163722-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pencil__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-pencil__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unpasteurized-a">
+      <LexicalEntry id="oewn-unpasteurized-a">
          <Lemma writtenForm="unpasteurized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unpasteurized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unpasteurized__3_44_00__"
+                id="oewn-unpasteurized__3.44.00.."
                 n="0"
-                synset="ewn-03163593-a"
+                synset="oewn-03163593-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pasteurize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-pasteurize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-preconceived-a">
+      <LexicalEntry id="oewn-preconceived-a">
          <Lemma writtenForm="preconceived" partOfSpeech="a">
             <Pronunciation phonemic="true">ˌpɹiːkənˈsiːvd</Pronunciation>
          </Lemma>
@@ -389,14 +389,14 @@
                 sensekey="preconceived%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-preconceived__3_44_00__"
+                id="oewn-preconceived__3.44.00.."
                 n="0"
-                synset="ewn-03164588-a"
+                synset="oewn-03164588-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-conceive__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-conceive__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-forced-a">
+      <LexicalEntry id="oewn-forced-a">
          <Lemma writtenForm="forced" partOfSpeech="a">
             <Pronunciation variety="US" phonemic="true">fɔɹst</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">fɔːst</Pronunciation>
@@ -406,14 +406,14 @@
                 sensekey="forced%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-forced__3_44_00__"
+                id="oewn-forced__3.44.00.."
                 n="0"
-                synset="ewn-03160842-a"
+                synset="oewn-03160842-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-force__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-force__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-gathered-a">
+      <LexicalEntry id="oewn-gathered-a">
          <Lemma writtenForm="gathered" partOfSpeech="a">
             <Pronunciation variety="GB" phonemic="true">ˈɡæðəd</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈɡæðɚd</Pronunciation>
@@ -423,45 +423,45 @@
                 sensekey="gathered%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-gathered__3_44_00__"
+                id="oewn-gathered__3.44.00.."
                 n="0"
-                synset="ewn-03159930-a"
+                synset="oewn-03159930-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-ungathered__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-gather__2_35_00__"/>
+            <SenseRelation relType="antonym" target="oewn-ungathered__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-gather__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unsaponified-a">
+      <LexicalEntry id="oewn-unsaponified-a">
          <Lemma writtenForm="unsaponified" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unsaponified%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unsaponified__3_44_00__"
+                id="oewn-unsaponified__3.44.00.."
                 n="0"
-                synset="ewn-03167317-a"
+                synset="oewn-03167317-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-saponified__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-saponify__2_30_00__"/>
+            <SenseRelation relType="antonym" target="oewn-saponified__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-saponify__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-saponified-a">
+      <LexicalEntry id="oewn-saponified-a">
          <Lemma writtenForm="saponified" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="saponified%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-saponified__3_44_00__"
+                id="oewn-saponified__3.44.00.."
                 n="0"
-                synset="ewn-03167204-a"
+                synset="oewn-03167204-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-unsaponified__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-saponify__2_30_00__"/>
+            <SenseRelation relType="antonym" target="oewn-unsaponified__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-saponify__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-beaten-a">
+      <LexicalEntry id="oewn-beaten-a">
          <Lemma writtenForm="beaten" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈbit(ə)n</Pronunciation>
          </Lemma>
@@ -470,212 +470,212 @@
                 sensekey="beaten%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-beaten__3_44_00__"
+                id="oewn-beaten__3.44.00.."
                 n="0"
-                synset="ewn-03159554-a"
+                synset="oewn-03159554-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-beat__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-beat__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-streaming-a">
+      <LexicalEntry id="oewn-streaming-a">
          <Lemma writtenForm="streaming" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="streaming%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-streaming__3_44_00__"
+                id="oewn-streaming__3.44.00.."
                 n="0"
-                synset="ewn-03161489-a"
+                synset="oewn-03161489-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-stream__2_29_00__"/>
+            <SenseRelation relType="participle" target="oewn-stream__2.29.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-squashed-a">
+      <LexicalEntry id="oewn-squashed-a">
          <Lemma writtenForm="squashed" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="squashed%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-squashed__3_44_00__"
+                id="oewn-squashed__3.44.00.."
                 n="0"
-                synset="ewn-03166154-a"
+                synset="oewn-03166154-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-squash__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-squash__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-played-a">
+      <LexicalEntry id="oewn-played-a">
          <Lemma writtenForm="played" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="played%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-played__3_44_00__"
+                id="oewn-played__3.44.00.."
                 n="0"
-                synset="ewn-03164026-a"
+                synset="oewn-03164026-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-play__2_33_00__"/>
+            <SenseRelation relType="participle" target="oewn-play__2.33.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-surmounted-a">
+      <LexicalEntry id="oewn-surmounted-a">
          <Lemma writtenForm="surmounted" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="surmounted%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-surmounted__3_44_00__"
+                id="oewn-surmounted__3.44.00.."
                 n="0"
-                synset="ewn-03161630-a"
+                synset="oewn-03161630-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-surmount__2_42_00__"/>
+            <SenseRelation relType="participle" target="oewn-surmount__2.42.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unfilled-a">
+      <LexicalEntry id="oewn-unfilled-a">
          <Lemma writtenForm="unfilled" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unfilled%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unfilled__3_44_00__"
+                id="oewn-unfilled__3.44.00.."
                 n="0"
-                synset="ewn-03161854-a"
+                synset="oewn-03161854-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-filled__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-fill__2_34_02__"/>
+            <SenseRelation relType="antonym" target="oewn-filled__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-fill__2.34.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-posted-a">
+      <LexicalEntry id="oewn-posted-a">
          <Lemma writtenForm="posted" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="posted%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-posted__3_44_00__"
+                id="oewn-posted__3.44.00.."
                 n="0"
-                synset="ewn-03164491-a"
+                synset="oewn-03164491-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-post__2_32_03__"/>
+            <SenseRelation relType="participle" target="oewn-post__2.32.03.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-mercerised-a">
+      <LexicalEntry id="oewn-mercerised-a">
          <Lemma writtenForm="mercerised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="mercerised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-mercerised__3_44_00__"
+                id="oewn-mercerised__3.44.00.."
                 n="0"
-                synset="ewn-03162681-a"
+                synset="oewn-03162681-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-mercerize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-mercerize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-contested-a">
+      <LexicalEntry id="oewn-contested-a">
          <Lemma writtenForm="contested" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="contested%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-contested__3_44_00__"
+                id="oewn-contested__3.44.00.."
                 n="0"
-                synset="ewn-03160344-a"
+                synset="oewn-03160344-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-uncontested__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-contest__2_32_00__"/>
+            <SenseRelation relType="antonym" target="oewn-uncontested__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-contest__2.32.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sintered-a">
+      <LexicalEntry id="oewn-sintered-a">
          <Lemma writtenForm="sintered" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sintered%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-sintered__3_44_00__"
+                id="oewn-sintered__3.44.00.."
                 n="0"
-                synset="ewn-03165766-a"
+                synset="oewn-03165766-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sinter__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-sinter__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-regenerating-a">
+      <LexicalEntry id="oewn-regenerating-a">
          <Lemma writtenForm="regenerating" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="regenerating%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-regenerating__3_44_00__"
+                id="oewn-regenerating__3.44.00.."
                 n="0"
-                synset="ewn-03165266-a"
+                synset="oewn-03165266-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-regenerate__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-regenerate__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-elapsed-a">
+      <LexicalEntry id="oewn-elapsed-a">
          <Lemma writtenForm="elapsed" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="elapsed%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-elapsed__3_44_00__"
+                id="oewn-elapsed__3.44.00.."
                 n="0"
-                synset="ewn-03160735-a"
+                synset="oewn-03160735-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-elapse__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-elapse__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-shrieked-a">
+      <LexicalEntry id="oewn-shrieked-a">
          <Lemma writtenForm="shrieked" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="shrieked%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-shrieked__3_44_00__"
+                id="oewn-shrieked__3.44.00.."
                 n="0"
-                synset="ewn-03165664-a"
+                synset="oewn-03165664-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-shriek__2_32_00__"/>
+            <SenseRelation relType="participle" target="oewn-shriek__2.32.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-strung-a">
+      <LexicalEntry id="oewn-strung-a">
          <Lemma writtenForm="strung" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="strung%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-strung__3_44_00__"
+                id="oewn-strung__3.44.00.."
                 n="0"
-                synset="ewn-03166373-a"
+                synset="oewn-03166373-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-string__2_35_02__"/>
+            <SenseRelation relType="participle" target="oewn-string__2.35.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sublimed-a">
+      <LexicalEntry id="oewn-sublimed-a">
          <Lemma writtenForm="sublimed" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sublimed%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-sublimed__3_44_00__"
+                id="oewn-sublimed__3.44.00.."
                 n="0"
-                synset="ewn-03166474-a"
+                synset="oewn-03166474-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sublime__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-sublime__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-pitched-a">
+      <LexicalEntry id="oewn-pitched-a">
          <Lemma writtenForm="pitched" partOfSpeech="a">
             <Pronunciation phonemic="true">pɪtʃt</Pronunciation>
          </Lemma>
@@ -684,57 +684,57 @@
                 sensekey="pitched%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-pitched__3_44_00__"
+                id="oewn-pitched__3.44.00.."
                 n="0"
-                synset="ewn-03163882-a"
+                synset="oewn-03163882-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pitch__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-pitch__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-corbelled-a">
+      <LexicalEntry id="oewn-corbelled-a">
          <Lemma writtenForm="corbelled" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="corbelled%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-corbelled__3_44_00__"
+                id="oewn-corbelled__3.44.00.."
                 n="0"
-                synset="ewn-03160664-a"
+                synset="oewn-03160664-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-corbel__2_40_00__"/>
+            <SenseRelation relType="participle" target="oewn-corbel__2.40.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sublimated-a">
+      <LexicalEntry id="oewn-sublimated-a">
          <Lemma writtenForm="sublimated" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sublimated%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-sublimated__3_44_00__"
+                id="oewn-sublimated__3.44.00.."
                 n="0"
-                synset="ewn-03166474-a"
+                synset="oewn-03166474-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sublimate__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-sublimate__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unmalted-a">
+      <LexicalEntry id="oewn-unmalted-a">
          <Lemma writtenForm="unmalted" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unmalted%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unmalted__3_44_00__"
+                id="oewn-unmalted__3.44.00.."
                 n="0"
-                synset="ewn-03162442-a"
+                synset="oewn-03162442-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-malted__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-malt__2_30_02__"/>
+            <SenseRelation relType="antonym" target="oewn-malted__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-malt__2.30.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-collected-a">
+      <LexicalEntry id="oewn-collected-a">
          <Lemma writtenForm="collected" partOfSpeech="a">
             <Pronunciation phonemic="true">kəˈlɛktɪd</Pronunciation>
          </Lemma>
@@ -743,29 +743,29 @@
                 sensekey="collected%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-collected__3_44_00__"
+                id="oewn-collected__3.44.00.."
                 n="0"
-                synset="ewn-03159930-a"
+                synset="oewn-03159930-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-uncollected__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-collect__2_35_00__"/>
+            <SenseRelation relType="antonym" target="oewn-uncollected__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-collect__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unpasteurised-a">
+      <LexicalEntry id="oewn-unpasteurised-a">
          <Lemma writtenForm="unpasteurised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unpasteurised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-unpasteurised__3_44_00__"
+                id="oewn-unpasteurised__3.44.00.."
                 n="0"
-                synset="ewn-03163593-a"
+                synset="oewn-03163593-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pasteurise__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-pasteurise__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-posed-a">
+      <LexicalEntry id="oewn-posed-a">
          <Lemma writtenForm="posed" partOfSpeech="a">
             <Pronunciation variety="GB" phonemic="true">pəʊzd</Pronunciation>
             <Pronunciation variety="US" phonemic="true">poʊzd</Pronunciation>
@@ -775,15 +775,15 @@
                 sensekey="posed%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-posed__3_44_00__"
+                id="oewn-posed__3.44.00.."
                 n="0"
-                synset="ewn-03164260-a"
+                synset="oewn-03164260-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-unposed__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-pose__2_39_00__"/>
+            <SenseRelation relType="antonym" target="oewn-unposed__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-pose__2.39.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-punishing-a">
+      <LexicalEntry id="oewn-punishing-a">
          <Lemma writtenForm="punishing" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈpʌnɪʃɪŋ</Pronunciation>
          </Lemma>
@@ -792,99 +792,99 @@
                 sensekey="punishing%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-punishing__3_44_00__"
+                id="oewn-punishing__3.44.00.."
                 n="0"
-                synset="ewn-03164770-a"
+                synset="oewn-03164770-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-punish__2_41_00__"/>
+            <SenseRelation relType="participle" target="oewn-punish__2.41.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unposed-a">
+      <LexicalEntry id="oewn-unposed-a">
          <Lemma writtenForm="unposed" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unposed%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unposed__3_44_00__"
+                id="oewn-unposed__3.44.00.."
                 n="0"
-                synset="ewn-03164361-a"
+                synset="oewn-03164361-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-posed__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-pose__2_39_00__"/>
+            <SenseRelation relType="antonym" target="oewn-posed__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-pose__2.39.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-pursued-a">
+      <LexicalEntry id="oewn-pursued-a">
          <Lemma writtenForm="pursued" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="pursued%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-pursued__3_44_00__"
+                id="oewn-pursued__3.44.00.."
                 n="0"
-                synset="ewn-03164885-a"
+                synset="oewn-03164885-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pursue__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-pursue__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-oxidized-a">
+      <LexicalEntry id="oewn-oxidized-a">
          <Lemma writtenForm="oxidized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="oxidized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-oxidized__3_44_00__"
+                id="oewn-oxidized__3.44.00.."
                 n="0"
-                synset="ewn-03163133-a"
+                synset="oewn-03163133-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-oxidize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-oxidize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-spray-dried-a">
+      <LexicalEntry id="oewn-spray-dried-a">
          <Lemma writtenForm="spray-dried" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="spray-dried%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-spray-dried__3_44_00__"
+                id="oewn-spray-dried__3.44.00.."
                 n="0"
-                synset="ewn-03165971-a"
+                synset="oewn-03165971-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-spray-dry__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-spray-dry__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-pasteurized-a">
+      <LexicalEntry id="oewn-pasteurized-a">
          <Lemma writtenForm="pasteurized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="pasteurized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-pasteurized__3_44_00__"
+                id="oewn-pasteurized__3.44.00.."
                 n="0"
-                synset="ewn-03163434-a"
+                synset="oewn-03163434-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pasteurize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-pasteurize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-hammered-a">
+      <LexicalEntry id="oewn-hammered-a">
          <Lemma writtenForm="hammered" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="hammered%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-hammered__3_44_00__"
+                id="oewn-hammered__3.44.00.."
                 n="0"
-                synset="ewn-03161036-a"
+                synset="oewn-03161036-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hammer__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-hammer__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-hand-held-a">
+      <LexicalEntry id="oewn-hand-held-a">
          <Lemma writtenForm="hand-held" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈhændˌhɛld</Pronunciation>
          </Lemma>
@@ -893,42 +893,42 @@
                 sensekey="hand-held%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-hand-held__3_44_00__"
+                id="oewn-hand-held__3.44.00.."
                 n="0"
-                synset="ewn-03161180-a"
+                synset="oewn-03161180-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hold__2_35_00__"/>
+            <SenseRelation relType="participle" target="oewn-hold__2.35.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-calibrated-a">
+      <LexicalEntry id="oewn-calibrated-a">
          <Lemma writtenForm="calibrated" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="calibrated%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-calibrated__3_44_00__"
+                id="oewn-calibrated__3.44.00.."
                 n="0"
-                synset="ewn-03159654-a"
+                synset="oewn-03159654-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-calibrate__2_35_02__"/>
+            <SenseRelation relType="participle" target="oewn-calibrate__2.35.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sluicing-a">
+      <LexicalEntry id="oewn-sluicing-a">
          <Lemma writtenForm="sluicing" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sluicing%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-sluicing__3_44_00__"
+                id="oewn-sluicing__3.44.00.."
                 n="0"
-                synset="ewn-03165860-a"
+                synset="oewn-03165860-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sluice__2_38_00__"/>
+            <SenseRelation relType="participle" target="oewn-sluice__2.38.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-ridged-a">
+      <LexicalEntry id="oewn-ridged-a">
          <Lemma writtenForm="ridged" partOfSpeech="a">
             <Pronunciation phonemic="true">ˈɹɪdʒd</Pronunciation>
          </Lemma>
@@ -937,128 +937,128 @@
                 sensekey="ridged%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-ridged__3_44_00__"
+                id="oewn-ridged__3.44.00.."
                 n="0"
-                synset="ewn-03165372-a"
+                synset="oewn-03165372-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-ridge__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-ridge__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-hypophysectomized-a">
+      <LexicalEntry id="oewn-hypophysectomized-a">
          <Lemma writtenForm="hypophysectomized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="hypophysectomized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-hypophysectomized__3_44_00__"
+                id="oewn-hypophysectomized__3.44.00.."
                 n="0"
-                synset="ewn-03162135-a"
+                synset="oewn-03162135-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-hypophysectomize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-hypophysectomize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-carinate-a">
+      <LexicalEntry id="oewn-carinate-a">
          <Lemma writtenForm="carinate" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="carinate%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-carinate__3_44_00__"
+                id="oewn-carinate__3.44.00.."
                 n="0"
-                synset="ewn-03165372-a"
+                synset="oewn-03165372-a"
                 lexicalized="true">
-            <SenseRelation relType="derivation" target="ewn-carinate__1_05_00__"/>
+            <SenseRelation relType="derivation" target="oewn-carinate__1.05.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-graduated-a">
+      <LexicalEntry id="oewn-graduated-a">
          <Lemma writtenForm="graduated" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="graduated%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-graduated__3_44_00__"
+                id="oewn-graduated__3.44.00.."
                 n="0"
-                synset="ewn-03159654-a"
+                synset="oewn-03159654-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-calibrate__2_35_02__"/>
+            <SenseRelation relType="participle" target="oewn-calibrate__2.35.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-pasteurised-a">
+      <LexicalEntry id="oewn-pasteurised-a">
          <Lemma writtenForm="pasteurised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="pasteurised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-pasteurised__3_44_00__"
+                id="oewn-pasteurised__3.44.00.."
                 n="0"
-                synset="ewn-03163434-a"
+                synset="oewn-03163434-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-pasteurise__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-pasteurise__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-oxidised-a">
+      <LexicalEntry id="oewn-oxidised-a">
          <Lemma writtenForm="oxidised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="oxidised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-oxidised__3_44_00__"
+                id="oewn-oxidised__3.44.00.."
                 n="0"
-                synset="ewn-03163133-a"
+                synset="oewn-03163133-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-oxidise__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-oxidise__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-unavenged-a">
+      <LexicalEntry id="oewn-unavenged-a">
          <Lemma writtenForm="unavenged" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="unavenged%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-unavenged__3_44_00__"
+                id="oewn-unavenged__3.44.00.."
                 n="0"
-                synset="ewn-03159419-a"
+                synset="oewn-03159419-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-avenged__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-avenge__2_33_00__"/>
+            <SenseRelation relType="antonym" target="oewn-avenged__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-avenge__2.33.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-malted-a">
+      <LexicalEntry id="oewn-malted-a">
          <Lemma writtenForm="malted" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="malted%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-malted__3_44_00__"
+                id="oewn-malted__3.44.00.."
                 n="0"
-                synset="ewn-03162312-a"
+                synset="oewn-03162312-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-unmalted__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-malt__2_30_02__"/>
+            <SenseRelation relType="antonym" target="oewn-unmalted__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-malt__2.30.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-mercerized-a">
+      <LexicalEntry id="oewn-mercerized-a">
          <Lemma writtenForm="mercerized" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="mercerized%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-mercerized__3_44_00__"
+                id="oewn-mercerized__3.44.00.."
                 n="0"
-                synset="ewn-03162681-a"
+                synset="oewn-03162681-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-mercerize__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-mercerize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-filled-a">
+      <LexicalEntry id="oewn-filled-a">
          <Lemma writtenForm="filled" partOfSpeech="a">
             <Pronunciation phonemic="true">fɪld</Pronunciation>
          </Lemma>
@@ -1067,61 +1067,61 @@
                 sensekey="filled%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-filled__3_44_00__"
+                id="oewn-filled__3.44.00.."
                 n="0"
-                synset="ewn-03161743-a"
+                synset="oewn-03161743-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-unfilled__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-fill__2_34_02__"/>
+            <SenseRelation relType="antonym" target="oewn-unfilled__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-fill__2.34.02.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-sanitised-a">
+      <LexicalEntry id="oewn-sanitised-a">
          <Lemma writtenForm="sanitised" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="sanitised%3:44:00::"
                 adjIsHead="true"
                 order="1"
-                id="ewn-sanitised__3_44_00__"
+                id="oewn-sanitised__3.44.00.."
                 n="0"
-                synset="ewn-03165565-a"
+                synset="oewn-03165565-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-sanitise__2_30_00__"/>
+            <SenseRelation relType="participle" target="oewn-sanitise__2.30.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-re-created-a">
+      <LexicalEntry id="oewn-re-created-a">
          <Lemma writtenForm="re-created" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="re-created%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-re-created__3_44_00__"
+                id="oewn-re-created__3.44.00.."
                 n="0"
-                synset="ewn-03165166-a"
+                synset="oewn-03165166-a"
                 lexicalized="true">
-            <SenseRelation relType="participle" target="ewn-re-create__2_36_00__"/>
+            <SenseRelation relType="participle" target="oewn-re-create__2.36.00.."/>
          </Sense>
       </LexicalEntry>
-      <LexicalEntry id="ewn-uncontested-a">
+      <LexicalEntry id="oewn-uncontested-a">
          <Lemma writtenForm="uncontested" partOfSpeech="a"/>
          <Sense senseidx="0"
                 lexid="0"
                 sensekey="uncontested%3:44:00::"
                 adjIsHead="true"
                 order="0"
-                id="ewn-uncontested__3_44_00__"
+                id="oewn-uncontested__3.44.00.."
                 n="0"
-                synset="ewn-03160498-a"
+                synset="oewn-03160498-a"
                 lexicalized="true">
-            <SenseRelation relType="antonym" target="ewn-contested__3_44_00__"/>
-            <SenseRelation relType="participle" target="ewn-contest__2_32_00__"/>
+            <SenseRelation relType="antonym" target="oewn-contested__3.44.00.."/>
+            <SenseRelation relType="participle" target="oewn-contest__2.32.00.."/>
          </Sense>
       </LexicalEntry>
       <!-- avenged -->
-      <Synset id="ewn-03159292-a"
+      <Synset id="oewn-03159292-a"
               ili="i18097"
-              members="ewn-avenged-a"
+              members="oewn-avenged-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1129,9 +1129,9 @@
          <Example>an avenged injury</Example>
       </Synset>
       <!-- unavenged -->
-      <Synset id="ewn-03159419-a"
+      <Synset id="oewn-03159419-a"
               ili="i18098"
-              members="ewn-unavenged-a"
+              members="oewn-unavenged-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1139,9 +1139,9 @@
          <Example>an unavenged murder</Example>
       </Synset>
       <!-- beaten -->
-      <Synset id="ewn-03159554-a"
+      <Synset id="oewn-03159554-a"
               ili="i18099"
-              members="ewn-beaten-a"
+              members="oewn-beaten-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1149,9 +1149,9 @@
          <Example>beaten gold</Example>
       </Synset>
       <!-- calibrated, graduated -->
-      <Synset id="ewn-03159654-a"
+      <Synset id="oewn-03159654-a"
               ili="i18100"
-              members="ewn-calibrated-a ewn-graduated-a"
+              members="oewn-calibrated-a oewn-graduated-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1159,9 +1159,9 @@
          <Example>a calibrated thermometer</Example>
       </Synset>
       <!-- cantering -->
-      <Synset id="ewn-03159804-a"
+      <Synset id="oewn-03159804-a"
               ili="i18101"
-              members="ewn-cantering-a"
+              members="oewn-cantering-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1169,9 +1169,9 @@
          <Example>the cantering soldiers</Example>
       </Synset>
       <!-- collected, gathered -->
-      <Synset id="ewn-03159930-a"
+      <Synset id="oewn-03159930-a"
               ili="i18102"
-              members="ewn-collected-a ewn-gathered-a"
+              members="oewn-collected-a oewn-gathered-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1180,9 +1180,9 @@
          <Example>the gathered folds of the skirt</Example>
       </Synset>
       <!-- ungathered, uncollected -->
-      <Synset id="ewn-03160148-a"
+      <Synset id="oewn-03160148-a"
               ili="i18103"
-              members="ewn-uncollected-a ewn-ungathered-a"
+              members="oewn-uncollected-a oewn-ungathered-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1190,9 +1190,9 @@
          <Example>uncollected garbage in the streets</Example>
       </Synset>
       <!-- contested -->
-      <Synset id="ewn-03160344-a"
+      <Synset id="oewn-03160344-a"
               ili="i18104"
-              members="ewn-contested-a"
+              members="oewn-contested-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1200,9 +1200,9 @@
          <Example>a contested election</Example>
       </Synset>
       <!-- uncontested -->
-      <Synset id="ewn-03160498-a"
+      <Synset id="oewn-03160498-a"
               ili="i18105"
-              members="ewn-uncontested-a"
+              members="oewn-uncontested-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1210,18 +1210,18 @@
          <Example>uncontested authority</Example>
       </Synset>
       <!-- corbelled -->
-      <Synset id="ewn-03160664-a"
+      <Synset id="oewn-03160664-a"
               ili="i18106"
-              members="ewn-corbelled-a"
+              members="oewn-corbelled-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>having a corbel</Definition>
       </Synset>
       <!-- elapsed -->
-      <Synset id="ewn-03160735-a"
+      <Synset id="oewn-03160735-a"
               ili="i18107"
-              members="ewn-elapsed-a"
+              members="oewn-elapsed-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1229,9 +1229,9 @@
          <Example>elapsed time</Example>
       </Synset>
       <!-- forced -->
-      <Synset id="ewn-03160842-a"
+      <Synset id="oewn-03160842-a"
               ili="i18108"
-              members="ewn-forced-a"
+              members="oewn-forced-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1241,9 +1241,9 @@
          <Example>forced convection in plasma generators</Example>
       </Synset>
       <!-- hammered -->
-      <Synset id="ewn-03161036-a"
+      <Synset id="oewn-03161036-a"
               ili="i18109"
-              members="ewn-hammered-a"
+              members="oewn-hammered-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1251,9 +1251,9 @@
          <Example>a bowl of hammered brass</Example>
       </Synset>
       <!-- hand-held, handheld -->
-      <Synset id="ewn-03161180-a"
+      <Synset id="oewn-03161180-a"
               ili="i18110"
-              members="ewn-hand-held-a ewn-handheld-a"
+              members="oewn-hand-held-a oewn-handheld-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1261,9 +1261,9 @@
          <Example>a hand-held computer</Example>
       </Synset>
       <!-- held -->
-      <Synset id="ewn-03161358-a"
+      <Synset id="oewn-03161358-a"
               ili="i18111"
-              members="ewn-held-a"
+              members="oewn-held-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1271,9 +1271,9 @@
          <Example>enemy-held territory</Example>
       </Synset>
       <!-- streaming -->
-      <Synset id="ewn-03161489-a"
+      <Synset id="oewn-03161489-a"
               ili="i18112"
-              members="ewn-streaming-a"
+              members="oewn-streaming-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1282,9 +1282,9 @@
          <Example>her streaming eyes</Example>
       </Synset>
       <!-- surmounted -->
-      <Synset id="ewn-03161630-a"
+      <Synset id="oewn-03161630-a"
               ili="i18113"
-              members="ewn-surmounted-a"
+              members="oewn-surmounted-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1292,27 +1292,27 @@
          <Example>columns surmounted by statues</Example>
       </Synset>
       <!-- filled -->
-      <Synset id="ewn-03161743-a"
+      <Synset id="oewn-03161743-a"
               ili="i18114"
-              members="ewn-filled-a"
+              members="oewn-filled-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>of purchase orders that have been filled</Definition>
       </Synset>
       <!-- unfilled -->
-      <Synset id="ewn-03161854-a"
+      <Synset id="oewn-03161854-a"
               ili="i18115"
-              members="ewn-unfilled-a"
+              members="oewn-unfilled-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>of purchase orders that have not been filled</Definition>
       </Synset>
       <!-- fitted -->
-      <Synset id="ewn-03161971-a"
+      <Synset id="oewn-03161971-a"
               ili="i18116"
-              members="ewn-fitted-a"
+              members="oewn-fitted-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1321,9 +1321,9 @@
          <Example>he quickly assembled the fitted pieces</Example>
       </Synset>
       <!-- hypophysectomised, hypophysectomized -->
-      <Synset id="ewn-03162135-a"
+      <Synset id="oewn-03162135-a"
               ili="i18117"
-              members="ewn-hypophysectomized-a ewn-hypophysectomised-a"
+              members="oewn-hypophysectomized-a oewn-hypophysectomised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1331,9 +1331,9 @@
          <Example>hypophysectomized tadpoles</Example>
       </Synset>
       <!-- malted -->
-      <Synset id="ewn-03162312-a"
+      <Synset id="oewn-03162312-a"
               ili="i18118"
-              members="ewn-malted-a"
+              members="oewn-malted-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1341,9 +1341,9 @@
          <Example>malted barley</Example>
       </Synset>
       <!-- unmalted -->
-      <Synset id="ewn-03162442-a"
+      <Synset id="oewn-03162442-a"
               ili="i18119"
-              members="ewn-unmalted-a"
+              members="oewn-unmalted-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1351,18 +1351,18 @@
          <Example>unmalted barley</Example>
       </Synset>
       <!-- marched upon -->
-      <Synset id="ewn-03162580-a"
+      <Synset id="oewn-03162580-a"
               ili="i18120"
-              members="ewn-marched_upon-a"
+              members="oewn-marched_upon-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>being or having been trodden or marched on</Definition>
       </Synset>
       <!-- mercerised, mercerized -->
-      <Synset id="ewn-03162681-a"
+      <Synset id="oewn-03162681-a"
               ili="i18121"
-              members="ewn-mercerized-a ewn-mercerised-a"
+              members="oewn-mercerized-a oewn-mercerised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1370,18 +1370,18 @@
          <Example>mercerized cotton</Example>
       </Synset>
       <!-- mounded over -->
-      <Synset id="ewn-03162908-a"
+      <Synset id="oewn-03162908-a"
               ili="i18122"
-              members="ewn-mounded_over-a"
+              members="oewn-mounded_over-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>having a mound formed over it</Definition>
       </Synset>
       <!-- operating -->
-      <Synset id="ewn-03162996-a"
+      <Synset id="oewn-03162996-a"
               ili="i18123"
-              members="ewn-operating-a"
+              members="oewn-operating-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1389,9 +1389,9 @@
          <Example>the operating conditions of the oxidation pond</Example>
       </Synset>
       <!-- oxidized, oxidised -->
-      <Synset id="ewn-03163133-a"
+      <Synset id="oewn-03163133-a"
               ili="i18124"
-              members="ewn-oxidized-a ewn-oxidised-a"
+              members="oewn-oxidized-a oewn-oxidised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1399,9 +1399,9 @@
          <Example>the oxidized form of iodine</Example>
       </Synset>
       <!-- parked -->
-      <Synset id="ewn-03163313-a"
+      <Synset id="oewn-03163313-a"
               ili="i18125"
-              members="ewn-parked-a"
+              members="oewn-parked-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1409,27 +1409,27 @@
          <Example>there were four parked cars across the street</Example>
       </Synset>
       <!-- pasteurised, pasteurized -->
-      <Synset id="ewn-03163434-a"
+      <Synset id="oewn-03163434-a"
               ili="i18126"
-              members="ewn-pasteurized-a ewn-pasteurised-a"
+              members="oewn-pasteurized-a oewn-pasteurised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>having been subjected to pasteurization in order to halt fermentation</Definition>
       </Synset>
       <!-- unpasteurized, unpasteurised -->
-      <Synset id="ewn-03163593-a"
+      <Synset id="oewn-03163593-a"
               ili="i18127"
-              members="ewn-unpasteurized-a ewn-unpasteurised-a"
+              members="oewn-unpasteurized-a oewn-unpasteurised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>not having undergone pasteurization</Definition>
       </Synset>
       <!-- penciled, pencilled -->
-      <Synset id="ewn-03163722-a"
+      <Synset id="oewn-03163722-a"
               ili="i18128"
-              members="ewn-penciled-a ewn-pencilled-a"
+              members="oewn-penciled-a oewn-pencilled-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1438,9 +1438,9 @@
          <Example>the penciled message</Example>
       </Synset>
       <!-- pitched -->
-      <Synset id="ewn-03163882-a"
+      <Synset id="oewn-03163882-a"
               ili="i18129"
-              members="ewn-pitched-a"
+              members="oewn-pitched-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1448,39 +1448,39 @@
          <Example>high-pitched</Example>
       </Synset>
       <!-- played -->
-      <Synset id="ewn-03164026-a"
+      <Synset id="oewn-03164026-a"
               ili="i18130"
-              members="ewn-played-a"
+              members="oewn-played-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>(of games) engaged in</Definition>
-         <SynsetRelation relType="domain_topic" target="ewn-00456623-n"/>
+         <SynsetRelation relType="domain_topic" target="oewn-00456623-n"/>
          <!-- game -->
          <Example>the loosely played game</Example>
       </Synset>
       <!-- plugged -->
-      <Synset id="ewn-03164146-a"
+      <Synset id="oewn-03164146-a"
               ili="i18131"
-              members="ewn-plugged-a"
+              members="oewn-plugged-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>(of a coin) altered by the insertion of a plug of base metal</Definition>
       </Synset>
       <!-- posed -->
-      <Synset id="ewn-03164260-a"
+      <Synset id="oewn-03164260-a"
               ili="i18132"
-              members="ewn-posed-a"
+              members="oewn-posed-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>arranged for pictorial purposes</Definition>
       </Synset>
       <!-- unposed -->
-      <Synset id="ewn-03164361-a"
+      <Synset id="oewn-03164361-a"
               ili="i18133"
-              members="ewn-unposed-a"
+              members="oewn-unposed-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1488,9 +1488,9 @@
          <Example>unposed photographs</Example>
       </Synset>
       <!-- posted -->
-      <Synset id="ewn-03164491-a"
+      <Synset id="oewn-03164491-a"
               ili="i18134"
-              members="ewn-posted-a"
+              members="oewn-posted-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1498,9 +1498,9 @@
          <Example>the posted speed limit</Example>
       </Synset>
       <!-- preconceived -->
-      <Synset id="ewn-03164588-a"
+      <Synset id="oewn-03164588-a"
               ili="i18135"
-              members="ewn-preconceived-a"
+              members="oewn-preconceived-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1508,9 +1508,9 @@
          <Example>certain preconceived notions</Example>
       </Synset>
       <!-- punishing -->
-      <Synset id="ewn-03164770-a"
+      <Synset id="oewn-03164770-a"
               ili="i18136"
-              members="ewn-punishing-a"
+              members="oewn-punishing-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1518,9 +1518,9 @@
          <Example>the king imposed a punishing tax</Example>
       </Synset>
       <!-- pursued -->
-      <Synset id="ewn-03164885-a"
+      <Synset id="oewn-03164885-a"
               ili="i18137"
-              members="ewn-pursued-a"
+              members="oewn-pursued-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1528,9 +1528,9 @@
          <Example>running and leaping like a herd of pursued antelopes</Example>
       </Synset>
       <!-- ranging -->
-      <Synset id="ewn-03165029-a"
+      <Synset id="oewn-03165029-a"
               ili="i18138"
-              members="ewn-ranging-a"
+              members="oewn-ranging-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1538,9 +1538,9 @@
          <Example>at night in bed...his slowly ranging thoughts...encountered her</Example>
       </Synset>
       <!-- re-created -->
-      <Synset id="ewn-03165166-a"
+      <Synset id="oewn-03165166-a"
               ili="i18139"
-              members="ewn-re-created-a"
+              members="oewn-re-created-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1548,9 +1548,9 @@
          <Example>this re-created literalness</Example>
       </Synset>
       <!-- regenerating -->
-      <Synset id="ewn-03165266-a"
+      <Synset id="oewn-03165266-a"
               ili="i18140"
-              members="ewn-regenerating-a"
+              members="oewn-regenerating-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1558,9 +1558,9 @@
          <Example>regenerating fibers</Example>
       </Synset>
       <!-- ridged, keeled, carinated, carinate -->
-      <Synset id="ewn-03165372-a"
+      <Synset id="oewn-03165372-a"
               ili="i18141"
-              members="ewn-ridged-a ewn-carinate-a ewn-carinated-a ewn-keeled-a"
+              members="oewn-ridged-a oewn-carinate-a oewn-carinated-a oewn-keeled-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1568,36 +1568,36 @@
          <Example>a carinate sepal</Example>
       </Synset>
       <!-- sanitised, sanitized -->
-      <Synset id="ewn-03165565-a"
+      <Synset id="oewn-03165565-a"
               ili="i18142"
-              members="ewn-sanitized-a ewn-sanitised-a"
+              members="oewn-sanitized-a oewn-sanitised-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>made sanitary</Definition>
       </Synset>
       <!-- shrieked -->
-      <Synset id="ewn-03165664-a"
+      <Synset id="oewn-03165664-a"
               ili="i18143"
-              members="ewn-shrieked-a"
+              members="oewn-shrieked-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>uttered in a shrill scream as of pain or terror</Definition>
       </Synset>
       <!-- sintered -->
-      <Synset id="ewn-03165766-a"
+      <Synset id="oewn-03165766-a"
               ili="i18144"
-              members="ewn-sintered-a"
+              members="oewn-sintered-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>formed into a mass by heat and pressure</Definition>
       </Synset>
       <!-- sluicing -->
-      <Synset id="ewn-03165860-a"
+      <Synset id="oewn-03165860-a"
               ili="i18145"
-              members="ewn-sluicing-a"
+              members="oewn-sluicing-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1605,18 +1605,18 @@
          <Example>the sluicing rain</Example>
       </Synset>
       <!-- spray-dried -->
-      <Synset id="ewn-03165971-a"
+      <Synset id="oewn-03165971-a"
               ili="i18146"
-              members="ewn-spray-dried-a"
+              members="oewn-spray-dried-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>dried by bringing a sprayed substance (e.g. milk or soap) into contact with hot air and recovering it in the form of a powder</Definition>
       </Synset>
       <!-- squashed -->
-      <Synset id="ewn-03166154-a"
+      <Synset id="oewn-03166154-a"
               ili="i18147"
-              members="ewn-squashed-a"
+              members="oewn-squashed-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1624,18 +1624,18 @@
          <Example>the squashed looking nakedness of the fledgling birds</Example>
       </Synset>
       <!-- stacked -->
-      <Synset id="ewn-03166300-a"
+      <Synset id="oewn-03166300-a"
               ili="i18148"
-              members="ewn-stacked-a"
+              members="oewn-stacked-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>arranged in a stack</Definition>
       </Synset>
       <!-- strung -->
-      <Synset id="ewn-03166373-a"
+      <Synset id="oewn-03166373-a"
               ili="i18149"
-              members="ewn-strung-a"
+              members="oewn-strung-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1643,27 +1643,27 @@
          <Example>keys strung on a red cord</Example>
       </Synset>
       <!-- sublimed, sublimated -->
-      <Synset id="ewn-03166474-a"
+      <Synset id="oewn-03166474-a"
               ili="i18150"
-              members="ewn-sublimed-a ewn-sublimated-a"
+              members="oewn-sublimed-a oewn-sublimated-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>passing or having passed from the solid to the gaseous state (or vice versa) without becoming liquid</Definition>
       </Synset>
       <!-- tittering, thoriated -->
-      <Synset id="ewn-03166660-a"
+      <Synset id="oewn-03166660-a"
               ili="i18151"
-              members="ewn-thoriated-a ewn-tittering-a"
+              members="oewn-thoriated-a oewn-tittering-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>being or sounding of nervous or suppressed laughter</Definition>
       </Synset>
       <!-- transpiring -->
-      <Synset id="ewn-03166797-a"
+      <Synset id="oewn-03166797-a"
               ili="i18152"
-              members="ewn-transpiring-a"
+              members="oewn-transpiring-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1671,9 +1671,9 @@
          <Example>transpiring gas</Example>
       </Synset>
       <!-- sought -->
-      <Synset id="ewn-03166897-a"
+      <Synset id="oewn-03166897-a"
               ili="i18153"
-              members="ewn-sought-a"
+              members="oewn-sought-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1681,20 +1681,20 @@
          <Example>the long sought relatives</Example>
       </Synset>
       <!-- closed-captioned -->
-      <Synset id="ewn-03166997-a"
+      <Synset id="oewn-03166997-a"
               ili="i18154"
-              members="ewn-closed-captioned-a"
+              members="oewn-closed-captioned-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
          <Definition>broadcast with captions that are seen only on receivers having special equipment; can be provided for hard-of-hearing viewers</Definition>
-         <SynsetRelation relType="domain_topic" target="ewn-06287933-n"/>
+         <SynsetRelation relType="domain_topic" target="oewn-06287933-n"/>
          <!-- video, television, telecasting, TV -->
       </Synset>
       <!-- saponified -->
-      <Synset id="ewn-03167204-a"
+      <Synset id="oewn-03167204-a"
               ili="i18155"
-              members="ewn-saponified-a"
+              members="oewn-saponified-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">
@@ -1702,9 +1702,9 @@
          <Example>saponified oils</Example>
       </Synset>
       <!-- unsaponified -->
-      <Synset id="ewn-03167317-a"
+      <Synset id="oewn-03167317-a"
               ili="i18156"
-              members="ewn-unsaponified-a"
+              members="oewn-unsaponified-a"
               partOfSpeech="a"
               dc:subject="adj.ppl"
               lexicalized="true">

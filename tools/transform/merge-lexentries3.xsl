@@ -1,5 +1,5 @@
 <xsl:transform version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-	xmlns:my="https://1313ou.github.io/ewn-transform3">
+	xmlns:my="https://1313ou.github.io/oewn-transform3">
 	<!--  Author: Bernard Bou, Copyright (c) 2020: Bernard Bou, License: GPL3-->
 
 	<xsl:output

@@ -1,4 +1,4 @@
-# ewn-merginf
+# oewn-merging
 XML merging of English Wordnet lexical files
 
 A XSL are provided to do the merging with a Saxon parser supporting XSLT 3.0

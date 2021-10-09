@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # parse1.sh [XML] [SYNSETID]
-# ex: ./grind1.sh /opt/data/nlp/wordnet/WordNet-XX/BUILD/merged/xewn.xml ewn-02336471-n
+# ex: ./grind1.sh /opt/data/nlp/wordnet/WordNet-XX/BUILD/merged/xewn.xml oewn-02336471-n
 
 # parse1.sh [XML] -sense [SENSEID]
-# ex: ./grind1.sh /opt/data/nlp/wordnet/WordNet-XX/BUILD/merged/xewn.xml -sense ewn-sewer_rat-n-02336471-01
+# ex: ./grind1.sh /opt/data/nlp/wordnet/WordNet-XX/BUILD/merged/xewn.xml -sense oewn-sewer_rat-n-02336471-01
 
 # parse1.sh [XML] -offset [POS] [OFS]
 # ex: ./grind1.sh /opt/data/nlp/wordnet/WordNet-XX/BUILD/merged/xewn.xml -offset a 1740

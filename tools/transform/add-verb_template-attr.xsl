@@ -55,7 +55,7 @@
 				<xsl:attribute name="verbTemplates">
 				<xsl:for-each select="$sents">
 					<xsl:variable name="id" select="." />
-					<xsl:value-of select="concat('ewn-st-',$id)" />
+					<xsl:value-of select="concat('oewn-st-',$id)" />
 					<xsl:if test="position() != count($sents)">
 						<xsl:text> </xsl:text>
 					</xsl:if>

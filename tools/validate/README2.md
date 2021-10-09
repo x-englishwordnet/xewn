@@ -1,4 +1,4 @@
-# ewn-validation
+# oewn-validation
 XML validation of English Wordnet using FastXML Woodstox
 
 Two XSD's are provided:

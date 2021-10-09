@@ -33,7 +33,7 @@
 			xsi:schemaLocation=". https://x-englishwordnet.github.io/schemas/1.10/xEWN-LMF-1.10.xsd"
 			xmlns:dc="https://globalwordnet.github.io/schemas/dc/">
 			<Lexicon
-				id="ewn"
+				id="oewn"
 				label="English WordNet"
 				version="2020"
 				language="en"
@@ -53,16 +53,16 @@
 				</xsl:merge>
 
 				<!-- L E X I C A L E N T R Y -->
-				<!-- use /LexicalResource/Lexicon/LexicalEntry[@id='ewn-abandon-v'] for a simple example -->
+				<!-- use /LexicalResource/Lexicon/LexicalEntry[@id='oewn-abandon-v'] for a simple example -->
 				<!-- this is to yield: -->
 				<!-- from wn-verb.possession: -->
-				<!-- <Sense id="ewn-abandon-v-02232523-01" n="1" synset="ewn-02232523-v" dc:identifier="abandon%2:40:01::" /> 2 give up with the intent of never claiming again -->
-				<!-- <Sense id="ewn-abandon-v-02232813-01" n="0" synset="ewn-02232813-v" dc:identifier="abandon%2:40:00::" /> 1 forsake, leave behind -->
+				<!-- <Sense id="oewn-abandon-v-02232523-01" n="1" synset="oewn-02232523-v" dc:identifier="abandon%2:40:01::" /> 2 give up with the intent of never claiming again -->
+				<!-- <Sense id="oewn-abandon-v-02232813-01" n="0" synset="oewn-02232813-v" dc:identifier="abandon%2:40:00::" /> 1 forsake, leave behind -->
 				<!-- from wn-verb.motion: -->
-				<!-- <Sense id="ewn-abandon-v-02080923-03" n="2" synset="ewn-02080923-v" dc:identifier="abandon%2:38:00::" /> 3 leave behind empty; ... -->
+				<!-- <Sense id="oewn-abandon-v-02080923-03" n="2" synset="oewn-02080923-v" dc:identifier="abandon%2:38:00::" /> 3 leave behind empty; ... -->
 				<!-- from wn-verb.cognition: -->
-				<!-- <Sense id="ewn-abandon-v-00614907-01" n="3" synset="ewn-00614907-v" dc:identifier="abandon%2:31:01::" /> 4 stop maintaining or insisting on; ... -->
-				<!-- <Sense id="ewn-abandon-v-00615748-01" n="4" synset="ewn-00615748-v" dc:identifier="abandon%2:31:00::" /> 5 leave someone who needs or counts on you; ... -->
+				<!-- <Sense id="oewn-abandon-v-00614907-01" n="3" synset="oewn-00614907-v" dc:identifier="abandon%2:31:01::" /> 4 stop maintaining or insisting on; ... -->
+				<!-- <Sense id="oewn-abandon-v-00615748-01" n="4" synset="oewn-00615748-v" dc:identifier="abandon%2:31:00::" /> 5 leave someone who needs or counts on you; ... -->
 
 				<xsl:merge>
 					<xsl:merge-source for-each-item="$docs" sort-before-merge="true" select="/LexicalResource/Lexicon/LexicalEntry">

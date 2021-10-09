@@ -24,18 +24,37 @@
 	</xsl:template>
 
 	<xsl:template match="Sense">
+		<xsl:variable name='senseid' select="@id" />
+
+		<xsl:variable name='sb'>
+			<xsl:for-each select="../SyntacticBehaviourRef">
+				<xsl:variable name='senses' select="@senses" />
+				<xsl:if test="contains($senses,$senseid)">
+					<xsl:value-of select="@idref" />
+					<xsl:text> </xsl:text>
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name='sb_normalized'>
+			<xsl:value-of select="normalize-space($sb)" />
+		</xsl:variable>
+
+		<xsl:if test='$debug = true()'>
+			<xsl:message>
+				<xsl:value-of select="$senseid" />
+				<xsl:value-of select="concat(': ',$sb)" />
+				<xsl:text>&#xa;</xsl:text>
+			</xsl:message>
+		</xsl:if>
+
 		<xsl:copy>
-			<xsl:if test='@subcat'>
+			<xsl:if test="$sb_normalized != ''">
 				<xsl:attribute name="verbFrames">
-					<xsl:value-of select="@subcat" />
+					<xsl:value-of select="$sb_normalized" />
 				</xsl:attribute>
 			</xsl:if>
-			
 			<xsl:apply-templates select="@*|node()" />
 		</xsl:copy>
-	</xsl:template>
-
-	<xsl:template match="@subcat">
 	</xsl:template>
 
 	<xsl:template match="@*|node()">

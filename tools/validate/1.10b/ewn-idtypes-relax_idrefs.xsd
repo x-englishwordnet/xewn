@@ -4,9 +4,9 @@
 
 <!DOCTYPE xsd:schema
 [
-<!ENTITY lexentryid "ewn\-[a-zA-Z0-9_\.\-]*-[nvars]">
-<!ENTITY synsetid "ewn\-\d{8}\-[nvars]">
-<!ENTITY senseid "ewn\-.*">
+<!ENTITY lexentryid "oewn\-[a-zA-Z0-9_\.\-]*-[nvars]">
+<!ENTITY synsetid "oewn\-\d{8}\-[nvars]">
+<!ENTITY senseid "oewn\-.*">
 ]>
 <xsd:schema	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 

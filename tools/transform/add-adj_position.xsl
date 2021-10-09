@@ -29,7 +29,7 @@
 	<xsl:template match="Sense">
 		<xsl:variable name="senseid" select="@id" />
 		<xsl:variable name="lemma" select="translate(../Lemma/@writtenForm,' ','_')" />
-		<xsl:variable name="synsetid" select="substring-before(substring-after(@synset,'ewn-'),'-')" />
+		<xsl:variable name="synsetid" select="substring-before(substring-after(@synset,'oewn-'),'-')" />
 		<xsl:variable name="pos" select="../Lemma/@partOfSpeech" />
 		<xsl:variable name="row" select="$updates/adjpositions/adjposition[starts-with($senseid,senseid)]" />
 		<xsl:variable name="adjposition" select="$row/position" />

@@ -1,6 +1,9 @@
 UPSTREAM:
-commit 82b710381477e4a0c5766f53c468029727b9b6f8
-Author: John P. McCrae <john@mccr.ae>
-Date:   Tue Sep 14 10:45:23 2021 +0100
+commit d133c1088be45a6d9e714906df8c0d3b4c18223e
+Merge: 4853f3a 5969c29
+Author: John McCrae <john@mccr.ae>
+Date:   Thu Oct 7 12:06:41 2021 +0100
 
-    Fix broken definition
+    Merge pull request #765 from globalwordnet/issue-759-2
+    
+    Change prefix from ewn to oewn

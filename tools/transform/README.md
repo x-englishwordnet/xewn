@@ -1,4 +1,4 @@
-# ewn-transformation
+# oewn-transformation
 XML transformation of English Wordnet lexical files
 
 The XSLT transformer that performs transformation on files.
