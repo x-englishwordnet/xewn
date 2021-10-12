@@ -9,8 +9,8 @@
 	<xsl:template match="/">
 		<xsl:variable name="items" select="/LexicalResource/Lexicon/SyntacticBehaviour[@sentenceTemplate != '']" />
 		<xsl:for-each select="$items">
-			<xsl:sort select="substring(@id,8)" data-type="number" />
-			<xsl:variable name="template_num" select="substring(@id,8)" />
+			<xsl:sort select="substring(@id,9)" data-type="number" />
+			<xsl:variable name="template_num" select="substring(@id,9)" />
 			<xsl:variable name="template" select="@sentenceTemplate" />
 
 			<xsl:value-of select="$template_num" />

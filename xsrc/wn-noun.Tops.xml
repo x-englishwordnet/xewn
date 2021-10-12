@@ -15,7 +15,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈætɹɪbjuːt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈætɹɪ̈ˌbjut</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-attribute%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="attribute%1:03:00::"
@@ -23,14 +23,15 @@
                 id="oewn-attribute__1.03.00.."
                 n="1"
                 synset="oewn-00024444-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="attribute%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-motive-n">
          <Lemma writtenForm="motive" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈməʊtɪv</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈmoʊtɪv</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-motive%1:03:00::"
+         <Sense tagCnt="18"
                 senseidx="0"
                 lexid="0"
                 sensekey="motive%1:03:00::"
@@ -38,7 +39,8 @@
                 id="oewn-motive__1.03.00.."
                 n="0"
                 synset="oewn-00023953-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="motive%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-motive__5.00.02.causative.00"/>
             <SenseRelation relType="derivation" target="oewn-motivate__2.36.00.."/>
          </Sense>
@@ -48,22 +50,22 @@
             <Pronunciation variety="GB" phonemic="true">ˈɪnfɪnɪt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈɪnfɪnɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-infinite%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="infinite%1:03:00::"
                 order="1"
                 id="oewn-infinite__1.03.00.."
                 n="0"
                 synset="oewn-00028950-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="infinite%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-measure-n">
          <Lemma writtenForm="measure" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈmɛʒə</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈmɛʒɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-measure%1:03:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="measure%1:03:00::"
@@ -71,7 +73,8 @@
                 id="oewn-measure__1.03.00.."
                 n="1"
                 synset="oewn-00033914-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="measure%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-measure__2.31.01.."/>
             <SenseRelation relType="derivation" target="oewn-measure__2.30.00.."/>
             <SenseRelation relType="derivation" target="oewn-measure__2.31.00.."/>
@@ -81,7 +84,7 @@
          <Lemma writtenForm="substance" partOfSpeech="n">
             <Pronunciation variety="US" phonemic="true">ˈsʌbstəns</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-substance%1:03:00::"
+         <Sense tagCnt="17"
                 senseidx="0"
                 lexid="1"
                 sensekey="substance%1:03:01::"
@@ -89,49 +92,50 @@
                 id="oewn-substance__1.03.00.."
                 n="0"
                 synset="oewn-00019793-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="substance%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-substantial__3.00.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-substance%1:03:01::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="substance%1:03:02::"
                 order="0"
                 id="oewn-substance__1.03.01.."
                 n="7"
                 synset="oewn-00020270-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="substance%1:03:01::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-physical_process-n">
          <Lemma writtenForm="physical process" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-physical_process%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="physical_process%1:03:00::"
                 order="1"
                 id="oewn-physical_process__1.03.00.."
                 n="0"
                 synset="oewn-00029976-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="physical_process%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-physical_entity-n">
          <Lemma writtenForm="physical entity" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-physical_entity%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="physical_entity%1:03:00::"
                 order="0"
                 id="oewn-physical_entity__1.03.00.."
                 n="0"
                 synset="oewn-00001930-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="physical_entity%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-time-n">
          <Lemma writtenForm="time" partOfSpeech="n">
             <Pronunciation variety="US" phonemic="true">taɪm</Pronunciation>
             <Pronunciation variety="AU" phonemic="true">tɑem</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-time%1:03:00::"
+         <Sense tagCnt="36"
                 senseidx="0"
                 lexid="0"
                 sensekey="time%1:03:00::"
@@ -139,13 +143,14 @@
                 id="oewn-time__1.03.00.."
                 n="4"
                 synset="oewn-00028468-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="time%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-grouping-n">
          <Lemma writtenForm="grouping" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈɡɹuːpɪŋ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-grouping%1:03:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="grouping%1:03:00::"
@@ -153,14 +158,15 @@
                 id="oewn-grouping__1.03.00.."
                 n="0"
                 synset="oewn-00031563-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="grouping%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-nutrient-n">
          <Lemma writtenForm="nutrient" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈnjuː.tɹi.ənt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈnuː.tɹi.ənt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-nutrient%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="1"
                 sensekey="nutrient%1:03:01::"
@@ -168,25 +174,26 @@
                 id="oewn-nutrient__1.03.00.."
                 n="0"
                 synset="oewn-00021445-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="nutrient%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-nutrient__5.00.00.wholesome.00"/>
             <SenseRelation relType="derivation" target="oewn-nutrify__2.34.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-nutrient%1:03:01::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="nutrient%1:03:02::"
                 order="0"
                 id="oewn-nutrient__1.03.01.."
                 n="1"
                 synset="oewn-00021914-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="nutrient%1:03:01::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-shape-n">
          <Lemma writtenForm="shape" partOfSpeech="n">
             <Pronunciation phonemic="true">ʃeɪp</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-shape%1:03:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="shape%1:03:00::"
@@ -194,13 +201,14 @@
                 id="oewn-shape__1.03.00.."
                 n="1"
                 synset="oewn-00028005-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="shape%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-beast-n">
          <Lemma writtenForm="beast" partOfSpeech="n">
             <Pronunciation phonemic="true">biːst</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-beast%1:03:00::"
+         <Sense tagCnt="4"
                 senseidx="0"
                 lexid="0"
                 sensekey="beast%1:03:00::"
@@ -208,37 +216,38 @@
                 id="oewn-beast__1.03.00.."
                 n="0"
                 synset="oewn-00015568-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="beast%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-beastly__5.00.00.inhumane.00"/>
             <SenseRelation relType="derivation" target="oewn-bestial__5.00.00.inhumane.00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-plant_life-n">
          <Lemma writtenForm="plant life" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-plant_life%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="plant_life%1:03:00::"
                 order="2"
                 id="oewn-plant_life__1.03.00.."
                 n="0"
                 synset="oewn-00017402-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="plant_life%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-whole-n">
          <Lemma writtenForm="whole" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">həʊl</Pronunciation>
             <Pronunciation variety="US" phonemic="true">hoʊl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-whole%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="whole%1:03:00::"
                 order="0"
                 id="oewn-whole__1.03.00.."
                 n="1"
                 synset="oewn-00003553-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="whole%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-whole__5.00.00.undiversified.00"/>
          </Sense>
       </LexicalEntry>
@@ -247,7 +256,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈbiːɪŋ</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈbiɪŋ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-being%1:03:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="being%1:03:00::"
@@ -255,7 +264,8 @@
                 id="oewn-being__1.03.00.."
                 n="1"
                 synset="oewn-00004475-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="being%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-be__2.42.01.."/>
          </Sense>
       </LexicalEntry>
@@ -264,29 +274,29 @@
             <Pronunciation variety="GB" phonemic="true">nəʊˈiːsɪs</Pronunciation>
             <Pronunciation variety="US" phonemic="true">noʊˈisɪs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-noesis%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="noesis%1:03:00::"
                 order="2"
                 id="oewn-noesis__1.03.00.."
                 n="0"
                 synset="oewn-00023451-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="noesis%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-noetic__5.00.00.mental.00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-natural_object-n">
          <Lemma writtenForm="natural object" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-natural_object%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="natural_object%1:03:00::"
                 order="0"
                 id="oewn-natural_object__1.03.00.."
                 n="0"
                 synset="oewn-00019308-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="natural_object%1:03:00::">
             <SenseRelation relType="antonym" target="oewn-artifact__1.03.00.."/>
          </Sense>
       </LexicalEntry>
@@ -295,7 +305,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈpɜːsən</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈpɝsən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-person%1:03:00::"
+         <Sense tagCnt="6833"
                 senseidx="0"
                 lexid="0"
                 sensekey="person%1:03:00::"
@@ -303,7 +313,8 @@
                 id="oewn-person__1.03.00.."
                 n="0"
                 synset="oewn-00007846-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="person%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-personhood__1.07.00.."/>
             <SenseRelation relType="derivation" target="oewn-personify__2.31.00.."/>
          </Sense>
@@ -312,29 +323,29 @@
          <Lemma writtenForm="native" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈneɪtɪv</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-native%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="native%1:03:00::"
                 order="0"
                 id="oewn-native__1.03.00.."
                 n="2"
                 synset="oewn-00019226-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="native%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-unit-n">
          <Lemma writtenForm="unit" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈjuː.nɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-unit%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="unit%1:03:00::"
                 order="1"
                 id="oewn-unit__1.03.00.."
                 n="5"
                 synset="oewn-00003553-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="unit%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-unify__2.35.00.."/>
             <SenseRelation relType="derivation" target="oewn-unify__2.30.00.."/>
             <SenseRelation relType="derivation" target="oewn-unitize__2.35.00.."/>
@@ -346,7 +357,7 @@
             <Pronunciation phonemic="true">laɪf</Pronunciation>
          </Lemma>
          <Form writtenForm="lives"/>
-         <Sense dc:identifier="oewn-life%1:03:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="life%1:03:00::"
@@ -354,26 +365,27 @@
                 id="oewn-life__1.03.00.."
                 n="9"
                 synset="oewn-00006269-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="life%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-psychological_feature-n">
          <Lemma writtenForm="psychological feature" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-psychological_feature%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="psychological_feature%1:03:00::"
                 order="0"
                 id="oewn-psychological_feature__1.03.00.."
                 n="0"
                 synset="oewn-00023280-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="psychological_feature%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-matter-n">
          <Lemma writtenForm="matter" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈmætə</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈmætɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-matter%1:03:00::"
+         <Sense tagCnt="7"
                 senseidx="0"
                 lexid="0"
                 sensekey="matter%1:03:00::"
@@ -381,23 +393,24 @@
                 id="oewn-matter__1.03.00.."
                 n="2"
                 synset="oewn-00021007-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="matter%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-abstract_entity-n">
          <Lemma writtenForm="abstract entity" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-abstract_entity%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="abstract_entity%1:03:00::"
                 order="1"
                 id="oewn-abstract_entity__1.03.00.."
                 n="0"
                 synset="oewn-00002137-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="abstract_entity%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-cell-n">
          <Lemma writtenForm="cell" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-cell%1:03:00::"
+         <Sense tagCnt="44"
                 senseidx="0"
                 lexid="0"
                 sensekey="cell%1:03:00::"
@@ -405,14 +418,15 @@
                 id="oewn-cell__1.03.00.."
                 n="1"
                 synset="oewn-00006484-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="cell%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-cellular__3.01.00.."/>
             <SenseRelation relType="derivation" target="oewn-cellular__3.00.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-motivation-n">
          <Lemma writtenForm="motivation" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-motivation%1:03:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="motivation%1:03:00::"
@@ -420,7 +434,8 @@
                 id="oewn-motivation__1.03.00.."
                 n="0"
                 synset="oewn-00023953-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="motivation%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-motivational__3.01.00.."/>
             <SenseRelation relType="derivation" target="oewn-motivate__2.36.00.."/>
          </Sense>
@@ -429,7 +444,7 @@
          <Lemma writtenForm="amount" partOfSpeech="n">
             <Pronunciation phonemic="true">əˈmaʊnt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-amount%1:03:00::"
+         <Sense tagCnt="20"
                 senseidx="0"
                 lexid="0"
                 sensekey="amount%1:03:00::"
@@ -437,7 +452,8 @@
                 id="oewn-amount__1.03.00.."
                 n="2"
                 synset="oewn-00033914-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="amount%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-amount__2.42.01.."/>
          </Sense>
       </LexicalEntry>
@@ -446,7 +462,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈɑːtɪkəl</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈɑɹtɪkəl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-article%1:03:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="article%1:03:00::"
@@ -454,14 +470,15 @@
                 id="oewn-article__1.03.00.."
                 n="1"
                 synset="oewn-00023083-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="article%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-cause-n">
          <Lemma writtenForm="cause" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">kɔːz</Pronunciation>
             <Pronunciation variety="US" phonemic="true">kɔz</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-cause%1:03:00::"
+         <Sense tagCnt="4"
                 senseidx="0"
                 lexid="0"
                 sensekey="cause%1:03:00::"
@@ -469,7 +486,8 @@
                 id="oewn-cause__1.03.00.."
                 n="3"
                 synset="oewn-00007347-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="cause%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-causal__5.00.00.causative.00"/>
             <SenseRelation relType="derivation" target="oewn-cause__2.36.00.."/>
             <SenseRelation relType="derivation" target="oewn-cause__2.32.00.."/>
@@ -479,21 +497,21 @@
          <Lemma writtenForm="thing" partOfSpeech="n">
             <Pronunciation phonemic="true">θɪŋ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-thing%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="thing%1:03:00::"
                 order="0"
                 id="oewn-thing__1.03.00.."
                 n="11"
                 synset="oewn-00002452-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="thing%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-someone-n">
          <Lemma writtenForm="someone" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈsʌmwʌn</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-someone%1:03:00::"
+         <Sense tagCnt="17"
                 senseidx="0"
                 lexid="0"
                 sensekey="someone%1:03:00::"
@@ -501,7 +519,8 @@
                 id="oewn-someone__1.03.00.."
                 n="0"
                 synset="oewn-00007846-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="someone%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-dwarf-n">
          <Lemma writtenForm="dwarf" partOfSpeech="n">
@@ -509,36 +528,36 @@
             <Pronunciation variety="GB" phonemic="true">dwɔːf</Pronunciation>
          </Lemma>
          <Form writtenForm="dwarves"/>
-         <Sense dc:identifier="oewn-dwarf%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="dwarf%1:03:00::"
                 order="0"
                 id="oewn-dwarf__1.03.00.."
                 n="2"
                 synset="oewn-00005930-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="dwarf%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-cognition-n">
          <Lemma writtenForm="cognition" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">kɒɡˈnɪʃən</Pronunciation>
             <Pronunciation variety="US" phonemic="true">kɑɡˈnɪʃən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-cognition%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="cognition%1:03:00::"
                 order="0"
                 id="oewn-cognition__1.03.00.."
                 n="0"
                 synset="oewn-00023451-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="cognition%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-entity-n">
          <Lemma writtenForm="entity" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈen.tɪ.ti</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-entity%1:03:00::"
+         <Sense tagCnt="11"
                 senseidx="0"
                 lexid="0"
                 sensekey="entity%1:03:00::"
@@ -546,34 +565,35 @@
                 id="oewn-entity__1.03.00.."
                 n="0"
                 synset="oewn-00001740-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="entity%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-animate_being-n">
          <Lemma writtenForm="animate being" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-animate_being%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="animate_being%1:03:00::"
                 order="1"
                 id="oewn-animate_being__1.03.00.."
                 n="0"
                 synset="oewn-00015568-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="animate_being%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-abstraction-n">
          <Lemma writtenForm="abstraction" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">əbˈstɹæk.ʃn̩</Pronunciation>
             <Pronunciation variety="US" phonemic="true">æbˈstɹæk.ʃn̩</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-abstraction%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="abstraction%1:03:00::"
                 order="0"
                 id="oewn-abstraction__1.03.00.."
                 n="5"
                 synset="oewn-00002137-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="abstraction%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-abstract__2.31.00.."/>
          </Sense>
       </LexicalEntry>
@@ -582,7 +602,7 @@
             <Pronunciation variety="GB" phonemic="true">səʊl</Pronunciation>
             <Pronunciation variety="US" phonemic="true">soʊl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-soul%1:03:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="soul%1:03:00::"
@@ -590,13 +610,14 @@
                 id="oewn-soul__1.03.00.."
                 n="1"
                 synset="oewn-00007846-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="soul%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-plant-n">
          <Lemma writtenForm="plant" partOfSpeech="n">
             <Pronunciation phonemic="true">plɑːnt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-plant%1:03:00::"
+         <Sense tagCnt="37"
                 senseidx="0"
                 lexid="0"
                 sensekey="plant%1:03:00::"
@@ -604,7 +625,8 @@
                 id="oewn-plant__1.03.00.."
                 n="1"
                 synset="oewn-00017402-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="plant%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-plantal__3.01.00.."/>
             <SenseRelation relType="derivation" target="oewn-plantlet__1.20.00.."/>
             <SenseRelation relType="derivation" target="oewn-plant__2.35.00.."/>
@@ -612,19 +634,19 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-causal_agent-n">
          <Lemma writtenForm="causal agent" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-causal_agent%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="causal_agent%1:03:00::"
                 order="0"
                 id="oewn-causal_agent__1.03.00.."
                 n="0"
                 synset="oewn-00007347-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="causal_agent%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-human_action-n">
          <Lemma writtenForm="human action" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-human_action%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="human_action%1:03:00::"
@@ -632,36 +654,37 @@
                 id="oewn-human_action__1.03.00.."
                 n="0"
                 synset="oewn-00030657-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="human_action%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-heterotroph-n">
          <Lemma writtenForm="heterotroph" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈhɛt(ə)ɹə(ʊ)tɹəʊf</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈhɛɾəɹəˌtɹoʊf</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-heterotroph%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="heterotroph%1:03:00::"
                 order="0"
                 id="oewn-heterotroph__1.03.00.."
                 n="0"
                 synset="oewn-00006024-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="heterotroph%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-benthos-n">
          <Lemma writtenForm="benthos" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈbɛnθɒs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-benthos%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="benthos%1:03:00::"
                 order="0"
                 id="oewn-benthos__1.03.00.."
                 n="1"
                 synset="oewn-00005787-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="benthos%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-benthonic__3.01.00.."/>
          </Sense>
       </LexicalEntry>
@@ -669,7 +692,7 @@
          <Lemma writtenForm="communication" partOfSpeech="n">
             <Pronunciation phonemic="true">kəˌmjuːnɪˈkeɪʃən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-communication%1:03:00::"
+         <Sense tagCnt="9"
                 senseidx="0"
                 lexid="0"
                 sensekey="communication%1:03:00::"
@@ -677,7 +700,8 @@
                 id="oewn-communication__1.03.00.."
                 n="1"
                 synset="oewn-00033319-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="communication%1:03:00::">
             <SenseRelation relType="derivation"
                            target="oewn-communicational__5.00.00.communicative.00"/>
             <SenseRelation relType="derivation" target="oewn-communicate__2.40.10.."/>
@@ -690,22 +714,22 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-brute-n">
          <Lemma writtenForm="brute" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-brute%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="brute%1:03:00::"
                 order="3"
                 id="oewn-brute__1.03.00.."
                 n="1"
                 synset="oewn-00015568-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="brute%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-artifact-n">
          <Lemma writtenForm="artifact" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈɑːtɪfækt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈɑɹtɪfækt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-artifact%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="artifact%1:03:00::"
@@ -713,14 +737,15 @@
                 id="oewn-artifact__1.03.00.."
                 n="0"
                 synset="oewn-00022119-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="artifact%1:03:00::">
             <SenseRelation relType="antonym" target="oewn-natural_object__1.03.00.."/>
             <SenseRelation relType="derivation" target="oewn-artifactual__3.01.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-need-n">
          <Lemma writtenForm="need" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-need%1:03:00::"
+         <Sense tagCnt="12"
                 senseidx="0"
                 lexid="0"
                 sensekey="need%1:03:00::"
@@ -728,25 +753,26 @@
                 id="oewn-need__1.03.00.."
                 n="2"
                 synset="oewn-00023953-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="need%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-animate_thing-n">
          <Lemma writtenForm="animate thing" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-animate_thing%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="animate_thing%1:03:00::"
                 order="1"
                 id="oewn-animate_thing__1.03.00.."
                 n="0"
                 synset="oewn-00004258-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="animate_thing%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-space-n">
          <Lemma writtenForm="space" partOfSpeech="n">
             <Pronunciation phonemic="true">speɪs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-space%1:03:00::"
+         <Sense tagCnt="24"
                 senseidx="0"
                 lexid="0"
                 sensekey="space%1:03:00::"
@@ -754,7 +780,8 @@
                 id="oewn-space__1.03.00.."
                 n="0"
                 synset="oewn-00028950-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="space%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-spacial__3.01.00.."/>
             <SenseRelation relType="derivation" target="oewn-spatial__3.01.00.."/>
          </Sense>
@@ -763,42 +790,42 @@
          <Lemma writtenForm="process" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈpɹəʊsɛs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-process%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="process%1:03:00::"
                 order="0"
                 id="oewn-process__1.03.00.."
                 n="5"
                 synset="oewn-00029976-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="process%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-parent-n">
          <Lemma writtenForm="parent" partOfSpeech="n">
             <Pronunciation variety="US" phonemic="true">ˈpɛəɹənt</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">ˈpɛəɹənt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-parent%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="parent%1:03:00::"
                 order="0"
                 id="oewn-parent__1.03.00.."
                 n="1"
                 synset="oewn-00006150-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="parent%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-physical_object-n">
          <Lemma writtenForm="physical object" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-physical_object%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="physical_object%1:03:00::"
                 order="1"
                 id="oewn-physical_object__1.03.00.."
                 n="0"
                 synset="oewn-00002684-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="physical_object%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-knowledge-n">
          <Lemma writtenForm="knowledge" partOfSpeech="n">
@@ -806,7 +833,7 @@
             <Pronunciation variety="US" phonemic="true">ˈnɑlɪdʒ</Pronunciation>
             <Pronunciation phonemic="true">ˈnoʊlɪdʒ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-knowledge%1:03:00::"
+         <Sense tagCnt="45"
                 senseidx="0"
                 lexid="0"
                 sensekey="knowledge%1:03:00::"
@@ -814,19 +841,20 @@
                 id="oewn-knowledge__1.03.00.."
                 n="0"
                 synset="oewn-00023451-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="knowledge%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-human_activity-n">
          <Lemma writtenForm="human activity" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-human_activity%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="human_activity%1:03:00::"
                 order="3"
                 id="oewn-human_activity__1.03.00.."
                 n="0"
                 synset="oewn-00030657-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="human_activity%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-creature-n">
          <Lemma writtenForm="creature" partOfSpeech="n">
@@ -834,7 +862,7 @@
             <Pronunciation variety="US" phonemic="true">ˈkɹiːt͡ʃəɹ</Pronunciation>
             <Pronunciation phonemic="true">kɹiːˈeɪtjʊə</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-creature%1:03:00::"
+         <Sense tagCnt="16"
                 senseidx="0"
                 lexid="0"
                 sensekey="creature%1:03:00::"
@@ -842,13 +870,14 @@
                 id="oewn-creature__1.03.00.."
                 n="0"
                 synset="oewn-00015568-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="creature%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-create__2.36.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-animal-n">
          <Lemma writtenForm="animal" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-animal%1:03:00::"
+         <Sense tagCnt="67"
                 senseidx="0"
                 lexid="0"
                 sensekey="animal%1:03:00::"
@@ -856,7 +885,8 @@
                 id="oewn-animal__1.03.00.."
                 n="0"
                 synset="oewn-00015568-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="animal%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-animalize__2.36.00.."/>
             <SenseRelation relType="derivation" target="oewn-animalise__2.36.00.."/>
          </Sense>
@@ -866,7 +896,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈmɔːtəl</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈmɔːɹtəl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-mortal%1:03:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="mortal%1:03:00::"
@@ -874,13 +904,14 @@
                 id="oewn-mortal__1.03.00.."
                 n="0"
                 synset="oewn-00007846-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="mortal%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-mortal__3.00.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-social_relation-n">
          <Lemma writtenForm="social relation" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-social_relation%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="social_relation%1:03:00::"
@@ -888,19 +919,20 @@
                 id="oewn-social_relation__1.03.00.."
                 n="0"
                 synset="oewn-00033122-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="social_relation%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-artefact-n">
          <Lemma writtenForm="artefact" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-artefact%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="artefact%1:03:00::"
                 order="1"
                 id="oewn-artefact__1.03.00.."
                 n="0"
                 synset="oewn-00022119-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="artefact%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-artefactual__3.01.00.."/>
          </Sense>
       </LexicalEntry>
@@ -909,7 +941,7 @@
             <Pronunciation variety="GB" phonemic="true">fɔːm</Pronunciation>
             <Pronunciation variety="US" phonemic="true">fɔɹm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-form%1:03:00::"
+         <Sense tagCnt="8"
                 senseidx="0"
                 lexid="0"
                 sensekey="form%1:03:00::"
@@ -917,7 +949,8 @@
                 id="oewn-form__1.03.00.."
                 n="5"
                 synset="oewn-00028005-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="form%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-individual-n">
          <Lemma writtenForm="individual" partOfSpeech="n">
@@ -925,7 +958,7 @@
             <Pronunciation variety="GB" phonemic="true">ˌɪndɪˈvɪd͡ʒʊəl</Pronunciation>
             <Pronunciation variety="NZ" phonemic="true">ˌɘndɘˈvɘd͡ʒʉ.ɘl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-individual%1:03:00::"
+         <Sense tagCnt="51"
                 senseidx="0"
                 lexid="0"
                 sensekey="individual%1:03:00::"
@@ -933,41 +966,42 @@
                 id="oewn-individual__1.03.00.."
                 n="0"
                 synset="oewn-00007846-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="individual%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-individualize__2.30.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-biont-n">
          <Lemma writtenForm="biont" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-biont%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="biont%1:03:00::"
                 order="0"
                 id="oewn-biont__1.03.00.."
                 n="0"
                 synset="oewn-00006400-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="biont%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-deed-n">
          <Lemma writtenForm="deed" partOfSpeech="n">
             <Pronunciation phonemic="true">diːd</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-deed%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="deed%1:03:00::"
                 order="1"
                 id="oewn-deed__1.03.00.."
                 n="1"
                 synset="oewn-00030657-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="deed%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-event-n">
          <Lemma writtenForm="event" partOfSpeech="n">
             <Pronunciation phonemic="true">ɪˈvɛnt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-event%1:03:00::"
+         <Sense tagCnt="62"
                 senseidx="0"
                 lexid="0"
                 sensekey="event%1:03:00::"
@@ -975,7 +1009,8 @@
                 id="oewn-event__1.03.00.."
                 n="0"
                 synset="oewn-00029677-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="event%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-phenomenon-n">
          <Lemma writtenForm="phenomenon" partOfSpeech="n">
@@ -983,7 +1018,7 @@
             <Pronunciation variety="US" phonemic="true">fɪˈnɑmənɑn</Pronunciation>
          </Lemma>
          <Form writtenForm="phenomena"/>
-         <Sense dc:identifier="oewn-phenomenon%1:03:00::"
+         <Sense tagCnt="25"
                 senseidx="0"
                 lexid="0"
                 sensekey="phenomenon%1:03:00::"
@@ -991,13 +1026,14 @@
                 id="oewn-phenomenon__1.03.00.."
                 n="0"
                 synset="oewn-00034512-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="phenomenon%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-relation-n">
          <Lemma writtenForm="relation" partOfSpeech="n">
             <Pronunciation phonemic="true">ɹɪˈleɪʃən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-relation%1:03:00::"
+         <Sense tagCnt="23"
                 senseidx="0"
                 lexid="0"
                 sensekey="relation%1:03:00::"
@@ -1005,7 +1041,8 @@
                 id="oewn-relation__1.03.00.."
                 n="0"
                 synset="oewn-00032220-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="relation%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-relationship__1.26.00.."/>
             <SenseRelation relType="derivation" target="oewn-relationship__1.24.01.."/>
             <SenseRelation relType="derivation" target="oewn-relationship__1.24.00.."/>
@@ -1019,7 +1056,7 @@
             <Pronunciation variety="US" phonemic="true">ˈkwɑn(t)ɨti</Pronunciation>
             <Pronunciation variety="CA" phonemic="true">ˈkwɑndədi</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-quantity%1:03:00::"
+         <Sense tagCnt="15"
                 senseidx="0"
                 lexid="0"
                 sensekey="quantity%1:03:00::"
@@ -1027,13 +1064,14 @@
                 id="oewn-quantity__1.03.00.."
                 n="0"
                 synset="oewn-00033914-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="quantity%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-state-n">
          <Lemma writtenForm="state" partOfSpeech="n">
             <Pronunciation phonemic="true">steɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-state%1:03:00::"
+         <Sense tagCnt="39"
                 senseidx="0"
                 lexid="0"
                 sensekey="state%1:03:00::"
@@ -1041,11 +1079,12 @@
                 id="oewn-state__1.03.00.."
                 n="1"
                 synset="oewn-00024900-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="state%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-living_thing-n">
          <Lemma writtenForm="living thing" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-living_thing%1:03:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="living_thing%1:03:00::"
@@ -1053,13 +1092,14 @@
                 id="oewn-living_thing__1.03.00.."
                 n="0"
                 synset="oewn-00004258-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="living_thing%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-act-n">
          <Lemma writtenForm="act" partOfSpeech="n">
             <Pronunciation phonemic="true">ækt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-act%1:03:00::"
+         <Sense tagCnt="24"
                 senseidx="0"
                 lexid="0"
                 sensekey="act%1:03:00::"
@@ -1067,7 +1107,8 @@
                 id="oewn-act__1.03.00.."
                 n="1"
                 synset="oewn-00030657-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="act%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-actuate__2.36.02.."/>
             <SenseRelation relType="derivation" target="oewn-actuate__2.36.00.."/>
             <SenseRelation relType="derivation" target="oewn-act__2.41.00.."/>
@@ -1075,52 +1116,52 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-causal_agency-n">
          <Lemma writtenForm="causal agency" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-causal_agency%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="causal_agency%1:03:00::"
                 order="2"
                 id="oewn-causal_agency__1.03.00.."
                 n="0"
                 synset="oewn-00007347-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="causal_agency%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-somebody-n">
          <Lemma writtenForm="somebody" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈsʌmbədɪ</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈsʌmbʌdi</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-somebody%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="somebody%1:03:00::"
                 order="3"
                 id="oewn-somebody__1.03.00.."
                 n="0"
                 synset="oewn-00007846-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="somebody%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-fauna-n">
          <Lemma writtenForm="fauna" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈfɔː.nə</Pronunciation>
          </Lemma>
          <Form writtenForm="faunae"/>
-         <Sense dc:identifier="oewn-fauna%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="fauna%1:03:00::"
                 order="5"
                 id="oewn-fauna__1.03.00.."
                 n="1"
                 synset="oewn-00015568-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="fauna%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-organism-n">
          <Lemma writtenForm="organism" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈɔː.ɡən.ɪ.zəm</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈɔɹ.ɡən.ɪ.zəm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-organism%1:03:00::"
+         <Sense tagCnt="9"
                 senseidx="0"
                 lexid="0"
                 sensekey="organism%1:03:00::"
@@ -1128,7 +1169,8 @@
                 id="oewn-organism__1.03.00.."
                 n="0"
                 synset="oewn-00004475-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="organism%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-organismic__3.01.00.."/>
             <SenseRelation relType="derivation" target="oewn-organic__3.00.02.."/>
             <SenseRelation relType="derivation" target="oewn-organic__3.00.00.."/>
@@ -1138,21 +1180,21 @@
          <Lemma writtenForm="absolute space" partOfSpeech="n">
             <Pronunciation variety="US" phonemic="true">ˈæb.səˌlut speɪs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-absolute_space%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="absolute_space%1:03:00::"
                 order="0"
                 id="oewn-absolute_space__1.03.00.."
                 n="0"
                 synset="oewn-00029306-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="absolute_space%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-group-n">
          <Lemma writtenForm="group" partOfSpeech="n">
             <Pronunciation phonemic="true">ɡɹuːp</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-group%1:03:00::"
+         <Sense tagCnt="1345"
                 senseidx="0"
                 lexid="0"
                 sensekey="group%1:03:00::"
@@ -1160,7 +1202,8 @@
                 id="oewn-group__1.03.00.."
                 n="0"
                 synset="oewn-00031563-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="group%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-group__2.33.00.."/>
             <SenseRelation relType="derivation" target="oewn-group__2.31.00.."/>
          </Sense>
@@ -1169,7 +1212,7 @@
          <Lemma writtenForm="possession" partOfSpeech="n">
             <Pronunciation phonemic="true">pəˈzɛʃən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-possession%1:03:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="possession%1:03:00::"
@@ -1177,14 +1220,15 @@
                 id="oewn-possession__1.03.00.."
                 n="1"
                 synset="oewn-00032912-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="possession%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-feeling-n">
          <Lemma writtenForm="feeling" partOfSpeech="n">
             <Pronunciation variety="GB" phonemic="true">ˈfiːlɪŋ</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈfilɪŋ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-feeling%1:03:00::"
+         <Sense tagCnt="49"
                 senseidx="0"
                 lexid="0"
                 sensekey="feeling%1:03:00::"
@@ -1192,48 +1236,49 @@
                 id="oewn-feeling__1.03.00.."
                 n="0"
                 synset="oewn-00026390-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="feeling%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-feel__2.37.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-congener-n">
          <Lemma writtenForm="congener" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-congener%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="congener%1:03:00::"
                 order="0"
                 id="oewn-congener__1.03.00.."
                 n="2"
                 synset="oewn-00003993-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="congener%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-phase_space-n">
          <Lemma writtenForm="phase space" partOfSpeech="n"/>
-         <Sense dc:identifier="oewn-phase_space%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="phase_space%1:03:00::"
                 order="0"
                 id="oewn-phase_space__1.03.00.."
                 n="0"
                 synset="oewn-00029413-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="phase_space%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-flora-n">
          <Lemma writtenForm="flora" partOfSpeech="n">
             <Pronunciation phonemic="true">ˈflɔː.ɹə</Pronunciation>
          </Lemma>
          <Form writtenForm="florae"/>
-         <Sense dc:identifier="oewn-flora%1:03:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="flora%1:03:00::"
                 order="1"
                 id="oewn-flora__1.03.00.."
                 n="1"
                 synset="oewn-00017402-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="flora%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-floral__3.01.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1243,7 +1288,7 @@
             <Pronunciation variety="US" phonemic="true">ˈɑb.d͡ʒɛkt</Pronunciation>
             <Pronunciation phonemic="true">əbˈd͡ʒɛkt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-object%1:03:00::"
+         <Sense tagCnt="51"
                 senseidx="0"
                 lexid="0"
                 sensekey="object%1:03:00::"
@@ -1251,7 +1296,8 @@
                 id="oewn-object__1.03.00.."
                 n="0"
                 synset="oewn-00002684-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="object%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-objectify__2.30.01.."/>
          </Sense>
       </LexicalEntry>
@@ -1260,7 +1306,7 @@
             <Pronunciation variety="GB" phonemic="true">fuːd</Pronunciation>
             <Pronunciation variety="US" phonemic="true">fud</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-food%1:03:00::"
+         <Sense tagCnt="29"
                 senseidx="0"
                 lexid="0"
                 sensekey="food%1:03:00::"
@@ -1268,14 +1314,15 @@
                 id="oewn-food__1.03.00.."
                 n="0"
                 synset="oewn-00021445-n"
-                lexicalized="true"/>
+                lexicalized="true"
+                dc:identifier="food%1:03:00::"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-location-n">
          <Lemma writtenForm="location" partOfSpeech="n">
             <Pronunciation variety="US" phonemic="true">loʊˈkeɪʃən</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">ləʊˈkeɪʃən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-location%1:03:00::"
+         <Sense tagCnt="992"
                 senseidx="0"
                 lexid="0"
                 sensekey="location%1:03:00::"
@@ -1283,7 +1330,8 @@
                 id="oewn-location__1.03.00.."
                 n="0"
                 synset="oewn-00027365-n"
-                lexicalized="true">
+                lexicalized="true"
+                dc:identifier="location%1:03:00::">
             <SenseRelation relType="derivation" target="oewn-locate__2.42.00.."/>
             <SenseRelation relType="derivation" target="oewn-locate__2.40.01.."/>
             <SenseRelation relType="derivation" target="oewn-locate__2.40.00.."/>

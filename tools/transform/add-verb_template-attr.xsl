@@ -51,6 +51,7 @@
 		</xsl:if>
 
 		<xsl:copy>
+			<xsl:apply-templates select="@*" />
 			<xsl:if test="count($sents) > 0">
 				<xsl:attribute name="verbTemplates">
 				<xsl:for-each select="$sents">
@@ -62,7 +63,7 @@
 				</xsl:for-each>
 				</xsl:attribute>
 			</xsl:if>
-			<xsl:apply-templates select="@*|node()" />
+			<xsl:apply-templates select="node()" />
 		</xsl:copy>
 	</xsl:template>
 

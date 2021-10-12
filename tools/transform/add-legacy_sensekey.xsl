@@ -22,14 +22,17 @@
 	</xsl:template>
 
 	<xsl:template match="Sense">
-		<xsl:variable name="sk" select="concat(substring-before(@id,'__'),'%',translate(substring-after(@id,'__'),'.',':'))"/>
+		<xsl:variable name="sk0" select="substring-after(@id,'oewn-')"/>
+		<xsl:variable name="sk" select="concat(substring-before($sk0,'__'),'%',translate(substring-after($sk0,'__'),'.',':'))"/>
 
 		<xsl:copy>
+			<xsl:apply-templates select="@*" />
+			
 			<xsl:attribute name="dc:identifier">
 				<xsl:value-of select="$sk" />
 			</xsl:attribute>
 
-			<xsl:apply-templates select="@*|node()" />
+			<xsl:apply-templates select="node()" />
 		</xsl:copy>
 	</xsl:template>
 

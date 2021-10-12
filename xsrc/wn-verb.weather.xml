@@ -252,8 +252,7 @@
       <SyntacticBehaviour id="oewn-st-170" sentenceTemplate="They %s him 'Bobby'"/>
       <LexicalEntry id="oewn-blaze_up-v">
          <Lemma writtenForm="blaze up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-blaze_up%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="blaze_up%2:43:00::"
                 order="2"
@@ -261,13 +260,14 @@
                 n="0"
                 synset="oewn-02768764-v"
                 lexicalized="true"
+                dc:identifier="blaze_up%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="also" target="oewn-blaze__2.43.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-blaze-v">
          <Lemma writtenForm="blaze" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-blaze%2:43:01::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="1"
                 sensekey="blaze%2:43:01::"
@@ -276,11 +276,12 @@
                 n="0"
                 synset="oewn-02770572-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="blaze%2:43:01::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-blaze__1.07.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-blaze%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="blaze%2:43:02::"
                 order="0"
@@ -288,6 +289,7 @@
                 n="2"
                 synset="oewn-02770396-v"
                 lexicalized="true"
+                dc:identifier="blaze%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="also" target="oewn-blaze_up__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-blaze__1.22.00.."/>
@@ -295,8 +297,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-set_aflame-v">
          <Lemma writtenForm="set aflame" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-set_aflame%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="set_aflame%2:43:00::"
                 order="1"
@@ -304,14 +305,14 @@
                 n="0"
                 synset="oewn-02766097-v"
                 lexicalized="true"
+                dc:identifier="set_aflame%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-give_off-v">
          <Lemma writtenForm="give off" partOfSpeech="v">
             <Pronunciation phonemic="true">ɡɪv ɒf</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-give_off%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="give_off%2:43:00::"
                 order="2"
@@ -319,12 +320,12 @@
                 n="1"
                 synset="oewn-02773266-v"
                 lexicalized="true"
+                dc:identifier="give_off%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-take_fire-v">
          <Lemma writtenForm="take fire" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-take_fire%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="take_fire%2:43:00::"
                 order="3"
@@ -332,12 +333,12 @@
                 n="0"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="take_fire%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-breeze-v">
          <Lemma writtenForm="breeze" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-breeze%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="breeze%2:43:00::"
                 order="0"
@@ -345,6 +346,7 @@
                 n="0"
                 synset="oewn-02775438-v"
                 lexicalized="true"
+                dc:identifier="breeze%2:43:00::"
                 verbFrames="nonreferential vii vii-pp">
             <SenseRelation relType="derivation" target="oewn-breeze__1.19.00.."/>
          </Sense>
@@ -354,8 +356,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈʃaʊ.ə(ɹ)</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈʃaʊ.ɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-shower%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shower%2:43:00::"
                 order="0"
@@ -363,14 +364,16 @@
                 n="3"
                 synset="oewn-02763609-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="shower%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-shower__1.19.00.."/>
             <SenseRelation relType="derivation" target="oewn-shower__1.11.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-radiate-v">
          <Lemma writtenForm="radiate" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-radiate%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="radiate%2:43:00::"
@@ -379,6 +382,7 @@
                 n="0"
                 synset="oewn-02773074-v"
                 lexicalized="true"
+                dc:identifier="radiate%2:43:00::"
                 verbFrames="vii vtii">
             <SenseRelation relType="derivation" target="oewn-radiant__5.00.00.bright.00"/>
             <SenseRelation relType="derivation" target="oewn-radiation__1.19.00.."/>
@@ -390,8 +394,7 @@
          <Lemma writtenForm="shimmer" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈʃɪmə(ɹ)</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-shimmer%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shimmer%2:43:00::"
                 order="0"
@@ -399,7 +402,9 @@
                 n="0"
                 synset="oewn-02769408-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="shimmer%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-shimmer__1.11.00.."/>
          </Sense>
       </LexicalEntry>
@@ -407,8 +412,7 @@
          <Lemma writtenForm="extinguish" partOfSpeech="v">
             <Pronunciation phonemic="true">ɪkˈstɪŋ.ɡwɪʃ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-extinguish%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="extinguish%2:43:00::"
                 order="2"
@@ -416,6 +420,7 @@
                 n="2"
                 synset="oewn-02767855-v"
                 lexicalized="true"
+                dc:identifier="extinguish%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="antonym" target="oewn-ignite__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-extinction__1.04.01.."/>
@@ -431,7 +436,7 @@
          </Lemma>
          <Form writtenForm="fallen"/>
          <Form writtenForm="fell"/>
-         <Sense dc:identifier="oewn-fall%2:43:00::"
+         <Sense tagCnt="4"
                 senseidx="0"
                 lexid="0"
                 sensekey="fall%2:43:00::"
@@ -440,14 +445,14 @@
                 n="4"
                 synset="oewn-02762779-v"
                 lexicalized="true"
+                dc:identifier="fall%2:43:00::"
                 verbFrames="vii vtai"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-precipitate-v">
          <Lemma writtenForm="precipitate" partOfSpeech="v">
             <Pronunciation phonemic="true">pɹɪˈsɪpɪteɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-precipitate%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="precipitate%2:43:00::"
                 order="0"
@@ -455,6 +460,7 @@
                 n="2"
                 synset="oewn-02762779-v"
                 lexicalized="true"
+                dc:identifier="precipitate%2:43:00::"
                 verbFrames="vii vtai">
             <SenseRelation relType="derivation" target="oewn-precipitation__1.23.00.."/>
             <SenseRelation relType="derivation" target="oewn-precipitation__1.19.00.."/>
@@ -465,8 +471,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈəʊvəˌkɑːst</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈoʊvɚ.kæst</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-overcast%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="overcast%2:43:00::"
                 order="0"
@@ -474,6 +479,7 @@
                 n="0"
                 synset="oewn-02776675-v"
                 lexicalized="true"
+                dc:identifier="overcast%2:43:00::"
                 verbFrames="vtii">
             <SenseRelation relType="antonym" target="oewn-clear_up__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-overcast__1.26.01.."/>
@@ -482,8 +488,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-pitter-patter-v">
          <Lemma writtenForm="pitter-patter" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-pitter-patter%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="pitter-patter%2:43:00::"
                 order="4"
@@ -491,14 +496,14 @@
                 n="0"
                 synset="oewn-02763786-v"
                 lexicalized="true"
+                dc:identifier="pitter-patter%2:43:00::"
                 verbFrames="nonreferential"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-spat-v">
          <Lemma writtenForm="spat" partOfSpeech="v"/>
          <Form writtenForm="spatted"/>
          <Form writtenForm="spatting"/>
-         <Sense dc:identifier="oewn-spat%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="spat%2:43:00::"
                 order="0"
@@ -506,11 +511,12 @@
                 n="0"
                 synset="oewn-02763140-v"
                 lexicalized="true"
+                dc:identifier="spat%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-flame_up-v">
          <Lemma writtenForm="flame up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-flame_up%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="flame_up%2:43:00::"
@@ -519,6 +525,7 @@
                 n="0"
                 synset="oewn-02768764-v"
                 lexicalized="true"
+                dc:identifier="flame_up%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="also" target="oewn-flame__2.43.01.."/>
          </Sense>
@@ -527,8 +534,7 @@
          <Lemma writtenForm="drench" partOfSpeech="v">
             <Pronunciation phonemic="true">dɹɛntʃ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-drench%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="drench%2:43:00::"
                 order="1"
@@ -536,12 +542,12 @@
                 n="0"
                 synset="oewn-02777522-v"
                 lexicalized="true"
+                dc:identifier="drench%2:43:00::"
                 verbFrames="vii vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-sluice_down-v">
          <Lemma writtenForm="sluice down" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-sluice_down%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="sluice_down%2:43:00::"
                 order="1"
@@ -549,12 +555,13 @@
                 n="0"
                 synset="oewn-02764357-v"
                 lexicalized="true"
-                verbFrames="vii vii-pp"/>
+                dc:identifier="sluice_down%2:43:00::"
+                verbFrames="vii vii-pp"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-set_afire-v">
          <Lemma writtenForm="set afire" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-set_afire%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="set_afire%2:43:00::"
                 order="3"
@@ -562,13 +569,14 @@
                 n="0"
                 synset="oewn-02766097-v"
                 lexicalized="true"
+                dc:identifier="set_afire%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-reflect-v">
          <Lemma writtenForm="reflect" partOfSpeech="v">
             <Pronunciation phonemic="true">ɹɪˈflɛkt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-reflect%2:43:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="reflect%2:43:00::"
@@ -577,14 +585,14 @@
                 n="3"
                 synset="oewn-02771882-v"
                 lexicalized="true"
+                dc:identifier="reflect%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-reflective__3.00.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-rekindle-v">
          <Lemma writtenForm="rekindle" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-rekindle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="rekindle%2:43:00::"
                 order="0"
@@ -592,6 +600,7 @@
                 n="0"
                 synset="oewn-02767552-v"
                 lexicalized="true"
+                dc:identifier="rekindle%2:43:00::"
                 verbFrames="vtai"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-emit-v">
@@ -600,7 +609,7 @@
          </Lemma>
          <Form writtenForm="emitted"/>
          <Form writtenForm="emitting"/>
-         <Sense dc:identifier="oewn-emit%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="emit%2:43:00::"
@@ -609,6 +618,7 @@
                 n="1"
                 synset="oewn-02773266-v"
                 lexicalized="true"
+                dc:identifier="emit%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="antonym" target="oewn-absorb__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-emission__1.04.00.."/>
@@ -617,8 +627,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-storm-v">
          <Lemma writtenForm="storm" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-storm%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="storm%2:43:01::"
                 order="0"
@@ -626,11 +635,12 @@
                 n="2"
                 synset="oewn-02776128-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="storm%2:43:01::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-storm__1.19.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-storm%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="storm%2:43:02::"
                 order="0"
@@ -638,6 +648,7 @@
                 n="3"
                 synset="oewn-02775858-v"
                 lexicalized="true"
+                dc:identifier="storm%2:43:00::"
                 verbFrames="nonreferential">
             <SenseRelation relType="derivation" target="oewn-storm__1.19.00.."/>
          </Sense>
@@ -645,7 +656,7 @@
       <LexicalEntry id="oewn-shine-v">
          <Lemma writtenForm="shine" partOfSpeech="v"/>
          <Form writtenForm="shone"/>
-         <Sense dc:identifier="oewn-shine%2:43:01::"
+         <Sense tagCnt="9"
                 senseidx="0"
                 lexid="1"
                 sensekey="shine%2:43:01::"
@@ -654,11 +665,13 @@
                 n="0"
                 synset="oewn-02771882-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="shine%2:43:01::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-8">
             <SenseRelation relType="derivation" target="oewn-shiner__1.17.00.."/>
             <SenseRelation relType="derivation" target="oewn-shine__1.07.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-shine%2:43:00::"
+         <Sense tagCnt="6"
                 senseidx="1"
                 lexid="2"
                 sensekey="shine%2:43:02::"
@@ -667,11 +680,12 @@
                 n="1"
                 synset="oewn-02769698-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="shine%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-shine__1.07.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-shine%2:43:03::"
-                senseidx="2"
+         <Sense senseidx="2"
                 lexid="3"
                 sensekey="shine%2:43:03::"
                 order="0"
@@ -679,6 +693,7 @@
                 n="6"
                 synset="oewn-02769241-v"
                 lexicalized="true"
+                dc:identifier="shine%2:43:03::"
                 verbFrames="vtai vtai-pp">
             <SenseRelation relType="derivation" target="oewn-shine__1.07.00.."/>
          </Sense>
@@ -688,7 +703,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈblʌs.tə</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈblʌs.tɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-bluster%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="bluster%2:43:00::"
@@ -697,13 +712,14 @@
                 n="0"
                 synset="oewn-02776320-v"
                 lexicalized="true"
+                dc:identifier="bluster%2:43:00::"
                 verbFrames="nonreferential">
             <SenseRelation relType="derivation" target="oewn-bluster__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-light_up-v">
          <Lemma writtenForm="light up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-light_up%2:43:01::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="1"
                 sensekey="light_up%2:43:01::"
@@ -712,9 +728,9 @@
                 n="0"
                 synset="oewn-02767187-v"
                 lexicalized="true"
+                dc:identifier="light_up%2:43:01::"
                 verbFrames="vii"/>
-         <Sense dc:identifier="oewn-light_up%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="light_up%2:43:02::"
                 order="2"
@@ -722,9 +738,9 @@
                 n="2"
                 synset="oewn-02777127-v"
                 lexicalized="true"
+                dc:identifier="light_up%2:43:00::"
                 verbFrames="nonreferential vii"/>
-         <Sense dc:identifier="oewn-light_up%2:43:02::"
-                senseidx="2"
+         <Sense senseidx="2"
                 lexid="3"
                 sensekey="light_up%2:43:03::"
                 order="0"
@@ -732,12 +748,12 @@
                 n="3"
                 synset="oewn-02770080-v"
                 lexicalized="true"
+                dc:identifier="light_up%2:43:02::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-ice_over-v">
          <Lemma writtenForm="ice over" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-ice_over%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ice_over%2:43:00::"
                 order="2"
@@ -745,11 +761,12 @@
                 n="0"
                 synset="oewn-02764539-v"
                 lexicalized="true"
+                dc:identifier="ice_over%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-sparkle-v">
          <Lemma writtenForm="sparkle" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-sparkle%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="1"
                 sensekey="sparkle%2:43:01::"
@@ -758,14 +775,15 @@
                 n="0"
                 synset="oewn-02772348-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="sparkle%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-sparkle__1.07.00.."/>
             <SenseRelation relType="derivation" target="oewn-sparkle__1.11.00.."/>
             <SenseRelation relType="derivation" target="oewn-sparkler__1.21.00.."/>
             <SenseRelation relType="derivation" target="oewn-sparkling__1.11.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-sparkle%2:43:02::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="sparkle%2:43:02::"
                 order="1"
@@ -773,6 +791,7 @@
                 n="2"
                 synset="oewn-02772645-v"
                 lexicalized="true"
+                dc:identifier="sparkle%2:43:02::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-sparkle__1.11.00.."/>
          </Sense>
@@ -782,8 +801,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈθʌndə</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈθʌndɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-thunder%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="thunder%2:43:00::"
                 order="0"
@@ -791,14 +809,15 @@
                 n="2"
                 synset="oewn-02776493-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="thunder%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-thunder__1.11.01.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-flicker-v">
          <Lemma writtenForm="flicker" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-flicker%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="flicker%2:43:00::"
                 order="0"
@@ -806,14 +825,16 @@
                 n="1"
                 synset="oewn-02769567-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="flicker%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-flicker__1.11.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-burn-v">
          <Lemma writtenForm="burn" partOfSpeech="v"/>
          <Form writtenForm="burnt"/>
-         <Sense dc:identifier="oewn-burn%2:43:01::"
+         <Sense tagCnt="10"
                 senseidx="0"
                 lexid="1"
                 sensekey="burn%2:43:01::"
@@ -822,8 +843,10 @@
                 n="1"
                 synset="oewn-02774832-v"
                 lexicalized="true"
-                verbFrames="vii"/>
-         <Sense dc:identifier="oewn-burn%2:43:02::"
+                dc:identifier="burn%2:43:01::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150"/>
+         <Sense tagCnt="2"
                 senseidx="1"
                 lexid="2"
                 sensekey="burn%2:43:02::"
@@ -832,13 +855,15 @@
                 n="4"
                 synset="oewn-02768426-v"
                 lexicalized="true"
-                verbFrames="vtai vtii">
+                dc:identifier="burn%2:43:02::"
+                verbFrames="vtai vtii"
+                verbTemplates="oewn-st-147">
             <SenseRelation relType="derivation" target="oewn-burnable__5.00.00.combustible.00"/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-come_down-v">
          <Lemma writtenForm="come down" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-come_down%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="come_down%2:43:00::"
@@ -847,14 +872,14 @@
                 n="2"
                 synset="oewn-02762779-v"
                 lexicalized="true"
+                dc:identifier="come_down%2:43:00::"
                 verbFrames="vii vtai"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-coruscate-v">
          <Lemma writtenForm="coruscate" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈkɒɹəskeɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-coruscate%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="coruscate%2:43:00::"
                 order="2"
@@ -862,6 +887,7 @@
                 n="0"
                 synset="oewn-02772348-v"
                 lexicalized="true"
+                dc:identifier="coruscate%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-coruscant__5.00.00.bright.00"/>
             <SenseRelation relType="derivation" target="oewn-coruscation__1.11.00.."/>
@@ -871,8 +897,7 @@
          <Lemma writtenForm="sprinkle" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈspɹɪŋkəl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-sprinkle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="sprinkle%2:43:00::"
                 order="0"
@@ -880,6 +905,7 @@
                 n="2"
                 synset="oewn-02763786-v"
                 lexicalized="true"
+                dc:identifier="sprinkle%2:43:00::"
                 verbFrames="nonreferential">
             <SenseRelation relType="derivation" target="oewn-sprinkle__1.19.00.."/>
             <SenseRelation relType="derivation" target="oewn-sprinkling__1.19.00.."/>
@@ -887,8 +913,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-pour-v">
          <Lemma writtenForm="pour" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-pour%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="pour%2:43:00::"
                 order="0"
@@ -896,14 +921,15 @@
                 n="5"
                 synset="oewn-02763991-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="pour%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-freeze-v">
          <Lemma writtenForm="freeze" partOfSpeech="v"/>
          <Form writtenForm="froze"/>
          <Form writtenForm="frozen"/>
-         <Sense dc:identifier="oewn-freeze%2:43:10::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="freeze%2:43:00::"
                 order="0"
@@ -911,7 +937,9 @@
                 n="5"
                 synset="oewn-02764784-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="freeze%2:43:10::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-freeze__1.19.00.."/>
             <SenseRelation relType="derivation" target="oewn-freezing__1.22.00.."/>
          </Sense>
@@ -920,7 +948,7 @@
          <Lemma writtenForm="beam" partOfSpeech="v">
             <Pronunciation phonemic="true">biːm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-beam%2:43:03::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="beam%2:43:00::"
@@ -929,7 +957,9 @@
                 n="1"
                 synset="oewn-02769698-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="beam%2:43:03::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-beam__1.19.00.."/>
          </Sense>
       </LexicalEntry>
@@ -937,8 +967,7 @@
          <Lemma writtenForm="winkle" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈwɪŋkəl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-winkle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="winkle%2:43:00::"
                 order="1"
@@ -946,6 +975,7 @@
                 n="0"
                 synset="oewn-02770723-v"
                 lexicalized="true"
+                dc:identifier="winkle%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-sheet-v">
@@ -953,8 +983,7 @@
             <Pronunciation variety="GB" phonemic="true">ʃiːt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ʃit</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-sheet%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="sheet%2:43:00::"
                 order="0"
@@ -962,11 +991,12 @@
                 n="0"
                 synset="oewn-02764220-v"
                 lexicalized="true"
+                dc:identifier="sheet%2:43:00::"
                 verbFrames="nonreferential"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-rain-v">
          <Lemma writtenForm="rain" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-rain%2:43:00::"
+         <Sense tagCnt="13"
                 senseidx="0"
                 lexid="0"
                 sensekey="rain%2:43:00::"
@@ -975,14 +1005,16 @@
                 n="0"
                 synset="oewn-02762516-v"
                 lexicalized="true"
-                verbFrames="nonreferential vtii">
+                dc:identifier="rain%2:43:00::"
+                verbFrames="nonreferential vtii"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-rain__1.27.00.."/>
             <SenseRelation relType="derivation" target="oewn-rain__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-set_on_fire-v">
          <Lemma writtenForm="set on fire" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-set_on_fire%2:43:01::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="set_on_fire%2:43:00::"
@@ -991,12 +1023,12 @@
                 n="0"
                 synset="oewn-02766097-v"
                 lexicalized="true"
+                dc:identifier="set_on_fire%2:43:01::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-reignite-v">
          <Lemma writtenForm="reignite" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-reignite%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="reignite%2:43:00::"
                 order="0"
@@ -1004,12 +1036,12 @@
                 n="0"
                 synset="oewn-02766302-v"
                 lexicalized="true"
+                dc:identifier="reignite%2:43:00::"
                 verbFrames="vtai"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-patter-v">
          <Lemma writtenForm="patter" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-patter%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="patter%2:43:00::"
                 order="3"
@@ -1017,12 +1049,12 @@
                 n="0"
                 synset="oewn-02763786-v"
                 lexicalized="true"
+                dc:identifier="patter%2:43:00::"
                 verbFrames="nonreferential"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-haze-v">
          <Lemma writtenForm="haze" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-haze%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="haze%2:43:00::"
                 order="0"
@@ -1030,14 +1062,14 @@
                 n="0"
                 synset="oewn-02778160-v"
                 lexicalized="true"
+                dc:identifier="haze%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-haze__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-rain_buckets-v">
          <Lemma writtenForm="rain buckets" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-rain_buckets%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="rain_buckets%2:43:00::"
                 order="4"
@@ -1045,13 +1077,15 @@
                 n="0"
                 synset="oewn-02763991-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="rain_buckets%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-plague-v">
          <Lemma writtenForm="plague" partOfSpeech="v">
             <Pronunciation phonemic="true">pleɪɡ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-plague%2:43:00::"
+         <Sense tagCnt="6"
                 senseidx="0"
                 lexid="0"
                 sensekey="plague%2:43:00::"
@@ -1060,6 +1094,7 @@
                 n="0"
                 synset="oewn-02777278-v"
                 lexicalized="true"
+                dc:identifier="plague%2:43:00::"
                 verbFrames="vtia vtii">
             <SenseRelation relType="derivation" target="oewn-plague__1.14.00.."/>
             <SenseRelation relType="derivation" target="oewn-plague__1.26.01.."/>
@@ -1068,8 +1103,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-frost_over-v">
          <Lemma writtenForm="frost over" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-frost_over%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="frost_over%2:43:00::"
                 order="1"
@@ -1077,13 +1111,14 @@
                 n="0"
                 synset="oewn-02764539-v"
                 lexicalized="true"
+                dc:identifier="frost_over%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-steam-v">
          <Lemma writtenForm="steam" partOfSpeech="v">
             <Pronunciation phonemic="true">stiːm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-steam%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="steam%2:43:00::"
@@ -1092,14 +1127,14 @@
                 n="1"
                 synset="oewn-02774537-v"
                 lexicalized="true"
+                dc:identifier="steam%2:43:00::"
                 verbFrames="via vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-drizzle-v">
          <Lemma writtenForm="drizzle" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈdɹɪz.l</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-drizzle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="drizzle%2:43:00::"
                 order="0"
@@ -1107,7 +1142,9 @@
                 n="0"
                 synset="oewn-02763433-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="drizzle%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-drizzle__1.19.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1115,7 +1152,7 @@
          <Lemma writtenForm="cloud" partOfSpeech="v">
             <Pronunciation phonemic="true">klaʊd</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-cloud%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="cloud%2:43:00::"
@@ -1124,6 +1161,7 @@
                 n="0"
                 synset="oewn-02776675-v"
                 lexicalized="true"
+                dc:identifier="cloud%2:43:00::"
                 verbFrames="vtii">
             <SenseRelation relType="also" target="oewn-cloud_over__2.43.00.."/>
             <SenseRelation relType="also" target="oewn-cloud_up__2.43.00.."/>
@@ -1135,8 +1173,7 @@
          <Lemma writtenForm="suck" partOfSpeech="v">
             <Pronunciation phonemic="true">sʌk</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-suck%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="suck%2:43:00::"
                 order="0"
@@ -1144,6 +1181,7 @@
                 n="2"
                 synset="oewn-02771650-v"
                 lexicalized="true"
+                dc:identifier="suck%2:43:00::"
                 verbFrames="vtii">
             <SenseRelation relType="derivation" target="oewn-suck__1.04.00.."/>
             <SenseRelation relType="derivation" target="oewn-suction__1.04.00.."/>
@@ -1153,7 +1191,7 @@
          <Lemma writtenForm="sluice" partOfSpeech="v">
             <Pronunciation phonemic="true">sluːs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-sluice%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="sluice%2:43:00::"
@@ -1162,14 +1200,15 @@
                 n="0"
                 synset="oewn-02764357-v"
                 lexicalized="true"
-                verbFrames="vii vii-pp">
+                dc:identifier="sluice%2:43:00::"
+                verbFrames="vii vii-pp"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-sluice__1.06.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-boom-v">
          <Lemma writtenForm="boom" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-boom%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="boom%2:43:00::"
                 order="1"
@@ -1177,12 +1216,13 @@
                 n="2"
                 synset="oewn-02776493-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="boom%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122 oewn-st-135"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-clear_up-v">
          <Lemma writtenForm="clear up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-clear_up%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="clear_up%2:43:00::"
                 order="0"
@@ -1190,6 +1230,7 @@
                 n="3"
                 synset="oewn-02777127-v"
                 lexicalized="true"
+                dc:identifier="clear_up%2:43:00::"
                 verbFrames="nonreferential vii">
             <SenseRelation relType="antonym" target="oewn-overcast__2.43.00.."/>
          </Sense>
@@ -1197,7 +1238,7 @@
       <LexicalEntry id="oewn-light-v">
          <Lemma writtenForm="light" partOfSpeech="v"/>
          <Form writtenForm="lit"/>
-         <Sense dc:identifier="oewn-light%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="light%2:43:00::"
@@ -1206,6 +1247,7 @@
                 n="3"
                 synset="oewn-02765572-v"
                 lexicalized="true"
+                dc:identifier="light%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="derivation" target="oewn-light__1.06.01.."/>
             <SenseRelation relType="derivation" target="oewn-lighter__1.27.00.."/>
@@ -1216,8 +1258,7 @@
          <Lemma writtenForm="spatter" partOfSpeech="v">
             <Pronunciation variety="US" phonemic="true">ˈspætɚ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-spatter%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="spatter%2:43:00::"
                 order="2"
@@ -1225,12 +1266,12 @@
                 n="1"
                 synset="oewn-02763786-v"
                 lexicalized="true"
+                dc:identifier="spatter%2:43:00::"
                 verbFrames="nonreferential"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-overcloud-v">
          <Lemma writtenForm="overcloud" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-overcloud%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="overcloud%2:43:00::"
                 order="0"
@@ -1238,11 +1279,12 @@
                 n="0"
                 synset="oewn-02776978-v"
                 lexicalized="true"
+                dc:identifier="overcloud%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-suck_in-v">
          <Lemma writtenForm="suck in" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-suck_in%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="suck_in%2:43:00::"
@@ -1251,11 +1293,12 @@
                 n="1"
                 synset="oewn-02771650-v"
                 lexicalized="true"
+                dc:identifier="suck_in%2:43:00::"
                 verbFrames="vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-give_out-v">
          <Lemma writtenForm="give out" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-give_out%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="give_out%2:43:00::"
@@ -1264,11 +1307,12 @@
                 n="0"
                 synset="oewn-02773266-v"
                 lexicalized="true"
+                dc:identifier="give_out%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-cloud_over-v">
          <Lemma writtenForm="cloud over" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-cloud_over%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="cloud_over%2:43:00::"
@@ -1277,14 +1321,14 @@
                 n="0"
                 synset="oewn-02776978-v"
                 lexicalized="true"
+                dc:identifier="cloud_over%2:43:00::"
                 verbFrames="nonreferential vii">
             <SenseRelation relType="also" target="oewn-cloud__2.43.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-enkindle-v">
          <Lemma writtenForm="enkindle" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-enkindle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="enkindle%2:43:00::"
                 order="1"
@@ -1292,12 +1336,12 @@
                 n="0"
                 synset="oewn-02767330-v"
                 lexicalized="true"
+                dc:identifier="enkindle%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-opalesce-v">
          <Lemma writtenForm="opalesce" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-opalesce%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="opalesce%2:43:00::"
                 order="0"
@@ -1305,7 +1349,9 @@
                 n="0"
                 synset="oewn-02771189-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="opalesce%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-8">
             <SenseRelation relType="derivation" target="oewn-opalescent__5.00.00.bright.00"/>
             <SenseRelation relType="derivation" target="oewn-opalescence__1.07.00.."/>
          </Sense>
@@ -1315,7 +1361,7 @@
             <Pronunciation variety="GB" phonemic="true">ɡləʊ</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ɡloʊ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-glow%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="glow%2:43:00::"
@@ -1324,7 +1370,9 @@
                 n="2"
                 synset="oewn-02774832-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="glow%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-glow__1.19.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1333,8 +1381,7 @@
             <Pronunciation phonemic="true">kæt͡ʃ</Pronunciation>
          </Lemma>
          <Form writtenForm="caught"/>
-         <Sense dc:identifier="oewn-catch%2:43:04::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="catch%2:43:00::"
                 order="0"
@@ -1342,12 +1389,12 @@
                 n="19"
                 synset="oewn-02767092-v"
                 lexicalized="true"
+                dc:identifier="catch%2:43:04::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-ice_up-v">
          <Lemma writtenForm="ice up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-ice_up%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ice_up%2:43:00::"
                 order="0"
@@ -1355,14 +1402,14 @@
                 n="0"
                 synset="oewn-02764539-v"
                 lexicalized="true"
+                dc:identifier="ice_up%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-stream-v">
          <Lemma writtenForm="stream" partOfSpeech="v">
             <Pronunciation phonemic="true">stɹiːm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-stream%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="stream%2:43:00::"
                 order="2"
@@ -1370,12 +1417,13 @@
                 n="3"
                 synset="oewn-02763991-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="stream%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-pelt-v">
          <Lemma writtenForm="pelt" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-pelt%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="pelt%2:43:00::"
                 order="1"
@@ -1383,7 +1431,9 @@
                 n="2"
                 synset="oewn-02763991-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="pelt%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-pelter__1.19.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1392,8 +1442,7 @@
             <Pronunciation variety="US" phonemic="true">wɑft</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">wɒft</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-waft%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="waft%2:43:00::"
                 order="0"
@@ -1401,12 +1450,12 @@
                 n="1"
                 synset="oewn-02775741-v"
                 lexicalized="true"
+                dc:identifier="waft%2:43:00::"
                 verbFrames="vii vii-pp"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-smoke-v">
          <Lemma writtenForm="smoke" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-smoke%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="smoke%2:43:00::"
                 order="1"
@@ -1414,6 +1463,7 @@
                 n="1"
                 synset="oewn-02773880-v"
                 lexicalized="true"
+                dc:identifier="smoke%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-smoke__1.22.00.."/>
             <SenseRelation relType="derivation" target="oewn-smoke__1.19.00.."/>
@@ -1426,7 +1476,7 @@
             <Pronunciation variety="US" phonemic="true">ˈmiɹ.ɚ</Pronunciation>
             <Pronunciation variety="NZ" phonemic="true">ˈmɘ.ɹɘ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-mirror%2:43:00::"
+         <Sense tagCnt="4"
                 senseidx="0"
                 lexid="0"
                 sensekey="mirror%2:43:00::"
@@ -1435,6 +1485,7 @@
                 n="0"
                 synset="oewn-02772883-v"
                 lexicalized="true"
+                dc:identifier="mirror%2:43:00::"
                 verbFrames="vtia vtii">
             <SenseRelation relType="derivation" target="oewn-mirror__1.09.00.."/>
             <SenseRelation relType="derivation" target="oewn-mirror__1.06.00.."/>
@@ -1444,8 +1495,7 @@
          <Lemma writtenForm="flick" partOfSpeech="v">
             <Pronunciation phonemic="true">flɪk</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-flick%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="flick%2:43:00::"
                 order="1"
@@ -1453,11 +1503,13 @@
                 n="4"
                 synset="oewn-02769567-v"
                 lexicalized="true"
-                verbFrames="vii"/>
+                dc:identifier="flick%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-take_in-v">
          <Lemma writtenForm="take in" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-take_in%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="take_in%2:43:00::"
@@ -1466,6 +1518,7 @@
                 n="2"
                 synset="oewn-02771422-v"
                 lexicalized="true"
+                dc:identifier="take_in%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-liquefy-v">
@@ -1473,8 +1526,7 @@
             <Pronunciation phonemic="true">ˈlɪkwɪfaɪ</Pronunciation>
          </Lemma>
          <Form writtenForm="liquefied"/>
-         <Sense dc:identifier="oewn-liquefy%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="liquefy%2:43:00::"
                 order="0"
@@ -1482,6 +1534,7 @@
                 n="0"
                 synset="oewn-02763262-v"
                 lexicalized="true"
+                dc:identifier="liquefy%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-liquefiable__5.00.00.liquid.00"/>
             <SenseRelation relType="derivation" target="oewn-liquefaction__1.22.00.."/>
@@ -1489,8 +1542,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-set_in-v">
          <Lemma writtenForm="set in" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-set_in%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="set_in%2:43:00::"
                 order="0"
@@ -1498,12 +1550,12 @@
                 n="1"
                 synset="oewn-02775600-v"
                 lexicalized="true"
+                dc:identifier="set_in%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-rain_cats_and_dogs-v">
          <Lemma writtenForm="rain cats and dogs" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-rain_cats_and_dogs%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="rain_cats_and_dogs%2:43:00::"
                 order="3"
@@ -1511,12 +1563,13 @@
                 n="0"
                 synset="oewn-02763991-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="rain_cats_and_dogs%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-dry_out-v">
          <Lemma writtenForm="dry out" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-dry_out%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="dry_out%2:43:00::"
                 order="1"
@@ -1524,12 +1577,12 @@
                 n="1"
                 synset="oewn-02777714-v"
                 lexicalized="true"
+                dc:identifier="dry_out%2:43:01::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-cloud_up-v">
          <Lemma writtenForm="cloud up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-cloud_up%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="cloud_up%2:43:00::"
                 order="2"
@@ -1537,6 +1590,7 @@
                 n="0"
                 synset="oewn-02776978-v"
                 lexicalized="true"
+                dc:identifier="cloud_up%2:43:00::"
                 verbFrames="nonreferential vii">
             <SenseRelation relType="also" target="oewn-cloud__2.43.00.."/>
          </Sense>
@@ -1544,8 +1598,7 @@
       <LexicalEntry id="oewn-shoot-v">
          <Lemma writtenForm="shoot" partOfSpeech="v"/>
          <Form writtenForm="shot"/>
-         <Sense dc:identifier="oewn-shoot%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shoot%2:43:00::"
                 order="0"
@@ -1553,6 +1606,7 @@
                 n="9"
                 synset="oewn-02774217-v"
                 lexicalized="true"
+                dc:identifier="shoot%2:43:00::"
                 verbFrames="vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-glare-v">
@@ -1560,8 +1614,7 @@
             <Pronunciation variety="US" phonemic="true">ɡlɛəɹ</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">ɡlɛə</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-glare%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="glare%2:43:00::"
                 order="0"
@@ -1569,12 +1622,12 @@
                 n="1"
                 synset="oewn-02771048-v"
                 lexicalized="true"
+                dc:identifier="glare%2:43:01::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-rain_down-v">
          <Lemma writtenForm="rain down" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-rain_down%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="rain_down%2:43:00::"
                 order="1"
@@ -1582,12 +1635,13 @@
                 n="0"
                 synset="oewn-02762516-v"
                 lexicalized="true"
-                verbFrames="nonreferential vtii"/>
+                dc:identifier="rain_down%2:43:00::"
+                verbFrames="nonreferential vtii"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-douse-v">
          <Lemma writtenForm="douse" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-douse%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="douse%2:43:00::"
                 order="0"
@@ -1595,6 +1649,7 @@
                 n="0"
                 synset="oewn-02766453-v"
                 lexicalized="true"
+                dc:identifier="douse%2:43:00::"
                 verbFrames="vtai"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-swamp-v">
@@ -1602,7 +1657,7 @@
             <Pronunciation variety="GB" phonemic="true">swɒmp</Pronunciation>
             <Pronunciation variety="US" phonemic="true">swɑmp</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-swamp%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="swamp%2:43:00::"
@@ -1611,6 +1666,7 @@
                 n="0"
                 synset="oewn-02777522-v"
                 lexicalized="true"
+                dc:identifier="swamp%2:43:00::"
                 verbFrames="vii vtii">
             <SenseRelation relType="derivation" target="oewn-swamp__1.17.00.."/>
          </Sense>
@@ -1619,8 +1675,7 @@
          <Lemma writtenForm="luminesce" partOfSpeech="v">
             <Pronunciation variety="US" phonemic="true">lumɪˈnɛs</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-luminesce%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="luminesce%2:43:00::"
                 order="0"
@@ -1628,6 +1683,7 @@
                 n="0"
                 synset="oewn-02772181-v"
                 lexicalized="true"
+                dc:identifier="luminesce%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-luminescent__5.00.00.light.06"/>
             <SenseRelation relType="derivation" target="oewn-luminescence__1.19.00.."/>
@@ -1636,8 +1692,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-conflagrate-v">
          <Lemma writtenForm="conflagrate" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-conflagrate%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="conflagrate%2:43:01::"
                 order="2"
@@ -1645,9 +1700,9 @@
                 n="0"
                 synset="oewn-02767330-v"
                 lexicalized="true"
+                dc:identifier="conflagrate%2:43:01::"
                 verbFrames="vtai vtii"/>
-         <Sense dc:identifier="oewn-conflagrate%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="conflagrate%2:43:02::"
                 order="5"
@@ -1655,14 +1710,14 @@
                 n="1"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="conflagrate%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-squall-v">
          <Lemma writtenForm="squall" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈskwɔːl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-squall%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="squall%2:43:00::"
                 order="0"
@@ -1670,6 +1725,7 @@
                 n="2"
                 synset="oewn-02775977-v"
                 lexicalized="true"
+                dc:identifier="squall%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-squall__1.19.00.."/>
          </Sense>
@@ -1678,8 +1734,7 @@
          <Lemma writtenForm="sleet" partOfSpeech="v">
             <Pronunciation phonemic="true">sliːt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-sleet%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="sleet%2:43:00::"
                 order="0"
@@ -1687,7 +1742,9 @@
                 n="0"
                 synset="oewn-02765212-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="sleet%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-sleet__1.19.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1695,8 +1752,7 @@
          <Lemma writtenForm="fume" partOfSpeech="v">
             <Pronunciation variety="GB" phonemic="true">fjuːm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-fume%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="fume%2:43:00::"
                 order="0"
@@ -1704,13 +1760,14 @@
                 n="1"
                 synset="oewn-02773880-v"
                 lexicalized="true"
+                dc:identifier="fume%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-fume__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-shade-v">
          <Lemma writtenForm="shade" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-shade%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="shade%2:43:00::"
@@ -1719,6 +1776,7 @@
                 n="0"
                 synset="oewn-02774660-v"
                 lexicalized="true"
+                dc:identifier="shade%2:43:00::"
                 verbFrames="vtaa vtia vtii">
             <SenseRelation relType="derivation" target="oewn-shade__1.26.00.."/>
          </Sense>
@@ -1728,7 +1786,7 @@
             <Pronunciation variety="GB" phonemic="true">flɛə̯</Pronunciation>
             <Pronunciation variety="US" phonemic="true">flɛɚ̯</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-flare%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="1"
                 sensekey="flare%2:43:01::"
@@ -1737,11 +1795,11 @@
                 n="0"
                 synset="oewn-02768764-v"
                 lexicalized="true"
+                dc:identifier="flare%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-flare__1.22.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-flare%2:43:01::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="flare%2:43:02::"
                 order="0"
@@ -1749,7 +1807,9 @@
                 n="2"
                 synset="oewn-02768939-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="flare%2:43:01::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="derivation" target="oewn-flare__1.22.00.."/>
          </Sense>
       </LexicalEntry>
@@ -1757,7 +1817,7 @@
          <Lemma writtenForm="blow" partOfSpeech="v"/>
          <Form writtenForm="blew"/>
          <Form writtenForm="blown"/>
-         <Sense dc:identifier="oewn-blow%2:43:00::"
+         <Sense tagCnt="5"
                 senseidx="0"
                 lexid="0"
                 sensekey="blow%2:43:00::"
@@ -1766,14 +1826,15 @@
                 n="1"
                 synset="oewn-02775199-v"
                 lexicalized="true"
-                verbFrames="nonreferential vii vii-pp">
+                dc:identifier="blow%2:43:00::"
+                verbFrames="nonreferential vii vii-pp"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-blow__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-shade_off-v">
          <Lemma writtenForm="shade off" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-shade_off%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shade_off%2:43:00::"
                 order="2"
@@ -1781,12 +1842,12 @@
                 n="0"
                 synset="oewn-02774660-v"
                 lexicalized="true"
+                dc:identifier="shade_off%2:43:00::"
                 verbFrames="vtaa vtia vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-ray-v">
          <Lemma writtenForm="ray" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-ray%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="ray%2:43:00::"
                 order="0"
@@ -1794,14 +1855,14 @@
                 n="0"
                 synset="oewn-02774389-v"
                 lexicalized="true"
+                dc:identifier="ray%2:43:00::"
                 verbFrames="vtii">
             <SenseRelation relType="derivation" target="oewn-ray__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-put_out-v">
          <Lemma writtenForm="put out" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-put_out%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="put_out%2:43:00::"
                 order="1"
@@ -1809,6 +1870,7 @@
                 n="4"
                 synset="oewn-02766453-v"
                 lexicalized="true"
+                dc:identifier="put_out%2:43:00::"
                 verbFrames="vtai">
             <SenseRelation relType="also" target="oewn-put__2.35.05.."/>
          </Sense>
@@ -1818,8 +1880,7 @@
             <Pronunciation variety="US" phonemic="true">ˈʃædoʊ</Pronunciation>
             <Pronunciation variety="GB" phonemic="true">ˈʃædəʊ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-shadow%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shadow%2:43:00::"
                 order="0"
@@ -1827,6 +1888,7 @@
                 n="1"
                 synset="oewn-02774660-v"
                 lexicalized="true"
+                dc:identifier="shadow%2:43:00::"
                 verbFrames="vtaa vtia vtii">
             <SenseRelation relType="derivation" target="oewn-shadow__1.15.00.."/>
             <SenseRelation relType="derivation" target="oewn-shadow__1.26.01.."/>
@@ -1834,8 +1896,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-fog_up-v">
          <Lemma writtenForm="fog up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-fog_up%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="fog_up%2:43:00::"
                 order="0"
@@ -1843,6 +1904,7 @@
                 n="0"
                 synset="oewn-02777846-v"
                 lexicalized="true"
+                dc:identifier="fog_up%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-outshine-v">
@@ -1850,8 +1912,7 @@
             <Pronunciation phonemic="true">aʊtˈʃaɪn</Pronunciation>
          </Lemma>
          <Form writtenForm="outshone"/>
-         <Sense dc:identifier="oewn-outshine%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="outshine%2:43:00::"
                 order="0"
@@ -1859,6 +1920,7 @@
                 n="0"
                 synset="oewn-02769124-v"
                 lexicalized="true"
+                dc:identifier="outshine%2:43:00::"
                 verbFrames="vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-snow-v">
@@ -1866,7 +1928,7 @@
             <Pronunciation variety="GB" phonemic="true">snəʊ</Pronunciation>
             <Pronunciation variety="US" phonemic="true">snoʊ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-snow%2:43:00::"
+         <Sense tagCnt="10"
                 senseidx="0"
                 lexid="0"
                 sensekey="snow%2:43:00::"
@@ -1875,15 +1937,16 @@
                 n="0"
                 synset="oewn-02764935-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="snow%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-snow__1.27.00.."/>
             <SenseRelation relType="derivation" target="oewn-snow__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-combust-v">
          <Lemma writtenForm="combust" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-combust%2:43:02::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="combust%2:43:01::"
                 order="1"
@@ -1891,13 +1954,13 @@
                 n="0"
                 synset="oewn-02768426-v"
                 lexicalized="true"
+                dc:identifier="combust%2:43:02::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="derivation" target="oewn-combustible__3.00.00.."/>
             <SenseRelation relType="derivation" target="oewn-combustive__5.00.00.combustible.00"/>
             <SenseRelation relType="derivation" target="oewn-combustion__1.04.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-combust%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="combust%2:43:02::"
                 order="4"
@@ -1905,6 +1968,7 @@
                 n="1"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="combust%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-combustible__3.00.00.."/>
             <SenseRelation relType="derivation" target="oewn-combustive__5.00.00.combustible.00"/>
@@ -1915,8 +1979,7 @@
          <Form writtenForm="spat"/>
          <Form writtenForm="spitted"/>
          <Form writtenForm="spitting"/>
-         <Sense dc:identifier="oewn-spit%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="spit%2:43:00::"
                 order="1"
@@ -1924,6 +1987,7 @@
                 n="2"
                 synset="oewn-02763786-v"
                 lexicalized="true"
+                dc:identifier="spit%2:43:00::"
                 verbFrames="nonreferential"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-char-v">
@@ -1933,8 +1997,7 @@
          </Lemma>
          <Form writtenForm="charred"/>
          <Form writtenForm="charring"/>
-         <Sense dc:identifier="oewn-char%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="char%2:43:00::"
                 order="0"
@@ -1942,13 +2005,14 @@
                 n="0"
                 synset="oewn-02777955-v"
                 lexicalized="true"
+                dc:identifier="char%2:43:00::"
                 verbFrames="vtai">
             <SenseRelation relType="derivation" target="oewn-char__1.27.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-spark-v">
          <Lemma writtenForm="spark" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-spark%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="spark%2:43:00::"
@@ -1957,6 +2021,7 @@
                 n="1"
                 synset="oewn-02772645-v"
                 lexicalized="true"
+                dc:identifier="spark%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-spark__1.17.00.."/>
             <SenseRelation relType="derivation" target="oewn-spark__1.19.00.."/>
@@ -1965,8 +2030,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-kindle-v">
          <Lemma writtenForm="kindle" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-kindle%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="kindle%2:43:01::"
                 order="0"
@@ -1974,12 +2038,12 @@
                 n="0"
                 synset="oewn-02767643-v"
                 lexicalized="true"
+                dc:identifier="kindle%2:43:01::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-kindling__1.27.00.."/>
             <SenseRelation relType="derivation" target="oewn-kindling__1.04.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-kindle%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="kindle%2:43:02::"
                 order="0"
@@ -1987,6 +2051,7 @@
                 n="1"
                 synset="oewn-02767330-v"
                 lexicalized="true"
+                dc:identifier="kindle%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-scintillate-v">
@@ -1994,8 +2059,7 @@
             <Pronunciation variety="GB" phonemic="true">ˈsɪntɪleɪt</Pronunciation>
             <Pronunciation variety="US" phonemic="true">ˈsɪntəleɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-scintillate%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="scintillate%2:43:01::"
                 order="0"
@@ -2003,11 +2067,11 @@
                 n="0"
                 synset="oewn-02773718-v"
                 lexicalized="true"
+                dc:identifier="scintillate%2:43:01::"
                 verbFrames="vtii">
             <SenseRelation relType="derivation" target="oewn-scintillation__1.11.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-scintillate%2:43:03::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="scintillate%2:43:02::"
                 order="1"
@@ -2015,12 +2079,12 @@
                 n="1"
                 synset="oewn-02772348-v"
                 lexicalized="true"
+                dc:identifier="scintillate%2:43:03::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-scintillant__5.00.00.bright.00"/>
             <SenseRelation relType="derivation" target="oewn-scintillation__1.07.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-scintillate%2:43:00::"
-                senseidx="2"
+         <Sense senseidx="2"
                 lexid="3"
                 sensekey="scintillate%2:43:03::"
                 order="2"
@@ -2028,6 +2092,7 @@
                 n="2"
                 synset="oewn-02770723-v"
                 lexicalized="true"
+                dc:identifier="scintillate%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-scintillant__5.00.00.bright.00"/>
             <SenseRelation relType="derivation" target="oewn-scintillation__1.07.01.."/>
@@ -2036,8 +2101,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-blow_out-v">
          <Lemma writtenForm="blow out" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-blow_out%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="blow_out%2:43:01::"
                 order="1"
@@ -2045,9 +2109,9 @@
                 n="1"
                 synset="oewn-02767855-v"
                 lexicalized="true"
+                dc:identifier="blow_out%2:43:00::"
                 verbFrames="vtai vtii"/>
-         <Sense dc:identifier="oewn-blow_out%2:43:01::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="blow_out%2:43:02::"
                 order="0"
@@ -2055,14 +2119,14 @@
                 n="2"
                 synset="oewn-02766970-v"
                 lexicalized="true"
+                dc:identifier="blow_out%2:43:01::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-inflame-v">
          <Lemma writtenForm="inflame" partOfSpeech="v">
             <Pronunciation phonemic="true">ɪnˈfleɪm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-inflame%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="inflame%2:43:01::"
                 order="1"
@@ -2070,11 +2134,11 @@
                 n="1"
                 synset="oewn-02767643-v"
                 lexicalized="true"
+                dc:identifier="inflame%2:43:01::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-inflammation__1.04.01.."/>
          </Sense>
-         <Sense dc:identifier="oewn-inflame%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="inflame%2:43:02::"
                 order="3"
@@ -2082,14 +2146,14 @@
                 n="2"
                 synset="oewn-02767330-v"
                 lexicalized="true"
+                dc:identifier="inflame%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="derivation" target="oewn-inflammation__1.04.01.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-gutter-v">
          <Lemma writtenForm="gutter" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-gutter%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="gutter%2:43:00::"
                 order="0"
@@ -2097,14 +2161,14 @@
                 n="0"
                 synset="oewn-02775035-v"
                 lexicalized="true"
+                dc:identifier="gutter%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-flame-v">
          <Lemma writtenForm="flame" partOfSpeech="v">
             <Pronunciation phonemic="true">fleɪm</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-flame%2:43:01::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="1"
                 sensekey="flame%2:43:01::"
                 order="1"
@@ -2112,11 +2176,12 @@
                 n="0"
                 synset="oewn-02768939-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="flame%2:43:01::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-149 oewn-st-150">
             <SenseRelation relType="also" target="oewn-flame_up__2.43.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-flame%2:43:00::"
-                senseidx="1"
+         <Sense senseidx="1"
                 lexid="2"
                 sensekey="flame%2:43:02::"
                 order="0"
@@ -2124,6 +2189,7 @@
                 n="1"
                 synset="oewn-02765401-v"
                 lexicalized="true"
+                dc:identifier="flame%2:43:00::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-flame__1.22.00.."/>
             <SenseRelation relType="derivation" target="oewn-flaming__1.22.00.."/>
@@ -2134,7 +2200,7 @@
             <Pronunciation variety="GB" phonemic="true">klɪə(ɹ)</Pronunciation>
             <Pronunciation variety="US" phonemic="true">klɪɹ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-clear%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="0"
                 sensekey="clear%2:43:00::"
@@ -2143,14 +2209,14 @@
                 n="2"
                 synset="oewn-02777127-v"
                 lexicalized="true"
+                dc:identifier="clear%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-brighten-v">
          <Lemma writtenForm="brighten" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈbɹaɪtən</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-brighten%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="brighten%2:43:00::"
                 order="3"
@@ -2158,14 +2224,14 @@
                 n="1"
                 synset="oewn-02777127-v"
                 lexicalized="true"
+                dc:identifier="brighten%2:43:00::"
                 verbFrames="nonreferential vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-deflagrate-v">
          <Lemma writtenForm="deflagrate" partOfSpeech="v">
             <Pronunciation variety="GB" phonemic="true">ˈdɛfləɡɹeɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-deflagrate%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="deflagrate%2:43:00::"
                 order="0"
@@ -2173,13 +2239,14 @@
                 n="0"
                 synset="oewn-02778268-v"
                 lexicalized="true"
+                dc:identifier="deflagrate%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="derivation" target="oewn-deflagration__1.22.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-burn_up-v">
          <Lemma writtenForm="burn up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-burn_up%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="burn_up%2:43:00::"
@@ -2188,14 +2255,14 @@
                 n="0"
                 synset="oewn-02768764-v"
                 lexicalized="true"
+                dc:identifier="burn_up%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-quench-v">
          <Lemma writtenForm="quench" partOfSpeech="v">
             <Pronunciation phonemic="true">kwɛnt͡ʃ</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-quench%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="quench%2:43:00::"
                 order="3"
@@ -2203,6 +2270,7 @@
                 n="1"
                 synset="oewn-02767855-v"
                 lexicalized="true"
+                dc:identifier="quench%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="derivation" target="oewn-quenching__1.04.00.."/>
          </Sense>
@@ -2211,7 +2279,7 @@
          <Lemma writtenForm="blight" partOfSpeech="v">
             <Pronunciation phonemic="true">blaɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-blight%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="blight%2:43:00::"
@@ -2220,6 +2288,7 @@
                 n="0"
                 synset="oewn-02777278-v"
                 lexicalized="true"
+                dc:identifier="blight%2:43:00::"
                 verbFrames="vtia vtii">
             <SenseRelation relType="derivation" target="oewn-blight__1.26.01.."/>
             <SenseRelation relType="derivation" target="oewn-blight__1.26.00.."/>
@@ -2227,8 +2296,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-hail-v">
          <Lemma writtenForm="hail" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-hail%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="hail%2:43:00::"
                 order="0"
@@ -2236,14 +2304,15 @@
                 n="4"
                 synset="oewn-02765073-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="hail%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-hail__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-run_dry-v">
          <Lemma writtenForm="run dry" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-run_dry%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="run_dry%2:43:00::"
                 order="0"
@@ -2251,12 +2320,12 @@
                 n="0"
                 synset="oewn-02777714-v"
                 lexicalized="true"
+                dc:identifier="run_dry%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-mizzle-v">
          <Lemma writtenForm="mizzle" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-mizzle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="mizzle%2:43:00::"
                 order="1"
@@ -2264,13 +2333,15 @@
                 n="0"
                 synset="oewn-02763433-v"
                 lexicalized="true"
-                verbFrames="nonreferential">
+                dc:identifier="mizzle%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122">
             <SenseRelation relType="derivation" target="oewn-mizzle__1.19.00.."/>
          </Sense>
       </LexicalEntry>
       <LexicalEntry id="oewn-set_ablaze-v">
          <Lemma writtenForm="set ablaze" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-set_ablaze%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="set_ablaze%2:43:00::"
@@ -2279,12 +2350,12 @@
                 n="0"
                 synset="oewn-02766097-v"
                 lexicalized="true"
+                dc:identifier="set_ablaze%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-reek-v">
          <Lemma writtenForm="reek" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-reek%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="reek%2:43:00::"
                 order="0"
@@ -2292,6 +2363,7 @@
                 n="3"
                 synset="oewn-02774078-v"
                 lexicalized="true"
+                dc:identifier="reek%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-coal-v">
@@ -2299,8 +2371,7 @@
             <Pronunciation variety="GB" phonemic="true">kəʊl</Pronunciation>
             <Pronunciation variety="US" phonemic="true">koʊl</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-coal%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="coal%2:43:00::"
                 order="1"
@@ -2308,6 +2379,7 @@
                 n="0"
                 synset="oewn-02777955-v"
                 lexicalized="true"
+                dc:identifier="coal%2:43:00::"
                 verbFrames="vtai">
             <SenseRelation relType="derivation" target="oewn-coal__1.27.00.."/>
             <SenseRelation relType="derivation" target="oewn-coal__1.17.00.."/>
@@ -2317,8 +2389,7 @@
          <Lemma writtenForm="twinkle" partOfSpeech="v">
             <Pronunciation phonemic="true">ˈtwɪŋkl̩</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-twinkle%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="twinkle%2:43:00::"
                 order="0"
@@ -2326,7 +2397,9 @@
                 n="1"
                 synset="oewn-02770723-v"
                 lexicalized="true"
-                verbFrames="vii">
+                dc:identifier="twinkle%2:43:00::"
+                verbFrames="vii"
+                verbTemplates="oewn-st-8">
             <SenseRelation relType="derivation" target="oewn-twinkle__1.11.00.."/>
             <SenseRelation relType="derivation" target="oewn-twinkler__1.17.00.."/>
          </Sense>
@@ -2336,7 +2409,7 @@
             <Pronunciation variety="GB" phonemic="true">əbˈzɔːb</Pronunciation>
             <Pronunciation variety="US" phonemic="true">æbˈsɔɹb</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-absorb%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="absorb%2:43:00::"
@@ -2345,6 +2418,7 @@
                 n="5"
                 synset="oewn-02771422-v"
                 lexicalized="true"
+                dc:identifier="absorb%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="antonym" target="oewn-emit__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-absorptive__3.00.00.."/>
@@ -2355,7 +2429,7 @@
       </LexicalEntry>
       <LexicalEntry id="oewn-catch_fire-v">
          <Lemma writtenForm="catch fire" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-catch_fire%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="catch_fire%2:43:00::"
@@ -2364,12 +2438,12 @@
                 n="0"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="catch_fire%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-snuff_out-v">
          <Lemma writtenForm="snuff out" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-snuff_out%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="snuff_out%2:43:00::"
                 order="0"
@@ -2377,11 +2451,12 @@
                 n="1"
                 synset="oewn-02767855-v"
                 lexicalized="true"
+                dc:identifier="snuff_out%2:43:00::"
                 verbFrames="vtai vtii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-flare_up-v">
          <Lemma writtenForm="flare up" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-flare_up%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="flare_up%2:43:00::"
@@ -2390,13 +2465,14 @@
                 n="0"
                 synset="oewn-02770203-v"
                 lexicalized="true"
+                dc:identifier="flare_up%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-ignite-v">
          <Lemma writtenForm="ignite" partOfSpeech="v">
             <Pronunciation phonemic="true">ɪɡˈnaɪt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-ignite%2:43:00::"
+         <Sense tagCnt="2"
                 senseidx="0"
                 lexid="1"
                 sensekey="ignite%2:43:01::"
@@ -2405,6 +2481,7 @@
                 n="0"
                 synset="oewn-02765572-v"
                 lexicalized="true"
+                dc:identifier="ignite%2:43:00::"
                 verbFrames="vtai vtii">
             <SenseRelation relType="antonym" target="oewn-extinguish__2.43.00.."/>
             <SenseRelation relType="derivation" target="oewn-ignitible__5.00.00.combustible.00"/>
@@ -2416,7 +2493,7 @@
             <SenseRelation relType="derivation" target="oewn-ignitor__1.27.00.."/>
             <SenseRelation relType="derivation" target="oewn-ignitor__1.06.00.."/>
          </Sense>
-         <Sense dc:identifier="oewn-ignite%2:43:01::"
+         <Sense tagCnt="1"
                 senseidx="1"
                 lexid="2"
                 sensekey="ignite%2:43:02::"
@@ -2425,6 +2502,7 @@
                 n="1"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="ignite%2:43:01::"
                 verbFrames="vii">
             <SenseRelation relType="derivation" target="oewn-ignitible__5.00.00.combustible.00"/>
             <SenseRelation relType="derivation" target="oewn-ignitable__5.00.00.combustible.00"/>
@@ -2435,7 +2513,7 @@
          <Lemma writtenForm="erupt" partOfSpeech="v">
             <Pronunciation phonemic="true">ɪˈɹʌpt</Pronunciation>
          </Lemma>
-         <Sense dc:identifier="oewn-erupt%2:43:00::"
+         <Sense tagCnt="1"
                 senseidx="0"
                 lexid="0"
                 sensekey="erupt%2:43:00::"
@@ -2444,12 +2522,12 @@
                 n="2"
                 synset="oewn-02766580-v"
                 lexicalized="true"
+                dc:identifier="erupt%2:43:00::"
                 verbFrames="vii"/>
       </LexicalEntry>
       <LexicalEntry id="oewn-shower_down-v">
          <Lemma writtenForm="shower down" partOfSpeech="v"/>
-         <Sense dc:identifier="oewn-shower_down%2:43:00::"
-                senseidx="0"
+         <Sense senseidx="0"
                 lexid="0"
                 sensekey="shower_down%2:43:00::"
                 order="1"
@@ -2457,7 +2535,9 @@
                 n="0"
                 synset="oewn-02763609-v"
                 lexicalized="true"
-                verbFrames="nonreferential"/>
+                dc:identifier="shower_down%2:43:00::"
+                verbFrames="nonreferential"
+                verbTemplates="oewn-st-122"/>
       </LexicalEntry>
       <Synset id="oewn-02762516-v"
               ili="i35464"
