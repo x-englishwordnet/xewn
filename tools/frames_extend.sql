@@ -1,0 +1,43 @@
+ALTER TABLE vvframes ADD COLUMN `framename` VARCHAR(20) NULL DEFAULT NULL AFTER `frame`, ADD UNIQUE INDEX `name_UNIQUE` (`framename` ASC) VISIBLE;
+
+UPDATE vframes SET framename = 'vii' 				WHERE frameid = 1;
+UPDATE vframes SET framename = 'via' 				WHERE frameid = 2;
+UPDATE vframes SET framename = 'nonreferential' 	WHERE frameid = 3;
+UPDATE vframes SET framename = 'vii-pp' 			WHERE frameid = 4;
+UPDATE vframes SET framename = 'vtii-adj' 			WHERE frameid = 5;
+UPDATE vframes SET framename = 'vii-adj' 			WHERE frameid = 6;
+UPDATE vframes SET framename = 'via-adj' 			WHERE frameid = 7;
+UPDATE vframes SET framename = 'vtai' 				WHERE frameid = 8;
+UPDATE vframes SET framename = 'vtaa' 				WHERE frameid = 9;
+UPDATE vframes SET framename = 'vtia' 				WHERE frameid = 10;
+UPDATE vframes SET framename = 'vtii' 				WHERE frameid = 11;
+UPDATE vframes SET framename = 'vii-to' 			WHERE frameid = 12;
+UPDATE vframes SET framename = 'via-on-inanim' 		WHERE frameid = 13;
+UPDATE vframes SET framename = 'ditransitive' 		WHERE frameid = 14;
+UPDATE vframes SET framename = 'vtai-to' 			WHERE frameid = 15;
+UPDATE vframes SET framename = 'vtai-from' 			WHERE frameid = 16;
+UPDATE vframes SET framename = 'vtaa-with' 			WHERE frameid = 17;
+UPDATE vframes SET framename = 'vtaa-of' 			WHERE frameid = 18;
+UPDATE vframes SET framename = 'vtai-on' 			WHERE frameid = 19;
+UPDATE vframes SET framename = 'vtaa-pp' 			WHERE frameid = 20;
+UPDATE vframes SET framename = 'vtai-pp' 			WHERE frameid = 21;
+UPDATE vframes SET framename = 'via-pp' 			WHERE frameid = 22;
+UPDATE vframes SET framename = 'vibody' 			WHERE frameid = 23;
+UPDATE vframes SET framename = 'vtaa-to-inf' 		WHERE frameid = 24;
+UPDATE vframes SET framename = 'vtaa-inf' 			WHERE frameid = 25;
+UPDATE vframes SET framename = 'via-that' 			WHERE frameid = 26;
+UPDATE vframes SET framename = 'via-to' 			WHERE frameid = 27;
+UPDATE vframes SET framename = 'via-to-inf' 		WHERE frameid = 28;
+UPDATE vframes SET framename = 'via-whether-inf'	WHERE frameid = 29;
+UPDATE vframes SET framename = 'vtaa-into-ger' 		WHERE frameid = 30;
+UPDATE vframes SET framename = 'vtai-with' 			WHERE frameid = 31;
+UPDATE vframes SET framename = 'via-inf' 			WHERE frameid = 32;
+UPDATE vframes SET framename = 'via-ger' 			WHERE frameid = 33;
+UPDATE vframes SET framename = 'nonreferential-sent' WHERE frameid = 34;
+UPDATE vframes SET framename = 'vii-inf' 			WHERE frameid = 35;
+
+UPDATE vframes SET framename = 'via-at' 			WHERE frameid = 36;
+UPDATE vframes SET framename = 'via-for' 			WHERE frameid = 37;
+UPDATE vframes SET framename = 'via-on-anim' 		WHERE frameid = 38;
+UPDATE vframes SET framename = 'via-out-of' 		WHERE frameid = 39;
+

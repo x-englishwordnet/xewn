@@ -10,6 +10,6 @@ for f in $*; do
 	#./transform3.sh add-verb_frame-attr.xsl - - |
 	./transform3.sh rename-verb_frame.xsl - - |
 	./transform3.sh add-verb_template-decl.xsl - - |
-	./transform3.sh add-verb_template-attr.xsl - - 
-	#| ./transform3.sh remove-syntacticbehaviourref.xsl - -
+	./transform3.sh add-verb_template-attr.xsl - - #|
+	#./transform3.sh remove-syntacticbehaviourref.xsl - -
 done

@@ -3,6 +3,7 @@
 COMPAT_POINTER="-compat:pointer"
 COMPAT_LEXID="-compat:lexid"
 COMPAT_LEXID=
+COMPAT_VERBFRAME="-compat:verbframe"
 
 IN="$1"
 if [ -z "$1" ]; then
@@ -16,4 +17,4 @@ if [ -z "$2" ]; then
 fi
 echo "DIR: $OUTDIR" 1>&2;
 
-java -ea -jar ewn-grind.jar ${COMPAT_POINTER} ${COMPAT_LEXID} "${IN}" "${OUTDIR}"
+java -ea -jar ewn-grind.jar ${COMPAT_POINTER} ${COMPAT_LEXID} ${COMPAT_VERBFRAME} "${IN}" "${OUTDIR}"

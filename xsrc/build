@@ -1,9 +1,9 @@
 UPSTREAM:
-commit d133c1088be45a6d9e714906df8c0d3b4c18223e
-Merge: 4853f3a 5969c29
+commit 4e1e0ba22ba9478067fcb762001404e9c8d1e4b2
+Merge: d133c10 2f7e879
 Author: John McCrae <john@mccr.ae>
-Date:   Thu Oct 7 12:06:41 2021 +0100
+Date:   Mon Oct 18 16:35:37 2021 +0100
 
-    Merge pull request #765 from globalwordnet/issue-759-2
+    Merge pull request #769 from ekaf/Wordnet_name_in_wndb_license
     
-    Change prefix from ewn to oewn
+    Spell Wordnet with lowercase "n" in WNDB license

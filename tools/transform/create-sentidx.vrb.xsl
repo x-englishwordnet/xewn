@@ -18,6 +18,15 @@
 	</xsl:template>
 
 	<xsl:template match="Sense">
+		<xsl:if test="$debug=true()">
+			<xsl:message>
+				<xsl:text>sensekey </xsl:text>
+				<xsl:value-of select="@sensekey" />
+				<xsl:text> template=</xsl:text>
+				<xsl:value-of select="translate(normalize-space(translate(@verbTemplates,'oewn-st-','')),' ',',')" />
+			</xsl:message>
+		</xsl:if>
+	
 		<xsl:value-of select="@sensekey" />
 		<xsl:text> </xsl:text>
 		<xsl:value-of select="translate(normalize-space(translate(@verbTemplates,'oewn-st-','')),' ',',')" />
