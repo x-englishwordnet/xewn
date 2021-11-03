@@ -5,5 +5,7 @@ upstream/
 dist/
 doc/
 test/
+wndb/
+wndb_compat/
 _*.*
 
