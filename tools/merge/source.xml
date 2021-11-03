@@ -6,9 +6,9 @@
 	xmlns:dc="https://globalwordnet.github.io/schemas/dc/" >
 
 	<Lexicon id="xewn"
-		label="English WordNet"
+		label="Open English Wordnet"
 		language="en"
-		version="2019"
+		version="2021"
 		email="john@mccr.ae"
 		license="https://wordnet.princeton.edu/license-and-commercial-use"
 		url="https://github.com/globalwordnet/english-wordnet"

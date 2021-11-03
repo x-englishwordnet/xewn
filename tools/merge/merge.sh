@@ -11,7 +11,7 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
-XSL=merge-lexfiles.xsl
+XSL=merge.xsl
 echo -e "${M}XSL: $XSL${Z}" 1>&2;
 
 DIR="$1"

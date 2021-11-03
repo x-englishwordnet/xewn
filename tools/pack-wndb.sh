@@ -59,7 +59,7 @@ echo
 
 echo -e "${Y}pack to `basename ${TAR_ARCHIVE_MIN}`${Z}"
 rm -f ${TAR_ARCHIVE_MIN}
-tar czhf ${TAR_ARCHIVE_MIN} -C ${DATADIR} --exclude dict/index.sense.legacy --exclude dict/index.sense.pools --exclude dict/lexnames --exclude dict/sensemap.txt --exclude dict/cntlist  --exclude dict/cntlist.rev dict -C ${DATADIR} LICENSE.md
+tar czhf ${TAR_ARCHIVE_MIN} -C ${DATADIR} --exclude --exclude dict/lexnames --exclude dict/sensemap.txt --exclude dict/cntlist  --exclude dict/cntlist.rev dict -C ${DATADIR} LICENSE.md
 echo -e "${M}"
 tar tvf ${TAR_ARCHIVE_MIN}
 echo -en "${Z}"
@@ -68,7 +68,7 @@ echo
 
 echo -e "${Y}pack to `basename ${ZIP_ARCHIVE_MIN}`${Z}"
 rm -f ${ZIP_ARCHIVE_MIN}
-zip -j ${ZIP_ARCHIVE_MIN} ${DATADIR}/dict/* -x "*index.sense.legacy" -x "*index.sense.pools" -x "*lexnames" -x "*sensemap.txt" -x "*cntlist" -x "*cntlist.rev"
+zip -j ${ZIP_ARCHIVE_MIN} ${DATADIR}/dict/* -x "*lexnames" -x "*sensemap.txt" -x "*cntlist" -x "*cntlist.rev"
 echo -e "${M}"
 unzip -l ${ZIP_ARCHIVE_MIN}
 echo -en "${Z}"

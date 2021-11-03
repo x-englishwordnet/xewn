@@ -99,6 +99,7 @@
 			<xsd:attribute name='subcat' type='SyntacticBehaviourIDREFSType' use='optional'/>
 			<xsd:attribute name='lexicalized' type='xsd:boolean' default='true' use='optional' />
 			<xsd:attribute ref='dc:identifier' use='optional' />
+			<xsd:attribute name='lexfile' type='LexFileType' use='optional' />
 			<xsd:attributeGroup ref='Meta' />
 		</xsd:complexType>
 	</xsd:element>
@@ -116,7 +117,7 @@
 			<xsd:attribute ref='ili' use='required' />
 			<xsd:attribute name='partOfSpeech' use='optional' type='PartOfSpeechType' />
 			<xsd:attribute name='members' type='LocalSenseIDREFSType' use='optional'/>
-			<xsd:attribute name='lexfile' type='xsd:string' use='optional'/>
+			<xsd:attribute name='lexfile' type='LexFileType' use='optional'/>
 			<xsd:attribute ref='dc:subject' use='optional' />
 			<xsd:attribute name='lexicalized' type='xsd:boolean' default='true' use='optional' />
 			<xsd:attributeGroup ref='Meta' />

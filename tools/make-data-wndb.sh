@@ -66,10 +66,10 @@ for k in ${!dests[@]}; do
 	# dir sents.vrb + sentidx.vrb + sensemap.txt
 	pushd ${TRANSFORMERDIR} > /dev/null
 	echo -e "${C}* Transform XMLs sents.vrb + sentidx.vrb${Z}"
-	./transform.sh create-sent.vrb.xsl ${wndbdir}/sents.vrb ${MERGED}
-	./transform.sh create-sentidx.vrb.xsl - ${MERGED} | sort > ${wndbdir}/sentidx.vrb
-	echo -e "${C}* Transform XMLs sensemap${Z}"
-	./transform.sh create-sensemap_txt.xsl ${wndbdir}/sensemap.txt ${MERGED}
+	#./transform.sh create-sent.vrb.xsl ${wndbdir}/sents.vrb ${MERGED}
+	#./transform.sh create-sentidx.vrb.xsl - ${MERGED} | sort > ${wndbdir}/sentidx.vrb
+	# echo -e "${C}* Transform XMLs sensemap${Z}"
+	# ./transform.sh create-sensemap_txt.xsl ${wndbdir}/sensemap.txt ${MERGED}
 	popd > /dev/null
 
 	# grind

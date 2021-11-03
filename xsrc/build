@@ -1,9 +1,0 @@
-UPSTREAM:
-commit 4e1e0ba22ba9478067fcb762001404e9c8d1e4b2
-Merge: d133c10 2f7e879
-Author: John McCrae <john@mccr.ae>
-Date:   Mon Oct 18 16:35:37 2021 +0100
-
-    Merge pull request #769 from ekaf/Wordnet_name_in_wndb_license
-    
-    Spell Wordnet with lowercase "n" in WNDB license

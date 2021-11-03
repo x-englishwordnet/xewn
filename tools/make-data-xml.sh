@@ -17,11 +17,11 @@ source ${THISDIR}/home.sh
 SRCDIR=${HOMEDIR}/src/xml
 
 # out
-XSRCDIR=${HOMEDIR}/xsrc
+#XSRCDIR=${HOMEDIR}/xsrc
 MERGEDDIR=${HOMEDIR}/merged
 WNDBDIR=${HOMEDIR}/wndb
 WNDBCOMPATDIR=${HOMEDIR}/wndb_compat
-mkdir -p "${XSRCDIR}"
+#mkdir -p "${XSRCDIR}"
 mkdir -p "${MERGEDDIR}"
 mkdir -p "${WNDBDIR}"
 mkdir -p "${WNDBCOMPATDIR}"
@@ -49,24 +49,25 @@ popd > /dev/null
 # TRANSFORM
 echo -e "${C}* Transform XMLs${Z}"
 pushd ${TRANSFORMERDIR} > /dev/null
-./pipeline3-all.sh "$SRCDIR" "${XSRCDIR}"
+echo 'none'
+#./pipeline3-all.sh "$SRCDIR" "${XSRCDIR}"
 popd > /dev/null
 
 # MERGE
 echo -e "${C}* Merge XML${Z}"
 pushd ${MERGERDIR} > /dev/null
-./merge.sh "${XSRCDIR}" $MERGED
+./merge.sh "${SRCDIR}" $MERGED
 popd > /dev/null
 
 # VALIDATE
 echo -e "${C}* Validate merged XML${Z}"
 pushd ${VALIDATORDIR} > /dev/null
-./validate2.sh 1.10b/xEWN-LMF-1.10.xsd $MERGED
+./validate2.sh 1.1b/EWN-LMF-1.1.xsd $MERGED
 
 popd > /dev/null
 
 # build stamp
-cp -p ${HOMEDIR}/src/build ${XSRCDIR}/
+#cp -p ${HOMEDIR}/src/build ${XSRCDIR}/
 cp -p ${HOMEDIR}/src/build ${MERGEDDIR}/
 
 echo "done"

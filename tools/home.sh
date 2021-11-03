@@ -22,7 +22,6 @@ echo -e "${B}
  ├─ upstream (in)
  │  ├─ src
  │
- ├─ xsrc (out)
  ├─ merged (out)
  ├─ wndb (out)
  ├─ wndb_compat (out)
