@@ -2,7 +2,7 @@
 <img width="256" height="256" src="images/xewn2.png">
 </p>
 
-# X English WordNet
+# X Open English Wordnet
 
 <p align="center">
 <sub>
@@ -11,15 +11,14 @@
 </p>
 
 
-*'Shadow'* English WordNet can be thought of as a  fork of upstream  [globalwordnet/english-wordnet](https://github.com/globalwordnet/english-wordnet). But this is misleading as it does not live a life of its own. Rather, it brings extra data, tools and constraints to the core project. **The set of core data is exactly the same.**
+Xtended Open English Wordnet builds on upstream  [globalwordnet/english-wordnet](https://github.com/globalwordnet/english-wordnet). It does not live a life of its own. Rather, it brings extra data, tools and constraints to the core project. **The set of core data is exactly the same.**
 
-Please note this independent initiative is not endorsed by the Global WordNet Association. Data issues should be referred to the upstream project.
+Please note this independent initiative is not endorsed by the Global Wordnet Association. Data issues should be referred to the upstream project.
 
 ***
 
-This project  is designed to produce a __transformed__ version of English WordNet data in the form of
+This project  is designed to produce a __transformed__ version of Open English Wordnet data in the form of
 
-- augmented XML files in the __xsrc__ directory
 - WordNet-format data in the __wndb__ directory
 - SQL versions
 

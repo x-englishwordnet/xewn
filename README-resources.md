@@ -2,17 +2,17 @@
 <img width="256" height="256" src="images/xewn2.png">
 </p>
 
-# X English WordNet - Resources
+# X Open English Wordnet - Resources
 
 <p>
 <sub>
-<i>X</i> stands for '<b>trans</b>formed' (as in <i>xform</i>) or 'e<b>X</b>tended', so while it may be pronounced '<i>xoon</i>', it must be undertood as <b>XSLT-transformed and Extended English WordNet.</b>
+<i>X</i> stands for '<b>trans</b>formed' (as in <i>xform</i>) or 'e<b>X</b>tended'</b>
 </sub>
 </p>
 
-EWN English WordNet [home](https://github.com/globalwordnet/english-wordnet).
+OEWN English WordNet [home](https://github.com/globalwordnet/english-wordnet).
 
-XEWN *'Shadow'* X-English WordNet [home](https://github.com/x-englishwordnet).
+XEWN X-Open English Wordnet [home](https://github.com/x-englishwordnet).
 
 ### Data
 
@@ -42,6 +42,10 @@ SQLUNET [WNDB to SQL builder](https://sourceforge.net/projects/sqlunetbuilder/)
 
 XEWN [XML jwi](https://github.com/x-englishwordnet/jwi)
 
+Parse  [WNDB parse](https://github.com/x-englishwordnet/parse)
+
+### Obsoleted Libraries
+
 XEWN [XML beans](https://github.com/x-englishwordnet/xewn-beans)
 
 XEWN [XML jaxb](https://github.com/x-englishwordnet/xewn-jaxb)
@@ -49,5 +53,3 @@ XEWN [XML jaxb](https://github.com/x-englishwordnet/xewn-jaxb)
 EWN [XML beans](https://github.com/x-englishwordnet/ewn-beans)
 
 EWN [XML jaxb](https://github.com/x-englishwordnet/ewn-jaxb)
-
-Parse  [WNDB parse](https://github.com/x-englishwordnet/parse)

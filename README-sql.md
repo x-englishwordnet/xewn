@@ -2,7 +2,7 @@
 <img width="256" height="256" src="images/xewn2.png">
 </p>
 
-# X English WordNet
+# X Open English Wordnet
 
 ## SQL
 
