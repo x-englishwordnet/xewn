@@ -78,7 +78,7 @@
 											<xsl:copy-of select="$first/Lemma" />
 											<xsl:copy-of select="$first/Form" />
 											<xsl:for-each select="$group/Sense">
-												<xsl:sort select="./@n" />
+												<xsl:sort data-type="number" select="./@n" />
 												<xsl:copy select=".">
 													<xsl:copy-of select="./@*" />
 													<xsl:attribute name="lexfile">
@@ -118,7 +118,7 @@
 									<xsl:choose>
 										<xsl:when test='$fromtag = true()'>
 											<xsl:for-each select="$group/Sense">
-											    <xsl:sort select="./@n" />
+											    <xsl:sort data-type="number" select="./@n" />
 												<xsl:copy select=".">
 													<xsl:copy-of select="./@*" />
 													<xsl:attribute name="lexfile">
