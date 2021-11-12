@@ -19,12 +19,15 @@ libraries marked ![Maven Central](images/nexus_icon2.png) have been deployed to
 
 NLTK works well with WNDB files.
 
-### Work with XML src files (EWN) --OBSOLETED--
+### Work with XML src files (EWN)
+
+These libraries work with OEWN 2021 files or the merged file. They provide Java objects from the XML files.
 
 - [EWN Beans](https://github.com/x-englishwordnet/ewn-beans) ![Maven Central](images/nexus_icon2.png) 
 - [EWN JAXB](https://github.com/x-englishwordnet/ewn-jaxb)(Java Architecture Binding) ![Maven Central](images/nexus_icon2.png) 
 
 ### Work with XML xsrc files (XEWN) --OBSOLETED--
+This is obsoleted as XEWN does not provide enhanced XML files anymore.
 
 - [XEWN Beans](https://github.com/x-englishwordnet/xewn-beans) ![Maven Central](images/nexus_icon2.png) 
 - [XEWN JAXB](https://github.com/x-englishwordnet/xewn-jaxb) (Java Architecture Binding) ![Maven Central](images/nexus_icon2.png) 
