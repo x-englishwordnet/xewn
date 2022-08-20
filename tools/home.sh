@@ -17,6 +17,7 @@ fi
 export TOOLSDIR="${THISDIR}"
 export HOMEDIR=`readlink -m "${THISDIR}/.."`
 
+if [ "-verbose" == "$1" ]; then
 echo -e "${B}
  HOMEDIR ${D}${HOMEDIR}${B}
  ├─ upstream (in)
@@ -32,4 +33,5 @@ echo -e "${B}
  │  ├─ validate
  │  └─ grind
 ${Z}"
+fi
 

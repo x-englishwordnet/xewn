@@ -7,6 +7,8 @@
 # WNHOME31
 # WNHOMEXX
 
+# example: ./parseSense1.sh $WNHOME31 critical
+
 INDIR="$1"
 if [[ "${INDIR}" =~ ^[[:digit:]] ]]; then
 	case ${INDIR} in
@@ -23,5 +25,5 @@ else
 fi
 
 echo "${INDIR}"
-java -cp oewn-parse_wndb.jar org.oewntk.parse.Parser "${INDIR}"
+java -cp oewn-parse_wndb.jar org.oewntk.parse.SenseParser1 "${INDIR}" "$2"
 

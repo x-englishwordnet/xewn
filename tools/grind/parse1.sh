@@ -7,6 +7,8 @@
 # WNHOME31
 # WNHOMEXX
 
+# example: ./parse1.sh $WNHOME31 verb 1740
+
 INDIR="$1"
 if [[ "${INDIR}" =~ ^[[:digit:]] ]]; then
 	case ${INDIR} in
@@ -36,4 +38,4 @@ esac
 OFS=$3
 
 echo "${INDIR}"
-java -cp wn-parse.jar io.github.xenglishwordnet.parse.DataParser1 "${INDIR}" ${POS} "${OFS}"
+java -cp oewn-parse_wndb.jar org.oewntk.parse.DataParser1 "${INDIR}" ${POS} "${OFS}"

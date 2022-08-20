@@ -8,6 +8,8 @@ M='\u001b[35m'
 C='\u001b[36m'
 Z='\u001b[0m'
 
+VALIDATION=1.2
+
 # D I R S
 
 THISDIR=`dirname $(readlink -m "$0")`
@@ -17,11 +19,9 @@ source ${THISDIR}/home.sh
 SRCDIR=${HOMEDIR}/src/xml
 
 # out
-#XSRCDIR=${HOMEDIR}/xsrc
 MERGEDDIR=${HOMEDIR}/merged
 WNDBDIR=${HOMEDIR}/wndb
 WNDBCOMPATDIR=${HOMEDIR}/wndb_compat
-#mkdir -p "${XSRCDIR}"
 mkdir -p "${MERGEDDIR}"
 mkdir -p "${WNDBDIR}"
 mkdir -p "${WNDBCOMPATDIR}"
@@ -43,14 +43,13 @@ echo -e "${CYAN}X M L${Z}"
 # PRE-TRANSFORM VALIDATE
 echo -e "${C}* Validate src XML${Z}"
 pushd ${VALIDATORDIR} > /dev/null
-./validate2.sh 1.1b/EWN-LMF-1.1-relax_idrefs.xsd "$SRCDIR" -dir
+./validate2.sh ${VALIDATION}/EWN-LMF-${VALIDATION}-relax_idrefs.xsd "$SRCDIR" -dir
 popd > /dev/null
 
 # TRANSFORM
 echo -e "${C}* Transform XMLs${Z}"
 pushd ${TRANSFORMERDIR} > /dev/null
 echo 'none'
-#./pipeline3-all.sh "$SRCDIR" "${XSRCDIR}"
 popd > /dev/null
 
 # MERGE
@@ -62,12 +61,11 @@ popd > /dev/null
 # VALIDATE
 echo -e "${C}* Validate merged XML${Z}"
 pushd ${VALIDATORDIR} > /dev/null
-./validate2.sh 1.1b/EWN-LMF-1.1.xsd $MERGED
+./validate2.sh ${VALIDATION}/EWN-LMF-${VALIDATION}.xsd $MERGED
 
 popd > /dev/null
 
 # build stamp
-#cp -p ${HOMEDIR}/src/build ${XSRCDIR}/
 cp -p ${HOMEDIR}/src/build ${MERGEDDIR}/
 
 echo "done"

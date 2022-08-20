@@ -4,8 +4,8 @@
 
 <!DOCTYPE xsd:schema
 [
-<!ENTITY word    "[a-zA-Z0-9 \-\.,!/':]+">
-<!ENTITY lemma   "[a-zA-Z0-9 \-\.,!/':_]+">
+<!ENTITY word    "[a-zA-Zñ0-9 \-\.,!/':]+">
+<!ENTITY lemma   "[a-zA-Zñ0-9 \-\.,!/':_]+">
 ]>
 
 <!-- ' ': of age -->

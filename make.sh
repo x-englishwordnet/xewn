@@ -19,6 +19,7 @@ mkdir -p "${WNDBDIR}"
 mkdir -p "${WNDBCOMPATDIR}"
 
 ./sync.sh
+./yaml2xml.sh
 ./patch.sh
 ./make-data-xml.sh
 ./make-data-wndb.sh

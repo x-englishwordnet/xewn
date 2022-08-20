@@ -62,7 +62,7 @@ git status
 
 # tag
 tag=`tag`
-echo -e "${Y}'''"
+echo -e "${M}'''"
 echo -e "${tag}"
 echo -e "'''${Z}"
 

@@ -23,5 +23,5 @@ else
 fi
 
 echo "${INDIR}"
-java -cp wn-parse.jar io.github.xenglishwordnet.parse.SenseParser "${INDIR}" 
+java -cp oewn-parse_wndb.jar org.oewntk.parse.SenseParser "${INDIR}"
 
